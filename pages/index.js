@@ -1,19 +1,21 @@
-import { Container } from 'shards-react';
-import { Row, Col } from 'shards-react';
+import { Container } from "shards-react";
+import { Row, Col } from "shards-react";
 
-// components
-import MailingListSubscribe from '../components/MailingListSubscribe';
-import Layout from '../components/Layout';
+// Home components
+import HomeCarousel from "../home/HomeCarousel";
+import Marketing from "../home/Marketing";
+import MailingListSubscribe from "../home/MailingListSubscribe";
+
+// Layout
+import Layout from "../components/Layout";
 
 const Index = props => (
-	<Layout>
-		<Container>
-			<Row>
-				<Col></Col>
-				<Col md={4}></Col>
-			</Row>
-		</Container>
-	</Layout>
+  <Layout>
+    <HomeCarousel />
+    <Container>
+      <Marketing />
+    </Container>
+  </Layout>
 );
 
 export default Index;

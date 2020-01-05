@@ -1,0 +1,112 @@
+{
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!assets/css/master.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!assets/css/carousel.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/bootstrap/dist/css/bootstrap.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/shards-ui/dist/css/shards.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/bootstrap/dist/css/bootstrap.css 0": 0,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/shards-ui/dist/css/shards.css 0": 1,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/shards-ui/dist/css/shards.css 1": 2,
+      "css node_modules/css-loader/index.js??ref--5-1!assets/css/master.css 0": 3,
+      "css node_modules/css-loader/index.js??ref--5-1!assets/css/carousel.css 0": 4
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/i-qfa2CsR_arG6O7NmlKl/pages/_app.js": 2,
+      "static/i-qfa2CsR_arG6O7NmlKl/pages/_error.js": 3,
+      "static/i-qfa2CsR_arG6O7NmlKl/pages/index.js": 4,
+      "static/runtime/main.js": 5,
+      "static/runtime/polyfills.js": 6,
+      "styles": 7,
+      "static/FPVJ9jHGJ6wW-oyvgoDP_/pages/_app.js": 8,
+      "static/FPVJ9jHGJ6wW-oyvgoDP_/pages/_error.js": 9,
+      "static/FPVJ9jHGJ6wW-oyvgoDP_/pages/index.js": 10
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
