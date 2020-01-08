@@ -53,7 +53,9 @@ class NavbarComponent extends React.Component {
         <Collapse open={this.state.collapseOpen} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/guide">Guides</NavLink>
+              <NavLink className="text-white" href="/guide">
+                Guides
+              </NavLink>
             </NavItem>
 
             {/* Exam Topics */}
@@ -61,57 +63,71 @@ class NavbarComponent extends React.Component {
               open={this.state.dropdownOpen}
               toggle={this.toggleDropdown}
             >
-              <DropdownToggle nav caret>
+              <DropdownToggle className="text-white" nav caret>
                 Exam Topics
               </DropdownToggle>
               <DropdownMenu>
                 <DropdownItem href="/topics/directed-situations">
                   Directed Situations
                 </DropdownItem>
-                <DropdownItem href="">Letter Writing</DropdownItem>
-                <DropdownItem href="">Composition</DropdownItem>
-                <DropdownItem href="">Contextual Announcements</DropdownItem>
-                <DropdownItem href="">Contextual Dialogue</DropdownItem>
-                <DropdownItem href="">Reading Comprehension</DropdownItem>
-                <DropdownItem href="">Directed Situations</DropdownItem>
+                <DropdownItem href="/topics/letter-writing">
+                  Letter Writing
+                </DropdownItem>
+                <DropdownItem href="/topics/">Composition</DropdownItem>
+                <DropdownItem href="/topics/">
+                  Contextual Announcements
+                </DropdownItem>
+                <DropdownItem href="/topics/">Contextual Dialogue</DropdownItem>
+                <DropdownItem href="/topics/">
+                  Reading Comprehension
+                </DropdownItem>
+                <DropdownItem href="/topics/">Directed Situations</DropdownItem>
               </DropdownMenu>
             </Dropdown>
             <NavItem>
-              <NavLink href="/verb-tenses">Verb Tenses</NavLink>
+              <NavLink className="text-white" href="/verb-tenses">
+                Verb Tenses
+              </NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink href="/resources">Resources</NavLink>
+              <NavLink className="text-white" href="/resources">
+                Resources
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/quiz">Quiz</NavLink>
+              <NavLink className="text-white" href="/quiz">
+                Quiz
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/forum">Forum</NavLink>
+              <NavLink className="text-white" href="/forum">
+                Forum
+              </NavLink>
             </NavItem>
           </Nav>
 
           <Nav navbar className="ml-auto">
             <NavItem>
-              <NavLink href="/about-us">
+              <NavLink className="text-white" href="/about-us">
                 <FA style={{ padding: "7px" }} name="users" />
                 About Us
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/tutoring">
+              <NavLink className="text-white" href="/tutoring">
                 <FA style={{ padding: "7px" }} name="chalkboard-teacher" />
                 Tutoring
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/faq">
+              <NavLink className="text-white" href="/faq">
                 <FA style={{ padding: "7px" }} name="comment" />
                 FAQ
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact">
+              <NavLink className="text-white" href="/contact">
                 <FA style={{ padding: "7px" }} name="id-badge" />
                 Contact
               </NavLink>

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -108,6 +108,17 @@ module.exports =
 /*!*******************************!*\
   !*** ./assets/css/master.css ***!
   \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./assets/css/nf-carousel.css":
+/*!************************************!*\
+  !*** ./assets/css/nf-carousel.css ***!
+  \************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -141,20 +152,92 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+
 const Footer = props => __jsx("footer", null, __jsx("div", {
-  className: "container"
-}, __jsx("p", {
+  className: "bg-dark"
+}, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx("br", null), __jsx("br", null), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+  sm: 12,
+  md: 4,
+  lg: 4,
+  xl: 4
+}, __jsx("h6", {
+  className: "text-white"
+}, "Popular Guides"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
+  className: "flex-column"
+}, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-white",
+  href: "/home"
+}, "Pronunciation Tips"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-white",
+  href: "/"
+}, "Adverbs"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-white",
+  href: "/"
+}, "'Ser' vs. 'Estar'"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-white",
+  href: "/"
+}, "Flirting in Spanish"))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+  sm: 12,
+  md: 4,
+  lg: 4,
+  xl: 4
+}, __jsx("br", {
+  className: "d-sm-none"
+}), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
+  className: "flex-column"
+}, __jsx("h6", {
+  className: "text-white"
+}, "Tools We Use"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-white",
+  href: "/"
+}, "SpanishDict"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-white",
+  href: "/"
+}, "CXC"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-white",
+  href: "/"
+}, "CXC Store"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-white",
+  href: "/"
+}, "Pass My CXC"))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+  sm: 12,
+  md: 4,
+  lg: 4,
+  xl: 4
+}, __jsx("br", {
+  className: "d-sm-none"
+}), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
+  className: "flex-column"
+}, __jsx("h6", {
+  className: "text-white"
+}, "Jump Start"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-white",
+  href: "/"
+}, "Oral Exercise"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-white",
+  href: "/home"
+}, "Directed Situation"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-white",
+  href: "/"
+}, "Letter Writing"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-white",
+  href: "/"
+}, "Contextual Dialogue")))), __jsx("br", null), " ", __jsx("br", null))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx("p", {
   className: "float-right"
 }, __jsx("a", {
   href: "#"
 }, "Sitemap")), __jsx("p", null, "\xA9 CXC Spanish Online \xB7 ", __jsx("a", {
-  href: "#"
-}, "Privacy"), " \xB7", " ", __jsx("a", {
-  href: "#"
+  href: "about"
+}, "About"), " \xB7", __jsx("a", {
+  href: "/privacy"
+}, " Privacy"), " \xB7 ", __jsx("a", {
+  href: "/terms"
 }, "Terms"))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -180,12 +263,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! shards-ui/dist/css/shards.css */ "./node_modules/shards-ui/dist/css/shards.css");
 /* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/css/master.css */ "./assets/css/master.css");
-/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_css_master_css__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/css/carousel.css */ "./assets/css/carousel.css");
-/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/js/fontawesome.js */ "./assets/js/fontawesome.js");
-/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/css/carousel.css */ "./assets/css/carousel.css");
+/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/css/nf-carousel.css */ "./assets/css/nf-carousel.css");
+/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/css/master.css */ "./assets/css/master.css");
+/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_css_master_css__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/js/fontawesome.js */ "./assets/js/fontawesome.js");
+/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_9__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -195,12 +280,13 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
  // Javascript
 
 
 const Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
 
-const Layout = props => __jsx(Fragment, null, __jsx(_NavbarComponent__WEBPACK_IMPORTED_MODULE_1__["default"], null), __jsx(Fragment, null, props.children), __jsx("br", null), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+const Layout = props => __jsx(Fragment, null, __jsx(_NavbarComponent__WEBPACK_IMPORTED_MODULE_1__["default"], null), __jsx("br", null), __jsx(Fragment, null, props.children), __jsx("br", null), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -290,39 +376,46 @@ class NavbarComponent extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Compo
     }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["Nav"], {
       navbar: true
     }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+      className: "text-white",
       href: "/guide"
     }, "Guides")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["Dropdown"], {
       open: this.state.dropdownOpen,
       toggle: this.toggleDropdown
     }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownToggle"], {
+      className: "text-white",
       nav: true,
       caret: true
     }, "Exam Topics"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownMenu"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownItem"], {
       href: "/topics/directed-situations"
     }, "Directed Situations"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownItem"], {
-      href: ""
+      href: "/topics/letter-writing"
     }, "Letter Writing"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownItem"], {
-      href: ""
+      href: "/topics/"
     }, "Composition"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownItem"], {
-      href: ""
+      href: "/topics/"
     }, "Contextual Announcements"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownItem"], {
-      href: ""
+      href: "/topics/"
     }, "Contextual Dialogue"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownItem"], {
-      href: ""
+      href: "/topics/"
     }, "Reading Comprehension"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownItem"], {
-      href: ""
+      href: "/topics/"
     }, "Directed Situations"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+      className: "text-white",
       href: "/verb-tenses"
     }, "Verb Tenses")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+      className: "text-white",
       href: "/resources"
     }, "Resources")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+      className: "text-white",
       href: "/quiz"
     }, "Quiz")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+      className: "text-white",
       href: "/forum"
     }, "Forum"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["Nav"], {
       navbar: true,
       className: "ml-auto"
     }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+      className: "text-white",
       href: "/about-us"
     }, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_9___default.a, {
       style: {
@@ -330,6 +423,7 @@ class NavbarComponent extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Compo
       },
       name: "users"
     }), "About Us")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+      className: "text-white",
       href: "/tutoring"
     }, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_9___default.a, {
       style: {
@@ -337,6 +431,7 @@ class NavbarComponent extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Compo
       },
       name: "chalkboard-teacher"
     }), "Tutoring")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+      className: "text-white",
       href: "/faq"
     }, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_9___default.a, {
       style: {
@@ -344,6 +439,7 @@ class NavbarComponent extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Compo
       },
       name: "comment"
     }), "FAQ")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+      className: "text-white",
       href: "/contact"
     }, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_9___default.a, {
       style: {
@@ -489,7 +585,7 @@ const Marketing = props => __jsx("div", {
     height: "180px"
   },
   className: "rounded-circle"
-})), __jsx("br", null), __jsx("br", null), __jsx("h2", null, "Listening"), __jsx("p", null, "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+})), __jsx("br", null), __jsx("br", null), __jsx("h2", null, "Listening"), __jsx("p", null, "Improve your Spanish listening skills with audio recordings from native Spanish-speakers, and listen recorded extracts from CXC past papers questions."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
   theme: "secondary",
   href: "#",
   role: "button"
@@ -502,10 +598,14 @@ const Marketing = props => __jsx("div", {
   src: ["https://icons-for-free.com/iconfiles/png/512/equipment+pen+pencil+tool+write+writing+icon-1320165901782992167.png", "https://www.pikpng.com/pngl/m/97-978365_writing-icon-hd-png-download.png", "https://st2.depositphotos.com/4060975/9113/v/950/depositphotos_91131614-stock-illustration-writing-colored-vector-icon.jpg"],
   alt: "",
   style: {
-    height: "190px"
+    height: "180px"
   },
   className: "rounded-circle"
-})), __jsx("br", null), __jsx("br", null), __jsx("h2", null, "Writing"), __jsx("p", null, "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+})), __jsx("br", null), __jsx("br", null), __jsx("h2", null, "Writing"), __jsx("p", null, "Practice writing for composing your", " ", __jsx("a", {
+  href: "/topics/letter-writing"
+}, "letter"), " and", " ", __jsx("a", {
+  href: "topics/letter-writing"
+}, "compositions"), ". Write on a wide range on past-paper topics including crime, drug abuse and contemporary social issues."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
   theme: "secondary",
   href: "#",
   role: "button"
@@ -521,7 +621,7 @@ const Marketing = props => __jsx("div", {
     height: "180px"
   },
   className: "rounded-circle"
-})), __jsx("br", null), __jsx("br", null), __jsx("h2", null, "Speaking"), __jsx("p", null, "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+})), __jsx("br", null), __jsx("br", null), __jsx("h2", null, "Speaking"), __jsx("p", null, "Imporve your ability to speak Spanish fluenty with our accent training exercises, daily paragraph readings and more! Find out how below."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
   theme: "secondary",
   href: "#",
   role: "button"
@@ -668,7 +768,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
  // Home components
 
 
@@ -677,13 +776,19 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], null, __jsx(_home_HomeCarousel__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(_home_Marketing__WEBPACK_IMPORTED_MODULE_3__["default"], null)));
+const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Breadcrumb"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], {
+  active: true
+}, __jsx("a", {
+  href: "/"
+}, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], null, __jsx("a", {
+  href: "/"
+})))), __jsx(_home_HomeCarousel__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(_home_Marketing__WEBPACK_IMPORTED_MODULE_3__["default"], null)));
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 3:
+/***/ 6:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

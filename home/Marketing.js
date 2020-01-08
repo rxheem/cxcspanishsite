@@ -25,10 +25,9 @@ const Marketing = props => (
         <br />
         <h2>Listening</h2>
         <p>
-          Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
-          Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo
-          risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
-          cursus magna.
+          Improve your Spanish listening skills with audio recordings from
+          native Spanish-speakers, and listen recorded extracts from CXC past
+          papers questions.
         </p>
         <p>
           <Button theme="secondary" href="#" role="button">
@@ -45,7 +44,7 @@ const Marketing = props => (
               "https://st2.depositphotos.com/4060975/9113/v/950/depositphotos_91131614-stock-illustration-writing-colored-vector-icon.jpg"
             ]}
             alt=""
-            style={{ height: "190px" }}
+            style={{ height: "180px" }}
             className="rounded-circle"
           />
         </LazyLoad>
@@ -53,10 +52,11 @@ const Marketing = props => (
         <br />
         <h2>Writing</h2>
         <p>
-          Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
-          Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo
-          risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
-          cursus magna.
+          Practice writing for composing your{" "}
+          <a href="/topics/letter-writing">letter</a> and{" "}
+          <a href="topics/letter-writing">compositions</a>. Write on a wide
+          range on past-paper topics including crime, drug abuse and
+          contemporary social issues.
         </p>
         <p>
           <Button theme="secondary" href="#" role="button">
@@ -81,10 +81,8 @@ const Marketing = props => (
         <br />
         <h2>Speaking</h2>
         <p>
-          Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
-          Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo
-          risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
-          cursus magna.
+          Imporve your ability to speak Spanish fluenty with our accent training
+          exercises, daily paragraph readings and more! Find out how below.
         </p>
         <p>
           <Button theme="secondary" href="#" role="button">

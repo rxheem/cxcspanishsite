@@ -1,5 +1,4 @@
-import { Container } from "shards-react";
-import { Row, Col } from "shards-react";
+import { Container, Row, Col, Breadcrumb, BreadcrumbItem } from "shards-react";
 
 // Home components
 import HomeCarousel from "../home/HomeCarousel";
@@ -11,6 +10,16 @@ import Layout from "../components/Layout";
 
 const Index = props => (
   <Layout>
+    <Container>
+      <Breadcrumb>
+        <BreadcrumbItem active>
+          <a href="/">Home</a>
+        </BreadcrumbItem>
+        <BreadcrumbItem>
+          <a href="/"></a>
+        </BreadcrumbItem>
+      </Breadcrumb>
+    </Container>
     <HomeCarousel />
     <Container>
       <Marketing />
