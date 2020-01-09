@@ -13,7 +13,6 @@ import Exercises from "./content/ltr-wri/Exercises";
 import UsefulEssentials from "./content/ltr-wri/UsefulEssentials";
 import SampleOne from "./content/ltr-wri/SampleOne";
 import SampleTwo from "./content/ltr-wri/SampleTwo";
-import Message from "./content/ltr-wri/Message";
 
 const LetterWriting = props => (
   <Layout>
@@ -45,7 +44,7 @@ const LetterWriting = props => (
                     ]}
                     alt="image"
                   />
-                  Overview
+                  Overview.
                 </React.Fragment>
               }
             >
@@ -74,7 +73,6 @@ const LetterWriting = props => (
         <Col sm={12} md={4} lg={4} xl={4}>
           <UsefulEssentials />
           <Exercises />
-          <Message />
         </Col>
       </Row>
     </Container>

@@ -709,7 +709,7 @@ var Marketing = function Marketing(props) {
     },
     className: "rounded-circle"
   })), __jsx("br", null), __jsx("br", null), __jsx("h2", null, "Listening"), __jsx("p", null, "Improve your Spanish listening skills with audio recordings from native Spanish-speakers, and listen recorded extracts from CXC past papers questions."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-    theme: "secondary",
+    theme: "warning",
     href: "#",
     role: "button"
   }, "Start Learning \xBB"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
@@ -729,7 +729,7 @@ var Marketing = function Marketing(props) {
   }, "letter"), " and", " ", __jsx("a", {
     href: "topics/letter-writing"
   }, "compositions"), ". Write on a wide range on past-paper topics including crime, drug abuse and contemporary social issues."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-    theme: "secondary",
+    theme: "info",
     href: "#",
     role: "button"
   }, "Start Learning \xBB"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
@@ -745,7 +745,7 @@ var Marketing = function Marketing(props) {
     },
     className: "rounded-circle"
   })), __jsx("br", null), __jsx("br", null), __jsx("h2", null, "Speaking"), __jsx("p", null, "Imporve your ability to speak Spanish fluenty with our accent training exercises, daily paragraph readings and more! Find out how below."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-    theme: "secondary",
+    theme: "dark",
     href: "#",
     role: "button"
   }, "Start Learning \xBB")))), __jsx("hr", null));
@@ -43696,7 +43696,7 @@ var Index = function Index(props) {
 
 /***/ }),
 
-/***/ 9:
+/***/ 7:
 /*!************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Findex.js ***!
   \************************************************************************************************************************************/
@@ -43719,5 +43719,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js","styles"]]]);
+},[[7,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

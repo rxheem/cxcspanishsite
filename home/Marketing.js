@@ -30,7 +30,7 @@ const Marketing = props => (
           papers questions.
         </p>
         <p>
-          <Button theme="secondary" href="#" role="button">
+          <Button theme="warning" href="#" role="button">
             Start Learning &raquo;
           </Button>
         </p>
@@ -59,7 +59,7 @@ const Marketing = props => (
           contemporary social issues.
         </p>
         <p>
-          <Button theme="secondary" href="#" role="button">
+          <Button theme="info" href="#" role="button">
             Start Learning &raquo;
           </Button>
         </p>
@@ -85,7 +85,7 @@ const Marketing = props => (
           exercises, daily paragraph readings and more! Find out how below.
         </p>
         <p>
-          <Button theme="secondary" href="#" role="button">
+          <Button theme="dark" href="#" role="button">
             Start Learning &raquo;
           </Button>
         </p>

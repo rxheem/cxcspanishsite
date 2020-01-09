@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -586,7 +586,7 @@ const Marketing = props => __jsx("div", {
   },
   className: "rounded-circle"
 })), __jsx("br", null), __jsx("br", null), __jsx("h2", null, "Listening"), __jsx("p", null, "Improve your Spanish listening skills with audio recordings from native Spanish-speakers, and listen recorded extracts from CXC past papers questions."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-  theme: "secondary",
+  theme: "warning",
   href: "#",
   role: "button"
 }, "Start Learning \xBB"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
@@ -606,7 +606,7 @@ const Marketing = props => __jsx("div", {
 }, "letter"), " and", " ", __jsx("a", {
   href: "topics/letter-writing"
 }, "compositions"), ". Write on a wide range on past-paper topics including crime, drug abuse and contemporary social issues."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-  theme: "secondary",
+  theme: "info",
   href: "#",
   role: "button"
 }, "Start Learning \xBB"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
@@ -622,7 +622,7 @@ const Marketing = props => __jsx("div", {
   },
   className: "rounded-circle"
 })), __jsx("br", null), __jsx("br", null), __jsx("h2", null, "Speaking"), __jsx("p", null, "Imporve your ability to speak Spanish fluenty with our accent training exercises, daily paragraph readings and more! Find out how below."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-  theme: "secondary",
+  theme: "dark",
   href: "#",
   role: "button"
 }, "Start Learning \xBB")))), __jsx("hr", null));
@@ -788,7 +788,7 @@ const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_5__["de
 
 /***/ }),
 
-/***/ 6:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

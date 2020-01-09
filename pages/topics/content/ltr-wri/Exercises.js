@@ -21,34 +21,33 @@ const Exercises = props => (
         <CardTitle>Exercises</CardTitle>
         <p>Try these exercises taken from past papers.</p>
 
-        <h6>Easy</h6>
-        <ul style={{ listStyleType: "none", marginLeft: "-20px" }}>
+        <ul style={{ listStyleType: "none", marginLeft: "-35px" }}>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="May/ June 2013" href="" />
+            <PDFFile title="May 2013 Paper" href="" />
           </li>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="January 2014" href="" />
+            <PDFFile title="January 2014 Paper" href="" />
           </li>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="May/ June 2014" href="" />
+            <PDFFile title="May 2014 Paper" href="" />
           </li>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="January 2015" href="" />
+            <PDFFile title="January 2015 Paper" href="" />
           </li>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="May/ June 2016" href="" />
+            <PDFFile title="June 2016 Paper" href="" />
           </li>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="May/ June 2017" href="" />
+            <PDFFile title="June 2017 Paper" href="" />
           </li>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="January 2018" href="" />
+            <PDFFile title="January 2018 Paper" href="" />
           </li>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="May/ June 2018" href="" />
+            <PDFFile title="May/ June 2018 Paper" href="" />
           </li>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="January 2019" href="" />
+            <PDFFile title="January 2019 Paper" href="" />
           </li>
         </ul>
         <br />

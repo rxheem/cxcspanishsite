@@ -43231,73 +43231,73 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
 
 var Exercises = function Exercises(props) {
-  return __jsx(Fragment, null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Exercises"), __jsx("p", null, "Try these exercises taken from past papers."), __jsx("h6", null, "Easy"), __jsx("ul", {
+  return __jsx(Fragment, null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Exercises"), __jsx("p", null, "Try these exercises taken from past papers."), __jsx("ul", {
     style: {
       listStyleType: "none",
-      marginLeft: "-20px"
+      marginLeft: "-35px"
     }
   }, __jsx("li", {
     style: {
       paddingBottom: "8px"
     }
   }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "May/ June 2013",
+    title: "May 2013 Paper",
     href: ""
   })), __jsx("li", {
     style: {
       paddingBottom: "8px"
     }
   }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "January 2014",
+    title: "January 2014 Paper",
     href: ""
   })), __jsx("li", {
     style: {
       paddingBottom: "8px"
     }
   }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "May/ June 2014",
+    title: "May 2014 Paper",
     href: ""
   })), __jsx("li", {
     style: {
       paddingBottom: "8px"
     }
   }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "January 2015",
+    title: "January 2015 Paper",
     href: ""
   })), __jsx("li", {
     style: {
       paddingBottom: "8px"
     }
   }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "May/ June 2016",
+    title: "June 2016 Paper",
     href: ""
   })), __jsx("li", {
     style: {
       paddingBottom: "8px"
     }
   }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "May/ June 2017",
+    title: "June 2017 Paper",
     href: ""
   })), __jsx("li", {
     style: {
       paddingBottom: "8px"
     }
   }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "January 2018",
+    title: "January 2018 Paper",
     href: ""
   })), __jsx("li", {
     style: {
       paddingBottom: "8px"
     }
   }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "May/ June 2018",
+    title: "May/ June 2018 Paper",
     href: ""
   })), __jsx("li", {
     style: {
       paddingBottom: "8px"
     }
   }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "January 2019",
+    title: "January 2019 Paper",
     href: ""
   }))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], null, "View Archives \u2192"))));
 };
@@ -43399,62 +43399,6 @@ var Guidelines = function Guidelines(props) {
 
 /***/ }),
 
-/***/ "./pages/topics/content/ltr-wri/LetterLayout.js":
-/*!******************************************************!*\
-  !*** ./pages/topics/content/ltr-wri/LetterLayout.js ***!
-  \******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-var LetterLayout = function LetterLayout(props) {
-  return __jsx("div", null, __jsx("h5", null, "Layout of a Letter"), __jsx("br", null), __jsx("br", null), __jsx("div", {
-    style: {
-      align: "right"
-    }
-  }, "la fecha"));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (LetterLayout);
-
-/***/ }),
-
-/***/ "./pages/topics/content/ltr-wri/Message.js":
-/*!*************************************************!*\
-  !*** ./pages/topics/content/ltr-wri/Message.js ***!
-  \*************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var Message = function Message(props) {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("br", null), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Toast"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Toast"].Header, null, __jsx("img", {
-    src: "holder.js/20x20?text=%20",
-    className: "rounded mr-2",
-    alt: ""
-  }), __jsx("strong", {
-    className: "mr-auto"
-  }, props.title), __jsx("small", null, props.time)), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Toast"].Body, null, props.message)));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Message);
-
-/***/ }),
-
 /***/ "./pages/topics/content/ltr-wri/Overview.js":
 /*!**************************************************!*\
   !*** ./pages/topics/content/ltr-wri/Overview.js ***!
@@ -43474,7 +43418,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(uuid__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _common_Quote__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../common/Quote */ "./common/Quote.js");
 /* harmony import */ var _common_Answer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../common/Answer */ "./common/Answer.js");
-/* harmony import */ var _LetterLayout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./LetterLayout */ "./pages/topics/content/ltr-wri/LetterLayout.js");
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -43485,13 +43428,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
 var Overview = function Overview(props) {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, "The letter writing section on your exam is optional and you can instead choose to write a ", __jsx("a", {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, "The letter writing section on your exam is optional and you can instead choose to write a", ' ', __jsx("a", {
     href: "./composition"
   }, "Composition"), ". However, if you choose to do this question is is important to know what is required and how your letter is to be structured."), __jsx("p", null, "You will be given a scenario and a set of instructions that serves as a guide to writing your letter. They are normally directed to a friend, penpal or a member of your family."))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Alert"], {
     theme: "warning"
-  }, "Your word limit is 130 - 150 words. It is important that you you do no exceed or fall below these limits or else you will be penlized."), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(_LetterLayout__WEBPACK_IMPORTED_MODULE_7__["default"], null))));
+  }, "Your word limit is 130 - 150 words. It is important that you you do no exceed or fall below these limits or else you will be penlized."), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Overview);
@@ -43570,20 +43512,44 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var SampleTwo = function SampleTwo(props) {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, "Let's take a look at another one:"), __jsx(_common_Quote__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    text: __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("span", null, " ", "You had been studying overseas but for some reason you have to return home indefinitely. Write a letter to your Puerto Rican friend in which you include"), __jsx("br", null), __jsx("br", null), __jsx("ul", null, __jsx("li", null, "information about your studies"), __jsx("li", {
+    text: __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("span", null, ' ', "You had been studying overseas but for some reason you have to return home indefinitely. Write a letter to your Puerto Rican friend in which you include"), __jsx("br", null), __jsx("br", null), __jsx("ul", null, __jsx("li", null, "information about your studies"), __jsx("li", {
       style: {
-        paddingTop: "15px"
+        paddingTop: '15px'
       }
     }, "the reason for your returning home"), __jsx("li", {
       style: {
-        paddingTop: "15px"
+        paddingTop: '15px'
       }
     }, "how your friends at home reacted to your return"), __jsx("li", {
       style: {
-        paddingTop: "15px"
+        paddingTop: '15px'
       }
     }, "the plans you have made to continue your studies")))
-  }))));
+  }))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("div", null, __jsx("p", {
+    style: {
+      "float": 'right'
+    }
+  }, "el 9 de junio"), __jsx("p", {
+    style: {
+      clear: 'both'
+    }
+  }, "Queridoa Luisa,"), __jsx("p", {
+    style: {
+      marginLeft: '20px'
+    }
+  }, "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."), __jsx("p", {
+    style: {
+      marginLeft: '20px'
+    }
+  }, "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."), __jsx("p", {
+    style: {
+      marginLeft: '20px'
+    }
+  }, "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."), __jsx("p", {
+    style: {
+      paddingLeft: '20px'
+    }
+  }, "Escribeme pronto y dame las noticias"), __jsx("span", null, "Tu amiga,"), __jsx("p", null, "Cindy")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (SampleTwo);
@@ -43620,7 +43586,7 @@ var UsefulEssentials = function UsefulEssentials(props) {
     className: "list-ul"
   }, __jsx("li", null, __jsx(_common_PDFFile_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
     href: "",
-    title: "Common Spanish Phrases"
+    title: "Common Spanish Expressions"
   })), __jsx("li", null, __jsx(_common_PDFFile_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
     href: "",
     title: "Spanish Adjectives"
@@ -43633,7 +43599,7 @@ var UsefulEssentials = function UsefulEssentials(props) {
   })), __jsx("li", null, __jsx(_common_PDFFile_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
     href: "",
     title: "Verb Conjugation Refresher"
-  }))), __jsx("style", null, "\n      .list-ul {\n        padding-left: 20px;\n        margin-top: -10px;\n      }\n\n      .list-ul li {\n        padding-bottom: 10px;\n      }\n      "))));
+  }))), __jsx("style", null, "\n            .list-ul {\n              padding-left: 20px;\n              margin-top: -10px;\n            }\n\n            .list-ul li {\n              padding-bottom: 10px;\n            }\n            "))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (UsefulEssentials);
@@ -43664,7 +43630,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _content_ltr_wri_UsefulEssentials__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./content/ltr-wri/UsefulEssentials */ "./pages/topics/content/ltr-wri/UsefulEssentials.js");
 /* harmony import */ var _content_ltr_wri_SampleOne__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./content/ltr-wri/SampleOne */ "./pages/topics/content/ltr-wri/SampleOne.js");
 /* harmony import */ var _content_ltr_wri_SampleTwo__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./content/ltr-wri/SampleTwo */ "./pages/topics/content/ltr-wri/SampleTwo.js");
-/* harmony import */ var _content_ltr_wri_Message__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./content/ltr-wri/Message */ "./pages/topics/content/ltr-wri/Message.js");
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -43673,7 +43638,6 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
  // Layout
 
  // Components
-
 
 
 
@@ -43706,7 +43670,7 @@ var LetterWriting = function LetterWriting(props) {
       },
       src: ["https://cdn.icon-icons.com/icons2/547/PNG/512/1455554327_line-12_icon-icons.com_53320.png", "https://cdn.icon-icons.com/icons2/196/PNG/128/mail_23797.png", "https://cdn.icon-icons.com/icons2/196/PNG/128/compose_23855.png"],
       alt: "image"
-    }), "Overview")
+    }), "Overview.")
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["TabContent"], null, __jsx(_content_ltr_wri_Overview__WEBPACK_IMPORTED_MODULE_7__["default"], null))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Tab"], {
     eventKey: "guidelines",
     title: "Guidelines"
@@ -43721,14 +43685,14 @@ var LetterWriting = function LetterWriting(props) {
     md: 4,
     lg: 4,
     xl: 4
-  }, __jsx(_content_ltr_wri_UsefulEssentials__WEBPACK_IMPORTED_MODULE_9__["default"], null), __jsx(_content_ltr_wri_Exercises__WEBPACK_IMPORTED_MODULE_8__["default"], null), __jsx(_content_ltr_wri_Message__WEBPACK_IMPORTED_MODULE_12__["default"], null)))));
+  }, __jsx(_content_ltr_wri_UsefulEssentials__WEBPACK_IMPORTED_MODULE_9__["default"], null), __jsx(_content_ltr_wri_Exercises__WEBPACK_IMPORTED_MODULE_8__["default"], null)))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (LetterWriting);
 
 /***/ }),
 
-/***/ 7:
+/***/ 12:
 /*!*****************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Ftopics%2Fletter-writing&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Ftopics%2Fletter-writing.js ***!
   \*****************************************************************************************************************************************************************************/
@@ -43751,5 +43715,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js","styles"]]]);
+},[[12,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=letter-writing.js.map

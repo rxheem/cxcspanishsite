@@ -29,7 +29,7 @@ const UsefulEssentials = props => (
           className="list-ul"
         >
           <li>
-            <PDFFile href="" title="Common Spanish Phrases" />
+            <PDFFile href="" title="Common Spanish Expressions" />
           </li>
           <li>
             <PDFFile href="" title="Spanish Adjectives" />
@@ -47,15 +47,15 @@ const UsefulEssentials = props => (
 
         <style>
           {`
-      .list-ul {
-        padding-left: 20px;
-        margin-top: -10px;
-      }
+            .list-ul {
+              padding-left: 20px;
+              margin-top: -10px;
+            }
 
-      .list-ul li {
-        padding-bottom: 10px;
-      }
-      `}
+            .list-ul li {
+              padding-bottom: 10px;
+            }
+            `}
         </style>
       </CardBody>
     </Card>
