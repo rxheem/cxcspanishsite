@@ -22,6 +22,7 @@ const Index = props => (
     </Container>
     <HomeCarousel />
     <Container>
+      <hr />
       <Marketing />
     </Container>
   </Layout>

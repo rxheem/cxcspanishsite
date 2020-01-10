@@ -189,6 +189,129 @@ if (true) {
 
 /***/ }),
 
+/***/ "./assets/js/mixpanel.js":
+/*!*******************************!*\
+  !*** ./assets/js/mixpanel.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+if (true) {
+  (function (c, a) {
+    if (!a.__SV) {
+      var b = window;
+
+      try {
+        var d,
+            m,
+            j,
+            k = b.location,
+            f = k.hash;
+
+        d = function d(a, b) {
+          return (m = a.match(RegExp(b + "=([^&]*)"))) ? m[1] : null;
+        };
+
+        f && d(f, "state") && (j = JSON.parse(decodeURIComponent(d(f, "state"))), "mpeditor" === j.action && (b.sessionStorage.setItem("_mpcehash", f), history.replaceState(j.desiredHash || "", c.title, k.pathname + k.search)));
+      } catch (n) {}
+
+      var l, h;
+      window.mixpanel = a;
+      a._i = [];
+
+      a.init = function (b, d, g) {
+        function c(b, i) {
+          var a = i.split(".");
+          2 == a.length && (b = b[a[0]], i = a[1]);
+
+          b[i] = function () {
+            b.push([i].concat(Array.prototype.slice.call(arguments, 0)));
+          };
+        }
+
+        var e = a;
+        "undefined" !== typeof g ? e = a[g] = [] : g = "mixpanel";
+        e.people = e.people || [];
+
+        e.toString = function (b) {
+          var a = "mixpanel";
+          "mixpanel" !== g && (a += "." + g);
+          b || (a += " (stub)");
+          return a;
+        };
+
+        e.people.toString = function () {
+          return e.toString(1) + ".people (stub)";
+        };
+
+        l = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+
+        for (h = 0; h < l.length; h++) {
+          c(e, l[h]);
+        }
+
+        var f = "set set_once union unset remove delete".split(" ");
+
+        e.get_group = function () {
+          function a(c) {
+            b[c] = function () {
+              call2_args = arguments;
+              call2 = [c].concat(Array.prototype.slice.call(call2_args, 0));
+              e.push([d, call2]);
+            };
+          }
+
+          for (var b = {}, d = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < f.length; c++) {
+            a(f[c]);
+          }
+
+          return b;
+        };
+
+        a._i.push([b, d, g]);
+      };
+
+      a.__SV = 1.2;
+      b = c.createElement("script");
+      b.type = "text/javascript";
+      b.async = !0;
+      b.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ? MIXPANEL_CUSTOM_LIB_URL : "file:" === c.location.protocol && "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";
+      d = c.getElementsByTagName("script")[0];
+      d.parentNode.insertBefore(b, d);
+    }
+  })(document, window.mixpanel || []);
+
+  mixpanel.init("c5f5cba832622964a6379a00a54aed5d");
+}
+
+/***/ }),
+
+/***/ "./assets/js/quantcast.js":
+/*!********************************!*\
+  !*** ./assets/js/quantcast.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+if (true) {
+  var _qevents = _qevents || [];
+
+  (function () {
+    var elem = document.createElement("script");
+    elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName("script")[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+  })();
+
+  _qevents.push({
+    qacct: "p-fa2UTk8qCKHzc"
+  });
+}
+
+/***/ }),
+
 /***/ "./common/Answer.js":
 /*!**************************!*\
   !*** ./common/Answer.js ***!
@@ -437,6 +560,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_css_master_css__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/js/fontawesome.js */ "./assets/js/fontawesome.js");
 /* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/js/mixpanel.js */ "./assets/js/mixpanel.js");
+/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/js/quantcast.js */ "./assets/js/quantcast.js");
+/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_11__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -448,6 +575,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
  // Javascript
+
+
 
 
 var Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
@@ -43241,65 +43370,93 @@ var Exercises = function Exercises(props) {
       paddingBottom: "8px"
     }
   }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "May 2013 Paper",
+    title: "May 2013",
+    href: ""
+  }), __jsx("span", {
+    style: {
+      paddingLeft: "10px"
+    }
+  }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Badge"], {
+    pill: true,
+    theme: "danger"
+  }, "8 years ago"))), __jsx("li", {
+    style: {
+      paddingBottom: "8px"
+    }
+  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "January 2014",
     href: ""
   })), __jsx("li", {
     style: {
       paddingBottom: "8px"
     }
   }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "January 2014 Paper",
+    title: "May 2014",
     href: ""
   })), __jsx("li", {
     style: {
       paddingBottom: "8px"
     }
   }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "May 2014 Paper",
+    title: "January 2015",
+    href: ""
+  }), __jsx("span", {
+    style: {
+      paddingLeft: "5px"
+    }
+  }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Badge"], {
+    pill: true,
+    theme: "success"
+  }, "new"))), __jsx("li", {
+    style: {
+      paddingBottom: "8px"
+    }
+  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "June 2016",
     href: ""
   })), __jsx("li", {
     style: {
       paddingBottom: "8px"
     }
   }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "January 2015 Paper",
+    title: "June 2017",
     href: ""
   })), __jsx("li", {
     style: {
       paddingBottom: "8px"
     }
   }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "June 2016 Paper",
+    title: "January 2018",
     href: ""
   })), __jsx("li", {
     style: {
       paddingBottom: "8px"
     }
   }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "June 2017 Paper",
+    title: "May/ June 2018",
     href: ""
-  })), __jsx("li", {
+  }), __jsx("span", {
+    style: {
+      paddingLeft: "5px"
+    }
+  }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Badge"], {
+    pill: true,
+    theme: "success"
+  }, "new"))), __jsx("li", {
     style: {
       paddingBottom: "8px"
     }
   }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "January 2018 Paper",
+    title: "January 2019",
     href: ""
-  })), __jsx("li", {
+  }), __jsx("span", {
     style: {
-      paddingBottom: "8px"
+      paddingLeft: "5px"
     }
-  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "May/ June 2018 Paper",
-    href: ""
-  })), __jsx("li", {
-    style: {
-      paddingBottom: "8px"
-    }
-  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "January 2019 Paper",
-    href: ""
-  }))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], null, "View Archives \u2192"))));
+  }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Badge"], {
+    pill: true,
+    theme: "success"
+  }, "new")))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], null, "View Archives \u2192"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Exercises);
@@ -43429,11 +43586,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var Overview = function Overview(props) {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, "The letter writing section on your exam is optional and you can instead choose to write a", ' ', __jsx("a", {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, "The letter writing section on your exam is optional and you can instead choose to write a ", __jsx("a", {
     href: "./composition"
-  }, "Composition"), ". However, if you choose to do this question is is important to know what is required and how your letter is to be structured."), __jsx("p", null, "You will be given a scenario and a set of instructions that serves as a guide to writing your letter. They are normally directed to a friend, penpal or a member of your family."))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Alert"], {
+  }, "Composition"), ". However, if you choose to do this question is is important to know what is required and how your letter is to be structured."), __jsx("p", null, "You will be given a scenario and a set of instructions that serves as a guide to writing your letter. They are normally directed to a friend, penpal or a member of your family."))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null)), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Alert"], {
+    className: "text-dark",
     theme: "warning"
-  }, "Your word limit is 130 - 150 words. It is important that you you do no exceed or fall below these limits or else you will be penlized."), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null)));
+  }, "Your word limit is 130 - 150 words. It is important that you you do no exceed or fall below these limits or else you will be penlized."));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Overview);
@@ -43512,42 +43670,42 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var SampleTwo = function SampleTwo(props) {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, "Let's take a look at another one:"), __jsx(_common_Quote__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    text: __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("span", null, ' ', "You had been studying overseas but for some reason you have to return home indefinitely. Write a letter to your Puerto Rican friend in which you include"), __jsx("br", null), __jsx("br", null), __jsx("ul", null, __jsx("li", null, "information about your studies"), __jsx("li", {
+    text: __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("span", null, " ", "You had been studying overseas but for some reason you have to return home indefinitely. Write a letter to your Puerto Rican friend in which you include"), __jsx("br", null), __jsx("br", null), __jsx("ul", null, __jsx("li", null, "information about your studies"), __jsx("li", {
       style: {
-        paddingTop: '15px'
+        paddingTop: "15px"
       }
     }, "the reason for your returning home"), __jsx("li", {
       style: {
-        paddingTop: '15px'
+        paddingTop: "15px"
       }
     }, "how your friends at home reacted to your return"), __jsx("li", {
       style: {
-        paddingTop: '15px'
+        paddingTop: "15px"
       }
     }, "the plans you have made to continue your studies")))
   }))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("div", null, __jsx("p", {
     style: {
-      "float": 'right'
+      "float": "right"
     }
   }, "el 9 de junio"), __jsx("p", {
     style: {
-      clear: 'both'
+      clear: "both"
     }
   }, "Queridoa Luisa,"), __jsx("p", {
     style: {
-      marginLeft: '20px'
+      marginLeft: "20px"
     }
-  }, "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."), __jsx("p", {
+  }), __jsx("p", {
     style: {
-      marginLeft: '20px'
+      marginLeft: "20px"
     }
-  }, "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."), __jsx("p", {
+  }), __jsx("p", {
     style: {
-      marginLeft: '20px'
+      marginLeft: "20px"
     }
-  }, "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."), __jsx("p", {
+  }), __jsx("p", {
     style: {
-      paddingLeft: '20px'
+      paddingLeft: "20px"
     }
   }, "Escribeme pronto y dame las noticias"), __jsx("span", null, "Tu amiga,"), __jsx("p", null, "Cindy")))));
 };
@@ -43659,7 +43817,7 @@ var LetterWriting = function LetterWriting(props) {
     lg: 8,
     xl: 8
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Tabs"], {
-    defaultActiveKey: "overview",
+    defaultActiveKey: "sample2",
     id: uuid__WEBPACK_IMPORTED_MODULE_4___default()()
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Tab"], {
     eventKey: "overview",
@@ -43676,10 +43834,10 @@ var LetterWriting = function LetterWriting(props) {
     title: "Guidelines"
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["TabContent"], null, __jsx(_content_ltr_wri_Guidelines__WEBPACK_IMPORTED_MODULE_6__["default"], null))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Tab"], {
     eventKey: "sample1",
-    title: "Sample 1"
+    title: "Sample One"
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["TabContent"], null, __jsx(_content_ltr_wri_SampleOne__WEBPACK_IMPORTED_MODULE_10__["default"], null))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Tab"], {
     eventKey: "sample2",
-    title: "Sample 2"
+    title: "Sample Two"
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["TabContent"], null, __jsx(_content_ltr_wri_SampleTwo__WEBPACK_IMPORTED_MODULE_11__["default"], null))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
     sm: 12,
     md: 4,
@@ -43692,7 +43850,7 @@ var LetterWriting = function LetterWriting(props) {
 
 /***/ }),
 
-/***/ 12:
+/***/ 8:
 /*!*****************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Ftopics%2Fletter-writing&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Ftopics%2Fletter-writing.js ***!
   \*****************************************************************************************************************************************************************************/
@@ -43715,5 +43873,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[12,"static/runtime/webpack.js","styles"]]]);
+},[[8,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=letter-writing.js.map

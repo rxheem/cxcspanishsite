@@ -5,7 +5,8 @@ import {
   CardImg,
   CardBody,
   CardFooter,
-  Button
+  Button,
+  Badge
 } from "shards-react";
 
 import PDFFile from "../../../../common/PDFFile";
@@ -23,31 +24,51 @@ const Exercises = props => (
 
         <ul style={{ listStyleType: "none", marginLeft: "-35px" }}>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="May 2013 Paper" href="" />
+            <PDFFile title="May 2013" href="" />
+            <span style={{ paddingLeft: "10px" }}>
+              <Badge pill theme="danger">
+                8 years ago
+              </Badge>
+            </span>
           </li>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="January 2014 Paper" href="" />
+            <PDFFile title="January 2014" href="" />
           </li>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="May 2014 Paper" href="" />
+            <PDFFile title="May 2014" href="" />
           </li>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="January 2015 Paper" href="" />
+            <PDFFile title="January 2015" href="" />
+            <span style={{ paddingLeft: "5px" }}>
+              <Badge pill theme="success">
+                new
+              </Badge>
+            </span>
           </li>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="June 2016 Paper" href="" />
+            <PDFFile title="June 2016" href="" />
           </li>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="June 2017 Paper" href="" />
+            <PDFFile title="June 2017" href="" />
           </li>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="January 2018 Paper" href="" />
+            <PDFFile title="January 2018" href="" />
           </li>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="May/ June 2018 Paper" href="" />
+            <PDFFile title="May/ June 2018" href="" />
+            <span style={{ paddingLeft: "5px" }}>
+              <Badge pill theme="success">
+                new
+              </Badge>
+            </span>
           </li>
           <li style={{ paddingBottom: "8px" }}>
-            <PDFFile title="January 2019 Paper" href="" />
+            <PDFFile title="January 2019" href="" />
+            <span style={{ paddingLeft: "5px" }}>
+              <Badge pill theme="success">
+                new
+              </Badge>
+            </span>
           </li>
         </ul>
         <br />

@@ -30,7 +30,7 @@ const LetterWriting = props => (
       <h4>Letter Writing</h4>
       <Row>
         <Col sm={12} md={8} lg={8} xl={8}>
-          <Tabs defaultActiveKey="overview" id={uuidv4()}>
+          <Tabs defaultActiveKey="sample2" id={uuidv4()}>
             <Tab
               eventKey="overview"
               title={
@@ -57,13 +57,13 @@ const LetterWriting = props => (
                 <Guidelines />
               </TabContent>
             </Tab>
-            <Tab eventKey="sample1" title="Sample 1">
+            <Tab eventKey="sample1" title="Sample One">
               <TabContent>
                 <SampleOne />
               </TabContent>
             </Tab>
 
-            <Tab eventKey="sample2" title="Sample 2">
+            <Tab eventKey="sample2" title="Sample Two">
               <TabContent>
                 <SampleTwo />
               </TabContent>

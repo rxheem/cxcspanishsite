@@ -17,10 +17,6 @@ import Answer from "../../../../common/Answer";
 
 const WordBank = props => (
   <Card>
-    <CardImg
-      style={{ height: "200px" }}
-      src="https://images.template.net/wp-content/uploads/2016/04/25093033/Book-icons.jpg"
-    />
     <CardBody>
       <CardTitle>Vocabulary Bank</CardTitle>
     </CardBody>

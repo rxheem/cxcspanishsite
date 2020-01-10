@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -136,6 +136,28 @@ module.exports =
 var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
 
 if (false) {}
+
+/***/ }),
+
+/***/ "./assets/js/mixpanel.js":
+/*!*******************************!*\
+  !*** ./assets/js/mixpanel.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+if (false) {}
+
+/***/ }),
+
+/***/ "./assets/js/quantcast.js":
+/*!********************************!*\
+  !*** ./assets/js/quantcast.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+if (false) { var _qevents; }
 
 /***/ }),
 
@@ -271,6 +293,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_css_master_css__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/js/fontawesome.js */ "./assets/js/fontawesome.js");
 /* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/js/mixpanel.js */ "./assets/js/mixpanel.js");
+/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/js/quantcast.js */ "./assets/js/quantcast.js");
+/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_11__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -282,6 +308,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
  // Javascript
+
+
 
 
 const Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
@@ -477,7 +505,11 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 class HomeCarousel extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
-    return __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, null, __jsx(react_image__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    return __jsx("div", {
+      style: {
+        display: "none"
+      }
+    }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, null, __jsx(react_image__WEBPACK_IMPORTED_MODULE_2___default.a, {
       className: "d-block w-100",
       src: ["", "", ""],
       alt: ""
@@ -489,7 +521,7 @@ class HomeCarousel extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       className: "d-block w-100",
       src: ["", "", ""],
       alt: ""
-    }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, null, __jsx("h3", null, "Third slide label"), __jsx("p", null, "Praesent commodo cursus magna, vel scelerisque nisl consectetur."))));
+    }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, null, __jsx("h3", null, "Third slide label"), __jsx("p", null, "Praesent commodo cursus magna, vel scelerisque nisl consectetur.")))));
   }
 
 }
@@ -782,13 +814,13 @@ const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_5__["de
   href: "/"
 }, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], null, __jsx("a", {
   href: "/"
-})))), __jsx(_home_HomeCarousel__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(_home_Marketing__WEBPACK_IMPORTED_MODULE_3__["default"], null)));
+})))), __jsx(_home_HomeCarousel__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx("hr", null), __jsx(_home_Marketing__WEBPACK_IMPORTED_MODULE_3__["default"], null)));
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

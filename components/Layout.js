@@ -11,6 +11,8 @@ import "../assets/css/master.css";
 
 // Javascript
 import "../assets/js/fontawesome.js";
+import "../assets/js/mixpanel.js";
+import "../assets/js/quantcast.js";
 
 const Fragment = React.Fragment;
 

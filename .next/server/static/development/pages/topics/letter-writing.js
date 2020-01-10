@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -136,6 +136,28 @@ module.exports =
 var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
 
 if (false) {}
+
+/***/ }),
+
+/***/ "./assets/js/mixpanel.js":
+/*!*******************************!*\
+  !*** ./assets/js/mixpanel.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+if (false) {}
+
+/***/ }),
+
+/***/ "./assets/js/quantcast.js":
+/*!********************************!*\
+  !*** ./assets/js/quantcast.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+if (false) { var _qevents; }
 
 /***/ }),
 
@@ -382,6 +404,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_css_master_css__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/js/fontawesome.js */ "./assets/js/fontawesome.js");
 /* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/js/mixpanel.js */ "./assets/js/mixpanel.js");
+/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/js/quantcast.js */ "./assets/js/quantcast.js");
+/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_11__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -393,6 +419,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
  // Javascript
+
+
 
 
 const Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
@@ -715,65 +743,93 @@ const Exercises = props => __jsx(Fragment, null, __jsx("br", null), __jsx(shards
     paddingBottom: "8px"
   }
 }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "May 2013 Paper",
+  title: "May 2013",
+  href: ""
+}), __jsx("span", {
+  style: {
+    paddingLeft: "10px"
+  }
+}, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Badge"], {
+  pill: true,
+  theme: "danger"
+}, "8 years ago"))), __jsx("li", {
+  style: {
+    paddingBottom: "8px"
+  }
+}, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  title: "January 2014",
   href: ""
 })), __jsx("li", {
   style: {
     paddingBottom: "8px"
   }
 }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "January 2014 Paper",
+  title: "May 2014",
   href: ""
 })), __jsx("li", {
   style: {
     paddingBottom: "8px"
   }
 }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "May 2014 Paper",
+  title: "January 2015",
+  href: ""
+}), __jsx("span", {
+  style: {
+    paddingLeft: "5px"
+  }
+}, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Badge"], {
+  pill: true,
+  theme: "success"
+}, "new"))), __jsx("li", {
+  style: {
+    paddingBottom: "8px"
+  }
+}, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  title: "June 2016",
   href: ""
 })), __jsx("li", {
   style: {
     paddingBottom: "8px"
   }
 }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "January 2015 Paper",
+  title: "June 2017",
   href: ""
 })), __jsx("li", {
   style: {
     paddingBottom: "8px"
   }
 }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "June 2016 Paper",
+  title: "January 2018",
   href: ""
 })), __jsx("li", {
   style: {
     paddingBottom: "8px"
   }
 }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "June 2017 Paper",
+  title: "May/ June 2018",
   href: ""
-})), __jsx("li", {
+}), __jsx("span", {
+  style: {
+    paddingLeft: "5px"
+  }
+}, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Badge"], {
+  pill: true,
+  theme: "success"
+}, "new"))), __jsx("li", {
   style: {
     paddingBottom: "8px"
   }
 }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "January 2018 Paper",
+  title: "January 2019",
   href: ""
-})), __jsx("li", {
+}), __jsx("span", {
   style: {
-    paddingBottom: "8px"
+    paddingLeft: "5px"
   }
-}, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "May/ June 2018 Paper",
-  href: ""
-})), __jsx("li", {
-  style: {
-    paddingBottom: "8px"
-  }
-}, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "January 2019 Paper",
-  href: ""
-}))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], null, "View Archives \u2192"))));
+}, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Badge"], {
+  pill: true,
+  theme: "success"
+}, "new")))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], null, "View Archives \u2192"))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Exercises);
 
@@ -902,11 +958,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const Overview = props => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, "The letter writing section on your exam is optional and you can instead choose to write a", ' ', __jsx("a", {
+const Overview = props => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, "The letter writing section on your exam is optional and you can instead choose to write a ", __jsx("a", {
   href: "./composition"
-}, "Composition"), ". However, if you choose to do this question is is important to know what is required and how your letter is to be structured."), __jsx("p", null, "You will be given a scenario and a set of instructions that serves as a guide to writing your letter. They are normally directed to a friend, penpal or a member of your family."))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Alert"], {
+}, "Composition"), ". However, if you choose to do this question is is important to know what is required and how your letter is to be structured."), __jsx("p", null, "You will be given a scenario and a set of instructions that serves as a guide to writing your letter. They are normally directed to a friend, penpal or a member of your family."))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null)), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Alert"], {
+  className: "text-dark",
   theme: "warning"
-}, "Your word limit is 130 - 150 words. It is important that you you do no exceed or fall below these limits or else you will be penlized."), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null)));
+}, "Your word limit is 130 - 150 words. It is important that you you do no exceed or fall below these limits or else you will be penlized."));
 
 /* harmony default export */ __webpack_exports__["default"] = (Overview);
 
@@ -983,42 +1040,42 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const SampleTwo = props => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, "Let's take a look at another one:"), __jsx(_common_Quote__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  text: __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("span", null, ' ', "You had been studying overseas but for some reason you have to return home indefinitely. Write a letter to your Puerto Rican friend in which you include"), __jsx("br", null), __jsx("br", null), __jsx("ul", null, __jsx("li", null, "information about your studies"), __jsx("li", {
+  text: __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("span", null, " ", "You had been studying overseas but for some reason you have to return home indefinitely. Write a letter to your Puerto Rican friend in which you include"), __jsx("br", null), __jsx("br", null), __jsx("ul", null, __jsx("li", null, "information about your studies"), __jsx("li", {
     style: {
-      paddingTop: '15px'
+      paddingTop: "15px"
     }
   }, "the reason for your returning home"), __jsx("li", {
     style: {
-      paddingTop: '15px'
+      paddingTop: "15px"
     }
   }, "how your friends at home reacted to your return"), __jsx("li", {
     style: {
-      paddingTop: '15px'
+      paddingTop: "15px"
     }
   }, "the plans you have made to continue your studies")))
 }))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("div", null, __jsx("p", {
   style: {
-    float: 'right'
+    float: "right"
   }
 }, "el 9 de junio"), __jsx("p", {
   style: {
-    clear: 'both'
+    clear: "both"
   }
 }, "Queridoa Luisa,"), __jsx("p", {
   style: {
-    marginLeft: '20px'
+    marginLeft: "20px"
   }
-}, "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."), __jsx("p", {
+}), __jsx("p", {
   style: {
-    marginLeft: '20px'
+    marginLeft: "20px"
   }
-}, "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."), __jsx("p", {
+}), __jsx("p", {
   style: {
-    marginLeft: '20px'
+    marginLeft: "20px"
   }
-}, "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."), __jsx("p", {
+}), __jsx("p", {
   style: {
-    paddingLeft: '20px'
+    paddingLeft: "20px"
   }
 }, "Escribeme pronto y dame las noticias"), __jsx("span", null, "Tu amiga,"), __jsx("p", null, "Cindy")))));
 
@@ -1138,7 +1195,7 @@ const LetterWriting = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE
   lg: 8,
   xl: 8
 }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Tabs"], {
-  defaultActiveKey: "overview",
+  defaultActiveKey: "sample2",
   id: uuid__WEBPACK_IMPORTED_MODULE_4___default()()
 }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Tab"], {
   eventKey: "overview",
@@ -1155,10 +1212,10 @@ const LetterWriting = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE
   title: "Guidelines"
 }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["TabContent"], null, __jsx(_content_ltr_wri_Guidelines__WEBPACK_IMPORTED_MODULE_6__["default"], null))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Tab"], {
   eventKey: "sample1",
-  title: "Sample 1"
+  title: "Sample One"
 }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["TabContent"], null, __jsx(_content_ltr_wri_SampleOne__WEBPACK_IMPORTED_MODULE_10__["default"], null))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Tab"], {
   eventKey: "sample2",
-  title: "Sample 2"
+  title: "Sample Two"
 }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["TabContent"], null, __jsx(_content_ltr_wri_SampleTwo__WEBPACK_IMPORTED_MODULE_11__["default"], null))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
   sm: 12,
   md: 4,
@@ -1170,7 +1227,7 @@ const LetterWriting = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE
 
 /***/ }),
 
-/***/ 6:
+/***/ 5:
 /*!**********************************************!*\
   !*** multi ./pages/topics/letter-writing.js ***!
   \**********************************************/
