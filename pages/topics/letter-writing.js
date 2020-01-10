@@ -30,7 +30,7 @@ const LetterWriting = props => (
       <h4>Letter Writing</h4>
       <Row>
         <Col sm={12} md={8} lg={8} xl={8}>
-          <Tabs defaultActiveKey="sample2" id={uuidv4()}>
+          <Tabs defaultActiveKey="overview" id={uuidv4()}>
             <Tab
               eventKey="overview"
               title={
@@ -44,7 +44,7 @@ const LetterWriting = props => (
                     ]}
                     alt="image"
                   />
-                  Overview.
+                  Overview
                 </React.Fragment>
               }
             >

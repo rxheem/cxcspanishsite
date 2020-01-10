@@ -1195,7 +1195,7 @@ const LetterWriting = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE
   lg: 8,
   xl: 8
 }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Tabs"], {
-  defaultActiveKey: "sample2",
+  defaultActiveKey: "overview",
   id: uuid__WEBPACK_IMPORTED_MODULE_4___default()()
 }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Tab"], {
   eventKey: "overview",
@@ -1206,7 +1206,7 @@ const LetterWriting = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE
     },
     src: ["https://cdn.icon-icons.com/icons2/547/PNG/512/1455554327_line-12_icon-icons.com_53320.png", "https://cdn.icon-icons.com/icons2/196/PNG/128/mail_23797.png", "https://cdn.icon-icons.com/icons2/196/PNG/128/compose_23855.png"],
     alt: "image"
-  }), "Overview.")
+  }), "Overview")
 }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["TabContent"], null, __jsx(_content_ltr_wri_Overview__WEBPACK_IMPORTED_MODULE_7__["default"], null))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Tab"], {
   eventKey: "guidelines",
   title: "Guidelines"
