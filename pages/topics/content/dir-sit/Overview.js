@@ -15,6 +15,15 @@ import Draggable from "react-draggable";
 import Quote from "../../../../common/Quote";
 import Answer from "../../../../common/Answer";
 
+import {
+  FacebookProvider,
+  Comments,
+  CommentsCount,
+  ShareButton,
+  Feed,
+  Like
+} from "react-facebook";
+
 // Fragment
 const Fragment = React.Fragment;
 
@@ -57,6 +66,16 @@ const Overview = props => (
 
         <Button>Read more &rarr;</Button>
       </CardBody>
+      <CardFooter>
+        <FacebookProvider appId="669007593616991">
+          <Like
+            href="http://www.facebook.com"
+            colorScheme="dark"
+            showFaces
+            share
+          />
+        </FacebookProvider>
+      </CardFooter>
     </Card>
 
     <br />

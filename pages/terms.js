@@ -2,9 +2,19 @@ import { Container, Row, Col, Breadcrumb, BreadcrumbItem } from "shards-react";
 
 // Layout
 import Layout from "../components/Layout";
+import Head from "next/head";
 
 const Terms = props => (
   <Layout>
+    <Head>
+      <title>Terms of Use | CXC Spanish Guide</title>
+      <meta name="og:title" content="Terms of Use |  CXC Spanish Guide" />
+      <meta name="og:site_name" content="CXC Spanish Online" />
+      <meta
+        name="description"
+        content="Terms and Conditions. This notice describes the terms of use of cxcspanish.com"
+      />
+    </Head>
     <Container>
       <Breadcrumb>
         <BreadcrumbItem>

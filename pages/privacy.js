@@ -12,12 +12,22 @@ import {
   CardFooter,
   Button
 } from "shards-react";
+import Head from "next/head";
 
 // Layout
 import Layout from "../components/Layout";
 
 const Privacy = props => (
   <Layout>
+    <Head>
+      <title>Privacy | CXC Spanish Guide</title>
+      <meta name="og:title" content="Privacy |  CXC Spanish Guide" />
+      <meta name="og:site_name" content="CXC Spanish Online" />
+      <meta
+        name="description"
+        content="This notice describes our privacy policy. By visiting cxcspanish.com, you are accepting the practices described in this privacy notice."
+      />
+    </Head>
     <Container>
       <Breadcrumb>
         <BreadcrumbItem active>

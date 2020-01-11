@@ -1,4 +1,3 @@
-import Head from "next/head";
 import NavbarComponent from "./NavbarComponent";
 import Footer from "./Footer";
 import { Container } from "shards-react";
@@ -15,11 +14,13 @@ import "../assets/css/master.css";
 import "../assets/js/fontawesome.js";
 import "../assets/js/mixpanel.js";
 import "../assets/js/quantcast.js";
+import "../assets/js/facebook.js";
 
 // Other
 import ReactGA from "react-ga";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
-//
+// Google Analytics
 ReactGA.initialize("UA-146229442-1");
 
 // Render on client side
@@ -39,18 +40,16 @@ const Fragment = React.Fragment;
 
 const Layout = props => (
   <Fragment>
-    <Head>
-      <title>CXC Spanish | Guide, Past Papers and Exercises</title>
-      <meta
-        name="og:title"
-        content="CXC Spanish | Guide, Past Papers and Exercises"
-      />
-      <meta name="og:site_name" content="CXC Spanish Online" />
-      <meta
-        name="description"
-        content="CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces."
-      />
-    </Head>
+    <MessengerCustomerChat
+      pageId="<https://cxcspanish.cxcspanish.now.sh>"
+      appId="669007593616991"
+      htmlRef="https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+    />
+    <div
+      class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="105703077445673"
+    ></div>
     <HeaderImports />
     <NavbarComponent />
 

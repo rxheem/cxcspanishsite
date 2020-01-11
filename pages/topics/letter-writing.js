@@ -1,5 +1,6 @@
 import { Container, Row, Col, BreadcrumbItem, Breadcrumb } from "shards-react";
 import { Tab, Tabs, TabContent } from "react-bootstrap";
+import Head from "next/head";
 import Img from "react-image";
 import uuidv4 from "uuid";
 
@@ -16,6 +17,15 @@ import SampleTwo from "./content/ltr-wri/SampleTwo";
 
 const LetterWriting = props => (
   <Layout>
+    <Head>
+      <title>Letter Writing | CXC Spanish Guide</title>
+      <meta name="og:title" content="Letter Writing  |  CXC Spanish Guide" />
+      <meta name="og:site_name" content="CXC Spanish Online" />
+      <meta
+        name="description"
+        content="Learn how to write letters for your CXC Spanish exam with samples and past papers. "
+      />
+    </Head>
     <Container>
       <Breadcrumb>
         <BreadcrumbItem>

@@ -30,16 +30,32 @@ const Footer = props => (
 
             <Nav className="flex-column">
               <h6 className="text-white">Tools We Use</h6>
-              <Nav.Link className="text-white" href="/">
+              <Nav.Link
+                className="text-white"
+                href="https://www.spanishdict.com"
+                target="_blank"
+              >
                 SpanishDict
               </Nav.Link>
-              <Nav.Link className="text-white" href="/">
+              <Nav.Link
+                className="text-white"
+                href="https://www.cxc.org"
+                target="_blank"
+              >
                 CXC
               </Nav.Link>
-              <Nav.Link className="text-white" href="/">
+              <Nav.Link
+                className="text-white"
+                href="www.cxc-store.com"
+                target="_blank"
+              >
                 CXC Store
               </Nav.Link>
-              <Nav.Link className="text-white" href="/">
+              <Nav.Link
+                className="text-white"
+                href="passmycxc.com"
+                target="_blank"
+              >
                 Pass My CXC
               </Nav.Link>
             </Nav>

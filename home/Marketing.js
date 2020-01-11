@@ -16,7 +16,7 @@ const Marketing = props => (
               "https://www.colourbox.com/preview/22111544-the-ear-icon-listen-symbol-flat.jpg",
               "https://comps.gograph.com/ear-icon-in-flat-style-isolated-on-white-background-part-of-body-symbol-stock-vector-illustration_gg88742647.jpg"
             ]}
-            alt=""
+            alt="image"
             style={{ height: "180px" }}
             className="rounded-circle"
           />

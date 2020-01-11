@@ -12,6 +12,7 @@ import {
   CardFooter,
   Button
 } from "shards-react";
+import Head from "next/head";
 import FA from "react-fontawesome";
 
 // Layout
@@ -19,6 +20,15 @@ import Layout from "../components/Layout";
 
 const ExamTopics = props => (
   <Layout>
+    <Head>
+      <title>Exam Topics | CXC Spanish Guide</title>
+      <meta name="og:title" content="Exam Topics |  CXC Spanish Guide" />
+      <meta name="og:site_name" content="CXC Spanish Online" />
+      <meta
+        name="description"
+        content="A complete deep dive into all the sections on the CXC Spanish exams using past papers"
+      />
+    </Head>
     <Container id="exam-topics">
       <Breadcrumb>
         <BreadcrumbItem active>

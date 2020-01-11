@@ -18,6 +18,15 @@ import uuidv4 from "uuid";
 import Quote from "../../../../common/Quote";
 import Answer from "../../../../common/Answer";
 
+import {
+  FacebookProvider,
+  Comments,
+  CommentsCount,
+  ShareButton,
+  Feed,
+  Like
+} from "react-facebook";
+
 const Overview = props => (
   <React.Fragment>
     <br />
@@ -35,6 +44,16 @@ const Overview = props => (
           friend, penpal or a member of your family.
         </p>
       </CardBody>
+      <CardFooter>
+        <FacebookProvider appId="669007593616991">
+          <Like
+            href="http://www.facebook.com"
+            colorScheme="dark"
+            showFaces
+            share
+          />
+        </FacebookProvider>
+      </CardFooter>
     </Card>
 
     <br />

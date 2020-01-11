@@ -1,6 +1,7 @@
 import { Container, Row, Col, BreadcrumbItem, Breadcrumb } from "shards-react";
 import { Tab, Tabs, TabContent } from "react-bootstrap";
 import uuidv4 from "uuid";
+import Head from "next/head";
 
 // Layout
 import Layout from "../../components/Layout";
@@ -13,6 +14,18 @@ import WordBank from "./content/dir-sit/WordBank";
 
 const DirectedSituations = props => (
   <Layout>
+    <Head>
+      <title>Directed Situations | CXC Spanish Guide</title>
+      <meta
+        name="og:title"
+        content="Directed Situations |  CXC Spanish Guide"
+      />
+      <meta name="og:site_name" content="CXC Spanish Online" />
+      <meta
+        name="description"
+        content="Learn how to respond to Directed Situations, second 1 on your CXC Spanish exam"
+      />
+    </Head>
     <Container>
       <Breadcrumb>
         <BreadcrumbItem>
