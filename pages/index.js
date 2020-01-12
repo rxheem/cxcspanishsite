@@ -21,6 +21,7 @@ import MailingListSubscribe from "../home/MailingListSubscribe";
 
 // Layout
 import Layout from "../components/Layout";
+import Message from "../common/Message";
 
 const Index = props => (
   <Layout>
@@ -46,9 +47,9 @@ const Index = props => (
         </BreadcrumbItem>
       </Breadcrumb>
     </Container>
-    <HomeCarousel />
+
     <Container>
-      <hr />
+      <br />
       <Marketing />
     </Container>
   </Layout>

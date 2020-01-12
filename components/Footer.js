@@ -86,7 +86,7 @@ const Footer = props => (
     <br />
     <Container>
       <p className="float-right">
-        <a href="#">Sitemap</a>
+        <a href="/sitemap.xml">Sitemap</a>
       </p>
       <p>
         &copy; CXC Spanish Online &middot; <a href="about">About</a> &middot;

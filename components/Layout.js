@@ -2,6 +2,7 @@ import NavbarComponent from "./NavbarComponent";
 import Footer from "./Footer";
 import { Container } from "shards-react";
 import HeaderImports from "./HeaderImports";
+import React from "react";
 
 // Assets
 import "bootstrap/dist/css/bootstrap.css";

@@ -23,6 +23,9 @@ import {
   Feed,
   Like
 } from "react-facebook";
+
+// Common
+import BetaMessage from "../common/BetaMessage";
 import Head from "next/head";
 
 // Layout
@@ -74,10 +77,10 @@ const FAQ = props => (
                   >
                     <p style={{ paddingTop: "10px" }}>
                       CXC Spanish Online is a free online study guide for
-                      students sitting the CXC Spanish exam at the CSEC level
-                      that aims to assist students score higher in class on and
-                      pass their exams. For more information, check out our
-                      About Us page.
+                      students sitting the CXC Spanish exam at the CSEC and CAPE
+                      level that aims to assist students score higher in class
+                      on and pass their exams. For more information, check out
+                      our About Us page.
                     </p>
                   </Collapsible>
                 </li>
@@ -167,15 +170,7 @@ const FAQ = props => (
           </Card>
         </Col>
         <Col sm={4} md={4} lg={4}>
-          <Card>
-            <CardHeader></CardHeader>
-
-            <CardBody>
-              <CardTitle></CardTitle>
-              <p></p>
-            </CardBody>
-            <CardFooter></CardFooter>
-          </Card>
+          <BetaMessage />
         </Col>
       </Row>
     </Container>

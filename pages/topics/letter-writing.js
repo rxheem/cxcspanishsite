@@ -7,6 +7,9 @@ import uuidv4 from "uuid";
 // Layout
 import Layout from "../../components/Layout";
 
+// Common
+import BetaMessage from "../../common/BetaMessage";
+
 // Components
 import Guidelines from "./content/ltr-wri/Guidelines";
 import Overview from "./content/ltr-wri/Overview";
@@ -81,6 +84,7 @@ const LetterWriting = props => (
           </Tabs>
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
+          <BetaMessage />
           <UsefulEssentials />
           <Exercises />
         </Col>

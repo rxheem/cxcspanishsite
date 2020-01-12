@@ -127,6 +127,27 @@ const Privacy = props => (
         information or other details to help you with your experience.
       </p>
 
+      <a href="./resources/cxc-spanish-2015-past-paper">
+        CXC Spanish 2015 Past paper
+      </a>
+
+      <br />
+      <a href="./resources/cxc-spanish-2016-past-paper">
+        CXC Spanish 2016 Past paper
+      </a>
+      <br />
+      <a href="./resources/cxc-spanish-2017-past-paper">
+        CXC Spanish 2017 Past paper
+      </a>
+      <br />
+      <a href="./resources/cxc-spanish-2018-past-paper">
+        CXC Spanish 2018 Past paper
+      </a>
+      <br />
+      <a href="./resources/cxc-spanish-2019-past-paper">
+        CXC Spanish 2019 Past paper
+      </a>
+
       <Row>
         <Col sm={12} md={8} lg={8} xl={8}>
           <Card>

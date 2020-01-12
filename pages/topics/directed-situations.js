@@ -3,6 +3,9 @@ import { Tab, Tabs, TabContent } from "react-bootstrap";
 import uuidv4 from "uuid";
 import Head from "next/head";
 
+// Common
+import BetaMessage from "../../common/BetaMessage";
+
 // Layout
 import Layout from "../../components/Layout";
 
@@ -57,6 +60,8 @@ const DirectedSituations = props => (
           </Tabs>
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
+          <BetaMessage />
+
           <Exercises />
           <br />
           <WordBank />

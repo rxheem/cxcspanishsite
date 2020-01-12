@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -169,6 +169,97 @@ if (false) {}
 /***/ (function(module, exports, __webpack_require__) {
 
 if (false) { var _qevents; }
+
+/***/ }),
+
+/***/ "./common/BetaMessage.js":
+/*!*******************************!*\
+  !*** ./common/BetaMessage.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Message__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Message */ "./common/Message.js");
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const BetaMessage = props => __jsx(_Message__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  title: "Important Reminder",
+  time: "just now",
+  message: "Please note that this is the beta version of the website and some content have been disabled or may not work a should. "
+});
+
+/* harmony default export */ __webpack_exports__["default"] = (BetaMessage);
+
+/***/ }),
+
+/***/ "./common/Message.js":
+/*!***************************!*\
+  !*** ./common/Message.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__);
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const Message = props => __jsx("div", null, __jsx("br", null), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Toast"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Toast"].Header, null, __jsx("img", {
+  src: "holder.js/20x20?text=%20",
+  className: "rounded mr-2",
+  alt: ""
+}), __jsx("strong", {
+  className: "mr-auto"
+}, props.title), __jsx("small", null, props.time)), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Toast"].Body, null, props.message)), __jsx("br", null));
+
+/* harmony default export */ __webpack_exports__["default"] = (Message);
+
+/***/ }),
+
+/***/ "./common/PDFFile.js":
+/*!***************************!*\
+  !*** ./common/PDFFile.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-fontawesome */ "react-fontawesome");
+/* harmony import */ var react_fontawesome__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_fontawesome__WEBPACK_IMPORTED_MODULE_1__);
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const PDFFile = props => __jsx("a", {
+  href: props.href,
+  download: true
+}, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  name: "file-pdf",
+  style: {
+    color: "#f00"
+  }
+}), __jsx("span", {
+  className: "",
+  style: {
+    paddingLeft: "10px"
+  }
+}, props.title));
+
+/* harmony default export */ __webpack_exports__["default"] = (PDFFile);
 
 /***/ }),
 
@@ -268,7 +359,7 @@ const Footer = props => __jsx("footer", null, __jsx("div", {
 }, "Contextual Dialogue")))), __jsx("br", null), " ", __jsx("br", null))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx("p", {
   className: "float-right"
 }, __jsx("a", {
-  href: "#"
+  href: "/sitemap.xml"
 }, "Sitemap")), __jsx("p", null, "\xA9 CXC Spanish Online \xB7 ", __jsx("a", {
   href: "about"
 }, "About"), " \xB7", __jsx("a", {
@@ -414,13 +505,13 @@ const HeaderImports = props => __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___defa
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _NavbarComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NavbarComponent */ "./components/NavbarComponent.js");
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _HeaderImports__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./HeaderImports */ "./components/HeaderImports.js");
+/* harmony import */ var _NavbarComponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NavbarComponent */ "./components/NavbarComponent.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! shards-react */ "shards-react");
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _HeaderImports__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./HeaderImports */ "./components/HeaderImports.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ "./node_modules/bootstrap/dist/css/bootstrap.css");
 /* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! shards-ui/dist/css/shards.css */ "./node_modules/shards-ui/dist/css/shards.css");
@@ -443,8 +534,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_14__);
 /* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react-messenger-customer-chat */ "react-messenger-customer-chat");
 /* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_15__);
+var __jsx = react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement;
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
@@ -468,7 +559,7 @@ react_ga__WEBPACK_IMPORTED_MODULE_14___default.a.initialize("UA-146229442-1"); /
 
 if (false) {}
 
-const Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
+const Fragment = react__WEBPACK_IMPORTED_MODULE_4___default.a.Fragment;
 
 const Layout = props => __jsx(Fragment, null, __jsx(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_15___default.a, {
   pageId: "<https://cxcspanish.cxcspanish.now.sh>",
@@ -478,7 +569,7 @@ const Layout = props => __jsx(Fragment, null, __jsx(react_messenger_customer_cha
   class: "fb-customerchat",
   attribution: "setup_tool",
   page_id: "105703077445673"
-}), __jsx(_HeaderImports__WEBPACK_IMPORTED_MODULE_4__["default"], null), __jsx(_NavbarComponent__WEBPACK_IMPORTED_MODULE_1__["default"], null), __jsx("br", null), __jsx(Fragment, null, props.children), __jsx("br", null), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+}), __jsx(_HeaderImports__WEBPACK_IMPORTED_MODULE_3__["default"], null), __jsx(_NavbarComponent__WEBPACK_IMPORTED_MODULE_0__["default"], null), __jsx("br", null), __jsx(Fragment, null, props.children), __jsx("br", null), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_1__["default"], null));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -781,12 +872,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _guides_GuideLayout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./guides/GuideLayout */ "./pages/guides/GuideLayout.js");
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
  // Layout
 
 
+
+const ulStyles = {
+  marginLeft: "-30px",
+  listStyleType: "none"
+};
+const liStyle = {
+  paddingBottom: "15px"
+};
 
 class Guide extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
@@ -803,17 +903,471 @@ class Guide extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/"
     }, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], {
       active: true
-    }, "Guides")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 8,
-      md: 8,
-      lg: 8,
-      xl: 8
-    }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Guides"), __jsx("p", null, "Lorem ipsum dolor sit amet."), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], null, "Read more \u2192")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardFooter"], null, "Card footer"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 12,
-      md: 4,
-      lg: 4,
-      xl: 4
-    }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardHeader"], null, "Card header"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Lorem Ipsum"), __jsx("p", null, "Lorem ipsum dolor sit amet."), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], null, "Read more \u2192")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardFooter"], null, "Card footer"))))));
+    }, "Guides")), __jsx(_guides_GuideLayout__WEBPACK_IMPORTED_MODULE_4__["default"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Guides"), __jsx("br", null), __jsx("p", null, "Our guides are designed to help you master a wide range of topics in Spansih, from how to use online translators to learning hot to use 'por' and 'para' and much more."))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+      sm: 6,
+      md: 6,
+      lg: 6,
+      xl: 6
+    }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Verbs and Tenses"), __jsx("br", null), __jsx("ul", {
+      style: ulStyles
+    }, __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: "orange"
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "When to Use the Imperfect Tense")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "'Ser' vs 'Estar'")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Spanish Verb Types")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "How to use 'Gustar'")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "The Imperfect Subjunctive")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "'Ser' vs. 'Estar'"))))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Fun"), __jsx("br", null), __jsx("ul", {
+      style: ulStyles
+    }, __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: "orange"
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Flirting in Spanish")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Texting in Spanish")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Apps that Teach You Spanish")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "50 Most Common Verbs in Spanish")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Traditional Spanish Food")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Funny Spanish Jokes")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Tongue Twisters in Spanish")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "5 Mistakes to Avoid When Learning Spanish"))))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Weird"), __jsx("br", null), __jsx("ul", {
+      style: ulStyles
+    }, __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: "orange"
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    })), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    })), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    })))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+      sm: 6,
+      md: 6,
+      lg: 6,
+      xl: 6
+    }, __jsx("br", {
+      className: "d-md-block"
+    }), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Essentials"), __jsx("br", null), __jsx("ul", {
+      style: ulStyles
+    }, __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: "orange"
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "The Spanish Alphabet")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Adverbs")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Genders in Spanish")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "'Por' vs. 'Para'")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Pornunciation Tips")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "The Personal \u2018a\u2019 in Spanish")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Articles in Spanish")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Study Tips")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "'T\xFA' vs. 'Usted'")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Dates in Spanish")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Adjectives in Spanish")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Oral Exercises")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "At the Airport"))))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "How To Guides"), __jsx("br", null), __jsx("ul", {
+      style: ulStyles
+    }, __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: "orange"
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "How to Order Food in Spanish")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "How to Remember Verb Conjugations")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "How to Ask for Directions in Spanish")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Talking About Locations in Spanish")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "Improve Spanish Listening Skills")), __jsx("li", {
+      style: liStyle
+    }, __jsx("i", {
+      style: {
+        color: ""
+      },
+      className: "fas fa-angle-double-right"
+    }), __jsx("a", {
+      href: "",
+      style: {
+        paddingLeft: "10px"
+      }
+    }, "How to Use Online Translators"))))))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+      sm: 6,
+      md: 6,
+      lg: 6,
+      xl: 6
+    }), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+      sm: 6,
+      md: 6,
+      lg: 6,
+      xl: 6
+    })))));
   }
 
 }
@@ -822,7 +1376,176 @@ class Guide extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
-/***/ 8:
+/***/ "./pages/guides/GuideLayout.js":
+/*!*************************************!*\
+  !*** ./pages/guides/GuideLayout.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-fontawesome */ "react-fontawesome");
+/* harmony import */ var react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_fontawesome__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _common_BetaMessage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../common/BetaMessage */ "./common/BetaMessage.js");
+/* harmony import */ var _common_PDFFile__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../common/PDFFile */ "./common/PDFFile.js");
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+ // Common
+
+
+ // Style for the onft icons
+
+const liStyles = {
+  display: "inline!important",
+  paddingLeft: "50px"
+};
+const oLiStyles = {
+  display: "inline"
+};
+const ulStyles = {
+  listStyleType: "none"
+};
+
+const GuideLayout = props => __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+  sm: 12,
+  md: 8,
+  lg: 8,
+  xl: 8
+}, props.children, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardFooter"], null, __jsx("ul", {
+  style: ulStyles
+}, __jsx("li", {
+  style: oLiStyles
+}, __jsx("i", {
+  style: {
+    color: "#8a3ab9"
+  },
+  className: "fab fa-instagram"
+}), __jsx("a", {
+  className: "text-muted",
+  style: {
+    paddingLeft: "10px"
+  },
+  href: "",
+  target: "_blank"
+}, "cxcspanish")), __jsx("li", {
+  style: liStyles
+}, __jsx("i", {
+  style: {
+    color: " #3b5998"
+  },
+  className: "fab fa-facebook"
+}), __jsx("a", {
+  className: "text-muted",
+  style: {
+    paddingLeft: "10px"
+  },
+  href: "",
+  target: "_blank"
+}, "CXC Spanish Gude")), __jsx("li", {
+  style: liStyles
+}, __jsx("i", {
+  style: {
+    color: "#00acee"
+  },
+  className: "fab fa-twitter"
+}), __jsx("a", {
+  className: "text-muted",
+  style: {
+    paddingLeft: "10px"
+  },
+  href: "",
+  target: "_blank"
+}, "cxcspanish")))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+  sm: 12,
+  md: 4,
+  lg: 4,
+  xl: 4
+}, __jsx(_common_BetaMessage__WEBPACK_IMPORTED_MODULE_3__["default"], null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Read on the Go"), __jsx("p", null, "Download and read our guides offline, at school or when you're studying fro your exams. Here's our top picks."), __jsx("ul", {
+  style: {
+    marginLeft: "-25px",
+    listStyleType: "none"
+  }
+}, __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  title: "'ser' vs. 'estar'",
+  href: ""
+})), __jsx("li", {
+  style: {
+    paddingTop: "15px"
+  }
+}, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  title: "Study Tips",
+  href: ""
+})), __jsx("li", {
+  style: {
+    paddingTop: "15px"
+  }
+}, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  title: "Funny Spanish Jokes",
+  href: ""
+})), __jsx("li", {
+  style: {
+    paddingTop: "15px"
+  }
+}, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  title: "Genders in Spanish",
+  href: ""
+}))), __jsx("br", null), __jsx("h6", null, "Essentials"), __jsx("ul", {
+  style: {
+    marginLeft: "-25px",
+    listStyleType: "none"
+  }
+}, __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  title: "Pronunciation Tips",
+  href: ""
+})), __jsx("li", {
+  style: {
+    paddingTop: "15px"
+  }
+}, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  title: "The Personal \u2018a\u2019 in Spanish",
+  href: ""
+})), __jsx("li", {
+  style: {
+    paddingTop: "15px"
+  }
+}, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  title: "Spanish Adverbs",
+  href: ""
+}))), __jsx("br", null), __jsx("h6", null, "How To Guides"), __jsx("ul", {
+  style: {
+    marginLeft: "-25px",
+    listStyleType: "none"
+  }
+}, __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  title: "How to Use Online Translators",
+  href: ""
+})), __jsx("li", {
+  style: {
+    paddingTop: "15px"
+  }
+}, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  title: "Asking for Directions in Spanish",
+  href: ""
+})), __jsx("li", {
+  style: {
+    paddingTop: "15px"
+  }
+}, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  title: "Ordering Food in Spanish",
+  href: ""
+}))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], null, "View Archives \u2192")))));
+
+/* harmony default export */ __webpack_exports__["default"] = (GuideLayout);
+
+/***/ }),
+
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/guide.js ***!
   \******************************/

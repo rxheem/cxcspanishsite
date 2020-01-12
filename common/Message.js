@@ -1,7 +1,7 @@
 import { Toast } from "react-bootstrap";
 
 const Message = props => (
-  <React.Fragment>
+  <div>
     <br />
     <Toast>
       <Toast.Header>
@@ -11,7 +11,8 @@ const Message = props => (
       </Toast.Header>
       <Toast.Body>{props.message}</Toast.Body>
     </Toast>
-  </React.Fragment>
+    <br />
+  </div>
 );
 
 export default Message;
