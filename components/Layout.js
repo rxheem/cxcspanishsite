@@ -1,6 +1,6 @@
 import NavbarComponent from "./NavbarComponent";
 import Footer from "./Footer";
-import { Container } from "shards-react";
+import { Card, Container, Alert } from "shards-react";
 import HeaderImports from "./HeaderImports";
 import React from "react";
 
@@ -54,6 +54,19 @@ const Layout = props => (
     <HeaderImports />
     <NavbarComponent />
 
+    <br />
+    <Alert theme="danger">
+      Please note that this is the beta version of the website and some contents
+      have been disabled or may not work properly. -{" "}
+      <a className="alert-link" href="/FAQ">
+        See FAQ
+      </a>
+      <br />
+      Please report all errors to{" "}
+      <a className="alert-link" href="mailto:hola@cxcspanish.com">
+        hola@cxcspanish.com
+      </a>
+    </Alert>
     <br />
     <Fragment>{props.children}</Fragment>
     <br />

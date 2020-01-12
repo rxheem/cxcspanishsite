@@ -190,9 +190,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const Message = props => __jsx("div", null, __jsx("br", null), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Toast"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Toast"].Header, null, __jsx("img", {
-  src: "holder.js/20x20?text=%20",
+  src: "https://cdn2.iconfinder.com/data/icons/mix-color-5/100/Mix_color_5__info-512.png",
   className: "rounded mr-2",
-  alt: ""
+  alt: "alert icon",
+  style: {
+    height: "20px"
+  }
 }), __jsx("strong", {
   className: "mr-auto"
 }, props.title), __jsx("small", null, props.time)), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Toast"].Body, null, props.message)), __jsx("br", null));
@@ -233,6 +236,9 @@ const Footer = props => __jsx("footer", null, __jsx("div", {
 }, "Popular Guides"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
   className: "flex-column"
 }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-white",
+  href: "/guides/study-tips"
+}, "Study Tips"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
   className: "text-white",
   href: "/home"
 }, "Pronunciation Tips"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
@@ -287,10 +293,10 @@ const Footer = props => __jsx("footer", null, __jsx("div", {
   href: "/"
 }, "Oral Exercise"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
   className: "text-white",
-  href: "/home"
+  href: "/topics/directed-situations"
 }, "Directed Situation"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
   className: "text-white",
-  href: "/"
+  href: "/topics/letter-writing"
 }, "Letter Writing"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
   className: "text-white",
   href: "/"
@@ -507,7 +513,15 @@ const Layout = props => __jsx(Fragment, null, __jsx(react_messenger_customer_cha
   class: "fb-customerchat",
   attribution: "setup_tool",
   page_id: "105703077445673"
-}), __jsx(_HeaderImports__WEBPACK_IMPORTED_MODULE_3__["default"], null), __jsx(_NavbarComponent__WEBPACK_IMPORTED_MODULE_0__["default"], null), __jsx("br", null), __jsx(Fragment, null, props.children), __jsx("br", null), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_1__["default"], null));
+}), __jsx(_HeaderImports__WEBPACK_IMPORTED_MODULE_3__["default"], null), __jsx(_NavbarComponent__WEBPACK_IMPORTED_MODULE_0__["default"], null), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_2__["Alert"], {
+  theme: "danger"
+}, "Please note that this is the beta version of the website and some contents have been disabled or may not work properly. -", " ", __jsx("a", {
+  className: "alert-link",
+  href: "/FAQ"
+}, "See FAQ"), __jsx("br", null), "Please report all errors to", " ", __jsx("a", {
+  className: "alert-link",
+  href: "mailto:hola@cxcspanish.com"
+}, "hola@cxcspanish.com")), __jsx("br", null), __jsx(Fragment, null, props.children), __jsx("br", null), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_1__["default"], null));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -653,7 +667,7 @@ class NavbarComponent extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Compo
       name: "chalkboard-teacher"
     }), "Tutoring")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
       className: "text-white",
-      href: "/faq"
+      href: "/FAQ"
     }, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_9___default.a, {
       style: {
         padding: "7px"

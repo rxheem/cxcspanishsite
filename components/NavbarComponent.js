@@ -121,7 +121,7 @@ class NavbarComponent extends React.Component {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="text-white" href="/faq">
+              <NavLink className="text-white" href="/FAQ">
                 <FA style={{ padding: "7px" }} name="comment" />
                 FAQ
               </NavLink>

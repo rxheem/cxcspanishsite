@@ -319,7 +319,10 @@ class Guide extends React.Component {
                           style={{ color: "" }}
                           className="fas fa-angle-double-right"
                         ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
+                        <a
+                          href="./guides/study-tips"
+                          style={{ paddingLeft: "10px" }}
+                        >
                           Study Tips
                         </a>
                       </li>

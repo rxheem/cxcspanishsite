@@ -32,7 +32,8 @@ const oLiStyles = {
 };
 
 const ulStyles = {
-  listStyleType: "none"
+  listStyleType: "none",
+  paddingTop: "15px"
 };
 
 const GuideLayout = props => (
@@ -41,7 +42,7 @@ const GuideLayout = props => (
       {props.children}
       <br />
       <Card>
-        <CardFooter>
+        <span className="border border-light">
           <ul style={ulStyles}>
             <li style={oLiStyles}>
               <i style={{ color: "#8a3ab9" }} className="fab fa-instagram" />
@@ -77,7 +78,7 @@ const GuideLayout = props => (
               </a>
             </li>
           </ul>
-        </CardFooter>
+        </span>
       </Card>
     </Col>
     <Col sm={12} md={4} lg={4} xl={4}>

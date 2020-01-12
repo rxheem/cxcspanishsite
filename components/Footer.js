@@ -11,6 +11,9 @@ const Footer = props => (
           <Col sm={12} md={4} lg={4} xl={4}>
             <h6 className="text-white">Popular Guides</h6>
             <Nav className="flex-column">
+              <Nav.Link className="text-white" href="/guides/study-tips">
+                Study Tips
+              </Nav.Link>
               <Nav.Link className="text-white" href="/home">
                 Pronunciation Tips
               </Nav.Link>
@@ -64,13 +67,17 @@ const Footer = props => (
             <br className="d-sm-none" />
             <Nav className="flex-column">
               <h6 className="text-white">Jump Start</h6>
+
               <Nav.Link className="text-white" href="/">
                 Oral Exercise
               </Nav.Link>
-              <Nav.Link className="text-white" href="/home">
+              <Nav.Link
+                className="text-white"
+                href="/topics/directed-situations"
+              >
                 Directed Situation
               </Nav.Link>
-              <Nav.Link className="text-white" href="/">
+              <Nav.Link className="text-white" href="/topics/letter-writing">
                 Letter Writing
               </Nav.Link>
               <Nav.Link className="text-white" href="/">
