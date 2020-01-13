@@ -47,9 +47,8 @@ const Index = props => (
           <a href="/"></a>
         </BreadcrumbItem>
       </Breadcrumb>
-    </Container>
 
-    <Container>
+      <HomeCarousel />
       <br />
       <Marketing />
     </Container>

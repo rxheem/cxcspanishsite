@@ -2,7 +2,7 @@ import NavbarComponent from "./NavbarComponent";
 import Footer from "./Footer";
 import { Card, Container, Alert } from "shards-react";
 import HeaderImports from "./HeaderImports";
-import React from "react";
+import Clipboard from "react-clipboard.js";
 
 // Assets
 import "bootstrap/dist/css/bootstrap.css";
@@ -53,21 +53,21 @@ const Layout = props => (
     ></div>
     <HeaderImports />
     <NavbarComponent />
-
-    <br />
-    <Alert theme="danger">
+    <Alert className="text-center" theme="danger">
       Please note that this is the beta version of the website and some contents
-      have been disabled or may not work properly. -{" "}
+      have been disabled or may not work properly.
+      <br />
       <a className="alert-link" href="/FAQ">
-        See FAQ
+        Read our FAQ
       </a>
       <br />
-      Please report all errors to{" "}
+      Please report all errors and blank pages to{" "}
       <a className="alert-link" href="mailto:hola@cxcspanish.com">
         hola@cxcspanish.com
       </a>
     </Alert>
     <br />
+
     <Fragment>{props.children}</Fragment>
     <br />
     <Footer />
