@@ -1,200 +1,32 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/development/dll/dll_d6a88dbe3071bd165157.js",
+    "static/development/dll/dll_d6a88dbe3071bd165157.js.map"
+  ],
   "pages": {
-    "/": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
     "/FAQ": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
     ],
     "/_app": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_error": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_polyfills": [
-      "static/runtime/polyfills-96869248ef99c4565383.js"
-    ],
-    "/exam-topics": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
+      "static/runtime/polyfills.js",
+      "static/runtime/polyfills.js.map"
     ],
     "/guide": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/guides/GuideLayout": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/guides/misc/SuggestedArticles": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/guides/spanish-adjectives": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/guides/study-tips": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/index": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/privacy": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/privacy-policy": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/resources/cxc-spanish-2015-past-paper": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/resources/cxc-spanish-2016-past-paper": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/resources/cxc-spanish-2017-past-paper": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/resources/cxc-spanish-2018-past-paper": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/resources/cxc-spanish-2019-past-paper": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/terms": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/topics/content/dir-sit/Examples": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/topics/content/dir-sit/Exercises": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/topics/content/dir-sit/Overview": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/topics/content/dir-sit/WordBank": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/topics/content/ltr-wri/Exercises": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/topics/content/ltr-wri/Guidelines": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/topics/content/ltr-wri/LetterLayout": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/topics/content/ltr-wri/Overview": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/topics/content/ltr-wri/SampleOne": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/topics/content/ltr-wri/SampleTwo": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/topics/content/ltr-wri/UsefulEssentials": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/topics/directed-situations": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
-    ],
-    "/topics/letter-writing": [
-      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
-      "static/css/commons.4ed571c9.chunk.css",
-      "static/chunks/commons.6620c3656a3ba5f5b8fe.js",
-      "static/runtime/main-b84a78493e6655e5175c.js"
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
     ]
   }
 }

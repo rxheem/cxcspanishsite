@@ -16,6 +16,7 @@ import {
   FormGroup
 } from "shards-react";
 import Head from "next/head";
+import SEO from "react-seo-component";
 
 // Layout
 import Layout from "../components/Layout";

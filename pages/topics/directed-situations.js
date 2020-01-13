@@ -60,8 +60,6 @@ const DirectedSituations = props => (
           </Tabs>
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
-          <BetaMessage />
-
           <Exercises />
           <br />
           <WordBank />

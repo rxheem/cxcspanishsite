@@ -169,9 +169,7 @@ const FAQ = props => (
             </CardFooter>
           </Card>
         </Col>
-        <Col sm={4} md={4} lg={4}>
-          <BetaMessage />
-        </Col>
+        <Col sm={4} md={4} lg={4}></Col>
       </Row>
     </Container>
   </Layout>

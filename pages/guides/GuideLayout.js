@@ -15,6 +15,13 @@ import {
   FormInput,
   FormGroup
 } from "shards-react";
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile
+} from "react-device-detect";
+
 import FA from "react-fontawesome";
 
 // Common
@@ -40,50 +47,51 @@ const GuideLayout = props => (
   <Row>
     <Col sm={12} md={8} lg={8} xl={8}>
       {props.children}
-      <br />
-      <Card>
-        <span className="border border-light">
-          <ul style={ulStyles}>
-            <li style={oLiStyles}>
-              <i style={{ color: "#8a3ab9" }} className="fab fa-instagram" />
-              <a
-                className="text-muted"
-                style={{ paddingLeft: "10px" }}
-                href=""
-                target="_blank"
-              >
-                cxcspanish
-              </a>
-            </li>
-            <li style={liStyles}>
-              <i style={{ color: " #3b5998" }} className="fab fa-facebook" />
-              <a
-                className="text-muted"
-                style={{ paddingLeft: "10px" }}
-                href=""
-                target="_blank"
-              >
-                CXC Spanish Gude
-              </a>
-            </li>
-            <li style={liStyles}>
-              <i style={{ color: "#00acee" }} className="fab fa-twitter" />
-              <a
-                className="text-muted"
-                style={{ paddingLeft: "10px" }}
-                href=""
-                target="_blank"
-              >
-                cxcspanish
-              </a>
-            </li>
-          </ul>
-        </span>
-      </Card>
+
+      <BrowserView>
+        <br />
+        <Card>
+          <span className="border border-light">
+            <ul style={ulStyles}>
+              <li style={oLiStyles}>
+                <i style={{ color: "#8a3ab9" }} className="fab fa-instagram" />
+                <a
+                  className="text-muted"
+                  style={{ paddingLeft: "10px" }}
+                  href=""
+                  target="_blank"
+                >
+                  cxcspanish
+                </a>
+              </li>
+              <li style={liStyles}>
+                <i style={{ color: " #3b5998" }} className="fab fa-facebook" />
+                <a
+                  className="text-muted"
+                  style={{ paddingLeft: "10px" }}
+                  href=""
+                  target="_blank"
+                >
+                  CXC Spanish Gude
+                </a>
+              </li>
+              <li style={liStyles}>
+                <i style={{ color: "#00acee" }} className="fab fa-twitter" />
+                <a
+                  className="text-muted"
+                  style={{ paddingLeft: "10px" }}
+                  href=""
+                  target="_blank"
+                >
+                  cxcspanish
+                </a>
+              </li>
+            </ul>
+          </span>
+        </Card>
+      </BrowserView>
     </Col>
     <Col sm={12} md={4} lg={4} xl={4}>
-      <BetaMessage />
-
       <Card>
         <CardBody>
           <CardTitle>Read on the Go</CardTitle>
