@@ -482,36 +482,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! shards-react */ "shards-react");
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _HeaderImports__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./HeaderImports */ "./components/HeaderImports.js");
-/* harmony import */ var react_clipboard_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-clipboard.js */ "react-clipboard.js");
-/* harmony import */ var react_clipboard_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_clipboard_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-seo-component */ "react-seo-component");
-/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_seo_component__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ "./node_modules/bootstrap/dist/css/bootstrap.css");
-/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! shards-ui/dist/css/shards.css */ "./node_modules/shards-ui/dist/css/shards.css");
-/* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/css/carousel.css */ "./assets/css/carousel.css");
-/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/css/nf-carousel.css */ "./assets/css/nf-carousel.css");
-/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/css/master.css */ "./assets/css/master.css");
-/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_css_master_css__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/js/fontawesome.js */ "./assets/js/fontawesome.js");
-/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/js/mixpanel.js */ "./assets/js/mixpanel.js");
-/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/js/quantcast.js */ "./assets/js/quantcast.js");
-/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/js/facebook.js */ "./assets/js/facebook.js");
-/* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! react-ga */ "react-ga");
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! react-messenger-customer-chat */ "react-messenger-customer-chat");
-/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ "./node_modules/bootstrap/dist/css/bootstrap.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! shards-ui/dist/css/shards.css */ "./node_modules/shards-ui/dist/css/shards.css");
+/* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/css/carousel.css */ "./assets/css/carousel.css");
+/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/css/nf-carousel.css */ "./assets/css/nf-carousel.css");
+/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/css/master.css */ "./assets/css/master.css");
+/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_css_master_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/js/fontawesome.js */ "./assets/js/fontawesome.js");
+/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/js/mixpanel.js */ "./assets/js/mixpanel.js");
+/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/js/quantcast.js */ "./assets/js/quantcast.js");
+/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/js/facebook.js */ "./assets/js/facebook.js");
+/* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-ga */ "react-ga");
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react-messenger-customer-chat */ "react-messenger-customer-chat");
+/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_15__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
 
 
 
@@ -531,13 +525,13 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
  // Google Analytics
 
-react_ga__WEBPACK_IMPORTED_MODULE_16___default.a.initialize("UA-146229442-1"); // Render on client side
+react_ga__WEBPACK_IMPORTED_MODULE_14___default.a.initialize("UA-146229442-1"); // Render on client side
 
 if (false) {}
 
 const Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
 
-const Layout = props => __jsx(Fragment, null, __jsx(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_17___default.a, {
+const Layout = props => __jsx(Fragment, null, __jsx(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_15___default.a, {
   pageId: "<https://cxcspanish.cxcspanish.now.sh>",
   appId: "669007593616991",
   htmlRef: "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
@@ -1116,17 +1110,6 @@ module.exports = require("react-bootstrap");
 
 /***/ }),
 
-/***/ "react-clipboard.js":
-/*!*************************************!*\
-  !*** external "react-clipboard.js" ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-clipboard.js");
-
-/***/ }),
-
 /***/ "react-collapsible":
 /*!************************************!*\
   !*** external "react-collapsible" ***!
@@ -1201,17 +1184,6 @@ module.exports = require("react-lazyload");
 /***/ (function(module, exports) {
 
 module.exports = require("react-messenger-customer-chat");
-
-/***/ }),
-
-/***/ "react-seo-component":
-/*!**************************************!*\
-  !*** external "react-seo-component" ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-seo-component");
 
 /***/ }),
 

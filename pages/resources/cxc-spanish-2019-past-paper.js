@@ -13,14 +13,13 @@ import {
   Button,
   Alert
 } from "shards-react";
+import SEO from "react-seo-component";
 
 import PDFFile from "../../common/PDFFile";
 // Layout
 import Layout from "../../components/Layout";
 import UsefulEssentials from "../topics/content/ltr-wri/UsefulEssentials";
 import Exercises from "../topics/content/ltr-wri/Exercises";
-
-import Head from "next/head";
 
 // Style for the onft icons
 const liStyles = {
@@ -39,18 +38,19 @@ const ulStyles = {
 
 const PastPaper2019 = props => (
   <Layout>
-    <Head>
-      <title>CXC Spansih 2019 Past Paper | CXC Spanish Guide</title>
-      <meta
-        name="og:title"
-        content="CXC Spansih 2019 Past Paper |  CXC Spanish Guide"
-      />
-      <meta name="og:site_name" content="CXC Spanish Online" />
-      <meta
-        name="description"
-        content="Get the CXC Spansih 2019 past paper in PDF format for free, along with the offical past paper booklet"
-      />
-    </Head>
+    <SEO
+      title={"CXC Spanish 2019 Past Paper |  CXC Spanish Guide"}
+      description={
+        "Get the CXC Spanish 2019 past paper in PDF format for free, along with the offical past paper booklet"
+      }
+      pathname={""}
+      siteLanguage={"en"}
+      twitterUsername={"_rxheem"}
+      author={"CXC Spanish Online"}
+      article={true}
+      publishedDate={"Jan 13, 2020"}
+      modifiedDate={"Jan 13, 2020"}
+    />
     <Container>
       <Breadcrumb>
         <BreadcrumbItem>

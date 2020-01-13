@@ -17,6 +17,13 @@ import {
 } from "shards-react";
 import Head from "next/head";
 import SEO from "react-seo-component";
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile
+} from "react-device-detect";
+import Img from "react-image";
 
 // Layout
 import Layout from "../components/Layout";
@@ -54,400 +61,52 @@ class Guide extends React.Component {
             <Card>
               <CardBody>
                 <CardTitle>Guides</CardTitle>
-                <br />
+
                 <p>
                   Our guides are designed to help you master a wide range of
-                  topics in Spansih, from how to use online translators to
-                  learning hot to use 'por' and 'para' and much more.
+                  topics in Spanish.
                 </p>
+
+                <MobileView>
+                  <Img
+                    style={{ height: "200px", width: "100%" }}
+                    src={[
+                      "https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+                      "",
+                      ""
+                    ]}
+                    alt=""
+                  />
+                </MobileView>
+
+                <BrowserView>
+                  <Row>
+                    <Col sm={6} md={6} lg={6}>
+                      <Img
+                        style={{ height: "200px", width: "100%" }}
+                        src={[
+                          "https://images.unsplash.com/photo-1568650136602-ded24b86c5af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+                          "",
+                          ""
+                        ]}
+                        alt=""
+                      />
+                    </Col>
+                    <Col sm={6} md={6} lg={6}>
+                      <Img
+                        style={{ height: "200px", width: "100%" }}
+                        src={[
+                          "https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+                          "",
+                          ""
+                        ]}
+                        alt=""
+                      />
+                    </Col>
+                  </Row>
+                </BrowserView>
               </CardBody>
             </Card>
-
-            <br />
-            <Row>
-              <Col sm={6} md={6} lg={6} xl={6}>
-                <Card>
-                  <CardBody>
-                    <CardTitle>Verbs and Tenses</CardTitle>
-
-                    <br />
-                    <ul style={ulStyles}>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "orange" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          When to Use the Imperfect Tense
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          'Ser' vs 'Estar'
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          Spanish Verb Types
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          How to use 'Gustar'
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          The Imperfect Subjunctive
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          'Ser' vs. 'Estar'
-                        </a>
-                      </li>
-                    </ul>
-                  </CardBody>
-                </Card>
-
-                <br />
-                <Card>
-                  <CardBody>
-                    <CardTitle>Fun</CardTitle>
-                    <br />
-
-                    <ul style={ulStyles}>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "orange" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          Flirting in Spanish
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          Texting in Spanish
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          Apps that Teach You Spanish
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          50 Most Common Verbs in Spanish
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          Traditional Spanish Food
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          Funny Spanish Jokes
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          Tongue Twisters in Spanish
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          5 Mistakes to Avoid When Learning Spanish
-                        </a>
-                      </li>
-                    </ul>
-                  </CardBody>
-                </Card>
-
-                <br />
-                <Card>
-                  <CardBody>
-                    <CardTitle>Weird</CardTitle>
-                    <br />
-                    <ul style={ulStyles}>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "orange" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}></a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}></a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}></a>
-                      </li>
-                    </ul>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col sm={6} md={6} lg={6} xl={6}>
-                <br className="d-md-block" />
-                <Card>
-                  <CardBody>
-                    <CardTitle>Essentials</CardTitle>
-
-                    <br />
-                    <ul style={ulStyles}>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "orange" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          The Spanish Alphabet
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          Adverbs
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          Genders in Spanish
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          'Por' vs. 'Para'
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          Pornunciation Tips
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          The Personal ‘a’ in Spanish
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          Articles in Spanish
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a
-                          href="./guides/study-tips"
-                          style={{ paddingLeft: "10px" }}
-                        >
-                          Study Tips
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          'Tú' vs. 'Usted'
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          Dates in Spanish
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          Adjectives in Spanish
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          Oral Exercises
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          At the Airport
-                        </a>
-                      </li>
-                    </ul>
-                  </CardBody>
-                </Card>
-
-                <br />
-                <Card>
-                  <CardBody>
-                    <CardTitle>How To Guides</CardTitle>
-                    <br />
-
-                    <ul style={ulStyles}>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "orange" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          How to Order Food in Spanish
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          How to Remember Verb Conjugations
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          How to Ask for Directions in Spanish
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          Talking About Locations in Spanish
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          Improve Spanish Listening Skills
-                        </a>
-                      </li>
-                      <li style={liStyle}>
-                        <i
-                          style={{ color: "" }}
-                          className="fas fa-angle-double-right"
-                        ></i>
-                        <a href="" style={{ paddingLeft: "10px" }}>
-                          How to Use Online Translators
-                        </a>
-                      </li>
-                    </ul>
-                  </CardBody>
-                </Card>
-              </Col>
-            </Row>
-
-            <br />
-            <Row>
-              <Col sm={6} md={6} lg={6} xl={6}></Col>
-              <Col sm={6} md={6} lg={6} xl={6}></Col>
-            </Row>
           </GuideLayout>
         </Container>
       </Layout>

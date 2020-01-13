@@ -2,8 +2,6 @@ import NavbarComponent from "./NavbarComponent";
 import Footer from "./Footer";
 import { Card, Container, Alert } from "shards-react";
 import HeaderImports from "./HeaderImports";
-import Clipboard from "react-clipboard.js";
-import SEO from "react-seo-component";
 
 // Assets
 import "bootstrap/dist/css/bootstrap.css";

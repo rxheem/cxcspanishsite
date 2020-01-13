@@ -518,36 +518,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! shards-react */ "shards-react");
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _HeaderImports__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./HeaderImports */ "./components/HeaderImports.js");
-/* harmony import */ var react_clipboard_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-clipboard.js */ "react-clipboard.js");
-/* harmony import */ var react_clipboard_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_clipboard_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-seo-component */ "react-seo-component");
-/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_seo_component__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ "./node_modules/bootstrap/dist/css/bootstrap.css");
-/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! shards-ui/dist/css/shards.css */ "./node_modules/shards-ui/dist/css/shards.css");
-/* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/css/carousel.css */ "./assets/css/carousel.css");
-/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/css/nf-carousel.css */ "./assets/css/nf-carousel.css");
-/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/css/master.css */ "./assets/css/master.css");
-/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_css_master_css__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/js/fontawesome.js */ "./assets/js/fontawesome.js");
-/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/js/mixpanel.js */ "./assets/js/mixpanel.js");
-/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/js/quantcast.js */ "./assets/js/quantcast.js");
-/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/js/facebook.js */ "./assets/js/facebook.js");
-/* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! react-ga */ "react-ga");
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! react-messenger-customer-chat */ "react-messenger-customer-chat");
-/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ "./node_modules/bootstrap/dist/css/bootstrap.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! shards-ui/dist/css/shards.css */ "./node_modules/shards-ui/dist/css/shards.css");
+/* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/css/carousel.css */ "./assets/css/carousel.css");
+/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/css/nf-carousel.css */ "./assets/css/nf-carousel.css");
+/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/css/master.css */ "./assets/css/master.css");
+/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_css_master_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/js/fontawesome.js */ "./assets/js/fontawesome.js");
+/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/js/mixpanel.js */ "./assets/js/mixpanel.js");
+/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/js/quantcast.js */ "./assets/js/quantcast.js");
+/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/js/facebook.js */ "./assets/js/facebook.js");
+/* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-ga */ "react-ga");
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react-messenger-customer-chat */ "react-messenger-customer-chat");
+/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_15__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
 
 
 
@@ -567,13 +561,13 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
  // Google Analytics
 
-react_ga__WEBPACK_IMPORTED_MODULE_16___default.a.initialize("UA-146229442-1"); // Render on client side
+react_ga__WEBPACK_IMPORTED_MODULE_14___default.a.initialize("UA-146229442-1"); // Render on client side
 
 if (false) {}
 
 const Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
 
-const Layout = props => __jsx(Fragment, null, __jsx(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_17___default.a, {
+const Layout = props => __jsx(Fragment, null, __jsx(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_15___default.a, {
   pageId: "<https://cxcspanish.cxcspanish.now.sh>",
   appId: "669007593616991",
   htmlRef: "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
@@ -894,10 +888,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-seo-component */ "react-seo-component");
 /* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_seo_component__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _guides_GuideLayout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./guides/GuideLayout */ "./pages/guides/GuideLayout.js");
+/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-device-detect */ "react-device-detect");
+/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-image */ "react-image");
+/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _guides_GuideLayout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./guides/GuideLayout */ "./pages/guides/GuideLayout.js");
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
 
 
  // Layout
@@ -914,7 +914,7 @@ const liStyle = {
 
 class Guide extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
-    return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, __jsx("title", null, "Guides | CXC Spanish Guide"), __jsx("meta", {
+    return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_6__["default"], null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, __jsx("title", null, "Guides | CXC Spanish Guide"), __jsx("meta", {
       name: "og:title",
       content: "Guides |  CXC Spanish Guide"
     }), __jsx("meta", {
@@ -927,471 +927,36 @@ class Guide extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/"
     }, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], {
       active: true
-    }, "Guides")), __jsx(_guides_GuideLayout__WEBPACK_IMPORTED_MODULE_5__["default"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Guides"), __jsx("br", null), __jsx("p", null, "Our guides are designed to help you master a wide range of topics in Spansih, from how to use online translators to learning hot to use 'por' and 'para' and much more."))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    }, "Guides")), __jsx(_guides_GuideLayout__WEBPACK_IMPORTED_MODULE_7__["default"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Guides"), __jsx("p", null, "Our guides are designed to help you master a wide range of topics in Spanish."), __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_4__["MobileView"], null, __jsx(react_image__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      style: {
+        height: "200px",
+        width: "100%"
+      },
+      src: ["https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80", "", ""],
+      alt: ""
+    })), __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_4__["BrowserView"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
       sm: 6,
       md: 6,
-      lg: 6,
-      xl: 6
-    }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Verbs and Tenses"), __jsx("br", null), __jsx("ul", {
-      style: ulStyles
-    }, __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
+      lg: 6
+    }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_5___default.a, {
       style: {
-        color: "orange"
+        height: "200px",
+        width: "100%"
       },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "When to Use the Imperfect Tense")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "'Ser' vs 'Estar'")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Spanish Verb Types")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "How to use 'Gustar'")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "The Imperfect Subjunctive")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "'Ser' vs. 'Estar'"))))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Fun"), __jsx("br", null), __jsx("ul", {
-      style: ulStyles
-    }, __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: "orange"
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Flirting in Spanish")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Texting in Spanish")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Apps that Teach You Spanish")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "50 Most Common Verbs in Spanish")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Traditional Spanish Food")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Funny Spanish Jokes")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Tongue Twisters in Spanish")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "5 Mistakes to Avoid When Learning Spanish"))))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Weird"), __jsx("br", null), __jsx("ul", {
-      style: ulStyles
-    }, __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: "orange"
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    })), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    })), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    })))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+      src: ["https://images.unsplash.com/photo-1568650136602-ded24b86c5af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80", "", ""],
+      alt: ""
+    })), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
       sm: 6,
       md: 6,
-      lg: 6,
-      xl: 6
-    }, __jsx("br", {
-      className: "d-md-block"
-    }), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Essentials"), __jsx("br", null), __jsx("ul", {
-      style: ulStyles
-    }, __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
+      lg: 6
+    }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_5___default.a, {
       style: {
-        color: "orange"
+        height: "200px",
+        width: "100%"
       },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "The Spanish Alphabet")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Adverbs")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Genders in Spanish")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "'Por' vs. 'Para'")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Pornunciation Tips")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "The Personal \u2018a\u2019 in Spanish")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Articles in Spanish")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "./guides/study-tips",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Study Tips")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "'T\xFA' vs. 'Usted'")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Dates in Spanish")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Adjectives in Spanish")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Oral Exercises")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "At the Airport"))))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "How To Guides"), __jsx("br", null), __jsx("ul", {
-      style: ulStyles
-    }, __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: "orange"
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "How to Order Food in Spanish")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "How to Remember Verb Conjugations")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "How to Ask for Directions in Spanish")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Talking About Locations in Spanish")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "Improve Spanish Listening Skills")), __jsx("li", {
-      style: liStyle
-    }, __jsx("i", {
-      style: {
-        color: ""
-      },
-      className: "fas fa-angle-double-right"
-    }), __jsx("a", {
-      href: "",
-      style: {
-        paddingLeft: "10px"
-      }
-    }, "How to Use Online Translators"))))))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 6,
-      md: 6,
-      lg: 6,
-      xl: 6
-    }), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 6,
-      md: 6,
-      lg: 6,
-      xl: 6
-    })))));
+      src: ["https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80", "", ""],
+      alt: ""
+    })))))))));
   }
 
 }
@@ -1686,17 +1251,6 @@ module.exports = require("react-bootstrap");
 
 /***/ }),
 
-/***/ "react-clipboard.js":
-/*!*************************************!*\
-  !*** external "react-clipboard.js" ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-clipboard.js");
-
-/***/ }),
-
 /***/ "react-device-detect":
 /*!**************************************!*\
   !*** external "react-device-detect" ***!
@@ -1727,6 +1281,17 @@ module.exports = require("react-fontawesome");
 /***/ (function(module, exports) {
 
 module.exports = require("react-ga");
+
+/***/ }),
+
+/***/ "react-image":
+/*!******************************!*\
+  !*** external "react-image" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-image");
 
 /***/ }),
 
