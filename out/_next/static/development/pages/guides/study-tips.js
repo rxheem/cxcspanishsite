@@ -360,7 +360,7 @@ var BetaMessage = function BetaMessage(props) {
   return __jsx(_Message__WEBPACK_IMPORTED_MODULE_1__["default"], {
     title: "Important Reminder",
     time: "just now",
-    message: "Please note that this is the beta version of the website and some content have been disabled or may not work a should. "
+    message: "Please note that this is the beta version of the website and some contents have been disabled or may not work properly. "
   });
 };
 
@@ -386,9 +386,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var Message = function Message(props) {
   return __jsx("div", null, __jsx("br", null), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Toast"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Toast"].Header, null, __jsx("img", {
-    src: "holder.js/20x20?text=%20",
+    src: "https://cdn2.iconfinder.com/data/icons/mix-color-5/100/Mix_color_5__info-512.png",
     className: "rounded mr-2",
-    alt: ""
+    alt: "alert icon",
+    style: {
+      height: "20px"
+    }
   }), __jsx("strong", {
     className: "mr-auto"
   }, props.title), __jsx("small", null, props.time)), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Toast"].Body, null, props.message)), __jsx("br", null));
@@ -468,6 +471,9 @@ var Footer = function Footer(props) {
     className: "flex-column"
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     className: "text-white",
+    href: "/guides/study-tips"
+  }, "Study Tips"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+    className: "text-white",
     href: "/home"
   }, "Pronunciation Tips"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     className: "text-white",
@@ -521,10 +527,10 @@ var Footer = function Footer(props) {
     href: "/"
   }, "Oral Exercise"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     className: "text-white",
-    href: "/home"
+    href: "/topics/directed-situations"
   }, "Directed Situation"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     className: "text-white",
-    href: "/"
+    href: "/topics/letter-writing"
   }, "Letter Writing"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     className: "text-white",
     href: "/"
@@ -752,7 +758,15 @@ var Layout = function Layout(props) {
     "class": "fb-customerchat",
     attribution: "setup_tool",
     page_id: "105703077445673"
-  }), __jsx(_HeaderImports__WEBPACK_IMPORTED_MODULE_3__["default"], null), __jsx(_NavbarComponent__WEBPACK_IMPORTED_MODULE_0__["default"], null), __jsx("br", null), __jsx(Fragment, null, props.children), __jsx("br", null), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_1__["default"], null));
+  }), __jsx(_HeaderImports__WEBPACK_IMPORTED_MODULE_3__["default"], null), __jsx(_NavbarComponent__WEBPACK_IMPORTED_MODULE_0__["default"], null), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_2__["Alert"], {
+    theme: "danger"
+  }, "Please note that this is the beta version of the website and some contents have been disabled or may not work properly. -", " ", __jsx("a", {
+    className: "alert-link",
+    href: "/FAQ"
+  }, "See FAQ"), __jsx("br", null), "Please report all errors to", " ", __jsx("a", {
+    className: "alert-link",
+    href: "mailto:hola@cxcspanish.com"
+  }, "hola@cxcspanish.com")), __jsx("br", null), __jsx(Fragment, null, props.children), __jsx("br", null), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_1__["default"], null));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -923,7 +937,7 @@ function (_React$Component) {
         name: "chalkboard-teacher"
       }), "Tutoring")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
         className: "text-white",
-        href: "/faq"
+        href: "/FAQ"
       }, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_15___default.a, {
         style: {
           padding: "7px"
@@ -46197,7 +46211,19 @@ var StudyTips = function StudyTips(props) {
     href: "/guide"
   }, "Guides")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], {
     active: true
-  }, "Study Tips")), __jsx(_GuideLayout__WEBPACK_IMPORTED_MODULE_4__["default"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Spanish Study Tips"), __jsx("br", null), __jsx("p", null, "Learning another language can be challenging if you do not approach it right. Spanish is one of the fastest-spreading languages in the world and is often listed as among the easiest for English speakers to learn. With this in mind, why aren\u2019t there more people fluent in Spanish?"), __jsx("br", null), __jsx("h5", null, "Practice with a native"), __jsx("p", null, "When learning another language, it is always recommended that you practice with native speakers. Speaking with natives allows you to learn the authentic and practical use of the vocabulary, and exposes you to more idioms, slang, dialect and a generally more extensive vocabulary than with a non-native speaker."), __jsx("br", null), __jsx("h5", null, "Change the language on all your devices to Spanish"), __jsx("br", null), __jsx("br", null), __jsx("h5", null, "Mimic your teacher and other natives' accent and pronunciation"), __jsx("br", null), __jsx("br", null), __jsx("h5", null, "Watch telenovelas"), __jsx("br", null), __jsx("br", null), __jsx("h5", null, "Be patient"), __jsx("br", null), __jsx("br", null), __jsx("h5", null, "Test yourself with Spanish flashcards"))))));
+  }, "Study Tips")), __jsx(_GuideLayout__WEBPACK_IMPORTED_MODULE_4__["default"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Spanish Study Tips"), __jsx("br", null), __jsx("p", null, "Learning another language can be challenging if you do not approach it right. Spanish is one of the fastest-spreading languages in the world and is often listed as among the easiest for English speakers to learn. Here are our best tips to study and achieve fluency in Spanish."), __jsx("br", null), __jsx("h5", {
+    className: "text-info"
+  }, "Practice with a native"), __jsx("p", null, "When learning another language, it is always recommended that you practice with native speakers. Speaking with natives allows you to learn the authentic and practical use of the vocabulary, and exposes you to more idioms, slang, dialect and a generally more extensive vocabulary than with a non-native speaker."), __jsx("br", null), __jsx("h5", {
+    className: "text-info"
+  }, "Change the language on all your devices to Spanish"), __jsx("br", null), __jsx("br", null), __jsx("h5", {
+    className: "text-info"
+  }, "Mimic your teacher and other natives' accent and pronunciation"), __jsx("br", null), __jsx("br", null), __jsx("h5", {
+    className: "text-info"
+  }, "Watch telenovelas"), __jsx("br", null), __jsx("br", null), __jsx("h5", {
+    className: "text-info"
+  }, "Be patient"), __jsx("br", null), __jsx("br", null), __jsx("h5", {
+    className: "text-info"
+  }, "Test yourself with Spanish flashcards"))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (StudyTips);
