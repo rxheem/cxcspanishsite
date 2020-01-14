@@ -15,6 +15,7 @@ import "../assets/js/fontawesome.js";
 import "../assets/js/mixpanel.js";
 import "../assets/js/quantcast.js";
 import "../assets/js/facebook.js";
+import "../assets/js/facebook.js";
 
 // Other
 import ReactGA from "react-ga";
@@ -50,26 +51,16 @@ const Layout = props => (
       attribution="setup_tool"
       page_id="105703077445673"
     ></div>
-    <HeaderImports />
-    <NavbarComponent />
-    <Alert className="text-center" theme="danger">
-      Please note that this is the beta version of the website and some contents
-      have been disabled or may not work properly.
-      <br />
-      <a className="alert-link" href="/FAQ">
-        Read our FAQ
-      </a>
-      <br />
-      Please report all errors and blank pages to{" "}
-      <a className="alert-link" href="mailto:hola@cxcspanish.com">
-        hola@cxcspanish.com
-      </a>
-    </Alert>
-    <br />
 
-    <Fragment>{props.children}</Fragment>
+    <NavbarComponent />
+
+    <br />
+    <main role="main" id="main" className="main">
+      <Fragment>{props.children}</Fragment>
+    </main>
     <br />
     <Footer />
+    <HeaderImports />
   </Fragment>
 );
 

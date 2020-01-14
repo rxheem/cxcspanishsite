@@ -26,18 +26,19 @@ import Head from "next/head";
 const PastPaper2015 = props => (
   <Layout>
     <SEO
-      title={"CXC Spanish 2015 Past Paper |  CXC Spanish Guide"}
+      title={"CXC Spanish 2015 Past Paper | CXC Spanish Guide"}
       description={
         "Get the CXC Spanish 2015 past paper in PDF format for free, along with the offical past paper booklet"
       }
       pathname={""}
       siteLanguage={"en"}
       twitterUsername={"_rxheem"}
-      author={"CXC Spanish Online"}
+      author={"Raheem McDonald"}
       article={true}
       publishedDate={"Jan 13, 2020"}
       modifiedDate={"Jan 13, 2020"}
     />
+
     <Container>
       <Breadcrumb>
         <BreadcrumbItem>

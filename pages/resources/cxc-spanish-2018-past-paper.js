@@ -13,6 +13,7 @@ import {
   Button,
   Alert
 } from "shards-react";
+import SEO from "react-seo-component";
 
 import PDFFile from "../../common/PDFFile";
 // Layout
@@ -25,7 +26,7 @@ import Head from "next/head";
 const PastPaper2018 = props => (
   <Layout>
     <SEO
-      title={"CXC Spanish 2018 Past Paper |  CXC Spanish Guide"}
+      title={"CXC Spanish 2018 Past Paper | CXC Spanish Guide"}
       description={
         "Get the CXC Spanish 2018 past paper in PDF format for free, along with the offical past paper booklet"
       }

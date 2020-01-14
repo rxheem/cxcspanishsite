@@ -1,12 +1,141 @@
-import { Container, NavLink } from "shards-react";
+import { Container, NavLink, FormInput } from "shards-react";
 import { Navbar, Nav, NavItem, Row, Col } from "react-bootstrap";
+import YouTube from "react-youtube";
 
 const Footer = props => (
   <footer>
-    <div className="bg-dark">
+    <br />
+    <br />
+    <div className="bg-light">
+      <br />
+      <br />
       <Container>
+        <Row>
+          <Col sm={12} md={4} lg={4} xl={4}>
+            <h6 className="text-dark">Read Our Short Stories</h6>
+            <Nav className="flex-column">
+              <Nav.Link className="text-dark" href="/stories/garbancito">
+                Garbancito
+              </Nav.Link>
+              <Nav.Link className="text-dark" href="/stories/">
+                El Amigo Fiel
+              </Nav.Link>
+              <Nav.Link className="text-dark" href="/stories/">
+                La Llorona
+              </Nav.Link>
+              <Nav.Link className="text-dark" href="/stories/">
+                Estrellita de Oro
+              </Nav.Link>
+              <Nav.Link className="text-dark" href="/stories/">
+                La Muñeca Menor
+              </Nav.Link>
+              <Nav.Link href="/short-stories">View all...</Nav.Link>
+            </Nav>
+          </Col>
+          <Col sm={12} md={4} lg={4} xl={4}>
+            <br className="d-sm-none" />
+            <h6 className="text-dark">Past Papers</h6>
+            <Nav style={{ marginLeft: "-15px" }}>
+              <Nav.Link
+                downloadable
+                target="_blank"
+                href="https://drive.google.com/file/d/19LPNYdP053Ve3WRtHezISV3M3R-susHK/view"
+              >
+                CSEC
+              </Nav.Link>
+              <Nav.Link
+                target="_blank"
+                href="https://drive.google.com/file/d/1DGTAPLcjmPG21tXmUKa9ZLvLh_IzxAcM/view?usp=sharing"
+              >
+                CAPE
+              </Nav.Link>
+              <Nav.Link
+                target="_blank"
+                href="https://drive.google.com/drive/u/0/folders/1zPeCEOLnKcTIo5QewZL7YJsm7u9gsTI4"
+              >
+                View Archives
+              </Nav.Link>
+            </Nav>
+
+            <br />
+
+            <h6>Mailing List</h6>
+            <p>
+              Subscribe to our mailing list and get free weelkly emails, past
+              papers and exercise booklets.
+            </p>
+
+            <FormInput placeholder="Enter email" />
+          </Col>
+          <Col sm={12} md={4} lg={4} xl={4}>
+            <br className="d-sm-none" />
+            <h6 className="text-dark">Social Media</h6>
+            <Nav>
+              <Nav.Link target="_blank" href="/">
+                <i
+                  style={{ color: " #3b5998" }}
+                  className="fab fa-facebook fa-2x"
+                />
+              </Nav.Link>
+              <Nav.Link target="_blank" href="/">
+                <i
+                  style={{ color: "#8a3ab9" }}
+                  className="fab fa-instagram fa-2x"
+                />
+              </Nav.Link>
+              <Nav.Link target="_blank" href="/">
+                <i
+                  style={{ color: "#00acee" }}
+                  className="fab fa-twitter fa-2x"
+                />
+              </Nav.Link>
+              <Nav.Link target="_blank" href="/">
+                <i
+                  style={{ color: "#c4302b", height: "40px" }}
+                  className="fab fa-youtube fa-2x"
+                ></i>
+              </Nav.Link>
+              <Nav.Link
+                target="_blank"
+                href="https://chat.whatsapp.com/EWpufXW93Y5G5V9BlOqgRF"
+              >
+                <i
+                  style={{ color: "#075E54" }}
+                  className="fab fa-whatsapp fa-2x"
+                ></i>
+              </Nav.Link>
+            </Nav>
+
+            <br />
+            <h6 className="text-dark">Contact Us</h6>
+
+            <Nav style={{ marginLeft: "-15px" }} className="flex-column">
+              <Nav.Link href="mailto:hola@cxcspanish.com">
+                <i style={{ color: "grey" }} className="fas fa-envelope"></i>
+                <span style={{ paddingLeft: "10px" }}>hola@cxcspanish.com</span>
+              </Nav.Link>
+              <Nav.Link href="mailto:holacxcspanish@gmail.com">
+                <i style={{ color: "grey" }} className="fas fa-envelope"></i>
+                <span style={{ paddingLeft: "10px" }}>
+                  holacxcspanish@gmail.com
+                </span>
+              </Nav.Link>
+              <Nav.Link href="/">
+                <i style={{ color: "green" }} className="fas fa-phone"></i>
+                <span style={{ paddingLeft: "10px", color: "black" }}>
+                  (876) 565-3942
+                </span>
+              </Nav.Link>
+            </Nav>
+          </Col>
+        </Row>
         <br />
         <br />
+      </Container>
+    </div>
+    <div className="bg-dark">
+      <br /> <br />
+      <Container>
         <Row>
           <Col sm={12} md={4} lg={4} xl={4}>
             <h6 className="text-white">Popular Guides</h6>

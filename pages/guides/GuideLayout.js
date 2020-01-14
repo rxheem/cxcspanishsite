@@ -47,7 +47,6 @@ const GuideLayout = props => (
   <Row>
     <Col sm={12} md={8} lg={8} xl={8}>
       {props.children}
-
       <BrowserView>
         <br />
         <Card>

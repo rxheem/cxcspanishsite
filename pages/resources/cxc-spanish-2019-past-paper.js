@@ -14,6 +14,7 @@ import {
   Alert
 } from "shards-react";
 import SEO from "react-seo-component";
+import Head from "next/head";
 
 import PDFFile from "../../common/PDFFile";
 // Layout
@@ -39,18 +40,19 @@ const ulStyles = {
 const PastPaper2019 = props => (
   <Layout>
     <SEO
-      title={"CXC Spanish 2019 Past Paper |  CXC Spanish Guide"}
+      title={"CXC Spanish 2019 Past Paper | CXC Spanish Guide"}
       description={
         "Get the CXC Spanish 2019 past paper in PDF format for free, along with the offical past paper booklet"
       }
       pathname={""}
       siteLanguage={"en"}
       twitterUsername={"_rxheem"}
-      author={"CXC Spanish Online"}
+      author={"Raheem McDonald"}
       article={true}
       publishedDate={"Jan 13, 2020"}
       modifiedDate={"Jan 13, 2020"}
     />
+
     <Container>
       <Breadcrumb>
         <BreadcrumbItem>

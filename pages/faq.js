@@ -45,6 +45,7 @@ const FAQ = props => (
         content="Here we answer any question you may have about CXC Spansih Online. If you don't see your question, send us an inquiry at hola@cxcspanish.com"
       />
     </Head>
+
     <Container>
       <Breadcrumb>
         <BreadcrumbItem>

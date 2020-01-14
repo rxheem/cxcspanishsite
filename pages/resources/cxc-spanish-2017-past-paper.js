@@ -26,11 +26,11 @@ import Head from "next/head";
 const PastPaper2017 = props => (
   <Layout>
     <SEO
-      title={"CXC Spanish 2017 Past Paper |  CXC Spanish Guide"}
-      description={
-        "Get the CXC Spansih 2017 past paper in PDF format for free, along with the offical past paper booklet"
-      }
+      title={"CXC Spanish 2017 Past Paper | CXC Spanish Guide"}
       pathname={""}
+      description={
+        "Get the CXC Spanish 2017 past paper in PDF format for free, along with the offical past paper booklet"
+      }
       siteLanguage={"en"}
       twitterUsername={"_rxheem"}
       author={"Raheem McDonald"}

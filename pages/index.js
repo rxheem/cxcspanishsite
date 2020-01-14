@@ -19,6 +19,7 @@ import SEO from "react-seo-component";
 // Home components
 import HomeCarousel from "../home/HomeCarousel";
 import Marketing from "../home/Marketing";
+import Papers from "../home/Papers";
 import MailingListSubscribe from "../home/MailingListSubscribe";
 
 // Layout
@@ -27,16 +28,6 @@ import Message from "../common/Message";
 
 const Index = props => (
   <Layout>
-    <Head>
-      <title></title>
-      <meta
-        name="og:title"
-        content="CXC Spanish | Guide, Past Papers and Exercises"
-      />
-      <meta name="og:site_name" content="CXC Spanish Online" />
-      <meta name="description" content="" />
-    </Head>
-
     <SEO
       title="CXC Spanish | Guide, Past Papers and Exercises"
       description={
@@ -58,9 +49,9 @@ const Index = props => (
         </BreadcrumbItem>
       </Breadcrumb>
 
-      <HomeCarousel />
       <br />
       <Marketing />
+      <Papers />
     </Container>
   </Layout>
 );

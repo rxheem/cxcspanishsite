@@ -46,95 +46,101 @@ class NavbarComponent extends React.Component {
   }
   render() {
     return (
-      <Navbar type="dark" theme="primary" expand="md">
-        <NavbarBrand href="/">{this.state.title}</NavbarBrand>
-        <NavbarToggler onClick={this.toggleNavbar} />
+      <header>
+        <Navbar type="dark" theme="primary" expand="md">
+          <NavbarBrand href="/">{this.state.title}</NavbarBrand>
+          <NavbarToggler onClick={this.toggleNavbar} />
 
-        <Collapse open={this.state.collapseOpen} navbar>
-          <Nav navbar>
-            <NavItem>
-              <NavLink className="text-white" href="/guide">
-                Guides
-              </NavLink>
-            </NavItem>
+          <Collapse open={this.state.collapseOpen} navbar>
+            <Nav navbar>
+              <NavItem>
+                <NavLink className="text-white" href="/guide">
+                  Guides
+                </NavLink>
+              </NavItem>
 
-            {/* Exam Topics */}
-            <Dropdown
-              open={this.state.dropdownOpen}
-              toggle={this.toggleDropdown}
-            >
-              <DropdownToggle className="text-white" nav caret>
-                Exam Topics
-              </DropdownToggle>
-              <DropdownMenu>
-                <DropdownItem href="/topics/directed-situations">
-                  Directed Situations
-                </DropdownItem>
-                <DropdownItem href="/topics/letter-writing">
-                  Letter Writing
-                </DropdownItem>
-                <DropdownItem href="/topics/">Composition</DropdownItem>
-                <DropdownItem href="/topics/">
-                  Contextual Announcements
-                </DropdownItem>
-                <DropdownItem href="/topics/">Contextual Dialogue</DropdownItem>
-                <DropdownItem href="/topics/">
-                  Reading Comprehension
-                </DropdownItem>
-                <DropdownItem href="/topics/">Directed Situations</DropdownItem>
-              </DropdownMenu>
-            </Dropdown>
-            <NavItem>
-              <NavLink className="text-white" href="/verb-tenses">
-                Verb Tenses
-              </NavLink>
-            </NavItem>
+              {/* Exam Topics */}
+              <Dropdown
+                open={this.state.dropdownOpen}
+                toggle={this.toggleDropdown}
+              >
+                <DropdownToggle className="text-white" nav caret>
+                  Exam Topics
+                </DropdownToggle>
+                <DropdownMenu>
+                  <DropdownItem href="/topics/directed-situations">
+                    Directed Situations
+                  </DropdownItem>
+                  <DropdownItem href="/topics/letter-writing">
+                    Letter Writing
+                  </DropdownItem>
+                  <DropdownItem href="/topics/">Composition</DropdownItem>
+                  <DropdownItem href="/topics/">
+                    Contextual Announcements
+                  </DropdownItem>
+                  <DropdownItem href="/topics/">
+                    Contextual Dialogue
+                  </DropdownItem>
+                  <DropdownItem href="/topics/">
+                    Reading Comprehension
+                  </DropdownItem>
+                  <DropdownItem href="/topics/">
+                    Directed Situations
+                  </DropdownItem>
+                </DropdownMenu>
+              </Dropdown>
+              <NavItem>
+                <NavLink className="text-white" href="/verb-tenses">
+                  Verb Tenses
+                </NavLink>
+              </NavItem>
 
-            <NavItem>
-              <NavLink className="text-white" href="/resources">
-                Resources
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink className="text-white" href="/quiz">
-                Quiz
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink className="text-white" href="/forum">
-                Forum
-              </NavLink>
-            </NavItem>
-          </Nav>
+              <NavItem>
+                <NavLink className="text-white" href="/resources">
+                  Resources
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="text-white" href="/quiz">
+                  Quiz
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="text-white" href="/forum">
+                  Forum
+                </NavLink>
+              </NavItem>
+            </Nav>
 
-          <Nav navbar className="ml-auto">
-            <NavItem>
-              <NavLink className="text-white" href="/about-us">
-                <FA style={{ padding: "7px" }} name="users" />
-                About Us
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink className="text-white" href="/tutoring">
-                <FA style={{ padding: "7px" }} name="chalkboard-teacher" />
-                Tutoring
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink className="text-white" href="/FAQ">
-                <FA style={{ padding: "7px" }} name="comment" />
-                FAQ
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink className="text-white" href="/contact">
-                <FA style={{ padding: "7px" }} name="id-badge" />
-                Contact
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
+            <Nav navbar className="ml-auto">
+              <NavItem>
+                <NavLink className="text-white" href="/about-us">
+                  <FA style={{ padding: "7px" }} name="users" />
+                  About Us
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="text-white" href="/tutoring">
+                  <FA style={{ padding: "7px" }} name="chalkboard-teacher" />
+                  Tutoring
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="text-white" href="/FAQ">
+                  <FA style={{ padding: "7px" }} name="comment" />
+                  FAQ
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="text-white" href="/contact">
+                  <FA style={{ padding: "7px" }} name="id-badge" />
+                  Contact
+                </NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </header>
     );
   }
 }

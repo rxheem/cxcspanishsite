@@ -1,6 +1,19 @@
 
-/* MARKETING CONTENT
--------------------------------------------------- */
+a {
+  color: #0084cf;
+}
+
+.ul-st {
+  margin-left: -15px;
+}
+
+.ul-st li {
+  padding-bottom: 15px;
+}
+
+.ul-st li a {
+  color: #0084cf;
+}
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {

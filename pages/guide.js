@@ -13,16 +13,17 @@ import {
   Button,
   Form,
   FormInput,
-  FormGroup
+  FormGroup,
+  Collapse
 } from "shards-react";
 import Head from "next/head";
-import SEO from "react-seo-component";
 import {
   BrowserView,
   MobileView,
   isBrowser,
   isMobile
 } from "react-device-detect";
+import SEO from "react-seo-component";
 import Img from "react-image";
 
 // Layout
@@ -37,6 +38,12 @@ const ulStyles = {
 const liStyle = { paddingBottom: "15px" };
 
 class Guide extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { collapse: false };
+  }
+
   render() {
     return (
       <Layout>
@@ -64,7 +71,8 @@ class Guide extends React.Component {
 
                 <p>
                   Our guides are designed to help you master a wide range of
-                  topics in Spanish.
+                  topics in Spanish. We cover basic topis from numbers and the
+                  alphabet, to verb tenses and and fun topics
                 </p>
 
                 <MobileView>
@@ -107,8 +115,192 @@ class Guide extends React.Component {
                 </BrowserView>
               </CardBody>
             </Card>
+
+            <br />
+            <Card>
+              <CardBody>
+                <CardTitle>Essentials</CardTitle>
+                <p>
+                  These essential guides will help you to master the basics
+                  elements of Spanish, and serves as building blocks to help you
+                  to build on your fluency.{" "}
+                </p>
+
+                <br />
+                <Row>
+                  <Col sm={6} md={6} lg={6} xl={6}>
+                    <ul className="ul-st">
+                      <li>
+                        <a preload href="/guides/study-tips">
+                          Study Tips
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/guides/">The Spanish Alphabet</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Genders in Spanish</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Pronunciation Tips</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Dates in Spanish</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Adjectives in Spanish</a>
+                      </li>
+                    </ul>
+                  </Col>
+                  <Col sm={6} md={6} lg={6} xl={6}>
+                    <ul className="ul-st">
+                      <li>
+                        <a href="/guides/">'Por' vs. 'Para'</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">At the Airport</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Oral Exercises</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Articles in Spanish</a>
+                      </li>
+                    </ul>
+                  </Col>
+                </Row>
+              </CardBody>
+              <CardFooter>
+                <small className="text-danger">
+                  Not all articles are completed. We'll let you know when we're
+                  done
+                </small>
+              </CardFooter>
+            </Card>
+
+            <br />
+            <Card>
+              <CardBody>
+                <CardTitle>Verbs and Tenses</CardTitle>
+              </CardBody>
+              <CardFooter>
+                <small className="text-danger">
+                  Not all articles are completed. We'll let you know when we're
+                  done
+                </small>
+              </CardFooter>
+            </Card>
+
+            <br />
+            <Card>
+              <CardBody>
+                <CardTitle>How To</CardTitle>
+
+                <br />
+                <Row>
+                  <Col sm={12} md={6} lg={6} xl={6}></Col>
+
+                  <Col sm={12} md={6} lg={6} xl={6}>
+                    <ul className="ul-st">
+                      <li>
+                        <a href="/guides/">How to Order Food in Spanish</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">How to Remember Verb Conjugations</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">
+                          How to Ask for Directions in Spanish
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/guides/">
+                          How to Talk About Locations in Spanish
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/guides/">
+                          How to Improve Spanish Listening Skills
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/guides/">How to Use Online Translators</a>
+                      </li>
+                    </ul>
+                  </Col>
+                </Row>
+              </CardBody>
+              <CardFooter>
+                <small className="text-danger">
+                  Not all articles are completed. We'll let you know when we're
+                  done
+                </small>
+              </CardFooter>
+            </Card>
+
+            <br />
+            <Card>
+              <CardBody>
+                <CardTitle>Fun</CardTitle>
+
+                <br />
+
+                <Row>
+                  <Col sm={12} md={6} lg={6} xl={6}>
+                    <ul className="ul-st">
+                      <li>
+                        <a href="/guides/">Texting in Spanish</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Funny Spanish Jokes</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Traditional Spanish Food</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Apps that Teach You Spanish</a>
+                      </li>
+                    </ul>
+                  </Col>
+                  <Col sm={12} md={6} lg={6} xl={6}>
+                    <ul className="ul-st">
+                      <li>
+                        <a href="/guides/">Traditional Spanish Food</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Tongue Twisters in Spanish</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Avoid These Top 5 Mistakes</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Flirting in Spanish</a>
+                      </li>
+                    </ul>
+                  </Col>
+                </Row>
+              </CardBody>
+              <CardFooter>
+                <small className="text-danger">
+                  Not all articles are completed. We'll let you know when we're
+                  done
+                </small>
+              </CardFooter>
+            </Card>
           </GuideLayout>
         </Container>
+
+        <style>{`.ul-st {
+          margin-left: -15px;
+        }
+
+        .ul-st li {
+          padding-bottom: 15px;
+        }
+
+        .ul-st li a {
+          color: #0084cf;
+        }`}</style>
       </Layout>
     );
   }

@@ -8,8 +8,8 @@ const withCSS = require("@zeit/next-css");
 const sitemap = require("nextjs-sitemap-generator");
 sitemap({
   baseUrl: "https://www.cxcspanish.com",
-  pagesDirectory: __dirname + "/pages",
-  targetDirectory: "pages/"
+  pagesDirectory: __dirname + "/pages/",
+  targetDirectory: "static/"
 });
 
 const withImages = require("next-images");

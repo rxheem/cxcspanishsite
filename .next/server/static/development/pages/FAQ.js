@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 9);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -245,14 +245,161 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_youtube__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-youtube */ "react-youtube");
+/* harmony import */ var react_youtube__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_youtube__WEBPACK_IMPORTED_MODULE_3__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const Footer = props => __jsx("footer", null, __jsx("div", {
+
+const Footer = props => __jsx("footer", null, __jsx("br", null), __jsx("br", null), __jsx("div", {
+  className: "bg-light"
+}, __jsx("br", null), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+  sm: 12,
+  md: 4,
+  lg: 4,
+  xl: 4
+}, __jsx("h6", {
+  className: "text-dark"
+}, "Read Our Short Stories"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
+  className: "flex-column"
+}, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-dark",
+  href: "/stories/garbancito"
+}, "Garbancito"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-dark",
+  href: "/stories/"
+}, "El Amigo Fiel"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-dark",
+  href: "/stories/"
+}, "La Llorona"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-dark",
+  href: "/stories/"
+}, "Estrellita de Oro"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-dark",
+  href: "/stories/"
+}, "La Mu\xF1eca Menor"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  href: "/short-stories"
+}, "View all..."))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+  sm: 12,
+  md: 4,
+  lg: 4,
+  xl: 4
+}, __jsx("br", {
+  className: "d-sm-none"
+}), __jsx("h6", {
+  className: "text-dark"
+}, "Past Papers"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
+  style: {
+    marginLeft: "-15px"
+  }
+}, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  downloadable: true,
+  target: "_blank",
+  href: "https://drive.google.com/file/d/19LPNYdP053Ve3WRtHezISV3M3R-susHK/view"
+}, "CSEC"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  target: "_blank",
+  href: "https://drive.google.com/file/d/1DGTAPLcjmPG21tXmUKa9ZLvLh_IzxAcM/view?usp=sharing"
+}, "CAPE"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  target: "_blank",
+  href: "https://drive.google.com/drive/u/0/folders/1zPeCEOLnKcTIo5QewZL7YJsm7u9gsTI4"
+}, "View Archives")), __jsx("br", null), __jsx("h6", null, "Mailing List"), __jsx("p", null, "Subscribe to our mailing list and get free weelkly emails, past papers and exercise booklets."), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["FormInput"], {
+  placeholder: "Enter email"
+})), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+  sm: 12,
+  md: 4,
+  lg: 4,
+  xl: 4
+}, __jsx("br", {
+  className: "d-sm-none"
+}), __jsx("h6", {
+  className: "text-dark"
+}, "Social Media"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  target: "_blank",
+  href: "/"
+}, __jsx("i", {
+  style: {
+    color: " #3b5998"
+  },
+  className: "fab fa-facebook fa-2x"
+})), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  target: "_blank",
+  href: "/"
+}, __jsx("i", {
+  style: {
+    color: "#8a3ab9"
+  },
+  className: "fab fa-instagram fa-2x"
+})), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  target: "_blank",
+  href: "/"
+}, __jsx("i", {
+  style: {
+    color: "#00acee"
+  },
+  className: "fab fa-twitter fa-2x"
+})), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  target: "_blank",
+  href: "/"
+}, __jsx("i", {
+  style: {
+    color: "#c4302b",
+    height: "40px"
+  },
+  className: "fab fa-youtube fa-2x"
+})), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  target: "_blank",
+  href: "https://chat.whatsapp.com/EWpufXW93Y5G5V9BlOqgRF"
+}, __jsx("i", {
+  style: {
+    color: "#075E54"
+  },
+  className: "fab fa-whatsapp fa-2x"
+}))), __jsx("br", null), __jsx("h6", {
+  className: "text-dark"
+}, "Contact Us"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
+  style: {
+    marginLeft: "-15px"
+  },
+  className: "flex-column"
+}, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  href: "mailto:hola@cxcspanish.com"
+}, __jsx("i", {
+  style: {
+    color: "grey"
+  },
+  className: "fas fa-envelope"
+}), __jsx("span", {
+  style: {
+    paddingLeft: "10px"
+  }
+}, "hola@cxcspanish.com")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  href: "mailto:holacxcspanish@gmail.com"
+}, __jsx("i", {
+  style: {
+    color: "grey"
+  },
+  className: "fas fa-envelope"
+}), __jsx("span", {
+  style: {
+    paddingLeft: "10px"
+  }
+}, "holacxcspanish@gmail.com")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  href: "/"
+}, __jsx("i", {
+  style: {
+    color: "green"
+  },
+  className: "fas fa-phone"
+}), __jsx("span", {
+  style: {
+    paddingLeft: "10px",
+    color: "black"
+  }
+}, "(876) 565-3942"))))), __jsx("br", null), __jsx("br", null))), __jsx("div", {
   className: "bg-dark"
-}, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx("br", null), __jsx("br", null), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+}, __jsx("br", null), " ", __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
   sm: 12,
   md: 4,
   lg: 4,
@@ -520,6 +667,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
  // Other
 
 
@@ -539,16 +687,11 @@ const Layout = props => __jsx(Fragment, null, __jsx(react_messenger_customer_cha
   class: "fb-customerchat",
   attribution: "setup_tool",
   page_id: "105703077445673"
-}), __jsx(_HeaderImports__WEBPACK_IMPORTED_MODULE_4__["default"], null), __jsx(_NavbarComponent__WEBPACK_IMPORTED_MODULE_1__["default"], null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_3__["Alert"], {
-  className: "text-center",
-  theme: "danger"
-}, "Please note that this is the beta version of the website and some contents have been disabled or may not work properly.", __jsx("br", null), __jsx("a", {
-  className: "alert-link",
-  href: "/FAQ"
-}, "Read our FAQ"), __jsx("br", null), "Please report all errors and blank pages to", " ", __jsx("a", {
-  className: "alert-link",
-  href: "mailto:hola@cxcspanish.com"
-}, "hola@cxcspanish.com")), __jsx("br", null), __jsx(Fragment, null, props.children), __jsx("br", null), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+}), __jsx(_NavbarComponent__WEBPACK_IMPORTED_MODULE_1__["default"], null), __jsx("br", null), __jsx("main", {
+  role: "main",
+  id: "main",
+  className: "main"
+}, __jsx(Fragment, null, props.children)), __jsx("br", null), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx(_HeaderImports__WEBPACK_IMPORTED_MODULE_4__["default"], null));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -624,7 +767,7 @@ class NavbarComponent extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Compo
   }
 
   render() {
-    return __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["Navbar"], {
+    return __jsx("header", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["Navbar"], {
       type: "dark",
       theme: "primary",
       expand: "md"
@@ -708,7 +851,7 @@ class NavbarComponent extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Compo
         padding: "7px"
       },
       name: "id-badge"
-    }), "Contact")))));
+    }), "Contact"))))));
   }
 
 }
@@ -999,7 +1142,7 @@ const FAQ = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_8__["defa
 
 /***/ }),
 
-/***/ 9:
+/***/ 5:
 /*!****************************!*\
   !*** multi ./pages/FAQ.js ***!
   \****************************/
@@ -1184,6 +1327,17 @@ module.exports = require("react-lazyload");
 /***/ (function(module, exports) {
 
 module.exports = require("react-messenger-customer-chat");
+
+/***/ }),
+
+/***/ "react-youtube":
+/*!********************************!*\
+  !*** external "react-youtube" ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-youtube");
 
 /***/ }),
 
