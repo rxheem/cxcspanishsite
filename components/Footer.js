@@ -5,7 +5,6 @@ import YouTube from "react-youtube";
 const Footer = props => (
   <footer>
     <br />
-    <br />
     <div className="bg-light">
       <br />
       <br />

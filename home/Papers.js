@@ -28,7 +28,7 @@ const Papers = props => (
             taget="_blank"
           >
             <Img
-              style={{ width: "100%" }}
+              style={{ width: "100%", height: "100%" }}
               src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482630_4.jpg"
             />
           </a>

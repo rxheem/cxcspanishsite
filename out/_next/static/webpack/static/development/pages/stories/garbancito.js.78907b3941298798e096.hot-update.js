@@ -1,0 +1,56 @@
+webpackHotUpdate("static/development/pages/stories/garbancito.js",{
+
+/***/ "./pages/stories/garbancito.js":
+/*!*************************************!*\
+  !*** ./pages/stories/garbancito.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "./node_modules/shards-react/dist/shards-react.es.js");
+/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-seo-component */ "./node_modules/react-seo-component/index.js");
+/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_seo_component__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _story_components_StoryLayout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../story-components/StoryLayout */ "./story-components/StoryLayout.js");
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+ // Layout
+
+
+
+
+var Garbancito = function Garbancito(props) {
+  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    title: "Garbancito - Short Stories | CXC Spanish Guide",
+    description: "Explore the adventures of young Garbancito. Practice your reading with our CXC Spanish online guide. ",
+    image: "",
+    pathname: "https://www.cxcspanish.com/short-stories/garbancito",
+    siteLanguage: "en",
+    siteLocale: "",
+    twitterUsername: "_rxheem"
+  }), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Breadcrumb"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], null, __jsx("a", {
+    href: "/"
+  }, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], null, __jsx("a", {
+    href: "../short-stories"
+  }, "Short Stories")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], {
+    active: true
+  }, "Garbancito")), __jsx(_story_components_StoryLayout__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    isArticle: true,
+    author: "Anonymous",
+    origin: "Catalu\xF1a, Spain",
+    values: "overcoming, acceptance",
+    href: "http://www.cuentoscortos.com/cuentos-populares/garbancito-el-patufet"
+  }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Garbancito"), __jsx("br", null), __jsx("p", null, "Hab\xEDa una vez un matrimonio que quer\xEDa tener hijos. Tras mucho tiempo esper\xE1ndolo finalmente tuvieron uno pero cuando naci\xF3 result\xF3 ser un ni\xF1o muy peque\xF1o, tan peque\xF1o como un granito de arroz, por eso decidieron llamarlo Garbancito."), __jsx("p", null, "Fue pasando el tiempo y aunque Garbancito se hac\xEDa mayor, segu\xEDa siendo igual de peque\xF1o. Sus padres estaban algo preocupados, pero en cambio a \xE9l eso no le importaba. A \xE9l le gustaba trabajar y ayudar a sus padres como hac\xEDan el resto de los ni\xF1os."), __jsx("p", null, "Un d\xEDa la madre de Garbancito estaba haciendo un riqu\xEDsimo arroz con conejo cuando se qued\xF3 sin azafr\xE1n."), __jsx("p", null, "- \xA1Madre m\xEDa! \xBFY ahora qu\xE9 hago yo?"), __jsx("p", null, "Garbancito, que estaba por all\xED cerca, le contest\xF3 de inmediato:"), __jsx("p", null, "- Yo ir\xE9 a comprarlo mam\xE1. No te preocupes"), __jsx("p", null, "- \xBFPero c\xF3mo vas a ir tu? \xBFY si no te ven y te pisan?"), __jsx("p", null, "- Tranquila mam\xE1"), __jsx("p", null, "- No no hijo m\xEDo, ya voy yo."), __jsx("p", null, "- Por favor mam\xE1, deja que vaya. Ir\xE9 cantando una canci\xF3n para que todos me oigan y as\xED no me pisen y volver\xE9 a casa con tu azafr\xE1n."), __jsx("p", null, "Aunque la mam\xE1 de Garbancito se qued\xF3 preocupada, al final acab\xF3 dejando a su hijo que fuera."), __jsx("p", null, "- Toma esta moneda y ve a \u201CCa la Rojals\u201D Y ten mucho cuidado de que no te pisen"), __jsx("p", null, "Garbancito se ech\xF3 la moneda a la espalda y sali\xF3 a la calle cantando:"), __jsx("p", null, __jsx("i", null, "Pach\xEDn, pach\xEDn, pach\xE1n,", __jsx("br", null), "A Garbancito no lo pis\xE9is", __jsx("br", null), "Pach\xEDn, pach\xEDn, pach\xE1n,", __jsx("br", null), "A Garbancito no lo pis\xE9is")), __jsx("p", null, "Todo el mundo se daba la vuelta cuando o\xEDa a Garbancito, pero como era tan peque\xF1o no se le ve\xEDa debajo de la moneda y cre\xEDan que era la moneda la que cantaba y andaba sola."), __jsx("p", null, "Cuando el muchacho lleg\xF3 a la tienda pidi\xF3 el azafr\xE1n que le hab\xEDa encargado su madre."), __jsx("p", null, "- Buenos d\xEDas se\xF1ora, quer\xEDa un poquito de azafr\xE1n para el arroz con conejo que est\xE1 preparando mi madre."), __jsx("p", null, "- \xBFC\xF3mo? No le he o\xEDdo - contest\xF3 la tendera sin saber de d\xF3nde ven\xEDa aquella vocecilla -"), __jsx("p", null, "- Que quer\xEDa un poquito de azafr\xE1n para el arroz con conejo que est\xE1 preparando mi madre."), __jsx("p", null, "- Pero, \xBFd\xF3nde est\xE1 se\xF1or? No lo veo por ninguna parte..."), __jsx("p", null, "- \xA1Estoy aqu\xED! - contest\xF3 Garbancito un poco enfadado"), __jsx("p", null, "- \xA1Ay! \xA1Una moneda que habla!"), __jsx("p", null, "- No soy una moneda, soy Garbancito y quer\xEDa un poquito de azafr\xE1n para el arroz con conejo que est\xE1 preparando mi madre."), __jsx("p", null, "- Uy si si claro, enseguida"), __jsx("p", null, "Garbancito sali\xF3 de la tienda con el azafr\xE1n y volvi\xF3 a entonar fuertemente su canci\xF3n para que todo el mundo pudiera o\xEDrle."), __jsx("p", null, __jsx("i", null, "Pach\xEDn, pach\xEDn, pach\xE1n,", __jsx("br", null), "A Garbancito no lo pis\xE9is", __jsx("br", null), "Pach\xEDn, pach\xEDn, pach\xE1n,", __jsx("br", null), "A Garbancito no lo pis\xE9is")), __jsx("p", null, "La madre de Garbancito se puso muy contenta al ver que su hijo hab\xEDa vuelto sano y salvo."), __jsx("p", null, "- Gracias hijo m\xEDo. Eres un ni\xF1o muy bueno"), __jsx("p", null, "Garbancito se sent\xEDa muy orgulloso de haber podido ayudar a su madre y quiso hacer lo mismo con su padre, que estaba trabajando en el huerto."), __jsx("p", null, "- Mam\xE1, \xBFme dejas que ayude tambi\xE9n a pap\xE1? Puedo llevarle la cesta del almuerzo que siempre le llevas tu\u2026"), __jsx("p", null, "- Ay no s\xE9 hijo, es muy grande"), __jsx("p", null, "- D\xE9jame intentarlo, ya ver\xE1s como puedo"), __jsx("p", null, "Al final Garbancito, que era muy tozudo, se sali\xF3 con la suya y sali\xF3 empujando la cesta camino del huerto cantando su canci\xF3n para evitar que lo pisasen."), __jsx("p", null, "Cuando le faltaba poco para llegar empez\xF3 a llover muy fuerte as\xED que Garbancito se refugi\xF3 debajo de una col que hab\xEDa ah\xED al lado."), __jsx("p", null, "Entonces apareci\xF3 por ah\xED un buey grande y pesado y muerto de hambre. El animal se hab\xEDa metido en el huerto buscando una col para com\xE9rsela. Pero no ve\xEDa ninguna\u2026 hasta que dio con la de Garbancito. Abri\xF3 la boca y \xA1aaaammm! Garbancito fue a parar a la tripa del buey."), __jsx("p", null, "El padre de Garbancito se cans\xF3 de esperar a que le llevara su mujer el almuerzo y acab\xF3 por regresar a casa enfadado."), __jsx("p", null, "- \xBFSe puede saber por qu\xE9 nadie me ha llevado hoy mi almuerzo? - le dijo a su mujer cuando entr\xF3 en casa"), __jsx("p", null, "- \xA1No me digas que no ha aparecido por all\xED Garbancito!"), __jsx("p", null, "La mujer le explic\xF3 que Garbancito hab\xEDa salido con la cesta hacia all\xED y al no saber qu\xE9 le habr\xEDa ocurrido salieron los dos preocupadisimos a buscarlo. Los vecinos del pueblo se unieron a ellos en cuanto los oyeron llamar a su hijo:"), __jsx("p", null, "- \xA1Garbancito! \xBFD\xF3nde est\xE1s?"), __jsx("p", null, "- \xA1Garbancitoo!"), __jsx("p", null, "- \xBFD\xF3nde est\xE1s Garbancito?"), __jsx("p", null, "- \xA1Garbancito!"), __jsx("p", null, "- \xA1Garbancito!"), __jsx("p", null, "- \xA1Estoy aqu\xED, en la tripa del buey donde no nieva ni llueve!"), __jsx("p", null, "Todos siguieron aquella voz hasta el buey y decidieron que lo mejor era hacer cosquillas en la nariz al animal para conseguir que estornudara. As\xED que cogieron una pluma, el animal estornud\xF3 y al final Garbancito sali\xF3 disparado."), __jsx("p", null, "El peque\xF1o se abraz\xF3 muy contento a sus padres y juntos volvieron a casa para comerse el arroz con conejo cantando:"), __jsx("p", null, __jsx("i", null, "Pach\xEDn, pach\xEDn, pach\xE1n,", __jsx("br", null), "A Garbancito no lo pis\xE9is", __jsx("br", null), "Pach\xEDn, pach\xEDn, pach\xE1n,", __jsx("br", null), "A Garbancito no lo pis\xE9is")))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Garbancito);
+
+/***/ })
+
+})
+//# sourceMappingURL=garbancito.js.78907b3941298798e096.hot-update.js.map

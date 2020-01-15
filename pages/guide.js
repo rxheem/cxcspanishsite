@@ -14,7 +14,8 @@ import {
   Form,
   FormInput,
   FormGroup,
-  Collapse
+  Collapse,
+  Badge
 } from "shards-react";
 import Head from "next/head";
 import {
@@ -28,7 +29,7 @@ import Img from "react-image";
 
 // Layout
 import Layout from "../components/Layout";
-import GuideLayout from "./guides/GuideLayout";
+import GuideLayout from "../guide-components/GuideLayout";
 
 const ulStyles = {
   marginLeft: "-30px",
@@ -136,13 +137,17 @@ class Guide extends React.Component {
                         </a>
                       </li>
                       <li>
-                        <a href="/guides/">The Spanish Alphabet</a>
+                        <a href="/guides/the-spanish-alphabet">
+                          The Spanish Alphabet
+                        </a>
                       </li>
                       <li>
                         <a href="/guides/">Genders in Spanish</a>
                       </li>
                       <li>
-                        <a href="/guides/">Pronunciation Tips</a>
+                        <a href="/guides/pronunciation-tips">
+                          Pronunciation Tips
+                        </a>
                       </li>
                       <li>
                         <a href="/guides/">Dates in Spanish</a>
@@ -155,16 +160,18 @@ class Guide extends React.Component {
                   <Col sm={6} md={6} lg={6} xl={6}>
                     <ul className="ul-st">
                       <li>
-                        <a href="/guides/">'Por' vs. 'Para'</a>
+                        <a href="/guides/por-vs-para">'Por' vs. 'Para'</a>
                       </li>
                       <li>
-                        <a href="/guides/">At the Airport</a>
+                        <a href="/guides/at-the-airport">At the Airport</a>
                       </li>
                       <li>
-                        <a href="/guides/">Oral Exercises</a>
+                        <a href="/guides/oral-exercise">Oral Exercises</a>
                       </li>
                       <li>
-                        <a href="/guides/">Articles in Spanish</a>
+                        <a href="/guides/articles-in-spanish">
+                          Articles in Spanish
+                        </a>
                       </li>
                     </ul>
                   </Col>
@@ -182,6 +189,48 @@ class Guide extends React.Component {
             <Card>
               <CardBody>
                 <CardTitle>Verbs and Tenses</CardTitle>
+
+                <br />
+                <Row>
+                  <Col sm={12} md={6} lg={6} xl={6}>
+                    <ul className="ul-st">
+                      <li>
+                        <a href="/guides/ser-vs-estar">'Ser' vs. 'Estar'</a>
+                      </li>
+                      <li>
+                        <a href="/guides/preterite-vs-imperfect">
+                          Preterite vs. Imperfect
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/guides/how-to-use-gustar">
+                          How to use 'Gustar'
+                        </a>
+                      </li>
+                    </ul>
+                  </Col>
+
+                  <Col sm={12} md={6} lg={6} xl={6}>
+                    <ul className="ul-st">
+                      <li>
+                        <a href="/guides/spanish-verb-types">
+                          Spanish Verb Types
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/guides/">
+                          'Ser' vs. 'Estar'{" "}
+                          <Badge pill theme="success">
+                            quiz
+                          </Badge>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/guides/">The Imperfect Subjunctive</a>
+                      </li>
+                    </ul>
+                  </Col>
+                </Row>
               </CardBody>
               <CardFooter>
                 <small className="text-danger">
@@ -198,8 +247,6 @@ class Guide extends React.Component {
 
                 <br />
                 <Row>
-                  <Col sm={12} md={6} lg={6} xl={6}></Col>
-
                   <Col sm={12} md={6} lg={6} xl={6}>
                     <ul className="ul-st">
                       <li>
@@ -209,10 +256,15 @@ class Guide extends React.Component {
                         <a href="/guides/">How to Remember Verb Conjugations</a>
                       </li>
                       <li>
-                        <a href="/guides/">
+                        <a href="/guides/how-to-ask-for-directions-in-spanish">
                           How to Ask for Directions in Spanish
                         </a>
                       </li>
+                    </ul>
+                  </Col>
+
+                  <Col sm={12} md={6} lg={6} xl={6}>
+                    <ul className="ul-st">
                       <li>
                         <a href="/guides/">
                           How to Talk About Locations in Spanish

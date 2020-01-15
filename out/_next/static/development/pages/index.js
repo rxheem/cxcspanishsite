@@ -394,7 +394,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var Footer = function Footer(props) {
-  return __jsx("footer", null, __jsx("br", null), __jsx("br", null), __jsx("div", {
+  return __jsx("footer", null, __jsx("br", null), __jsx("div", {
     className: "bg-light"
   }, __jsx("br", null), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
     sm: 12,
@@ -463,7 +463,7 @@ var Footer = function Footer(props) {
     style: {
       color: " #3b5998"
     },
-    className: "fab fa-facebook"
+    className: "fab fa-facebook fa-2x"
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     target: "_blank",
     href: "/"
@@ -471,7 +471,7 @@ var Footer = function Footer(props) {
     style: {
       color: "#8a3ab9"
     },
-    className: "fab fa-instagram"
+    className: "fab fa-instagram fa-2x"
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     target: "_blank",
     href: "/"
@@ -479,7 +479,7 @@ var Footer = function Footer(props) {
     style: {
       color: "#00acee"
     },
-    className: "fab fa-twitter"
+    className: "fab fa-twitter fa-2x"
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     target: "_blank",
     href: "/"
@@ -488,7 +488,7 @@ var Footer = function Footer(props) {
       color: "#c4302b",
       height: "40px"
     },
-    className: "fab fa-youtube"
+    className: "fab fa-youtube fa-2x"
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     target: "_blank",
     href: "https://chat.whatsapp.com/EWpufXW93Y5G5V9BlOqgRF"
@@ -496,7 +496,7 @@ var Footer = function Footer(props) {
     style: {
       color: "#075E54"
     },
-    className: "fab fa-whatsapp-square"
+    className: "fab fa-whatsapp fa-2x"
   }))), __jsx("br", null), __jsx("h6", {
     className: "text-dark"
   }, "Contact Us"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
@@ -1005,6 +1005,7 @@ function (_React$Component) {
         },
         name: "users"
       }), "About Us")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
+        hidden: true,
         className: "text-white",
         href: "/tutoring"
       }, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_15___default.a, {
@@ -1263,6 +1264,126 @@ var Marketing = function Marketing(props) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Marketing);
+
+/***/ }),
+
+/***/ "./home/Papers.js":
+/*!************************!*\
+  !*** ./home/Papers.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "./node_modules/shards-react/dist/shards-react.es.js");
+/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-lazyload */ "./node_modules/react-lazyload/lib/index.js");
+/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-image */ "./node_modules/react-image/umd/index.js");
+/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_3__);
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var Papers = function Papers(props) {
+  return __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_2___default.a, null, __jsx("div", null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    sm: 2,
+    md: 2,
+    lg: 2,
+    xl: 2
+  }, __jsx("br", {
+    className: "d-sm-none"
+  }), " ", __jsx("a", {
+    href: "https://drive.google.com/file/d/19LPNYdP053Ve3WRtHezISV3M3R-susHK/view",
+    taget: "_blank"
+  }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    style: {
+      width: "100%"
+    },
+    src: "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482630_4.jpg"
+  }))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    sm: 2,
+    md: 2,
+    lg: 2,
+    xl: 2
+  }, __jsx("br", {
+    className: "d-sm-none"
+  }), __jsx("a", {
+    href: "",
+    taget: "_blank"
+  }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    style: {
+      width: "100%"
+    },
+    src: "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482456_25.jpg"
+  }))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    sm: 2,
+    md: 2,
+    lg: 2,
+    xl: 2
+  }, __jsx("br", {
+    className: "d-sm-none"
+  }), __jsx("a", {
+    href: "",
+    taget: "_blank"
+  }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    style: {
+      width: "100%"
+    },
+    src: "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230481831_23.jpg"
+  }))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    sm: 2,
+    md: 2,
+    lg: 2,
+    xl: 2
+  }, __jsx("br", {
+    className: "d-sm-none"
+  }), __jsx("a", {
+    href: "",
+    taget: "_blank"
+  }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    style: {
+      width: "100%"
+    },
+    src: "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482876_3.jpg"
+  }))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    sm: 2,
+    md: 2,
+    lg: 2,
+    xl: 2
+  }, __jsx("br", {
+    className: "d-sm-none"
+  }), __jsx("a", {
+    href: "",
+    taget: "_blank"
+  }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    style: {
+      width: "100%"
+    },
+    src: "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482678_3.jpg"
+  }))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    sm: 2,
+    md: 2,
+    lg: 2,
+    xl: 2
+  }, __jsx("br", {
+    className: "d-sm-none"
+  }), __jsx("a", {
+    href: "",
+    taget: "_blank"
+  }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    style: {
+      width: "100%"
+    },
+    src: "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482494_3.jpg"
+  }))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Papers);
 
 /***/ }),
 
@@ -51285,14 +51406,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_seo_component__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _home_HomeCarousel__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../home/HomeCarousel */ "./home/HomeCarousel.js");
 /* harmony import */ var _home_Marketing__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../home/Marketing */ "./home/Marketing.js");
-/* harmony import */ var _home_MailingListSubscribe__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../home/MailingListSubscribe */ "./home/MailingListSubscribe.js");
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _common_Message__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../common/Message */ "./common/Message.js");
+/* harmony import */ var _home_Papers__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../home/Papers */ "./home/Papers.js");
+/* harmony import */ var _home_MailingListSubscribe__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../home/MailingListSubscribe */ "./home/MailingListSubscribe.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _common_Message__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../common/Message */ "./common/Message.js");
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
  // Home components
+
 
 
 
@@ -51302,7 +51425,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var Index = function Index(props) {
-  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_7__["default"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_8__["default"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_3___default.a, {
     title: "CXC Spanish | Guide, Past Papers and Exercises",
     description: "CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces.",
     image: "",
@@ -51316,7 +51439,7 @@ var Index = function Index(props) {
     href: "/"
   }, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], null, __jsx("a", {
     href: "/"
-  }))), __jsx("br", null), __jsx(_home_Marketing__WEBPACK_IMPORTED_MODULE_5__["default"], null)));
+  }))), __jsx("br", null), __jsx(_home_Marketing__WEBPACK_IMPORTED_MODULE_5__["default"], null), __jsx(_home_Papers__WEBPACK_IMPORTED_MODULE_6__["default"], null)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);

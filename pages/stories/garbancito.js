@@ -17,13 +17,15 @@ import SEO from "react-seo-component";
 
 // Layout
 import Layout from "../../components/Layout";
-import StoryLayout from "./StoryLayout";
+import StoryLayout from "../../story-components/StoryLayout";
 
 const Garbancito = props => (
   <Layout>
     <SEO
       title="Garbancito - Short Stories | CXC Spanish Guide"
-      description={""}
+      description={
+        "Explore the adventures of young Garbancito. Practice your reading with our CXC Spanish online guide. "
+      }
       image={""}
       pathname={"https://www.cxcspanish.com/short-stories/garbancito"}
       siteLanguage={"en"}

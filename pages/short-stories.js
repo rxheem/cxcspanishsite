@@ -17,14 +17,16 @@ import Head from "next/head";
 
 // Layout
 import Layout from "../components/Layout";
-import StoryLayout from "./stories/StoryLayout";
+import StoryLayout from "../story-components/StoryLayout";
 import SEO from "react-seo-component";
 
 const ShortStories = props => (
   <Layout>
     <SEO
       title="Short Stories | CXC Spanish Guide"
-      description={""}
+      description={
+        "Our short stories are designed to helo you to learn phrases, and help you practice reading in Spanish."
+      }
       image={""}
       pathname={"https://www.cxcspanish.com/short-stories"}
       siteLanguage={"en"}
@@ -38,7 +40,15 @@ const ShortStories = props => (
         </BreadcrumbItem>
         <BreadcrumbItem active>Short Stories</BreadcrumbItem>
       </Breadcrumb>
-      <StoryLayout isArticle={false}></StoryLayout>
+      <StoryLayout isArticle={false}>
+        <Card>
+          <CardBody>
+            <CardTitle>Short Stories</CardTitle>
+            Nunc quis nisl ac justo elementum sagittis in quis justo.
+          </CardBody>
+          <CardHeader>Learn More</CardHeader>
+        </Card>
+      </StoryLayout>
     </Container>
   </Layout>
 );

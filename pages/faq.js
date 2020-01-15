@@ -15,14 +15,6 @@ import {
 import Img from "react-image";
 import LazyLoad from "react-lazyload";
 import Collapsible from "react-collapsible";
-import {
-  FacebookProvider,
-  Comments,
-  CommentsCount,
-  ShareButton,
-  Feed,
-  Like
-} from "react-facebook";
 
 // Common
 import BetaMessage from "../common/BetaMessage";
@@ -158,16 +150,7 @@ const FAQ = props => (
                 </li>
               </ul>
             </CardBody>
-            <CardFooter>
-              <FacebookProvider appId="669007593616991">
-                <Like
-                  href="http://www.facebook.com"
-                  colorScheme="dark"
-                  showFaces
-                  share
-                />
-              </FacebookProvider>
-            </CardFooter>
+            <CardFooter></CardFooter>
           </Card>
         </Col>
         <Col sm={4} md={4} lg={4}></Col>

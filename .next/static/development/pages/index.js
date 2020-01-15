@@ -394,7 +394,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var Footer = function Footer(props) {
-  return __jsx("footer", null, __jsx("br", null), __jsx("br", null), __jsx("div", {
+  return __jsx("footer", null, __jsx("br", null), __jsx("div", {
     className: "bg-light"
   }, __jsx("br", null), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
     sm: 12,
@@ -1005,6 +1005,7 @@ function (_React$Component) {
         },
         name: "users"
       }), "About Us")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
+        hidden: true,
         className: "text-white",
         href: "/tutoring"
       }, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_15___default.a, {
@@ -1301,7 +1302,8 @@ var Papers = function Papers(props) {
     taget: "_blank"
   }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_3___default.a, {
     style: {
-      width: "100%"
+      width: "100%",
+      height: "100%"
     },
     src: "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482630_4.jpg"
   }))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {

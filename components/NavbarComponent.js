@@ -120,7 +120,7 @@ class NavbarComponent extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="text-white" href="/tutoring">
+                <NavLink hidden className="text-white" href="/tutoring">
                   <FA style={{ padding: "7px" }} name="chalkboard-teacher" />
                   Tutoring
                 </NavLink>
