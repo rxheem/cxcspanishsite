@@ -18,11 +18,13 @@ class NavbarComponent extends React.Component {
     super(props);
 
     this.toggleDropdown = this.toggleDropdown.bind(this);
+    this.toggleDropdown2 = this.toggleDropdown2.bind(this);
     this.toggleNavbar = this.toggleNavbar.bind(this);
 
     this.state = {
       title: "CXC Spanish Online",
       dropdownOpen: false,
+      dropdownOpen2: false,
       collapseOpen: false
     };
   }
@@ -32,6 +34,15 @@ class NavbarComponent extends React.Component {
       ...this.state,
       ...{
         dropdownOpen: !this.state.dropdownOpen
+      }
+    });
+  }
+
+  toggleDropdown2() {
+    this.setState({
+      ...this.state,
+      ...{
+        dropdownOpen2: !this.state.dropdownOpen2
       }
     });
   }
@@ -56,6 +67,34 @@ class NavbarComponent extends React.Component {
               <NavItem>
                 <NavLink className="text-white" href="/guide">
                   Guides
+                </NavLink>
+              </NavItem>
+
+              {/* Essentials */}
+              <Dropdown
+                open={this.state.dropdownOpen2}
+                toggle={this.toggleDropdown2}
+              >
+                <DropdownToggle className="text-white" nav caret>
+                  Essentials
+                </DropdownToggle>
+                <DropdownMenu>
+                  <DropdownItem href="/listening">
+                    Listening Exercises
+                  </DropdownItem>
+                  <DropdownItem href="/reading">Reading Exercises</DropdownItem>
+                  <DropdownItem href="/writing/">
+                    Writing Exercises
+                  </DropdownItem>
+                  <DropdownItem href="/speaking">
+                    Speaking Exercises
+                  </DropdownItem>
+                </DropdownMenu>
+              </Dropdown>
+
+              <NavItem>
+                <NavLink className="text-white" href="/verb-tenses">
+                  Verb Tenses
                 </NavLink>
               </NavItem>
 
@@ -89,25 +128,16 @@ class NavbarComponent extends React.Component {
                   </DropdownItem>
                 </DropdownMenu>
               </Dropdown>
-              <NavItem>
-                <NavLink className="text-white" href="/verb-tenses">
-                  Verb Tenses
-                </NavLink>
-              </NavItem>
 
               <NavItem>
                 <NavLink className="text-white" href="/resources">
                   Resources
                 </NavLink>
               </NavItem>
+
               <NavItem>
-                <NavLink className="text-white" href="/quiz">
-                  Quiz
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className="text-white" href="/forum">
-                  Forum
+                <NavLink className="text-white" href="/whatsapp-groups">
+                  Chat
                 </NavLink>
               </NavItem>
             </Nav>
@@ -120,7 +150,7 @@ class NavbarComponent extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink hidden className="text-white" href="/tutoring">
+                <NavLink className="text-white" href="/tutoring">
                   <FA style={{ padding: "7px" }} name="chalkboard-teacher" />
                   Tutoring
                 </NavLink>

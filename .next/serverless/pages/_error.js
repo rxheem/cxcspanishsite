@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "3cQO");
+/******/ 	return __webpack_require__(__webpack_require__.s = "bh8t");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -9514,197 +9514,6 @@ module.exports = isShortId;
 
 /***/ }),
 
-/***/ "3cQO":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticProps", function() { return unstable_getStaticProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticParams", function() { return unstable_getStaticParams; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticPaths", function() { return unstable_getStaticPaths; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "config", function() { return config; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_app", function() { return _app; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderReqToHTML", function() { return renderReqToHTML; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony import */ var url__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("bzos");
-/* harmony import */ var url__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(url__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var querystring__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("8xkj");
-/* harmony import */ var querystring__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(querystring__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_dist_next_server_server_render__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("/bjS");
-/* harmony import */ var next_dist_next_server_server_render__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_next_server_server_render__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_dist_next_server_server_send_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("LuNM");
-/* harmony import */ var next_dist_next_server_server_send_html__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_next_server_server_send_html__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("GX0O");
-/* harmony import */ var next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("KqAr");
-/* harmony import */ var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("LZ9C");
-var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t("LZ9C", 1);
-/* harmony import */ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("67Bq");
-var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t("67Bq", 1);
-/* harmony import */ var next_dist_pages_document__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("VDXt");
-/* harmony import */ var next_dist_pages_document__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_dist_pages_document__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var private_next_pages_error_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("Y0NT");
-/* harmony import */ var next_dist_pages_app__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("B5Ud");
-/* harmony import */ var next_dist_pages_app__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_dist_pages_app__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__("Skye");
-var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_11___namespace = /*#__PURE__*/__webpack_require__.t("Skye", 1);
-/* harmony import */ var next_dist_next_server_server_lib_path_match__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__("uDRR");
-/* harmony import */ var next_dist_next_server_server_lib_path_match__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_dist_next_server_server_lib_path_match__WEBPACK_IMPORTED_MODULE_12__);
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  
-
-    const Component = private_next_pages_error_js__WEBPACK_IMPORTED_MODULE_9__["default"]
-    /* harmony default export */ __webpack_exports__["default"] = (Component);
-    const unstable_getStaticProps = private_next_pages_error_js__WEBPACK_IMPORTED_MODULE_9__['unstable_getStaticProp' + 's']
-    const unstable_getStaticParams = private_next_pages_error_js__WEBPACK_IMPORTED_MODULE_9__['unstable_getStaticParam' + 's']
-    const unstable_getStaticPaths = private_next_pages_error_js__WEBPACK_IMPORTED_MODULE_9__['unstable_getStaticPath' + 's']
-
-    
-    
-    const getCustomRouteMatcher = next_dist_next_server_server_lib_path_match__WEBPACK_IMPORTED_MODULE_12___default()(true)
-
-    function handleRewrites(parsedUrl) {
-      for (const rewrite of private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_11__[/* rewrites */ "a"]) {
-        const matcher = getCustomRouteMatcher(rewrite.source)
-        const params = matcher(parsedUrl.pathname)
-
-        if (params) {
-          parsedUrl.query = {
-            ...parsedUrl.query,
-            ...params
-          }
-          const parsedDest = Object(url__WEBPACK_IMPORTED_MODULE_0__["parse"])(rewrite.destination)
-          const destCompiler = next_dist_next_server_server_lib_path_match__WEBPACK_IMPORTED_MODULE_12__["pathToRegexp"].compile(
-            `${parsedDest.pathname}${parsedDest.hash || ''}`
-          )
-          const newUrl = destCompiler(params)
-          const parsedNewUrl = Object(url__WEBPACK_IMPORTED_MODULE_0__["parse"])(newUrl)
-
-          parsedUrl.pathname = parsedNewUrl.pathname
-          parsedUrl.hash = parsedNewUrl.hash
-
-          if (parsedUrl.pathname === '/_error'){
-            break
-          }
-          
-        }
-      }
-
-      return parsedUrl
-    }
-  
-
-    const config = private_next_pages_error_js__WEBPACK_IMPORTED_MODULE_9__['confi' + 'g'] || {}
-    const _app = next_dist_pages_app__WEBPACK_IMPORTED_MODULE_10___default.a
-    async function renderReqToHTML(req, res, fromExport, _renderOpts, _params) {
-      
-      const options = {
-        App: (next_dist_pages_app__WEBPACK_IMPORTED_MODULE_10___default()),
-        Document: (next_dist_pages_document__WEBPACK_IMPORTED_MODULE_8___default()),
-        buildManifest: private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_6__,
-        unstable_getStaticProps,
-        unstable_getStaticPaths,
-        reactLoadableManifest: private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_7__,
-        canonicalBase: "",
-        buildId: "yliI_hLOIz03kQMuzvQEg",
-        assetPrefix: "",
-        ampBindInitData: false,
-        ..._renderOpts
-      }
-      let sprData = false
-
-      if (req.url.match(/_next\/data/)) {
-        sprData = true
-        req.url = req.url
-          .replace(new RegExp('/_next/data/yliI_hLOIz03kQMuzvQEg/'), '/')
-          .replace(/\.json$/, '')
-      }
-      const parsedUrl = handleRewrites(Object(url__WEBPACK_IMPORTED_MODULE_0__["parse"])(req.url, true))
-
-      const renderOpts = Object.assign(
-        {
-          Component,
-          pageConfig: config,
-          dataOnly: req.headers && (req.headers.accept || '').indexOf('application/amp.bind+json') !== -1,
-          nextExport: fromExport
-        },
-        options,
-      )
-      try {
-        res.statusCode = 404
-        const params = {};
-        const nowParams = null;
-        let result = await Object(next_dist_next_server_server_render__WEBPACK_IMPORTED_MODULE_2__["renderToHTML"])(req, res, "/_error", Object.assign({}, unstable_getStaticProps ? {} : parsedUrl.query, nowParams ? nowParams : params, _params), renderOpts)
-
-        if (sprData && !fromExport) {
-          const payload = JSON.stringify(renderOpts.sprData)
-          res.setHeader('Content-Type', 'application/json')
-          res.setHeader('Content-Length', Buffer.byteLength(payload))
-          res.setHeader(
-            'Cache-Control',
-            `s-maxage=${renderOpts.revalidate}, stale-while-revalidate`
-          )
-          res.end(payload)
-          return null
-        }
-
-        if (fromExport) return { html: result, renderOpts }
-        return result
-      } catch (err) {
-        if (err.code === 'ENOENT') {
-          res.statusCode = 404
-          const result = await Object(next_dist_next_server_server_render__WEBPACK_IMPORTED_MODULE_2__["renderToHTML"])(req, res, "/_error", parsedUrl.query, Object.assign({}, options, {
-            unstable_getStaticProps: undefined,
-            unstable_getStaticPaths: undefined,
-            Component: private_next_pages_error_js__WEBPACK_IMPORTED_MODULE_9__["default"]
-          }))
-          return result
-        } else {
-          console.error(err)
-          res.statusCode = 500
-          const result = await Object(next_dist_next_server_server_render__WEBPACK_IMPORTED_MODULE_2__["renderToHTML"])(req, res, "/_error", parsedUrl.query, Object.assign({}, options, {
-            unstable_getStaticProps: undefined,
-            unstable_getStaticPaths: undefined,
-            Component: private_next_pages_error_js__WEBPACK_IMPORTED_MODULE_9__["default"],
-            err
-          }))
-          return result
-        }
-      }
-    }
-    async function render (req, res) {
-      try {
-        await Object(next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_4__["default"])()
-        const html = await renderReqToHTML(req, res)
-        if (html) {
-          Object(next_dist_next_server_server_send_html__WEBPACK_IMPORTED_MODULE_3__["sendHTML"])(req, res, html, {generateEtags: true})
-        }
-      } catch(err) {
-        await Object(next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_5__["default"])(err)
-        console.error(err)
-        res.statusCode = 500
-        res.end('Internal Server Error')
-      }
-    }
-  
-
-/***/ }),
-
 /***/ "3hxY":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11394,8 +11203,8 @@ class NavbarComponent_NavbarComponent extends react_default.a.Component {
       href: "/quiz"
     }, "Quiz")), __jsx(shards_react_common["NavItem"], null, __jsx(shards_react_common["NavLink"], {
       className: "text-white",
-      href: "/forum"
-    }, "Forum"))), __jsx(shards_react_common["Nav"], {
+      href: "/whatsapp-groups"
+    }, "Chat"))), __jsx(shards_react_common["Nav"], {
       navbar: true,
       className: "ml-auto"
     }, __jsx(shards_react_common["NavItem"], null, __jsx(shards_react_common["NavLink"], {
@@ -11407,7 +11216,6 @@ class NavbarComponent_NavbarComponent extends react_default.a.Component {
       },
       name: "users"
     }), "About Us")), __jsx(shards_react_common["NavItem"], null, __jsx(shards_react_common["NavLink"], {
-      hidden: true,
       className: "text-white",
       href: "/tutoring"
     }, __jsx(lib_default.a, {
@@ -11494,13 +11302,13 @@ const Footer = props => Footer_jsx("footer", null, Footer_jsx("br", null), Foote
 }, Footer_jsx(cjs["Nav"].Link, {
   downloadable: true,
   target: "_blank",
-  href: "https://drive.google.com/file/d/19LPNYdP053Ve3WRtHezISV3M3R-susHK/view"
+  href: "https://www.dropbox.com/s/h76ga6bxhdeex94/CSEC%C2%AE%20Spanish%20Past%20Papers-2_nodrm%20%281%29.pdf?dl=0"
 }, "CSEC"), Footer_jsx(cjs["Nav"].Link, {
   target: "_blank",
-  href: "https://drive.google.com/file/d/1DGTAPLcjmPG21tXmUKa9ZLvLh_IzxAcM/view?usp=sharing"
+  href: "https://www.dropbox.com/s/bjz288n93t2kein/CAPE%20Spanish%20Past%20Papers.pdf?dl=0"
 }, "CAPE"), Footer_jsx(cjs["Nav"].Link, {
   target: "_blank",
-  href: "https://drive.google.com/drive/u/0/folders/1zPeCEOLnKcTIo5QewZL7YJsm7u9gsTI4"
+  href: "https://www.dropbox.com/sh/0iwksvyxx6hnx8u/AADS2oBLhV7Ouofp9d0fc593a?dl=0"
 }, "View Archives")), Footer_jsx("br", null), Footer_jsx("h6", null, "Mailing List"), Footer_jsx("p", null, "Subscribe to our mailing list and get free weelkly emails, past papers and exercise booklets."), Footer_jsx(shards_react_common["FormInput"], {
   placeholder: "Enter email"
 })), Footer_jsx(cjs["Col"], {
@@ -11514,7 +11322,7 @@ const Footer = props => Footer_jsx("footer", null, Footer_jsx("br", null), Foote
   className: "text-dark"
 }, "Social Media"), Footer_jsx(cjs["Nav"], null, Footer_jsx(cjs["Nav"].Link, {
   target: "_blank",
-  href: "/"
+  href: "https://www.facebook.com/cxcspanishguide/?__tn__=%2Cd%2CP-R&eid=ARBp5b8r2d06OFKljjfcKxLq6dNjDPkODENJqB9yAsRgKUQHpmOrhWiLifsxgPnYtt5njC48bXpGjQii"
 }, Footer_jsx("i", {
   style: {
     color: " #3b5998"
@@ -11522,7 +11330,7 @@ const Footer = props => Footer_jsx("footer", null, Footer_jsx("br", null), Foote
   className: "fab fa-facebook fa-2x"
 })), Footer_jsx(cjs["Nav"].Link, {
   target: "_blank",
-  href: "/"
+  href: "https://www.instagram.com/cxcspanish/"
 }, Footer_jsx("i", {
   style: {
     color: "#8a3ab9"
@@ -11530,7 +11338,7 @@ const Footer = props => Footer_jsx("footer", null, Footer_jsx("br", null), Foote
   className: "fab fa-instagram fa-2x"
 })), Footer_jsx(cjs["Nav"].Link, {
   target: "_blank",
-  href: "/"
+  href: "https://www.twitter.com/cxcspanish"
 }, Footer_jsx("i", {
   style: {
     color: "#00acee"
@@ -11700,6 +11508,10 @@ const HeaderImports = props => HeaderImports_jsx(head_default.a, null, HeaderImp
 }), HeaderImports_jsx("meta", {
   name: "keywords",
   content: "spanish cxc past papers 2019,cxc,csec spanish,spanish jamaica,cxc spanish,cxc spansih jamaica,espanol jamaica, csec spanish past papers, spanish, cape, caribbean examination counsil,caribbean examination counsel, espa\xF1ol, espanol, study guide, study, pass csec spanish exam, caribbean examination counsil,caribbean examination counsel, espa\xF1ol, espanol, study guide, study, directed situations, free response,present tense,imperfect tense,ser vs estar,subjunctive mood,subjunctive tense spanish,reading comprehension,contextual dialogue, contextual announcements, poster,spanish,pass"
+}), HeaderImports_jsx("link", {
+  type: "image/jpg",
+  rel: "icon",
+  href: "https://i.imgur.com/stMN66u.jpg"
 }), HeaderImports_jsx("meta", {
   name: "google-site-verification",
   content: "pOpvkLbMYpbgDGKqertoSF1GnBqDsCJM54z7p-JPNYk"
@@ -11743,17 +11555,11 @@ const HeaderImports = props => HeaderImports_jsx(head_default.a, null, HeaderImp
   "http-equiv": "Expires",
   content: "3\xE5"
 }), HeaderImports_jsx("meta", {
-  "http-equiv": "Pragma",
-  content: "no-cache"
-}), HeaderImports_jsx("meta", {
   name: "language",
   content: "EN"
 }), HeaderImports_jsx("meta", {
   name: "fb:page_id",
   content: "105703077445673"
-}), HeaderImports_jsx("link", {
-  rel: "icon",
-  content: "../assets/logo.jpg"
 }), HeaderImports_jsx("meta", {
   name: "og:site_name",
   content: "CXC Spanish Online"
@@ -11792,7 +11598,34 @@ const HeaderImports = props => HeaderImports_jsx(head_default.a, null, HeaderImp
   content: "safe for kids"
 }), HeaderImports_jsx("meta", {
   name: "og:site_name",
-  content: "CSEC Spanish Online"
+  content: "CXC Spanish Online"
+}), HeaderImports_jsx("meta", {
+  name: "HandheldFriendly",
+  content: "True"
+}), HeaderImports_jsx("meta", {
+  name: "MSThemeCompatible",
+  content: "no"
+}), HeaderImports_jsx("meta", {
+  name: "apple-mobile-web-app-capable",
+  content: "yes"
+}), HeaderImports_jsx("meta", {
+  name: "apple-mobile-web-app-status-bar-style",
+  content: "translucent black"
+}), HeaderImports_jsx("meta", {
+  name: "msapplication-navbutton-color",
+  content: "translucent black"
+}), HeaderImports_jsx("meta", {
+  name: "mssmarttagspreventparsing",
+  content: "true"
+}), HeaderImports_jsx("meta", {
+  name: "theme-color",
+  content: "#b1cff4"
+}), HeaderImports_jsx("meta", {
+  "http-equiv": "Page-Enter",
+  content: "RevealTrans(Duration=1.0,Transition=1)"
+}), HeaderImports_jsx("meta", {
+  "http-equiv": "Page-Exit",
+  content: "RevealTrans(Duration=1.0,Transition=1)"
 }));
 
 /* harmony default export */ var components_HeaderImports = (HeaderImports);
@@ -11859,6 +11692,8 @@ react_ga_default.a.initialize("UA-146229442-1"); // Render on client side
 if (false) {}
 
 const Fragment = react_default.a.Fragment;
+
+if (false) {}
 
 const Layout = props => Layout_jsx(Fragment, null, Layout_jsx(react_messenger_customer_chat_lib_default.a, {
   pageId: "<https://cxcspanish.cxcspanish.now.sh>",
@@ -28110,7 +27945,7 @@ module.exports = exports["default"];
 /***/ "LZ9C":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"devFiles\":[],\"pages\":{\"/\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/FAQ\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/_app\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/_error\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/_polyfills\":[\"static/runtime/polyfills-676937fbdb4b0e70e916.js\"],\"/exam-topics\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/guide\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/guides/GuideLayout\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/guides/misc/SuggestedArticles\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/guides/spanish-adjectives\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/guides/study-tips\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/index\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/privacy\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/privacy-policy\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/resources/cxc-spanish-2015-past-paper\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/resources/cxc-spanish-2016-past-paper\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/resources/cxc-spanish-2017-past-paper\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/resources/cxc-spanish-2018-past-paper\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/resources/cxc-spanish-2019-past-paper\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/short-stories\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/stories/garbancito\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/terms\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/topics/content/dir-sit/Examples\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/topics/content/dir-sit/Exercises\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/topics/content/dir-sit/Overview\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/topics/content/dir-sit/WordBank\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/topics/content/ltr-wri/Exercises\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/topics/content/ltr-wri/Guidelines\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/topics/content/ltr-wri/LetterLayout\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/topics/content/ltr-wri/Overview\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/topics/content/ltr-wri/SampleOne\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/topics/content/ltr-wri/SampleTwo\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/topics/content/ltr-wri/UsefulEssentials\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/topics/directed-situations\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"],\"/topics/letter-writing\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.5d5167ad.chunk.css\",\"static/chunks/commons.5867442241be0fa21214.js\",\"static/runtime/main-ffe2f5db531110b3ad88.js\"]}}");
+module.exports = JSON.parse("{\"devFiles\":[],\"pages\":{\"/\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/FAQ\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/_app\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/_error\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/_polyfills\":[\"static/runtime/polyfills-199c5d1e5afadfaacf6a.js\"],\"/contact\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/exam-topics\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/guide\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/guides/articles-in-spanish\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/guides/at-the-airport\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/guides/common-spanish-adverbs\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/guides/how-to-ask-for-directions-in-spanish\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/guides/how-to-use-gustar\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/guides/oral-exercise\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/guides/por-vs-para\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/guides/preterite-vs-imperfect\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/guides/pronunciation-tips\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/guides/ser-vs-estar\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/guides/spanish-adjectives\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/guides/spanish-verb-types\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/guides/study-tips\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/guides/the-spanish-alphabet\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/index\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/listening\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/listening-exercises/meet-ana\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/listening-exercises/meet-nick\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/listening-exercises/spanish-curse-words\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/listening-exercises/una-visita-de-espana\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/privacy\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/privacy-policy\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/resources/cxc-spanish-2015-past-paper\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/resources/cxc-spanish-2016-past-paper\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/resources/cxc-spanish-2017-past-paper\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/resources/cxc-spanish-2018-past-paper\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/resources/cxc-spanish-2019-past-paper\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/short-stories\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/stories/garbancito\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/terms\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/topics/content/dir-sit/Examples\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/topics/content/dir-sit/Exercises\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/topics/content/dir-sit/Overview\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/topics/content/dir-sit/WordBank\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/topics/content/ltr-wri/Exercises\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/topics/content/ltr-wri/Guidelines\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/topics/content/ltr-wri/LetterLayout\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/topics/content/ltr-wri/Overview\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/topics/content/ltr-wri/SampleOne\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/topics/content/ltr-wri/SampleTwo\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/topics/content/ltr-wri/UsefulEssentials\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/topics/directed-situations\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/topics/letter-writing\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"],\"/whatsapp-groups\":[\"static/runtime/webpack-c992d92ff9d1f9b8c575.js\",\"static/css/commons.2aab1a7a.chunk.css\",\"static/chunks/commons.aeaa612229d396c188cd.js\",\"static/runtime/main-49814d90f4e02edf51f9.js\"]}}");
 
 /***/ }),
 
@@ -30900,15 +30735,15 @@ const Marketing = props => __jsx("div", {
   lg: 4,
   xl: 4
 }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_3___default.a, null, __jsx(react_image__WEBPACK_IMPORTED_MODULE_2___default.a, {
-  src: ["https://png2.cleanpng.com/sh/83284134f4a955c5a44b2e0333fc81ce/L0KzQYm3VsE4N6ZvepH0aYP2gLBuTgBmdqRuh9C2cnX3ecPsjfVvfF54ed5ucz3lhcTwjvV0e153feZqaXywdbL5Tflkd58yTdQ7NkK6RoW5WfE3QWYzTKsDN0G3QIS4VcI6OmM8SaIDMUezRnB3jvc=/kisspng-pension-retirement-sales-business-retail-ear-icon-5b26276429a695.4987140315292271081706.png", "https://www.colourbox.com/preview/22111544-the-ear-icon-listen-symbol-flat.jpg", "https://comps.gograph.com/ear-icon-in-flat-style-isolated-on-white-background-part-of-body-symbol-stock-vector-illustration_gg88742647.jpg"],
-  alt: "image",
+  src: ["https://upload.wikimedia.org/wikipedia/commons/6/6c/Flat_icon_ear.png", "https://www.flaticon.com/premium-icon/icons/svg/1453/1453597.svg", "https://thumbs.dreamstime.com/z/tunnels-ears-icon-long-shadow-white-background-tunnels-ears-icon-long-shadow-130808476.jpg", "https://lh3.googleusercontent.com/b1a0bNnNUJJM88DxJ_3-_aNZ3xmGQhdCg05BN063x71eOa1szP9__cCBx7jGnTrh-NI=s90", "https://png2.cleanpng.com/sh/83284134f4a955c5a44b2e0333fc81ce/L0KzQYm3VsE4N6ZvepH0aYP2gLBuTgBmdqRuh9C2cnX3ecPsjfVvfF54ed5ucz3lhcTwjvV0e153feZqaXywdbL5Tflkd58yTdQ7NkK6RoW5WfE3QWYzTKsDN0G3QIS4VcI6OmM8SaIDMUezRnB3jvc=/kisspng-pension-retirement-sales-business-retail-ear-icon-5b26276429a695.4987140315292271081706.png", "https://www.colourbox.com/preview/22111544-the-ear-icon-listen-symbol-flat.jpg", "https://comps.gograph.com/ear-icon-in-flat-style-isolated-on-white-background-part-of-body-symbol-stock-vector-illustration_gg88742647.jpg"],
+  alt: "image of listening",
   style: {
     height: "180px"
   },
   className: "rounded-circle"
 })), __jsx("br", null), __jsx("br", null), __jsx("h2", null, "Listening"), __jsx("p", null, "Improve your Spanish listening skills with audio recordings from native Spanish-speakers, and listen recorded extracts from CXC past papers questions."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
   theme: "warning",
-  href: "#",
+  href: "/listening",
   role: "button"
 }, "Start Learning \xBB"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
   sm: 12,
@@ -30917,7 +30752,7 @@ const Marketing = props => __jsx("div", {
   xl: 4
 }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_3___default.a, null, __jsx(react_image__WEBPACK_IMPORTED_MODULE_2___default.a, {
   src: ["https://icons-for-free.com/iconfiles/png/512/equipment+pen+pencil+tool+write+writing+icon-1320165901782992167.png", "https://www.pikpng.com/pngl/m/97-978365_writing-icon-hd-png-download.png", "https://st2.depositphotos.com/4060975/9113/v/950/depositphotos_91131614-stock-illustration-writing-colored-vector-icon.jpg"],
-  alt: "",
+  alt: "image of listening",
   style: {
     height: "180px"
   },
@@ -30936,8 +30771,8 @@ const Marketing = props => __jsx("div", {
   lg: 4,
   xl: 4
 }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_3___default.a, null, __jsx(react_image__WEBPACK_IMPORTED_MODULE_2___default.a, {
-  src: ["https://image.flaticon.com/icons/svg/426/426426.svg", "https://previews.123rf.com/images/pandavector/pandavector1701/pandavector170103700/69812068-speaking-mouth-icon-in-flat-style-isolated-on-white-background-interpreter-and-translator-symbol-sto.jpg", "https://assets.dryicons.com/uploads/icon/svg/8859/cdf7ad61-0549-4442-a349-d17717288163.svg"],
-  alt: "",
+  src: ["https://image.flaticon.com/icons/svg/426/426426.svg", "https://image.flaticon.com/icons/svg/326/326058.svg", "https://www.pinclipart.com/picdir/big/64-644580_motivational-clipart-public-speaking-public-speaking-speech-icon.png", "https://www.svgrepo.com/show/1734/speaking.svg", "https://image.flaticon.com/icons/svg/1653/1653630.svg", "https://image.flaticon.com/icons/svg/426/426426.svg", "https://image.flaticon.com/icons/svg/426/426426.svg", "https://previews.123rf.com/images/pandavector/pandavector1701/pandavector170103700/69812068-speaking-mouth-icon-in-flat-style-isolated-on-white-background-interpreter-and-translator-symbol-sto.jpg", "https://assets.dryicons.com/uploads/icon/svg/8859/cdf7ad61-0549-4442-a349-d17717288163.svg"],
+  alt: "image of speaking",
   style: {
     height: "180px"
   },
@@ -37324,6 +37159,197 @@ FormControl.Feedback = _Feedback.default;
 var _default = FormControl;
 exports.default = _default;
 module.exports = exports["default"];
+
+/***/ }),
+
+/***/ "bh8t":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticProps", function() { return unstable_getStaticProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticParams", function() { return unstable_getStaticParams; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticPaths", function() { return unstable_getStaticPaths; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "config", function() { return config; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_app", function() { return _app; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderReqToHTML", function() { return renderReqToHTML; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony import */ var url__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("bzos");
+/* harmony import */ var url__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(url__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var querystring__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("8xkj");
+/* harmony import */ var querystring__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(querystring__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_dist_next_server_server_render__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("/bjS");
+/* harmony import */ var next_dist_next_server_server_render__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_next_server_server_render__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_dist_next_server_server_send_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("LuNM");
+/* harmony import */ var next_dist_next_server_server_send_html__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_next_server_server_send_html__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("GX0O");
+/* harmony import */ var next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("KqAr");
+/* harmony import */ var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("LZ9C");
+var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t("LZ9C", 1);
+/* harmony import */ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("67Bq");
+var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t("67Bq", 1);
+/* harmony import */ var next_dist_pages_document__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("VDXt");
+/* harmony import */ var next_dist_pages_document__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_dist_pages_document__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var private_next_pages_error_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("Y0NT");
+/* harmony import */ var next_dist_pages_app__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("B5Ud");
+/* harmony import */ var next_dist_pages_app__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_dist_pages_app__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__("Skye");
+var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_11___namespace = /*#__PURE__*/__webpack_require__.t("Skye", 1);
+/* harmony import */ var next_dist_next_server_server_lib_path_match__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__("uDRR");
+/* harmony import */ var next_dist_next_server_server_lib_path_match__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_dist_next_server_server_lib_path_match__WEBPACK_IMPORTED_MODULE_12__);
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+    const Component = private_next_pages_error_js__WEBPACK_IMPORTED_MODULE_9__["default"]
+    /* harmony default export */ __webpack_exports__["default"] = (Component);
+    const unstable_getStaticProps = private_next_pages_error_js__WEBPACK_IMPORTED_MODULE_9__['unstable_getStaticProp' + 's']
+    const unstable_getStaticParams = private_next_pages_error_js__WEBPACK_IMPORTED_MODULE_9__['unstable_getStaticParam' + 's']
+    const unstable_getStaticPaths = private_next_pages_error_js__WEBPACK_IMPORTED_MODULE_9__['unstable_getStaticPath' + 's']
+
+    
+    
+    const getCustomRouteMatcher = next_dist_next_server_server_lib_path_match__WEBPACK_IMPORTED_MODULE_12___default()(true)
+
+    function handleRewrites(parsedUrl) {
+      for (const rewrite of private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_11__[/* rewrites */ "a"]) {
+        const matcher = getCustomRouteMatcher(rewrite.source)
+        const params = matcher(parsedUrl.pathname)
+
+        if (params) {
+          parsedUrl.query = {
+            ...parsedUrl.query,
+            ...params
+          }
+          const parsedDest = Object(url__WEBPACK_IMPORTED_MODULE_0__["parse"])(rewrite.destination)
+          const destCompiler = next_dist_next_server_server_lib_path_match__WEBPACK_IMPORTED_MODULE_12__["pathToRegexp"].compile(
+            `${parsedDest.pathname}${parsedDest.hash || ''}`
+          )
+          const newUrl = destCompiler(params)
+          const parsedNewUrl = Object(url__WEBPACK_IMPORTED_MODULE_0__["parse"])(newUrl)
+
+          parsedUrl.pathname = parsedNewUrl.pathname
+          parsedUrl.hash = parsedNewUrl.hash
+
+          if (parsedUrl.pathname === '/_error'){
+            break
+          }
+          
+        }
+      }
+
+      return parsedUrl
+    }
+  
+
+    const config = private_next_pages_error_js__WEBPACK_IMPORTED_MODULE_9__['confi' + 'g'] || {}
+    const _app = next_dist_pages_app__WEBPACK_IMPORTED_MODULE_10___default.a
+    async function renderReqToHTML(req, res, fromExport, _renderOpts, _params) {
+      
+      const options = {
+        App: (next_dist_pages_app__WEBPACK_IMPORTED_MODULE_10___default()),
+        Document: (next_dist_pages_document__WEBPACK_IMPORTED_MODULE_8___default()),
+        buildManifest: private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_6__,
+        unstable_getStaticProps,
+        unstable_getStaticPaths,
+        reactLoadableManifest: private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_7__,
+        canonicalBase: "",
+        buildId: "BXQWgB_sGFsJl5xft9ZVO",
+        assetPrefix: "",
+        ampBindInitData: false,
+        ..._renderOpts
+      }
+      let sprData = false
+
+      if (req.url.match(/_next\/data/)) {
+        sprData = true
+        req.url = req.url
+          .replace(new RegExp('/_next/data/BXQWgB_sGFsJl5xft9ZVO/'), '/')
+          .replace(/\.json$/, '')
+      }
+      const parsedUrl = handleRewrites(Object(url__WEBPACK_IMPORTED_MODULE_0__["parse"])(req.url, true))
+
+      const renderOpts = Object.assign(
+        {
+          Component,
+          pageConfig: config,
+          dataOnly: req.headers && (req.headers.accept || '').indexOf('application/amp.bind+json') !== -1,
+          nextExport: fromExport
+        },
+        options,
+      )
+      try {
+        res.statusCode = 404
+        const params = {};
+        const nowParams = null;
+        let result = await Object(next_dist_next_server_server_render__WEBPACK_IMPORTED_MODULE_2__["renderToHTML"])(req, res, "/_error", Object.assign({}, unstable_getStaticProps ? {} : parsedUrl.query, nowParams ? nowParams : params, _params), renderOpts)
+
+        if (sprData && !fromExport) {
+          const payload = JSON.stringify(renderOpts.sprData)
+          res.setHeader('Content-Type', 'application/json')
+          res.setHeader('Content-Length', Buffer.byteLength(payload))
+          res.setHeader(
+            'Cache-Control',
+            `s-maxage=${renderOpts.revalidate}, stale-while-revalidate`
+          )
+          res.end(payload)
+          return null
+        }
+
+        if (fromExport) return { html: result, renderOpts }
+        return result
+      } catch (err) {
+        if (err.code === 'ENOENT') {
+          res.statusCode = 404
+          const result = await Object(next_dist_next_server_server_render__WEBPACK_IMPORTED_MODULE_2__["renderToHTML"])(req, res, "/_error", parsedUrl.query, Object.assign({}, options, {
+            unstable_getStaticProps: undefined,
+            unstable_getStaticPaths: undefined,
+            Component: private_next_pages_error_js__WEBPACK_IMPORTED_MODULE_9__["default"]
+          }))
+          return result
+        } else {
+          console.error(err)
+          res.statusCode = 500
+          const result = await Object(next_dist_next_server_server_render__WEBPACK_IMPORTED_MODULE_2__["renderToHTML"])(req, res, "/_error", parsedUrl.query, Object.assign({}, options, {
+            unstable_getStaticProps: undefined,
+            unstable_getStaticPaths: undefined,
+            Component: private_next_pages_error_js__WEBPACK_IMPORTED_MODULE_9__["default"],
+            err
+          }))
+          return result
+        }
+      }
+    }
+    async function render (req, res) {
+      try {
+        await Object(next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_4__["default"])()
+        const html = await renderReqToHTML(req, res)
+        if (html) {
+          Object(next_dist_next_server_server_send_html__WEBPACK_IMPORTED_MODULE_3__["sendHTML"])(req, res, html, {generateEtags: true})
+        }
+      } catch(err) {
+        await Object(next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_5__["default"])(err)
+        console.error(err)
+        res.statusCode = 500
+        res.end('Internal Server Error')
+      }
+    }
+  
 
 /***/ }),
 

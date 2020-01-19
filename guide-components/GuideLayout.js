@@ -21,6 +21,7 @@ import {
   isBrowser,
   isMobile
 } from "react-device-detect";
+import LazyLoad from "react-lazyload";
 
 import FA from "react-fontawesome";
 
@@ -56,7 +57,7 @@ const GuideLayout = props => (
                 <a
                   className="text-muted"
                   style={{ paddingLeft: "10px" }}
-                  href=""
+                  href="https://www.instagram.com/cxcspanish/"
                   target="_blank"
                 >
                   cxcspanish
@@ -67,7 +68,7 @@ const GuideLayout = props => (
                 <a
                   className="text-muted"
                   style={{ paddingLeft: "10px" }}
-                  href=""
+                  href="https://www.facebook.com/cxcspanishguide/?__tn__=%2Cd%2CP-R&eid=ARBp5b8r2d06OFKljjfcKxLq6dNjDPkODENJqB9yAsRgKUQHpmOrhWiLifsxgPnYtt5njC48bXpGjQii"
                   target="_blank"
                 >
                   CXC Spanish Gude
@@ -78,7 +79,7 @@ const GuideLayout = props => (
                 <a
                   className="text-muted"
                   style={{ paddingLeft: "10px" }}
-                  href=""
+                  href="https://www.twitter.com/cxcspanish"
                   target="_blank"
                 >
                   cxcspanish
@@ -90,6 +91,7 @@ const GuideLayout = props => (
       </BrowserView>
     </Col>
     <Col sm={12} md={4} lg={4} xl={4}>
+      <br className="d-sm-none" />
       <Card>
         <CardBody>
           <CardTitle>Read on the Go</CardTitle>
@@ -100,7 +102,7 @@ const GuideLayout = props => (
 
           <ul style={{ marginLeft: "-25px", listStyleType: "none" }}>
             <li>
-              <PDFFile title="'ser' vs. 'estar'" href="" />
+              <PDFFile title="'Ser' vs. 'Estar'" href="" />
             </li>
             <li style={{ paddingTop: "15px" }}>
               <PDFFile title="Study Tips" href="" />

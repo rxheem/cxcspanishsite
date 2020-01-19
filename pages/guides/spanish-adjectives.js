@@ -18,9 +18,6 @@ import { Tab, Tabs, TabContent } from "react-bootstrap";
 // Layout
 import Layout from "../../components/Layout";
 
-// Suggested
-import SuggestedArticles from "./misc/SuggestedArticles";
-
 const SpanishAdjectives = props => (
   <Layout>
     <Container>
@@ -75,9 +72,7 @@ const SpanishAdjectives = props => (
             <CardFooter>Card footer</CardFooter>
           </Card>
         </Col>
-        <Col sm={4} md={4} lg={4} xl={4}>
-          <SuggestedArticles />
-        </Col>
+        <Col sm={4} md={4} lg={4} xl={4}></Col>
       </Row>
     </Container>
   </Layout>

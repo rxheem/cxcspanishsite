@@ -438,13 +438,13 @@ var Footer = function Footer(props) {
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     downloadable: true,
     target: "_blank",
-    href: "https://drive.google.com/file/d/19LPNYdP053Ve3WRtHezISV3M3R-susHK/view"
+    href: "https://www.dropbox.com/s/h76ga6bxhdeex94/CSEC%C2%AE%20Spanish%20Past%20Papers-2_nodrm%20%281%29.pdf?dl=0"
   }, "CSEC"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     target: "_blank",
-    href: "https://drive.google.com/file/d/1DGTAPLcjmPG21tXmUKa9ZLvLh_IzxAcM/view?usp=sharing"
+    href: "https://www.dropbox.com/s/bjz288n93t2kein/CAPE%20Spanish%20Past%20Papers.pdf?dl=0"
   }, "CAPE"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     target: "_blank",
-    href: "https://drive.google.com/drive/u/0/folders/1zPeCEOLnKcTIo5QewZL7YJsm7u9gsTI4"
+    href: "https://www.dropbox.com/sh/0iwksvyxx6hnx8u/AADS2oBLhV7Ouofp9d0fc593a?dl=0"
   }, "View Archives")), __jsx("br", null), __jsx("h6", null, "Mailing List"), __jsx("p", null, "Subscribe to our mailing list and get free weelkly emails, past papers and exercise booklets."), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["FormInput"], {
     placeholder: "Enter email"
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
@@ -458,7 +458,7 @@ var Footer = function Footer(props) {
     className: "text-dark"
   }, "Social Media"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     target: "_blank",
-    href: "/"
+    href: "https://www.facebook.com/cxcspanishguide/?__tn__=%2Cd%2CP-R&eid=ARBp5b8r2d06OFKljjfcKxLq6dNjDPkODENJqB9yAsRgKUQHpmOrhWiLifsxgPnYtt5njC48bXpGjQii"
   }, __jsx("i", {
     style: {
       color: " #3b5998"
@@ -466,7 +466,7 @@ var Footer = function Footer(props) {
     className: "fab fa-facebook fa-2x"
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     target: "_blank",
-    href: "/"
+    href: "https://www.instagram.com/cxcspanish/"
   }, __jsx("i", {
     style: {
       color: "#8a3ab9"
@@ -474,7 +474,7 @@ var Footer = function Footer(props) {
     className: "fab fa-instagram fa-2x"
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     target: "_blank",
-    href: "/"
+    href: "https://www.twitter.com/cxcspanish"
   }, __jsx("i", {
     style: {
       color: "#00acee"
@@ -657,6 +657,10 @@ var HeaderImports = function HeaderImports(props) {
   }), __jsx("meta", {
     name: "keywords",
     content: "spanish cxc past papers 2019,cxc,csec spanish,spanish jamaica,cxc spanish,cxc spansih jamaica,espanol jamaica, csec spanish past papers, spanish, cape, caribbean examination counsil,caribbean examination counsel, espa\xF1ol, espanol, study guide, study, pass csec spanish exam, caribbean examination counsil,caribbean examination counsel, espa\xF1ol, espanol, study guide, study, directed situations, free response,present tense,imperfect tense,ser vs estar,subjunctive mood,subjunctive tense spanish,reading comprehension,contextual dialogue, contextual announcements, poster,spanish,pass"
+  }), __jsx("link", {
+    type: "image/jpg",
+    rel: "icon",
+    href: "https://i.imgur.com/stMN66u.jpg"
   }), __jsx("meta", {
     name: "google-site-verification",
     content: "pOpvkLbMYpbgDGKqertoSF1GnBqDsCJM54z7p-JPNYk"
@@ -700,17 +704,11 @@ var HeaderImports = function HeaderImports(props) {
     "http-equiv": "Expires",
     content: "3\xE5"
   }), __jsx("meta", {
-    "http-equiv": "Pragma",
-    content: "no-cache"
-  }), __jsx("meta", {
     name: "language",
     content: "EN"
   }), __jsx("meta", {
     name: "fb:page_id",
     content: "105703077445673"
-  }), __jsx("link", {
-    rel: "icon",
-    content: "../assets/logo.jpg"
   }), __jsx("meta", {
     name: "og:site_name",
     content: "CXC Spanish Online"
@@ -749,7 +747,34 @@ var HeaderImports = function HeaderImports(props) {
     content: "safe for kids"
   }), __jsx("meta", {
     name: "og:site_name",
-    content: "CSEC Spanish Online"
+    content: "CXC Spanish Online"
+  }), __jsx("meta", {
+    name: "HandheldFriendly",
+    content: "True"
+  }), __jsx("meta", {
+    name: "MSThemeCompatible",
+    content: "no"
+  }), __jsx("meta", {
+    name: "apple-mobile-web-app-capable",
+    content: "yes"
+  }), __jsx("meta", {
+    name: "apple-mobile-web-app-status-bar-style",
+    content: "translucent black"
+  }), __jsx("meta", {
+    name: "msapplication-navbutton-color",
+    content: "translucent black"
+  }), __jsx("meta", {
+    name: "mssmarttagspreventparsing",
+    content: "true"
+  }), __jsx("meta", {
+    name: "theme-color",
+    content: "#b1cff4"
+  }), __jsx("meta", {
+    "http-equiv": "Page-Enter",
+    content: "RevealTrans(Duration=1.0,Transition=1)"
+  }), __jsx("meta", {
+    "http-equiv": "Page-Exit",
+    content: "RevealTrans(Duration=1.0,Transition=1)"
   }));
 };
 
@@ -820,6 +845,7 @@ react_ga__WEBPACK_IMPORTED_MODULE_14__["default"].initialize("UA-146229442-1"); 
 if (true) {
   react_ga__WEBPACK_IMPORTED_MODULE_14__["default"].initialize("UA-146229442-1", {
     debug: true,
+    alwaysSendToDefaultTracker: false,
     titleCase: false,
     gaOptions: {
       userId: 123
@@ -829,6 +855,8 @@ if (true) {
 }
 
 var Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
+
+if (true) {}
 
 var Layout = function Layout(props) {
   return __jsx(Fragment, null, __jsx(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_15___default.a, {
@@ -918,10 +946,12 @@ function (_React$Component) {
 
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_9__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_10__["default"])(NavbarComponent).call(this, props));
     _this.toggleDropdown = _this.toggleDropdown.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_11__["default"])(_this));
+    _this.toggleDropdown2 = _this.toggleDropdown2.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_11__["default"])(_this));
     _this.toggleNavbar = _this.toggleNavbar.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_11__["default"])(_this));
     _this.state = {
       title: "CXC Spanish Online",
       dropdownOpen: false,
+      dropdownOpen2: false,
       collapseOpen: false
     };
     return _this;
@@ -932,6 +962,13 @@ function (_React$Component) {
     value: function toggleDropdown() {
       this.setState(_objectSpread({}, this.state, {}, {
         dropdownOpen: !this.state.dropdownOpen
+      }));
+    }
+  }, {
+    key: "toggleDropdown2",
+    value: function toggleDropdown2() {
+      this.setState(_objectSpread({}, this.state, {}, {
+        dropdownOpen2: !this.state.dropdownOpen2
       }));
     }
   }, {
@@ -961,6 +998,24 @@ function (_React$Component) {
         className: "text-white",
         href: "/guide"
       }, "Guides")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["Dropdown"], {
+        open: this.state.dropdownOpen2,
+        toggle: this.toggleDropdown2
+      }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownToggle"], {
+        className: "text-white",
+        nav: true,
+        caret: true
+      }, "Essentials"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownMenu"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
+        href: "/listening"
+      }, "Listening Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
+        href: "/reading"
+      }, "Reading Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
+        href: "/writing/"
+      }, "Writing Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
+        href: "/speaking"
+      }, "Speaking Exercises"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
+        className: "text-white",
+        href: "/verb-tenses"
+      }, "Verb Tenses")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["Dropdown"], {
         open: this.state.dropdownOpen,
         toggle: this.toggleDropdown
       }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownToggle"], {
@@ -983,17 +1038,11 @@ function (_React$Component) {
         href: "/topics/"
       }, "Directed Situations"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
         className: "text-white",
-        href: "/verb-tenses"
-      }, "Verb Tenses")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
-        className: "text-white",
         href: "/resources"
       }, "Resources")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
         className: "text-white",
-        href: "/quiz"
-      }, "Quiz")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
-        className: "text-white",
-        href: "/forum"
-      }, "Forum"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["Nav"], {
+        href: "/whatsapp-groups"
+      }, "Chat"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["Nav"], {
         navbar: true,
         className: "ml-auto"
       }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
@@ -1005,7 +1054,6 @@ function (_React$Component) {
         },
         name: "users"
       }), "About Us")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
-        hidden: true,
         className: "text-white",
         href: "/tutoring"
       }, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_15___default.a, {
@@ -1214,15 +1262,15 @@ var Marketing = function Marketing(props) {
     lg: 4,
     xl: 4
   }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_3___default.a, null, __jsx(react_image__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    src: ["https://png2.cleanpng.com/sh/83284134f4a955c5a44b2e0333fc81ce/L0KzQYm3VsE4N6ZvepH0aYP2gLBuTgBmdqRuh9C2cnX3ecPsjfVvfF54ed5ucz3lhcTwjvV0e153feZqaXywdbL5Tflkd58yTdQ7NkK6RoW5WfE3QWYzTKsDN0G3QIS4VcI6OmM8SaIDMUezRnB3jvc=/kisspng-pension-retirement-sales-business-retail-ear-icon-5b26276429a695.4987140315292271081706.png", "https://www.colourbox.com/preview/22111544-the-ear-icon-listen-symbol-flat.jpg", "https://comps.gograph.com/ear-icon-in-flat-style-isolated-on-white-background-part-of-body-symbol-stock-vector-illustration_gg88742647.jpg"],
-    alt: "image",
+    src: ["https://upload.wikimedia.org/wikipedia/commons/6/6c/Flat_icon_ear.png", "https://www.flaticon.com/premium-icon/icons/svg/1453/1453597.svg", "https://thumbs.dreamstime.com/z/tunnels-ears-icon-long-shadow-white-background-tunnels-ears-icon-long-shadow-130808476.jpg", "https://lh3.googleusercontent.com/b1a0bNnNUJJM88DxJ_3-_aNZ3xmGQhdCg05BN063x71eOa1szP9__cCBx7jGnTrh-NI=s90", "https://png2.cleanpng.com/sh/83284134f4a955c5a44b2e0333fc81ce/L0KzQYm3VsE4N6ZvepH0aYP2gLBuTgBmdqRuh9C2cnX3ecPsjfVvfF54ed5ucz3lhcTwjvV0e153feZqaXywdbL5Tflkd58yTdQ7NkK6RoW5WfE3QWYzTKsDN0G3QIS4VcI6OmM8SaIDMUezRnB3jvc=/kisspng-pension-retirement-sales-business-retail-ear-icon-5b26276429a695.4987140315292271081706.png", "https://www.colourbox.com/preview/22111544-the-ear-icon-listen-symbol-flat.jpg", "https://comps.gograph.com/ear-icon-in-flat-style-isolated-on-white-background-part-of-body-symbol-stock-vector-illustration_gg88742647.jpg"],
+    alt: "image of listening",
     style: {
       height: "180px"
     },
     className: "rounded-circle"
   })), __jsx("br", null), __jsx("br", null), __jsx("h2", null, "Listening"), __jsx("p", null, "Improve your Spanish listening skills with audio recordings from native Spanish-speakers, and listen recorded extracts from CXC past papers questions."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
     theme: "warning",
-    href: "#",
+    href: "/listening",
     role: "button"
   }, "Start Learning \xBB"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
     sm: 12,
@@ -1231,7 +1279,7 @@ var Marketing = function Marketing(props) {
     xl: 4
   }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_3___default.a, null, __jsx(react_image__WEBPACK_IMPORTED_MODULE_2___default.a, {
     src: ["https://icons-for-free.com/iconfiles/png/512/equipment+pen+pencil+tool+write+writing+icon-1320165901782992167.png", "https://www.pikpng.com/pngl/m/97-978365_writing-icon-hd-png-download.png", "https://st2.depositphotos.com/4060975/9113/v/950/depositphotos_91131614-stock-illustration-writing-colored-vector-icon.jpg"],
-    alt: "",
+    alt: "image of listening",
     style: {
       height: "180px"
     },
@@ -1250,8 +1298,8 @@ var Marketing = function Marketing(props) {
     lg: 4,
     xl: 4
   }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_3___default.a, null, __jsx(react_image__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    src: ["https://image.flaticon.com/icons/svg/426/426426.svg", "https://previews.123rf.com/images/pandavector/pandavector1701/pandavector170103700/69812068-speaking-mouth-icon-in-flat-style-isolated-on-white-background-interpreter-and-translator-symbol-sto.jpg", "https://assets.dryicons.com/uploads/icon/svg/8859/cdf7ad61-0549-4442-a349-d17717288163.svg"],
-    alt: "",
+    src: ["https://image.flaticon.com/icons/svg/426/426426.svg", "https://image.flaticon.com/icons/svg/326/326058.svg", "https://www.pinclipart.com/picdir/big/64-644580_motivational-clipart-public-speaking-public-speaking-speech-icon.png", "https://www.svgrepo.com/show/1734/speaking.svg", "https://image.flaticon.com/icons/svg/1653/1653630.svg", "https://image.flaticon.com/icons/svg/426/426426.svg", "https://image.flaticon.com/icons/svg/426/426426.svg", "https://previews.123rf.com/images/pandavector/pandavector1701/pandavector170103700/69812068-speaking-mouth-icon-in-flat-style-isolated-on-white-background-interpreter-and-translator-symbol-sto.jpg", "https://assets.dryicons.com/uploads/icon/svg/8859/cdf7ad61-0549-4442-a349-d17717288163.svg"],
+    alt: "image of speaking",
     style: {
       height: "180px"
     },
@@ -49837,7 +49885,7 @@ Error.getInitialProps = function (_ref2) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 9:
 /*!*******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2F_error.js ***!
   \*******************************************************************************************************************************************/
@@ -49860,5 +49908,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[9,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=_error.js.map

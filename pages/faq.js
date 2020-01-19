@@ -26,7 +26,7 @@ import Layout from "../components/Layout";
 const FAQ = props => (
   <Layout>
     <Head>
-      <title>Frequently Asked Questions | CXC Spanish Guide</title>
+      <title>Frequently Asked Questions | CXC Spanish Online</title>
       <meta
         name="og:title"
         content="Frequently Asked Questions |  CXC Spanish Guide"

@@ -15628,50 +15628,70 @@ color:#fff;
   zoom: 1;
 }
 
+audio:hover,
+audio:focus,
+audio:active {
+	-webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+	box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+audio {
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	border-radius: 7px 7px 7px 7px;
+}
 
 a {
-  color: #0084cf;
+	color: #0084cf;
 }
 
 .ul-st {
-  margin-left: -15px;
+	margin-left: -15px;
 }
 
 .ul-st li {
-  padding-bottom: 15px;
+	padding-bottom: 15px;
 }
 
 .ul-st li a {
-  color: #0084cf;
+	color: #0084cf;
 }
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
+	margin-bottom: 1.5rem;
+	text-align: center;
 }
 .marketing h2 {
-  font-weight: 400;
+	font-weight: 400;
 }
 .marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+	margin-right: .75rem;
+	margin-left: .75rem;
 }
 
 .breadcrumb {
-  background-color: transparent!important;
+	background-color: transparent !important;
 }
 
 .zoom {
-  padding: 50px;
-  transition: transform .2s; /* Animation */
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
+	padding: 50px;
+	transition: transform .2s; /* Animation */
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
 }
 
 .zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+	transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 

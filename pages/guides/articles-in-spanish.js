@@ -24,17 +24,36 @@ import GuideLayout from "../../guide-components/GuideLayout";
 
 const ArticlesInSpanish = props => (
   <React.Fragment>
-    <SEO
-      title="Articles In Spanish | CXC Spanish Guide"
-      description={
-        "Lean more about the different types of articles in Spanish."
-      }
-      image={""}
-      pathname={"https://www.cxcspanish.com/guides/"}
-      siteLanguage={"en"}
-      siteLocale={""}
-      twitterUsername={"_rxheem"}
-    />
+    <Head>
+      <title>Articles In Spanish | CXC Spanish Guide</title>
+      <meta
+        name="description"
+        content="Lean more about the different types of articles in Spanish."
+      />
+      <meta
+        name="subject"
+        content="Lean more about the different types of articles in Spanish."
+      />
+      <meta name="og:title" content="Articles In Spanish | CXC Spanish Guide" />
+      <meta name="og:type" content="article" />
+      <meta
+        name="og:description"
+        content="Lean more about the different types of articles in Spanish."
+      />
+      <meta name="og:site_name" content="CXC Spanish Online" />
+      <meta
+        name="topic"
+        content="Lean more about the different types of articles in Spanish."
+      />
+      <meta
+        name="summary"
+        content="Lean more about the different types of articles in Spanish."
+      />
+      <meta
+        name="url"
+        content="http://www.cxcspanish.com/guides/articles-in-spanish"
+      />
+    </Head>
     <Layout>
       <Container>
         <Breadcrumb>

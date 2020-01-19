@@ -38,19 +38,19 @@ const Footer = props => (
               <Nav.Link
                 downloadable
                 target="_blank"
-                href="https://drive.google.com/file/d/19LPNYdP053Ve3WRtHezISV3M3R-susHK/view"
+                href="https://www.dropbox.com/s/h76ga6bxhdeex94/CSEC%C2%AE%20Spanish%20Past%20Papers-2_nodrm%20%281%29.pdf?dl=0"
               >
                 CSEC
               </Nav.Link>
               <Nav.Link
                 target="_blank"
-                href="https://drive.google.com/file/d/1DGTAPLcjmPG21tXmUKa9ZLvLh_IzxAcM/view?usp=sharing"
+                href="https://www.dropbox.com/s/bjz288n93t2kein/CAPE%20Spanish%20Past%20Papers.pdf?dl=0"
               >
                 CAPE
               </Nav.Link>
               <Nav.Link
                 target="_blank"
-                href="https://drive.google.com/drive/u/0/folders/1zPeCEOLnKcTIo5QewZL7YJsm7u9gsTI4"
+                href="https://www.dropbox.com/sh/0iwksvyxx6hnx8u/AADS2oBLhV7Ouofp9d0fc593a?dl=0"
               >
                 View Archives
               </Nav.Link>
@@ -70,19 +70,28 @@ const Footer = props => (
             <br className="d-sm-none" />
             <h6 className="text-dark">Social Media</h6>
             <Nav>
-              <Nav.Link target="_blank" href="/">
+              <Nav.Link
+                target="_blank"
+                href="https://www.facebook.com/cxcspanishguide/?__tn__=%2Cd%2CP-R&eid=ARBp5b8r2d06OFKljjfcKxLq6dNjDPkODENJqB9yAsRgKUQHpmOrhWiLifsxgPnYtt5njC48bXpGjQii"
+              >
                 <i
                   style={{ color: " #3b5998" }}
                   className="fab fa-facebook fa-2x"
                 />
               </Nav.Link>
-              <Nav.Link target="_blank" href="/">
+              <Nav.Link
+                target="_blank"
+                href="https://www.instagram.com/cxcspanish/"
+              >
                 <i
                   style={{ color: "#8a3ab9" }}
                   className="fab fa-instagram fa-2x"
                 />
               </Nav.Link>
-              <Nav.Link target="_blank" href="/">
+              <Nav.Link
+                target="_blank"
+                href="https://www.twitter.com/cxcspanish"
+              >
                 <i
                   style={{ color: "#00acee" }}
                   className="fab fa-twitter fa-2x"

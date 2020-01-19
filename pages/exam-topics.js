@@ -21,7 +21,7 @@ import Layout from "../components/Layout";
 const ExamTopics = props => (
   <Layout>
     <Head>
-      <title>Exam Topics | CXC Spanish Guide</title>
+      <title>Exam Topics | CXC Spanish Online</title>
       <meta name="og:title" content="Exam Topics |  CXC Spanish Guide" />
       <meta name="og:site_name" content="CXC Spanish Online" />
       <meta

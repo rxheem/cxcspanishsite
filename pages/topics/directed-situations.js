@@ -18,7 +18,7 @@ import WordBank from "./content/dir-sit/WordBank";
 const DirectedSituations = props => (
   <Layout>
     <Head>
-      <title>Directed Situations | CXC Spanish Guide</title>
+      <title>Directed Situations | CXC Spanish Online</title>
       <meta
         name="og:title"
         content="Directed Situations |  CXC Spanish Guide"

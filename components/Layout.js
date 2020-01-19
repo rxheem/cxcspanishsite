@@ -28,6 +28,7 @@ ReactGA.initialize("UA-146229442-1");
 if (process.browser) {
   ReactGA.initialize("UA-146229442-1", {
     debug: true,
+    alwaysSendToDefaultTracker: false,
     titleCase: false,
     gaOptions: {
       userId: 123
@@ -38,6 +39,9 @@ if (process.browser) {
 }
 
 const Fragment = React.Fragment;
+
+if (process.browser) {
+}
 
 const Layout = props => (
   <Fragment>

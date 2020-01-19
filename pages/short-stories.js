@@ -23,7 +23,7 @@ import SEO from "react-seo-component";
 const ShortStories = props => (
   <Layout>
     <SEO
-      title="Short Stories | CXC Spanish Guide"
+      title="Short Stories | CXC Spanish Online"
       description={
         "Our short stories are designed to helo you to learn phrases, and help you practice reading in Spanish."
       }

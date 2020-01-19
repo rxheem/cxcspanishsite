@@ -20,6 +20,7 @@ import SEO from "react-seo-component";
 import HomeCarousel from "../home/HomeCarousel";
 import Marketing from "../home/Marketing";
 import Papers from "../home/Papers";
+import Info from "../home/Info";
 import MailingListSubscribe from "../home/MailingListSubscribe";
 
 // Layout
@@ -29,7 +30,7 @@ import Message from "../common/Message";
 const Index = props => (
   <Layout>
     <SEO
-      title="CXC Spanish | Guide, Past Papers and Exercises"
+      title="CXC Spanish Online | Guide, Past Papers and Exercises"
       description={
         "CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces."
       }
@@ -37,7 +38,7 @@ const Index = props => (
       pathname={"https://www.cxcspanish.com"}
       siteLanguage={"en"}
       siteLocale={""}
-      twitterUsername={"_rxheem"}
+      twitterUsername={"cxcspanish"}
     />
     <Container>
       <Breadcrumb>

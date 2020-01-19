@@ -49,7 +49,7 @@ class Guide extends React.Component {
     return (
       <Layout>
         <Head>
-          <title>Guides | CXC Spanish Guide</title>
+          <title>Guides | CXC Spanish Online</title>
           <meta name="og:title" content="Guides |  CXC Spanish Guide" />
           <meta name="og:site_name" content="CXC Spanish Online" />
           <meta
@@ -118,6 +118,82 @@ class Guide extends React.Component {
             </Card>
 
             <br />
+            {/* Fun */}
+            <Card>
+              <CardBody>
+                <CardTitle>Fun</CardTitle>
+
+                <br />
+
+                <Row>
+                  <Col sm={12} md={6} lg={6} xl={6}>
+                    <ul className="ul-st">
+                      <li>
+                        <a href="/guides/">Texting in Spanish</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Funny Spanish Jokes</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Traditional Spanish Food</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Apps that Teach You Spanish</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">In the Classroom</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Football Vocabulary</a>
+                      </li>
+                      <li>
+                        <a href="/guides/"></a>
+                      </li>
+                      <li>
+                        <a href="/guides/"></a>
+                      </li>
+                    </ul>
+                  </Col>
+                  <Col sm={12} md={6} lg={6} xl={6}>
+                    <ul className="ul-st">
+                      <li>
+                        <a href="/guides/">Traditional Spanish Food</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Tongue Twisters in Spanish</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Avoid These Top 5 Mistakes</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Flirting in Spanish</a>
+                      </li>
+                      <li>
+                        <a href="/guides/">Phone Call Vocabulary</a>
+                      </li>
+                      <li>
+                        <a href="/guides/"></a>
+                      </li>
+                      <li>
+                        <a href="/guides/"></a>
+                      </li>
+                      <li>
+                        <a href="/guides/"></a>
+                      </li>
+                    </ul>
+                  </Col>
+                </Row>
+              </CardBody>
+              <CardFooter>
+                <small className="text-danger">
+                  Not all articles are completed. We'll let you know when we're
+                  done
+                </small>
+              </CardFooter>
+            </Card>
+
+            <br />
+            {/* Essentials */}
             <Card>
               <CardBody>
                 <CardTitle>Essentials</CardTitle>
@@ -173,6 +249,11 @@ class Guide extends React.Component {
                           Articles in Spanish
                         </a>
                       </li>
+                      <li>
+                        <a href="/guides/common-spanish-adverbs">
+                          Common Spanish Adverbs
+                        </a>
+                      </li>
                     </ul>
                   </Col>
                 </Row>
@@ -186,6 +267,7 @@ class Guide extends React.Component {
             </Card>
 
             <br />
+            {/* Verbs and Tenses */}
             <Card>
               <CardBody>
                 <CardTitle>Verbs and Tenses</CardTitle>
@@ -241,6 +323,7 @@ class Guide extends React.Component {
             </Card>
 
             <br />
+            {/* How To */}
             <Card>
               <CardBody>
                 <CardTitle>How To</CardTitle>
@@ -289,70 +372,8 @@ class Guide extends React.Component {
                 </small>
               </CardFooter>
             </Card>
-
-            <br />
-            <Card>
-              <CardBody>
-                <CardTitle>Fun</CardTitle>
-
-                <br />
-
-                <Row>
-                  <Col sm={12} md={6} lg={6} xl={6}>
-                    <ul className="ul-st">
-                      <li>
-                        <a href="/guides/">Texting in Spanish</a>
-                      </li>
-                      <li>
-                        <a href="/guides/">Funny Spanish Jokes</a>
-                      </li>
-                      <li>
-                        <a href="/guides/">Traditional Spanish Food</a>
-                      </li>
-                      <li>
-                        <a href="/guides/">Apps that Teach You Spanish</a>
-                      </li>
-                    </ul>
-                  </Col>
-                  <Col sm={12} md={6} lg={6} xl={6}>
-                    <ul className="ul-st">
-                      <li>
-                        <a href="/guides/">Traditional Spanish Food</a>
-                      </li>
-                      <li>
-                        <a href="/guides/">Tongue Twisters in Spanish</a>
-                      </li>
-                      <li>
-                        <a href="/guides/">Avoid These Top 5 Mistakes</a>
-                      </li>
-                      <li>
-                        <a href="/guides/">Flirting in Spanish</a>
-                      </li>
-                    </ul>
-                  </Col>
-                </Row>
-              </CardBody>
-              <CardFooter>
-                <small className="text-danger">
-                  Not all articles are completed. We'll let you know when we're
-                  done
-                </small>
-              </CardFooter>
-            </Card>
           </GuideLayout>
         </Container>
-
-        <style>{`.ul-st {
-          margin-left: -15px;
-        }
-
-        .ul-st li {
-          padding-bottom: 15px;
-        }
-
-        .ul-st li a {
-          color: #0084cf;
-        }`}</style>
       </Layout>
     );
   }

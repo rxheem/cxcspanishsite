@@ -35,6 +35,28 @@ const AtTheAirport = props => (
       siteLocale={""}
       twitterUsername={"_rxheem"}
     />
+
+    <Head>
+      <title>At The Airport | CXC Spanish Guide</title>
+      <meta
+        name="description"
+        content="Learn how to communicate with passengers and employees at the airport. Take a deep dive with our onlne study guide."
+      />
+      <meta name="subject" content="At The Airport" />
+      <meta name="og:title" content="At The Airport | CXC Spanish Guide" />
+      <meta name="og:type" content="article" />
+      <meta
+        name="og:description"
+        content="Learn how to communicate with passengers and employees at the airport. Take a deep dive with our onlne study guide."
+      />
+      <meta name="og:site_name" content="CXC Spanish Online" />
+      <meta name="topic" content="At The Airport" />
+
+      <meta
+        name="url"
+        content="https://www.cxcspanish.com/guides/at-the-airport"
+      />
+    </Head>
     <Layout>
       <Container>
         <Breadcrumb>

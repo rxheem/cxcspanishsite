@@ -24,19 +24,36 @@ import GuideLayout from "../../guide-components/GuideLayout";
 
 const HowToAskForDirectionsInSpanish = props => (
   <React.Fragment>
-    <SEO
-      title="How To Ask For Directions In Spanish | CXC Spanish Guide"
-      description={
-        "Learn how to ask for directions in Spanish in cast you've gotten lost or need to find your way around."
-      }
-      image={""}
-      pathname={
-        "https://www.cxcspanish.com/guides/how-to-ask-for-directions-in-spanish"
-      }
-      siteLanguage={"en"}
-      siteLocale={""}
-      twitterUsername={"_rxheem"}
-    />
+    <Head>
+      <title>How To Ask For Directions In Spanish | CXC Spanish Guide</title>
+      <meta name="description" content="" />
+      <meta
+        name="subject"
+        content="How To Ask For Directions In Spanish | CXC Spanish Guide"
+      />
+      <meta
+        name="og:title"
+        content="How To Ask For Directions In Spanish | CXC Spanish Guide"
+      />
+      <meta name="og:type" content="article" />
+      <meta
+        name="og:description"
+        content="Learn how to ask for directions in Spanish in cast you've gotten lost or need to find your way around."
+      />
+      <meta name="og:site_name" content="CXC Spanish Online" />
+      <meta
+        name="topic"
+        content="How To Ask For Directions In Spanish | CXC Spanish Guide"
+      />
+      <meta
+        name="summary"
+        content="Learn how to ask for directions in Spanish in cast you've gotten lost or need to find your way around."
+      />
+      <meta
+        name="url"
+        content="http://www.cxcspanish.com/guides/how-to-ask-for-directions-in-spanish"
+      />
+    </Head>
     <Layout>
       <Container>
         <Breadcrumb>

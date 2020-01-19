@@ -19,7 +19,7 @@ import Head from "next/head";
 
 // Layout
 import Layout from "../../components/Layout";
-import GuideLayout from "./GuideLayout";
+import GuideLayout from "../../guide-components/GuideLayout";
 
 const StudyTips = props => (
   <Layout>
@@ -50,7 +50,8 @@ const StudyTips = props => (
               Learning another language can be challenging if you do not
               approach it right. Spanish is one of the fastest-spreading
               languages in the world and is often listed as among the easiest
-              for English speakers to learn. Here are our best tips to study and achieve fluency in Spanish.
+              for English speakers to learn. Here are our best tips to study and
+              achieve fluency in Spanish.
             </p>
 
             <br />

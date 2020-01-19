@@ -21,7 +21,7 @@ import SampleTwo from "./content/ltr-wri/SampleTwo";
 const LetterWriting = props => (
   <Layout>
     <Head>
-      <title>Letter Writing | CXC Spanish Guide</title>
+      <title>Letter Writing | CXC Spanish Online</title>
       <meta name="og:title" content="Letter Writing  |  CXC Spanish Guide" />
       <meta name="og:site_name" content="CXC Spanish Online" />
       <meta
