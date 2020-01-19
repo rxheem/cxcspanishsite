@@ -40,7 +40,7 @@ const ulStyles = {
 const PastPaper2019 = props => (
   <Layout>
     <SEO
-      title={"CXC Spanish 2019 Past Paper | CXC Spanish Guide"}
+      title={"2019 Past Paper | CXC Spanish Online"}
       description={
         "Get the CXC Spanish 2019 past paper in PDF format for free, along with the offical past paper booklet"
       }
@@ -81,13 +81,13 @@ const PastPaper2019 = props => (
 
               <PDFFile
                 title="CSEC Spanish Past Papers"
-                href="https://www.dropbox.com/s/h76ga6bxhdeex94/CSEC%C2%AE%20Spanish%20Past%20Papers-2_nodrm%20%281%29.pdf?dl=0"
+                href="https://dl.dropbox.com/s/h76ga6bxhdeex94/CSEC%C2%AE%20Spanish%20Past%20Papers-2_nodrm%20%281%29.pdf?dl=0"
               />
               <br />
               <br />
               <PDFFile
                 title="CAPE Spanish Past Papers"
-                href="https://www.dropbox.com/s/bjz288n93t2kein/CAPE%20Spanish%20Past%20Papers.pdf?dl=0"
+                href="https://dl.dropbox.com/s/bjz288n93t2kein/CAPE%20Spanish%20Past%20Papers.pdf?dl=0"
               />
 
               <br />

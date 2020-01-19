@@ -26,7 +26,7 @@ import Head from "next/head";
 const PastPaper2018 = props => (
   <Layout>
     <SEO
-      title={"CXC Spanish 2018 Past Paper | CXC Spanish Guide"}
+      title={"2018 Past Paper | CXC Spanish Online"}
       description={
         "Get the CXC Spanish 2018 past paper in PDF format for free, along with the offical past paper booklet"
       }
@@ -67,13 +67,13 @@ const PastPaper2018 = props => (
 
               <PDFFile
                 title="CSEC Spanish Past Papers"
-                href="https://drive.google.com/file/d/19LPNYdP053Ve3WRtHezISV3M3R-susHK/view?usp=sharing"
+                href="https://dl.dropbox.com/s/h76ga6bxhdeex94/CSEC%C2%AE%20Spanish%20Past%20Papers-2_nodrm%20%281%29.pdf?dl=0"
               />
               <br />
               <br />
               <PDFFile
                 title="CAPE Spanish Past Papers"
-                href="https://drive.google.com/file/d/1DGTAPLcjmPG21tXmUKa9ZLvLh_IzxAcM/view?usp=sharing"
+                href="https://dl.dropbox.com/s/bjz288n93t2kein/CAPE%20Spanish%20Past%20Papers.pdf?dl=0"
               />
 
               <br />
@@ -81,7 +81,7 @@ const PastPaper2018 = props => (
 
               <Button
                 target="_blank"
-                href="https://drive.google.com/drive/u/2/folders/1zPeCEOLnKcTIo5QewZL7YJsm7u9gsTI4?usp=sharing"
+                href="https://www.dropbox.com/sh/0iwksvyxx6hnx8u/AADS2oBLhV7Ouofp9d0fc593a?dl=0"
               >
                 All Past Papers &rarr;
               </Button>

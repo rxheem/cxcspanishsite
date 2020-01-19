@@ -152,7 +152,9 @@ const Privacy = props => (
       <a href="./resources/cxc-spanish-2019-past-paper">
         CXC Spanish 2019 Past paper
       </a>
-
+      <a href="./resources/cxc-spanish-2020-past-paper">
+        CXC Spanish 2019 Past paper
+      </a>
       <Row>
         <Col sm={12} md={8} lg={8} xl={8}>
           <Card>

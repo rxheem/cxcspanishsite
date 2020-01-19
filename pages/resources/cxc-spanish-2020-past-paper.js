@@ -14,6 +14,7 @@ import {
   Alert
 } from "shards-react";
 import SEO from "react-seo-component";
+import Head from "next/head";
 
 import PDFFile from "../../common/PDFFile";
 // Layout
@@ -21,14 +22,27 @@ import Layout from "../../components/Layout";
 import UsefulEssentials from "../topics/content/ltr-wri/UsefulEssentials";
 import Exercises from "../topics/content/ltr-wri/Exercises";
 
-import Head from "next/head";
+// Style for the onft icons
+const liStyles = {
+  display: "inline!important",
+  paddingLeft: "50px"
+};
 
-const PastPaper2015 = props => (
+const oLiStyles = {
+  display: "inline"
+};
+
+const ulStyles = {
+  listStyleType: "none",
+  paddingTop: "15px"
+};
+
+const PastPaper2020 = props => (
   <Layout>
     <SEO
-      title={"2015 Past Paper | CXC Spanish Online"}
+      title={"2020 Past Paper | CXC Spanish Online"}
       description={
-        "Get the CXC Spanish 2015 past paper in PDF format for free, along with the offical past paper booklet"
+        "Get the CXC Spanish 2020 past paper in PDF format for free, along with the offical past paper booklet"
       }
       pathname={""}
       siteLanguage={"en"}
@@ -47,14 +61,14 @@ const PastPaper2015 = props => (
         <BreadcrumbItem>
           <a href="/resouce">Resources</a>
         </BreadcrumbItem>
-        <BreadcrumbItem active>2015 Past Paper</BreadcrumbItem>
+        <BreadcrumbItem active>2020 Past Paper</BreadcrumbItem>
       </Breadcrumb>
 
       <Row>
         <Col sm={12} md={8} lg={8} xl={8}>
           <Card>
             <CardBody>
-              <CardTitle>CXC Spanish 2015 Past Paper</CardTitle>
+              <CardTitle>CXC Spanish 2020 Past Paper</CardTitle>
               <br />
 
               <p>
@@ -87,6 +101,53 @@ const PastPaper2015 = props => (
               </Button>
             </CardBody>
           </Card>
+
+          <br />
+          <Card>
+            <span className="border border-light">
+              <ul style={ulStyles}>
+                <li style={oLiStyles}>
+                  <i
+                    style={{ color: "#8a3ab9" }}
+                    className="fab fa-instagram"
+                  />
+                  <a
+                    className="text-muted"
+                    style={{ paddingLeft: "10px" }}
+                    href="https://www.instagram.com/cxcspnish"
+                    target="_blank"
+                  >
+                    cxcspanish
+                  </a>
+                </li>
+                <li style={liStyles}>
+                  <i
+                    style={{ color: " #3b5998" }}
+                    className="fab fa-facebook"
+                  />
+                  <a
+                    className="text-muted"
+                    style={{ paddingLeft: "10px" }}
+                    href=""
+                    target="_blank"
+                  >
+                    CXC Spanish Gude
+                  </a>
+                </li>
+                <li style={liStyles}>
+                  <i style={{ color: "#00acee" }} className="fab fa-twitter" />
+                  <a
+                    className="text-muted"
+                    style={{ paddingLeft: "10px" }}
+                    href=""
+                    target="_blank"
+                  >
+                    cxcspanish
+                  </a>
+                </li>
+              </ul>
+            </span>
+          </Card>
         </Col>
         <Col sm={4} md={4} lg={4} xl={4}>
           <UsefulEssentials />
@@ -97,4 +158,4 @@ const PastPaper2015 = props => (
   </Layout>
 );
 
-export default PastPaper2015;
+export default PastPaper2020;
