@@ -113,7 +113,11 @@ function Listening({ statusCode }) {
                     <li style={{ paddingTop: "10px" }}>
                       <a href="/listening-exercises/la-navidad">La navidad</a>
                     </li>
-                    <li style={{ paddingTop: "10px" }}>
+                  </ul>
+                </Col>
+                <Col sm={12} md={6} lg={6} xl={6}>
+                  <ul style={{ marginLeft: "-20px" }}>
+                    <li>
                       <a href="/listening-exercises/los-estudios">
                         Los estudios
                       </a>
@@ -126,57 +130,12 @@ function Listening({ statusCode }) {
                     </li>
                   </ul>
                 </Col>
-                <Col sm={12} md={6} lg={6} xl={6}>
-                  <ul style={{ marginLeft: "-20px" }}>
-                    <li>
-                      <a href="/listening-exercises/"></a>
-                    </li>
-                    <li style={{ paddingTop: "10px" }}>
-                      <a href="/listening-exercises/"></a>
-                    </li>
-                    <li style={{ paddingTop: "10px" }}>
-                      <a href="/listening-exercises/"></a>
-                    </li>
-                    <li style={{ paddingTop: "10px" }}>
-                      <a href="/listening-exercises/"></a>
-                    </li>
-                    <li style={{ paddingTop: "10px" }}>
-                      <a href="/listening-exercises/"></a>
-                    </li>
-                    <li style={{ paddingTop: "10px" }}>
-                      <a href="/listening-exercises/"></a>
-                    </li>
-                    <li style={{ paddingTop: "10px" }}>
-                      <a href="/listening-exercises/"></a>
-                    </li>
-                    <li style={{ paddingTop: "10px" }}>
-                      <a href="/listening-exercises/"></a>
-                    </li>
-                    <li style={{ paddingTop: "10px" }}>
-                      <a href="/listening-exercises/"></a>
-                    </li>
-                  </ul>
-                </Col>
               </Row>
             </CardBody>
             <CardFooter></CardFooter>
           </Card>
 
-          <br />
-          <Card>
-            <CardBody>
-              <CardTitle>Dialogue</CardTitle>
-            </CardBody>
-          </Card>
-
-          <br />
-          <Card>
-            <CardBody>
-              <CardTitle>Dialogue</CardTitle>
-            </CardBody>
-          </Card>
-
-          <a href="/listening-exercises/spanish-curse-words"></a>
+          <a href="/listening-exercises/spanish-curse-words">.</a>
         </ListeningLayout>
       </Container>
     </Layout>

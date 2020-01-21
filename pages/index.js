@@ -16,6 +16,9 @@ import {
 import Head from "next/head";
 import SEO from "react-seo-component";
 
+// Common
+import PDFFile from "../common/PDFFile";
+
 // Home components
 import HomeCarousel from "../home/HomeCarousel";
 import Marketing from "../home/Marketing";

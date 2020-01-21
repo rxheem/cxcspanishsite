@@ -20,7 +20,7 @@ import Layout from "../components/Layout";
 const Privacy = props => (
   <Layout>
     <SEO
-      title={"Privacy | CXC Spanish Guide"}
+      title={"Privacy | CXC Spanish Online"}
       pathname={"https://www.cxcspnish/privacy"}
       description={
         "This notice describes our privacy policy. By visiting cxcspanish.com, you are accepting the practices described in this privacy notice."

@@ -95,7 +95,7 @@ const Marketing = props => (
           exercises, daily paragraph readings and more! Find out how below.
         </p>
         <p>
-          <Button theme="dark" href="#" role="button">
+          <Button theme="dark" href="/orals" role="button">
             Start Learning &raquo;
           </Button>
         </p>

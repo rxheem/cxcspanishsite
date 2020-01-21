@@ -29,6 +29,15 @@ import SEO from "react-seo-component";
 
 const numberOfQuestions = 7;
 
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, "0");
+var mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + "/" + dd + "/" + yyyy;
+
+console.log(today);
+
 const MeetAna = props => (
   <Layout>
     <SEO
@@ -36,11 +45,11 @@ const MeetAna = props => (
       description={
         "Practice your Spanish listening skills with Ana. Pass your CXC Spanish exam with our free online study guide."
       }
-      twitterUsername={"_rxhem"}
+      twitterUsername={"_rxheem"}
       author={"Raheem McDonald"}
       article={true}
-      publishedDate={Date.now()}
-      modifiedDate={Date.now()}
+      publishedDate={today}
+      modifiedDate={today}
     />
 
     <Container>

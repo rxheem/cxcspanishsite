@@ -32,18 +32,27 @@ import SEO from "react-seo-component";
 
 const numberOfQuestions = 6;
 
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, "0");
+var mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + "/" + dd + "/" + yyyy;
+
+console.log(today);
+
 const Ayer = props => (
   <Layout>
     <SEO
-      title={"Ayetr - Listening Exercise | CXC Spanish Online"}
+      title={"Ayer - Listening Exercise | CXC Spanish Online"}
       description={
         "Learn about how Kelly and Ronaldo spent their day yesterday with our listening exercise. Pass your CXC Spanish exam with our free online study guide."
       }
       twitterUsername={"_rxhem"}
       author={"Raheem McDonald"}
       article={true}
-      publishedDate={Date.now()}
-      modifiedDate={Date.now()}
+      publishedDate={today}
+      modifiedDate={today}
     />
 
     <Container>

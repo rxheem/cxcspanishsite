@@ -58,7 +58,11 @@ const Footer = props => (
 
             <br />
 
-            <h6>Mailing List</h6>
+            <h6>
+              <a style={{ color: "black" }} href="/mailing-list">
+                Mailing List
+              </a>
+            </h6>
             <p>
               Subscribe to our mailing list and get free weelkly emails, past
               papers and exercise booklets.

@@ -32,6 +32,15 @@ import SEO from "react-seo-component";
 
 const numberOfQuestions = 6;
 
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, "0");
+var mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + "/" + dd + "/" + yyyy;
+
+console.log(today);
+
 const SpanishCurseWords = props => (
   <Layout>
     <SEO
@@ -42,8 +51,8 @@ const SpanishCurseWords = props => (
       twitterUsername={"_rxhem"}
       author={"Raheem McDonald"}
       article={true}
-      publishedDate={Date.now()}
-      modifiedDate={Date.now()}
+      publishedDate={today}
+      modifiedDate={today}
     />
 
     <Container>

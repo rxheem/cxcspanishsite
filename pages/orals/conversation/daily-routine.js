@@ -1,0 +1,74 @@
+import {
+  Container,
+  Row,
+  Col,
+  Breadcrumb,
+  BreadcrumbItem,
+  Card,
+  CardHeader,
+  CardTitle,
+  CardImg,
+  CardBody,
+  CardFooter,
+  Button
+} from "shards-react";
+import Head from "next/head";
+import SEO from "react-seo-component";
+// Layout
+import Layout from "../../../components/Layout";
+import OralsLayout from "../../../orals-components/OralsLayout";
+
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, "0");
+var mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + "/" + dd + "/" + yyyy;
+
+console.log(today);
+
+const DailyRoutine = props => (
+  <Layout>
+    <SEO
+      title={"Daily Routine - Oral Practice | CXC Spanish Online"}
+      pathname={"https://www.cxcspnish/mailing-list"}
+      description={
+        "Practice talking about your daily routine in Spanish. speaking with our CXC Spanish online guide."
+      }
+      siteLanguage={"en"}
+      twitterUsername={"_rxheem"}
+      author={"Raheem McDonald"}
+      article={true}
+      publishedDate={"01/13/2020"}
+      modifiedDate={today}
+    />
+
+    <Container>
+      <Breadcrumb>
+        <BreadcrumbItem>
+          <a href="/">Home</a>
+        </BreadcrumbItem>
+        <BreadcrumbItem>
+          <a href="/orals">Orals</a>
+        </BreadcrumbItem>
+        <BreadcrumbItem>
+          <a href="/orals">Conversation</a>
+        </BreadcrumbItem>
+        <BreadcrumbItem active>Daily Routine</BreadcrumbItem>
+      </Breadcrumb>
+
+      <OralsLayout>
+        <Card>
+          <CardBody>
+            <CardTitle>Daily Routine</CardTitle>
+
+            <br />
+            <p></p>
+          </CardBody>
+        </Card>
+      </OralsLayout>
+    </Container>
+  </Layout>
+);
+
+export default DailyRoutine;

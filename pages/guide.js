@@ -36,6 +36,9 @@ const ulStyles = {
   listStyleType: "none"
 };
 
+// Common
+import PDFFile from "../common/PDFFile";
+
 const liStyle = { paddingBottom: "15px" };
 
 class Guide extends React.Component {
@@ -143,14 +146,21 @@ class Guide extends React.Component {
                       <li>
                         <a href="/guides/">In the Classroom</a>
                       </li>
-                      <li>
-                        <a href="/guides/">Football Vocabulary</a>
+                      <li
+                        style={{ listStyleType: "none", marginLeft: "-17px" }}
+                      >
+                        <PDFFile
+                          title="Football Vocabulary"
+                          href="https://www.dl.com/s/t2jedvfs9nrapvf/Spanish%20Football%20Vocabulary.pdf?dl=0"
+                        />
                       </li>
-                      <li>
-                        <a href="/guides/"></a>
-                      </li>
-                      <li>
-                        <a href="/guides/"></a>
+                      <li
+                        style={{ listStyleType: "none", marginLeft: "-17px" }}
+                      >
+                        <PDFFile
+                          title="Halloween Vocabulary"
+                          href="https://www.dl.com/s/7g0322d30rs15up/Spanish%20Halloween%20Vocabulary.pdf?dl=0"
+                        />
                       </li>
                     </ul>
                   </Col>
@@ -170,15 +180,6 @@ class Guide extends React.Component {
                       </li>
                       <li>
                         <a href="/guides/">Phone Call Vocabulary</a>
-                      </li>
-                      <li>
-                        <a href="/guides/"></a>
-                      </li>
-                      <li>
-                        <a href="/guides/"></a>
-                      </li>
-                      <li>
-                        <a href="/guides/"></a>
                       </li>
                     </ul>
                   </Col>

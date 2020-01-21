@@ -8,7 +8,7 @@ const Terms = props => (
   <Layout>
     <Head>
       <title>Terms of Use | CXC Spanish Guide</title>
-      <meta name="og:title" content="Terms of Use |  CXC Spanish Guide" />
+      <meta name="og:title" content="Terms of Use |  CXC Spanish Online" />
       <meta name="og:site_name" content="CXC Spanish Online" />
       <meta
         name="description"
