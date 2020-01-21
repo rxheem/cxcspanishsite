@@ -9,7 +9,7 @@ const sitemap = require("nextjs-sitemap-generator");
 sitemap({
   baseUrl: "https://www.cxcspanish.com",
   pagesDirectory: __dirname + "/pages/",
-  targetDirectory: "static/"
+  targetDirectory: "pages/"
 });
 
 const withImages = require("next-images");

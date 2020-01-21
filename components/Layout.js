@@ -46,7 +46,7 @@ if (process.browser) {
 const Layout = props => (
   <Fragment>
     <MessengerCustomerChat
-      pageId="<https://cxcspanish.cxcspanish.now.sh>"
+      pageId="105703077445673"
       appId="669007593616991"
       htmlRef="https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
     />

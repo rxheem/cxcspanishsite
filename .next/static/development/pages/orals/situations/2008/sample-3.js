@@ -632,7 +632,7 @@ var Footer = function Footer(props) {
     href: "about"
   }, "About"), " \xB7", __jsx("a", {
     href: "/privacy"
-  }, " Privacy"), " \xB7 ", __jsx("a", {
+  }, "Privacy"), " \xB7 ", __jsx("a", {
     href: "/terms"
   }, "Terms"))));
 };
@@ -870,7 +870,7 @@ if (true) {}
 
 var Layout = function Layout(props) {
   return __jsx(Fragment, null, __jsx(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_15___default.a, {
-    pageId: "<https://cxcspanish.cxcspanish.now.sh>",
+    pageId: "105703077445673",
     appId: "669007593616991",
     htmlRef: "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
   }), __jsx("div", {

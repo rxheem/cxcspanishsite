@@ -238,7 +238,7 @@ const Footer = props => (
       </p>
       <p>
         &copy; CXC Spanish Online &middot; <a href="about">About</a> &middot;
-        <a href="/privacy"> Privacy</a> &middot; <a href="/terms">Terms</a>
+        <a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a>
       </p>
     </Container>
   </footer>
