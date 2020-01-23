@@ -90,6 +90,24 @@ const ListeningLayout = props => (
       <Col sm={12} md={4} lg={4} xl={4}>
         <br className="d-sm-none" />
         <Card>
+          <CardImg
+            src="https://cdn.blog.psafe.com/en/blog/wp-content/uploads/2016/10/BLOG_EN_0610_The-Benefits-of-Dropbox-for-Your-Android.jpg"
+            style={{ width: "100%" }}
+          />
+          <CardBody>
+            <p>
+              We've sourced all the past papers so you don't have to. Check out
+              our Dropbox folder to get pass paper for any CSEC or CAPE subject.
+            </p>
+            <Button href="https://www.dropbox.com/sh/0iwksvyxx6hnx8u/AADS2oBLhV7Ouofp9d0fc593a?dl=0">
+              <i style={{ paddingRight: "5px" }} className="fab fa-dropbox"></i>
+              View Folder
+            </Button>
+          </CardBody>
+        </Card>
+
+        <br />
+        <Card>
           <CardBody>
             <CardTitle className="">Essentials</CardTitle>
 
@@ -120,98 +138,63 @@ const ListeningLayout = props => (
         <br />
         <Card>
           <CardImg
-            style={{
-              width: "50%",
-              align: "center",
-              margin: "auto",
-              paddingTop: "15px"
-            }}
-            src="https://eh-plus.com/wp-content/uploads/2019/11/Vocabulary-Icon@4x.png"
-            alt="image"
+            src="https://images.idgesg.net/images/article/2019/04/google-drive-docs-suite-logos-100794638-large.jpg"
+            style={{ width: "100%", padding: "20px" }}
           />
           <CardBody>
-            <br />
-            <ul style={{ marginLeft: "-25px", listStyleType: "none" }}>
-              <li>
-                <PDFFile
-                  title="Daily Routine Vocabulary"
-                  href="https://dl.dropbox.com/s/d0s5hv2wb65epat/Daily%20Routine%20Vocabulary.pdf?dl=0"
-                />
-              </li>
-              <li style={{ paddingTop: "10px" }}>
-                <PDFFile
-                  title="Food and Drinks"
-                  href="https://dl.dropbox.com/s/wwtc6cuowt2g4kg/Food%20and%20Drinks%20Vocabulary.pdf?dl=0"
-                />
-              </li>
-              <li style={{ paddingTop: "10px" }}>
-                <PDFFile
-                  title="Pronunciation Guide"
-                  href="https://dl.dropbox.com/s/4whl7mxi9ss62ct/The%20Ultimate%20Guide%20to%20Spanish%20Pronunciation.pdf?dl=0"
-                />
-              </li>
-              <li style={{ paddingTop: "10px" }}>
-                <PDFFile
-                  title="Talking About the Weather"
-                  href="https://dl.dropbox.com/s/wdqf05zyt1xql8x/Spanish%20Weather%20and%20Seasons%20Vocabulary.pdf?dl=0"
-                />
-              </li>
-              <li style={{ paddingTop: "10px" }}>
-                <PDFFile
-                  title="Common Spanish Adverbs"
-                  href="https://dl.dropbox.com/s/skrf8zkrb4y24uh/Common%20Spanish%20Adverbs.pdf?dl=0"
-                />
-              </li>
-              <li style={{ paddingTop: "10px" }}>
-                <PDFFile
-                  title="100 Spanish Adjectives"
-                  href="https://dl.dropbox.com/s/od3i1kdfyj2x3rb/100%20Common%20Spanish%20Adjectives.pdf?dl=0"
-                />
-              </li>
-              <li style={{ paddingTop: "10px" }}>
-                <PDFFile
-                  title="Classroom Vocabulary"
-                  href="https://dl.dropbox.com/s/h45261eq5aetugu/Spanish%20Classroom%20Vocabulary.pdf?dl=0"
-                />
-              </li>
-            </ul>
+            <p>
+              You can also see the papers on our Google Drive folder, if you are
+              not able to access Dropbox.
+            </p>
+            <Button
+              theme="success"
+              href="https://drive.google.com/open?id=1zPeCEOLnKcTIo5QewZL7YJsm7u9gsTI4"
+            >
+              <i
+                style={{ paddingRight: "5px" }}
+                class="fab fa-google-drive"
+              ></i>
+              View Folder
+            </Button>
           </CardBody>
         </Card>
 
-        <br />
-        <Card>
-          <CardBody>
-            <CardTitle className="text-info">CSEC Past Papers</CardTitle>
+        <div style={{ display: "none" }}>
+          <br />
+          <Card>
+            <CardBody>
+              <CardTitle className="text-info">CSEC Past Papers</CardTitle>
 
-            <br />
-            <ul style={{ marginLeft: "-25px", listStyleType: "none" }}>
-              <li>
-                <PDFFile
-                  title="Economic"
-                  href="https://dl.dropbox.com/s/jxvrisgi1yzevu3/csec%C2%AE_economics_past_papers.pdf?dl=0"
-                />
-              </li>
-              <li style={{ paddingTop: "10px" }}>
-                <PDFFile
-                  title="Principles of Business"
-                  href="https://dl.dropbox.com/s/7nqmtd37s999yj0/csecc2ae-principles-of-business-past-papers-2005-2017.pdf?dl=0"
-                />
-              </li>
-              <li style={{ paddingTop: "10px" }}>
-                <PDFFile
-                  title="Principles of Accounts"
-                  href="https://dl.dropbox.com/s/mnaf0jko2lwdm0c/csecc2ae-principles-of-accounts-past-papers-2005-2017.pdf?dl=0"
-                />
-              </li>
-              <li style={{ paddingTop: "10px" }}>
-                <PDFFile
-                  title="Physics"
-                  href="https://dl.dropbox.com/s/90g671h3mmosk0z/CSEC%20Physics%20January%202019%20P2.pdf?dl=0"
-                />
-              </li>
-            </ul>
-          </CardBody>
-        </Card>
+              <br />
+              <ul style={{ marginLeft: "-25px", listStyleType: "none" }}>
+                <li>
+                  <PDFFile
+                    title="Economic"
+                    href="https://dl.dropbox.com/s/jxvrisgi1yzevu3/csec%C2%AE_economics_past_papers.pdf?dl=0"
+                  />
+                </li>
+                <li style={{ paddingTop: "10px" }}>
+                  <PDFFile
+                    title="Principles of Business"
+                    href="https://dl.dropbox.com/s/7nqmtd37s999yj0/csecc2ae-principles-of-business-past-papers-2005-2017.pdf?dl=0"
+                  />
+                </li>
+                <li style={{ paddingTop: "10px" }}>
+                  <PDFFile
+                    title="Principles of Accounts"
+                    href="https://dl.dropbox.com/s/mnaf0jko2lwdm0c/csecc2ae-principles-of-accounts-past-papers-2005-2017.pdf?dl=0"
+                  />
+                </li>
+                <li style={{ paddingTop: "10px" }}>
+                  <PDFFile
+                    title="Physics"
+                    href="https://dl.dropbox.com/s/90g671h3mmosk0z/CSEC%20Physics%20January%202019%20P2.pdf?dl=0"
+                  />
+                </li>
+              </ul>
+            </CardBody>
+          </Card>
+        </div>
 
         <br />
         <Card>

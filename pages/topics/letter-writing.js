@@ -35,7 +35,7 @@ const LetterWriting = props => (
           <a href="/">Home</a>
         </BreadcrumbItem>
         <BreadcrumbItem>
-          <a href="/exam-topics">Exam Topics</a>
+          <a href="/topics">Exam Topics</a>
         </BreadcrumbItem>
         <BreadcrumbItem active>Letter Writing</BreadcrumbItem>
       </Breadcrumb>
