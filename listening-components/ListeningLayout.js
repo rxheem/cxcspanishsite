@@ -99,7 +99,10 @@ const ListeningLayout = props => (
               We've sourced all the past papers so you don't have to. Check out
               our Dropbox folder to get pass paper for any CSEC or CAPE subject.
             </p>
-            <Button href="https://www.dropbox.com/sh/0iwksvyxx6hnx8u/AADS2oBLhV7Ouofp9d0fc593a?dl=0">
+            <Button
+              target="_blank"
+              href="https://www.dropbox.com/sh/0iwksvyxx6hnx8u/AADS2oBLhV7Ouofp9d0fc593a?dl=0"
+            >
               <i style={{ paddingRight: "5px" }} className="fab fa-dropbox"></i>
               View Folder
             </Button>
@@ -147,6 +150,7 @@ const ListeningLayout = props => (
               not able to access Dropbox.
             </p>
             <Button
+              target="_blank"
               theme="success"
               href="https://drive.google.com/open?id=1zPeCEOLnKcTIo5QewZL7YJsm7u9gsTI4"
             >

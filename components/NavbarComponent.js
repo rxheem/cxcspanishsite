@@ -130,8 +130,8 @@ class NavbarComponent extends React.Component {
               </Dropdown>
 
               <NavItem>
-                <NavLink className="text-white" href="/resources">
-                  Resources
+                <NavLink className="text-white" href="/past-papers">
+                  Past Papers
                 </NavLink>
               </NavItem>
 

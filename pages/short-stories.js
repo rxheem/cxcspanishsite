@@ -44,9 +44,32 @@ const ShortStories = props => (
         <Card>
           <CardBody>
             <CardTitle>Short Stories</CardTitle>
-            Nunc quis nisl ac justo elementum sagittis in quis justo.
+
+            <br />
+            <p>
+              Our short stories are designed to helo you to learn phrases, and
+              help you practice reading in Spanish.
+            </p>
+
+            <ul style={{ marginLeft: "-20px" }}>
+              <li>
+                <a href="/stories/garbancito">Garbancito</a>
+              </li>
+              <li style={{ paddingTop: "10px" }}>
+                <a href="/stories/el-amigo-fiel">El Amigo Fiel</a>
+              </li>
+              <li style={{ paddingTop: "10px" }}>
+                <a href="/stories/la-llorana">La Llorona</a>
+              </li>
+              <li style={{ paddingTop: "10px" }}>
+                <a href="/stories/estrellita-de-oro">Estrellita de Oro</a>
+              </li>
+              <li style={{ paddingTop: "10px" }}>
+                <a href="/stories/la-muneca-menor">La Muñeca Menor</a>
+              </li>
+            </ul>
           </CardBody>
-          <CardHeader>Learn More</CardHeader>
+          <CardHeader></CardHeader>
         </Card>
       </StoryLayout>
     </Container>

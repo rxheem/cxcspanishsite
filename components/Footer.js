@@ -16,16 +16,16 @@ const Footer = props => (
               <Nav.Link className="text-dark" href="/stories/garbancito">
                 Garbancito
               </Nav.Link>
-              <Nav.Link className="text-dark" href="/stories/">
+              <Nav.Link className="text-dark" href="/stories/el-amigo-fiel">
                 El Amigo Fiel
               </Nav.Link>
-              <Nav.Link className="text-dark" href="/stories/">
+              <Nav.Link className="text-dark" href="/stories/la-llorona">
                 La Llorona
               </Nav.Link>
-              <Nav.Link className="text-dark" href="/stories/">
+              <Nav.Link className="text-dark" href="/stories/estrellita-de-oro">
                 Estrellita de Oro
               </Nav.Link>
-              <Nav.Link className="text-dark" href="/stories/">
+              <Nav.Link className="text-dark" href="/stories/la-muneca-menor">
                 La Muñeca Menor
               </Nav.Link>
               <Nav.Link href="/short-stories">View all...</Nav.Link>
@@ -208,7 +208,9 @@ const Footer = props => (
             <br className="d-sm-none" />
             <Nav className="flex-column">
               <h6 className="text-white">Jump Start</h6>
-
+              <Nav.Link className="text-white" href="/past-papers">
+                Past Papers
+              </Nav.Link>
               <Nav.Link className="text-white" href="/">
                 Oral Exercise
               </Nav.Link>
