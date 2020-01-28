@@ -20,10 +20,12 @@ import SEO from "react-seo-component";
 import PDFFile from "../common/PDFFile";
 
 // Home components
+import CardBox from "../home/CardBox";
 import HomeCarousel from "../home/HomeCarousel";
 import Marketing from "../home/Marketing";
 import Papers from "../home/Papers";
 import Info from "../home/Info";
+import MeetAna from "../home/MeetAna";
 import MailingListSubscribe from "../home/MailingListSubscribe";
 
 // Layout
@@ -55,6 +57,11 @@ const Index = props => (
 
       <br />
       <Marketing />
+    </Container>
+    <MeetAna />
+    <Container>
+      <CardBox />
+
       <Papers />
     </Container>
   </Layout>

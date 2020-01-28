@@ -82,45 +82,16 @@ const MeetAna = props => (
             <br />
             <Collapsible trigger={<a href="">Read transcript</a>}>
               <p style={{ paddingTop: "10px" }}>
-                <span>¡Buenos días! Soy Ana. Tengo 27 años.</span>
-                <br />
-                <span>
-                  Soy de Chicago pero ahora vio en una ciudad de España que se
-                  llama Zamora.
-                </span>
-                <br />
-                <span>Soy profesora de inglés un un instituto.</span>
-                <br />
-                <span>
-                  Al volver a los Estados Unidos voy a seguir con mi estudios.
-                </span>
-                <br />
-                <span>
-                  Me gustaría hacer un doctorado en la literatura española,
-                </span>
-                <br />
-                <span>
-                  pero ahora etoy contenta con vivir en España y mejorando mi
-                  español,
-                </span>
-                <br />
-                <span>y aprendiendo más de este país tan hermoso.</span>
-                <br />
-                <span>
-                  En mi tiempo libre me gusta leer, ver la tele y pasar tiempo{" "}
-                </span>
-                <br />
-                <span>con mis amigos, mi marido y mi perro.</span>
-                <br />
-                <span>
-                  Estudio español porque la hístoria del país ma facina.
-                </span>
-                <br />
-                <span>
-                  No es solo eso, sino también la cultura me encanta y la
-                </span>
-                <br />
-                <span>gente es muy amable.</span>
+                ¡Buenos días! Soy Ana. Tengo 27 años. Soy de Chicago pero ahora
+                vivo en una ciudad de España que se llama Zamora. Soy profesora
+                de inglés en un instituto. Al volver a los Estados Unidos voy a
+                seguir con mi estudios. Me gustaría hacer un doctorado en la
+                literatura española, pero ahora etoy contenta con vivir en
+                España y mejorando mi español, y aprendiendo más de este país
+                tan hermoso. En mi tiempo libre me gusta leer, ver la tele y
+                pasar tiempo con mis amigos, mi marido y mi perro. Estudio
+                español porque la hístoria del país ma facina. No es solo eso,
+                sino también la cultura me encanta y la gente es muy amable.
               </p>
             </Collapsible>
 
@@ -182,7 +153,7 @@ const MeetAna = props => (
                     <a href="">Identify 2 reasons why Ana studies Spanish?</a>
                   }
                 >
-                  <ul style={{ paddingTop: "10px" }}>
+                  <ul style={{ paddingTop: "10px", marginLeft: "-20px" }}>
                     <li style={{ paddingTop: "10px" }}>
                       She is facinated by the history of Spain
                     </li>

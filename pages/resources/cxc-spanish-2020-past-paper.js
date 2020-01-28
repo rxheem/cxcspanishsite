@@ -40,7 +40,7 @@ const ulStyles = {
 const PastPaper2020 = props => (
   <Layout>
     <SEO
-      title={"2020 Past Paper | CXC Spanish Online"}
+      title={"CXC Spanish Past Papers | CXC Spanish Online"}
       description={
         "Get the CXC Spanish 2020 past paper in PDF format for free, along with the offical past paper booklet"
       }

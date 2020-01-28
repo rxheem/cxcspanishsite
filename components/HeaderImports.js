@@ -43,6 +43,11 @@ const HeaderImports = props => (
       name="robots"
       content="archive,follow,imageindex,index,odp,snippet,translate"
     />
+    <script
+      data-ad-client="ca-pub-3324704295062750"
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    ></script>
     <meta name="fb:page_id" content="105703077445673" />
     <meta name="og:email" content="hola@cxcspanish.com" />
     <meta name="og:locality" content="Kingston" />

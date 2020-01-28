@@ -1,4 +1,6 @@
 import NavbarComponent from "./NavbarComponent";
+import MiniNav from "./MiniNav";
+import SlideMenu from "./SlideMenu";
 import Footer from "./Footer";
 import { Card, Container, Alert } from "shards-react";
 import HeaderImports from "./HeaderImports";
@@ -14,7 +16,6 @@ import "../assets/css/master.css";
 import "../assets/js/fontawesome.js";
 import "../assets/js/mixpanel.js";
 import "../assets/js/quantcast.js";
-import "../assets/js/facebook.js";
 import "../assets/js/facebook.js";
 
 // Other
@@ -45,6 +46,7 @@ if (process.browser) {
 
 const Layout = props => (
   <Fragment>
+    <SlideMenu />
     <MessengerCustomerChat
       pageId="105703077445673"
       appId="669007593616991"
@@ -57,12 +59,14 @@ const Layout = props => (
     ></div>
 
     <NavbarComponent />
+    <MiniNav />
 
     <br />
     <main role="main" id="main" className="main">
       <Fragment>{props.children}</Fragment>
     </main>
     <br />
+    <MiniNav />
     <Footer />
     <HeaderImports />
   </Fragment>

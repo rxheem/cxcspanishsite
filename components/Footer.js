@@ -1,10 +1,10 @@
 import { Container, NavLink, FormInput } from "shards-react";
 import { Navbar, Nav, NavItem, Row, Col } from "react-bootstrap";
 import YouTube from "react-youtube";
+import Obfuscate from "react-obfuscate";
 
 const Footer = props => (
   <footer>
-    <br />
     <div className="bg-light">
       <br />
       <br />

@@ -22,7 +22,7 @@ const Papers = props => (
       <br />
       <Row>
         <Col sm={2} md={2} lg={2} xl={2}>
-          <br className="d-sm-none" />{" "}
+          <br className="d-sm-none" />
           <a
             href="https://drive.google.com/file/d/19LPNYdP053Ve3WRtHezISV3M3R-susHK/view"
             taget="_blank"

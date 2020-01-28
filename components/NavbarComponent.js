@@ -12,6 +12,7 @@ import {
   Collapse
 } from "shards-react";
 import FA from "react-fontawesome";
+import SlideMenu from "./SlideMenu";
 
 class NavbarComponent extends React.Component {
   constructor(props) {
@@ -58,6 +59,7 @@ class NavbarComponent extends React.Component {
   render() {
     return (
       <header>
+        <SlideMenu />
         <Navbar type="dark" theme="primary" expand="md">
           <NavbarBrand href="/">{this.state.title}</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} />
@@ -86,9 +88,7 @@ class NavbarComponent extends React.Component {
                   <DropdownItem href="/writing/">
                     Writing Exercises
                   </DropdownItem>
-                  <DropdownItem href="/speaking">
-                    Speaking Exercises
-                  </DropdownItem>
+                  <DropdownItem href="/orals">Speaking Exercises</DropdownItem>
                 </DropdownMenu>
               </Dropdown>
 

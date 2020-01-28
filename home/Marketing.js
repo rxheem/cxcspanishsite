@@ -97,7 +97,6 @@ const Marketing = props => (
         </p>
       </Col>
     </Row>
-    <hr />
   </div>
 );
 
