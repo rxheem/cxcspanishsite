@@ -17,6 +17,7 @@ import "../assets/js/fontawesome.js";
 import "../assets/js/mixpanel.js";
 import "../assets/js/quantcast.js";
 import "../assets/js/facebook.js";
+import "../assets/js/mailchimp.js";
 
 // Other
 import ReactGA from "react-ga";
@@ -46,7 +47,6 @@ if (process.browser) {
 
 const Layout = props => (
   <Fragment>
-    <SlideMenu />
     <MessengerCustomerChat
       pageId="105703077445673"
       appId="669007593616991"

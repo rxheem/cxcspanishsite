@@ -72,32 +72,6 @@ class NavbarComponent extends React.Component {
                 </NavLink>
               </NavItem>
 
-              {/* Essentials */}
-              <Dropdown
-                open={this.state.dropdownOpen2}
-                toggle={this.toggleDropdown2}
-              >
-                <DropdownToggle className="text-white" nav caret>
-                  Essentials
-                </DropdownToggle>
-                <DropdownMenu>
-                  <DropdownItem href="/listening">
-                    Listening Exercises
-                  </DropdownItem>
-                  <DropdownItem href="/reading">Reading Exercises</DropdownItem>
-                  <DropdownItem href="/writing/">
-                    Writing Exercises
-                  </DropdownItem>
-                  <DropdownItem href="/orals">Speaking Exercises</DropdownItem>
-                </DropdownMenu>
-              </Dropdown>
-
-              <NavItem>
-                <NavLink className="text-white" href="/verb-tenses">
-                  Verb Tenses
-                </NavLink>
-              </NavItem>
-
               {/* Exam Topics */}
               <Dropdown
                 open={this.state.dropdownOpen}
@@ -129,6 +103,32 @@ class NavbarComponent extends React.Component {
                 </DropdownMenu>
               </Dropdown>
 
+              <NavItem hidden>
+                <NavLink className="text-white" href="/verb-tenses">
+                  Verb Tenses
+                </NavLink>
+              </NavItem>
+
+              {/* Essentials */}
+              <Dropdown
+                open={this.state.dropdownOpen2}
+                toggle={this.toggleDropdown2}
+              >
+                <DropdownToggle className="text-white" nav caret>
+                  Essentials
+                </DropdownToggle>
+                <DropdownMenu>
+                  <DropdownItem href="/listening">
+                    Listening Exercises
+                  </DropdownItem>
+                  <DropdownItem href="/reading">Reading Exercises</DropdownItem>
+                  <DropdownItem href="/writing/">
+                    Writing Exercises
+                  </DropdownItem>
+                  <DropdownItem href="/orals">Speaking Exercises</DropdownItem>
+                </DropdownMenu>
+              </Dropdown>
+
               <NavItem>
                 <NavLink className="text-white" href="/past-papers">
                   Past Papers
@@ -137,7 +137,7 @@ class NavbarComponent extends React.Component {
 
               <NavItem>
                 <NavLink className="text-white" href="/whatsapp-groups">
-                  Chat
+                  Study Groups
                 </NavLink>
               </NavItem>
             </Nav>
@@ -152,7 +152,7 @@ class NavbarComponent extends React.Component {
               <NavItem>
                 <NavLink className="text-white" href="/tutoring">
                   <FA style={{ padding: "7px" }} name="chalkboard-teacher" />
-                  Tutoring
+                  Extra Classes
                 </NavLink>
               </NavItem>
               <NavItem>

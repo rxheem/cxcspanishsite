@@ -150,6 +150,17 @@ if (false) {}
 
 /***/ }),
 
+/***/ "./assets/js/mailchimp.js":
+/*!********************************!*\
+  !*** ./assets/js/mailchimp.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+if (false) {}
+
+/***/ }),
+
 /***/ "./assets/js/mixpanel.js":
 /*!*******************************!*\
   !*** ./assets/js/mixpanel.js ***!
@@ -266,9 +277,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 const Footer = props => __jsx("footer", null, __jsx("div", {
   className: "bg-light"
-}, __jsx("br", null), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+}, __jsx("br", null), __jsx("br", null), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
   sm: 12,
   md: 4,
   lg: 4,
@@ -417,7 +429,7 @@ const Footer = props => __jsx("footer", null, __jsx("div", {
   }
 }, "(876) 565-3942"))))), __jsx("br", null), __jsx("br", null))), __jsx("div", {
   className: "bg-dark"
-}, __jsx("br", null), " ", __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+}, __jsx("br", null), " ", __jsx("br", null), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
   sm: 12,
   md: 4,
   lg: 4,
@@ -494,7 +506,9 @@ const Footer = props => __jsx("footer", null, __jsx("div", {
 }, "Letter Writing"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
   className: "text-white",
   href: "/"
-}, "Contextual Dialogue")))), __jsx("br", null), " ", __jsx("br", null))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx("p", {
+}, "Contextual Dialogue")))), __jsx("br", null), " ", __jsx("br", null))), __jsx("br", null), __jsx("div", {
+  className: "container-fluid"
+}, __jsx("p", {
   className: "float-right"
 }, __jsx("a", {
   href: "/sitemap.xml"
@@ -657,6 +671,10 @@ const HeaderImports = props => __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___defa
 }), __jsx("meta", {
   "http-equiv": "Page-Exit",
   content: "RevealTrans(Duration=1.0,Transition=1)"
+}), __jsx("script", {
+  type: "text/javascript",
+  src: "//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js",
+  "data-dojo-config": "usePlainJson: true, isDebug: false"
 }));
 
 /* harmony default export */ __webpack_exports__["default"] = (HeaderImports);
@@ -699,10 +717,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_14__);
 /* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/js/facebook.js */ "./assets/js/facebook.js");
 /* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! react-ga */ "react-ga");
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! react-messenger-customer-chat */ "react-messenger-customer-chat");
-/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/js/mailchimp.js */ "./assets/js/mailchimp.js");
+/* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! react-ga */ "react-ga");
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! react-messenger-customer-chat */ "react-messenger-customer-chat");
+/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_18__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -721,12 +741,13 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
  // Other
 
 
  // Google Analytics
 
-react_ga__WEBPACK_IMPORTED_MODULE_16___default.a.initialize("UA-146229442-1"); // Render on client side
+react_ga__WEBPACK_IMPORTED_MODULE_17___default.a.initialize("UA-146229442-1"); // Render on client side
 
 if (false) {}
 
@@ -734,7 +755,7 @@ const Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
 
 if (false) {}
 
-const Layout = props => __jsx(Fragment, null, __jsx(_SlideMenu__WEBPACK_IMPORTED_MODULE_3__["default"], null), __jsx(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_17___default.a, {
+const Layout = props => __jsx(Fragment, null, __jsx(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_18___default.a, {
   pageId: "105703077445673",
   appId: "669007593616991",
   htmlRef: "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
@@ -778,8 +799,8 @@ function MiniNav() {
     className: "bg-white"
   }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     active: true,
-    href: "/orals"
-  }, "Orals")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+    href: "/listening"
+  }, "Listening")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     href: "/whatsapp-groups"
   }, "Study Groups")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     href: "/past-papers"
@@ -887,24 +908,6 @@ class NavbarComponent extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Compo
       className: "text-white",
       href: "/guide"
     }, "Guides")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["Dropdown"], {
-      open: this.state.dropdownOpen2,
-      toggle: this.toggleDropdown2
-    }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownToggle"], {
-      className: "text-white",
-      nav: true,
-      caret: true
-    }, "Essentials"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownMenu"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownItem"], {
-      href: "/listening"
-    }, "Listening Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownItem"], {
-      href: "/reading"
-    }, "Reading Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownItem"], {
-      href: "/writing/"
-    }, "Writing Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownItem"], {
-      href: "/orals"
-    }, "Speaking Exercises"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
-      className: "text-white",
-      href: "/verb-tenses"
-    }, "Verb Tenses")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["Dropdown"], {
       open: this.state.dropdownOpen,
       toggle: this.toggleDropdown
     }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownToggle"], {
@@ -925,13 +928,33 @@ class NavbarComponent extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Compo
       href: "/topics/"
     }, "Reading Comprehension"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownItem"], {
       href: "/topics/"
-    }, "Directed Situations"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+    }, "Directed Situations"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], {
+      hidden: true
+    }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+      className: "text-white",
+      href: "/verb-tenses"
+    }, "Verb Tenses")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["Dropdown"], {
+      open: this.state.dropdownOpen2,
+      toggle: this.toggleDropdown2
+    }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownToggle"], {
+      className: "text-white",
+      nav: true,
+      caret: true
+    }, "Essentials"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownMenu"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownItem"], {
+      href: "/listening"
+    }, "Listening Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownItem"], {
+      href: "/reading"
+    }, "Reading Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownItem"], {
+      href: "/writing/"
+    }, "Writing Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["DropdownItem"], {
+      href: "/orals"
+    }, "Speaking Exercises"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
       className: "text-white",
       href: "/past-papers"
     }, "Past Papers")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
       className: "text-white",
       href: "/whatsapp-groups"
-    }, "Chat"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["Nav"], {
+    }, "Study Groups"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["Nav"], {
       navbar: true,
       className: "ml-auto"
     }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
@@ -950,7 +973,7 @@ class NavbarComponent extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Compo
         padding: "7px"
       },
       name: "chalkboard-teacher"
-    }), "Tutoring")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+    }), "Extra Classes")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
       className: "text-white",
       href: "/FAQ"
     }, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_9___default.a, {

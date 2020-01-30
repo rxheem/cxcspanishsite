@@ -217,6 +217,26 @@ if (true) {
 
 /***/ }),
 
+/***/ "./assets/js/mailchimp.js":
+/*!********************************!*\
+  !*** ./assets/js/mailchimp.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+if (true) {
+  window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
+    L.start({
+      baseUrl: "mc.us4.list-manage.com",
+      uuid: "928ae50da9527569235802ccc",
+      lid: "f3a3a132de",
+      uniqueMethods: true
+    });
+  });
+}
+
+/***/ }),
+
 /***/ "./assets/js/mixpanel.js":
 /*!*******************************!*\
   !*** ./assets/js/mixpanel.js ***!
@@ -434,10 +454,11 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 var Footer = function Footer(props) {
   return __jsx("footer", null, __jsx("div", {
     className: "bg-light"
-  }, __jsx("br", null), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+  }, __jsx("br", null), __jsx("br", null), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
     sm: 12,
     md: 4,
     lg: 4,
@@ -586,7 +607,7 @@ var Footer = function Footer(props) {
     }
   }, "(876) 565-3942"))))), __jsx("br", null), __jsx("br", null))), __jsx("div", {
     className: "bg-dark"
-  }, __jsx("br", null), " ", __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+  }, __jsx("br", null), " ", __jsx("br", null), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
     sm: 12,
     md: 4,
     lg: 4,
@@ -663,7 +684,9 @@ var Footer = function Footer(props) {
   }, "Letter Writing"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     className: "text-white",
     href: "/"
-  }, "Contextual Dialogue")))), __jsx("br", null), " ", __jsx("br", null))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx("p", {
+  }, "Contextual Dialogue")))), __jsx("br", null), " ", __jsx("br", null))), __jsx("br", null), __jsx("div", {
+    className: "container-fluid"
+  }, __jsx("p", {
     className: "float-right"
   }, __jsx("a", {
     href: "/sitemap.xml"
@@ -828,6 +851,10 @@ var HeaderImports = function HeaderImports(props) {
   }), __jsx("meta", {
     "http-equiv": "Page-Exit",
     content: "RevealTrans(Duration=1.0,Transition=1)"
+  }), __jsx("script", {
+    type: "text/javascript",
+    src: "//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js",
+    "data-dojo-config": "usePlainJson: true, isDebug: false"
   }));
 };
 
@@ -870,9 +897,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_14__);
 /* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/js/facebook.js */ "./assets/js/facebook.js");
 /* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
-/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! react-messenger-customer-chat */ "./node_modules/react-messenger-customer-chat/lib/index.js");
-/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/js/mailchimp.js */ "./assets/js/mailchimp.js");
+/* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
+/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! react-messenger-customer-chat */ "./node_modules/react-messenger-customer-chat/lib/index.js");
+/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_18__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -891,15 +920,16 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
  // Other
 
 
  // Google Analytics
 
-react_ga__WEBPACK_IMPORTED_MODULE_16__["default"].initialize("UA-146229442-1"); // Render on client side
+react_ga__WEBPACK_IMPORTED_MODULE_17__["default"].initialize("UA-146229442-1"); // Render on client side
 
 if (true) {
-  react_ga__WEBPACK_IMPORTED_MODULE_16__["default"].initialize("UA-146229442-1", {
+  react_ga__WEBPACK_IMPORTED_MODULE_17__["default"].initialize("UA-146229442-1", {
     debug: true,
     alwaysSendToDefaultTracker: false,
     titleCase: false,
@@ -907,7 +937,7 @@ if (true) {
       userId: 123
     }
   });
-  react_ga__WEBPACK_IMPORTED_MODULE_16__["default"].pageview(window.location.pathname + window.location.search);
+  react_ga__WEBPACK_IMPORTED_MODULE_17__["default"].pageview(window.location.pathname + window.location.search);
 }
 
 var Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
@@ -915,7 +945,7 @@ var Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
 if (true) {}
 
 var Layout = function Layout(props) {
-  return __jsx(Fragment, null, __jsx(_SlideMenu__WEBPACK_IMPORTED_MODULE_3__["default"], null), __jsx(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_17___default.a, {
+  return __jsx(Fragment, null, __jsx(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_18___default.a, {
     pageId: "105703077445673",
     appId: "669007593616991",
     htmlRef: "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
@@ -959,8 +989,8 @@ function MiniNav() {
     className: "bg-white"
   }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     active: true,
-    href: "/orals"
-  }, "Orals")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+    href: "/listening"
+  }, "Listening")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     href: "/whatsapp-groups"
   }, "Study Groups")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     href: "/past-papers"
@@ -1093,24 +1123,6 @@ function (_React$Component) {
         className: "text-white",
         href: "/guide"
       }, "Guides")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["Dropdown"], {
-        open: this.state.dropdownOpen2,
-        toggle: this.toggleDropdown2
-      }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownToggle"], {
-        className: "text-white",
-        nav: true,
-        caret: true
-      }, "Essentials"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownMenu"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
-        href: "/listening"
-      }, "Listening Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
-        href: "/reading"
-      }, "Reading Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
-        href: "/writing/"
-      }, "Writing Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
-        href: "/orals"
-      }, "Speaking Exercises"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
-        className: "text-white",
-        href: "/verb-tenses"
-      }, "Verb Tenses")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["Dropdown"], {
         open: this.state.dropdownOpen,
         toggle: this.toggleDropdown
       }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownToggle"], {
@@ -1131,13 +1143,33 @@ function (_React$Component) {
         href: "/topics/"
       }, "Reading Comprehension"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
         href: "/topics/"
-      }, "Directed Situations"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
+      }, "Directed Situations"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], {
+        hidden: true
+      }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
+        className: "text-white",
+        href: "/verb-tenses"
+      }, "Verb Tenses")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["Dropdown"], {
+        open: this.state.dropdownOpen2,
+        toggle: this.toggleDropdown2
+      }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownToggle"], {
+        className: "text-white",
+        nav: true,
+        caret: true
+      }, "Essentials"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownMenu"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
+        href: "/listening"
+      }, "Listening Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
+        href: "/reading"
+      }, "Reading Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
+        href: "/writing/"
+      }, "Writing Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
+        href: "/orals"
+      }, "Speaking Exercises"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
         className: "text-white",
         href: "/past-papers"
       }, "Past Papers")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
         className: "text-white",
         href: "/whatsapp-groups"
-      }, "Chat"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["Nav"], {
+      }, "Study Groups"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["Nav"], {
         navbar: true,
         className: "ml-auto"
       }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
@@ -1156,7 +1188,7 @@ function (_React$Component) {
           padding: "7px"
         },
         name: "chalkboard-teacher"
-      }), "Tutoring")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
+      }), "Extra Classes")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["NavLink"], {
         className: "text-white",
         href: "/FAQ"
       }, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_15___default.a, {

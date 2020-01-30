@@ -78,6 +78,11 @@ const HeaderImports = props => (
       http-equiv="Page-Exit"
       content="RevealTrans(Duration=1.0,Transition=1)"
     />
+    <script
+      type="text/javascript"
+      src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+      data-dojo-config="usePlainJson: true, isDebug: false"
+    ></script>
   </Head>
 );
 

@@ -1,6 +1,7 @@
-import { Container, NavLink, FormInput } from "shards-react";
+import { NavLink, FormInput } from "shards-react";
 import { Navbar, Nav, NavItem, Row, Col } from "react-bootstrap";
 import YouTube from "react-youtube";
+import { Container } from "react-bootstrap";
 import Obfuscate from "react-obfuscate";
 
 const Footer = props => (
@@ -234,7 +235,7 @@ const Footer = props => (
     </div>
 
     <br />
-    <Container>
+    <div className="container-fluid">
       <p className="float-right">
         <a href="/sitemap.xml">Sitemap</a>
       </p>
@@ -242,7 +243,7 @@ const Footer = props => (
         &copy; CXC Spanish Online &middot; <a href="about">About</a> &middot;
         <a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a>
       </p>
-    </Container>
+    </div>
   </footer>
 );
 
