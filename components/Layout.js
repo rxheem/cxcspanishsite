@@ -1,6 +1,7 @@
 import NavbarComponent from "./NavbarComponent";
 import MiniNav from "./MiniNav";
 import SlideMenu from "./SlideMenu";
+import SystemInfo from "./SystemInfo";
 import Footer from "./Footer";
 import { Card, Container, Alert } from "shards-react";
 import HeaderImports from "./HeaderImports";
@@ -68,6 +69,7 @@ const Layout = props => (
     <br />
     <MiniNav />
     <Footer />
+    <SystemInfo hide={true} />
     <HeaderImports />
   </Fragment>
 );
