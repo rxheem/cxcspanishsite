@@ -76,8 +76,15 @@ const Tutoring = props => (
               <ul style={{ marginLeft: "-15px" }}>
                 <li>
                   <Collapsible trigger={<a href="">Jamaica</a>}>
-                    <br />
-                    <p></p>
+                    <div>
+                      <br />
+
+                      <p>
+                        CSEC and CAPE Spanish classes begin in Jamaica on March
+                        7, 2020.
+                      </p>
+                      <Button href="/tutoring/jamaica">Learn more</Button>
+                    </div>
                   </Collapsible>
                 </li>
                 <br />

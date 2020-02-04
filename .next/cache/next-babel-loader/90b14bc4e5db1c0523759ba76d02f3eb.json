@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport Router from \"next/router\";\nimport ExamTopics from \"./topics\";\n\nvar Exams = function Exams(props) {\n  return __jsx(\"div\", null, true ? Router.push(\"/topics\") : __jsx(ExamTopics, null));\n};\n\nexport default Exams;","map":null,"metadata":{},"sourceType":"module"}

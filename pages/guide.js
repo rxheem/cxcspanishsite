@@ -260,9 +260,12 @@ class Guide extends React.Component {
                 </Row>
               </CardBody>
               <CardFooter>
-                <small className="text-danger">
-                  Not all articles are completed. We'll let you know when we're
-                  done
+                <small>
+                  Want us to write about something you dont understand? Let us
+                  know{" "}
+                  <a target="_blank" href="https://forms.gle/J1oPyy5g2k8GtiQr7">
+                    here
+                  </a>
                 </small>
               </CardFooter>
             </Card>
@@ -367,9 +370,12 @@ class Guide extends React.Component {
                 </Row>
               </CardBody>
               <CardFooter>
-                <small className="text-danger">
-                  Not all articles are completed. We'll let you know when we're
-                  done
+                <small>
+                  Want us to write about something you dont understand? Let us
+                  know{" "}
+                  <a target="_blank" href="https://forms.gle/J1oPyy5g2k8GtiQr7">
+                    here
+                  </a>
                 </small>
               </CardFooter>
             </Card>

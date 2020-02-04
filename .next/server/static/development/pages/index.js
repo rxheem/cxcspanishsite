@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1244,12 +1244,47 @@ const CardBox = props => __jsx("div", null, __jsx("br", null), __jsx(shards_reac
   href: "/whatsapp-groups"
 }, "CXC Spanish Online T&T"))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
   href: "/whatsapp-groups"
-}, "See full list"))), __jsx("br", null), __jsx(_Surveys__WEBPACK_IMPORTED_MODULE_4__["default"], null)), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+}, "See full list")))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
   sm: 12,
   md: 6,
   lg: 6,
   xl: 6
-})));
+}, __jsx("br", {
+  className: "d-sm-none"
+}), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
+  src: "https://www.themeum.com/wp-content/uploads/2018/03/final-google-form-2-1140x570.jpg",
+  style: {
+    width: "100%",
+    height: "100%"
+  }
+}), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Submit a Request"), __jsx("p", null, "We're here to help and provde it where you need it the most. Ask us for anything:", " "), __jsx("ul", null, __jsx("li", null, __jsx("a", {
+  href: "",
+  target: "_blank"
+}, "I need private tutoring")), __jsx("li", {
+  style: {
+    paddingTop: "10px"
+  }
+}, __jsx("a", {
+  href: "",
+  target: "_blank"
+}, "Write about a topic in Spanish that I don't understand")), __jsx("li", {
+  style: {
+    paddingTop: "10px"
+  }
+}, __jsx("a", {
+  href: "",
+  target: "_blank"
+}, "I need past papers")), __jsx("li", {
+  style: {
+    paddingTop: "10px"
+  }
+}, "General request: send us an email at", " ", __jsx("a", {
+  href: "mailto:hola@cxcspanish.com"
+}, "hola@cxcspanish.com"), " or", " ", __jsx("a", {
+  href: "mailto:holacxcspanish@gmail.com"
+}, "holacxcspanish@gmail.com"))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+  href: "/whatsapp-groups"
+}, "See full list"))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (CardBox);
 
@@ -1970,18 +2005,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-seo-component */ "react-seo-component");
 /* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_seo_component__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _common_PDFFile__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../common/PDFFile */ "./common/PDFFile.js");
-/* harmony import */ var _home_CardBox__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../home/CardBox */ "./home/CardBox.js");
-/* harmony import */ var _home_HomeCarousel__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../home/HomeCarousel */ "./home/HomeCarousel.js");
-/* harmony import */ var _home_Marketing__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../home/Marketing */ "./home/Marketing.js");
-/* harmony import */ var _home_Papers__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../home/Papers */ "./home/Papers.js");
-/* harmony import */ var _home_Info__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../home/Info */ "./home/Info.js");
-/* harmony import */ var _home_MeetAna__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../home/MeetAna */ "./home/MeetAna.js");
-/* harmony import */ var _home_MailingListSubscribe__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../home/MailingListSubscribe */ "./home/MailingListSubscribe.js");
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _common_Message__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../common/Message */ "./common/Message.js");
+/* harmony import */ var reactjs_popup__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactjs-popup */ "reactjs-popup");
+/* harmony import */ var reactjs_popup__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(reactjs_popup__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _common_PDFFile__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../common/PDFFile */ "./common/PDFFile.js");
+/* harmony import */ var _home_CardBox__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../home/CardBox */ "./home/CardBox.js");
+/* harmony import */ var _home_HomeCarousel__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../home/HomeCarousel */ "./home/HomeCarousel.js");
+/* harmony import */ var _home_Marketing__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../home/Marketing */ "./home/Marketing.js");
+/* harmony import */ var _home_Papers__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../home/Papers */ "./home/Papers.js");
+/* harmony import */ var _home_Info__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../home/Info */ "./home/Info.js");
+/* harmony import */ var _home_MeetAna__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../home/MeetAna */ "./home/MeetAna.js");
+/* harmony import */ var _home_MailingListSubscribe__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../home/MailingListSubscribe */ "./home/MailingListSubscribe.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _common_Message__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../common/Message */ "./common/Message.js");
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
  // Common
@@ -1999,7 +2037,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_12__["default"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_3___default.a, {
+const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_13__["default"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_3___default.a, {
   title: "CXC Spanish Online | Guide, Past Papers and Exercises",
   description: "CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces.",
   image: "",
@@ -2013,7 +2051,7 @@ const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_12__["d
   href: "/"
 }, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], null, __jsx("a", {
   href: "/"
-}))), __jsx("br", null), __jsx(_home_Marketing__WEBPACK_IMPORTED_MODULE_7__["default"], null)), __jsx(_home_MeetAna__WEBPACK_IMPORTED_MODULE_10__["default"], null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(_home_CardBox__WEBPACK_IMPORTED_MODULE_5__["default"], null), __jsx(_home_Papers__WEBPACK_IMPORTED_MODULE_8__["default"], null)));
+}))), __jsx("br", null), __jsx(_home_Marketing__WEBPACK_IMPORTED_MODULE_8__["default"], null)), __jsx(_home_MeetAna__WEBPACK_IMPORTED_MODULE_11__["default"], null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(_home_CardBox__WEBPACK_IMPORTED_MODULE_6__["default"], null), __jsx(_home_Papers__WEBPACK_IMPORTED_MODULE_9__["default"], null)));
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
@@ -2143,7 +2181,7 @@ const ResourcesLayout = props => __jsx("div", null, __jsx(shards_react__WEBPACK_
 
 /***/ }),
 
-/***/ 3:
+/***/ 6:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -2416,6 +2454,17 @@ module.exports = require("react-seo-component");
 /***/ (function(module, exports) {
 
 module.exports = require("react-youtube");
+
+/***/ }),
+
+/***/ "reactjs-popup":
+/*!********************************!*\
+  !*** external "reactjs-popup" ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("reactjs-popup");
 
 /***/ }),
 

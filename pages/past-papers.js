@@ -82,12 +82,26 @@ class PastPapers extends React.Component {
               <Card>
                 <CardBody>
                   <p>
-                    Join our Whatsapp study groups and let's help you pass your
-                    exams! Click on the image to download the past paper
-                    booklet. CAPE past papers coming soon.
+                    Need one on one help? Join our{" "}
+                    <a
+                      href="https://chat.whatsapp.com/BurCEr11DKRJyas6VKUc0n"
+                      targer="_blank"
+                      preload
+                    >
+                      study group
+                    </a>
                   </p>
 
-                  <Button href="/whatsapp-groups">See chat list</Button>
+                  <p>
+                    <a
+                      href="https://chat.whatsapp.com/J79uO72mCF00vlSV0o6QRv"
+                      targer="_blank"
+                      preload
+                    >
+                      Join here
+                    </a>{" "}
+                    if you're a Jamaican student.
+                  </p>
                 </CardBody>
               </Card>
               <br />

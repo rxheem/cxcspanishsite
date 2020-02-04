@@ -15,6 +15,7 @@ import {
 } from "shards-react";
 import Head from "next/head";
 import SEO from "react-seo-component";
+import Popup from "reactjs-popup";
 
 // Common
 import PDFFile from "../common/PDFFile";

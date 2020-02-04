@@ -53,6 +53,10 @@ const WhatsAppGroups = props => (
       <Row>
         <Col sm={12} md={8} lg={8} xl={8}>
           <Card>
+            <CardImg
+              style={{ width: "100%" }}
+              src="https://static.whatsapp.net/rsrc.php/v3/yO/r/FsWUqRoOsPu.png"
+            />
             <CardBody>
               <CardTitle>WhatsApp Group Chats</CardTitle>
 
@@ -110,6 +114,7 @@ const WhatsAppGroups = props => (
         <Col sm={12} md={4} lg={4} xl={4}></Col>
       </Row>
     </Container>
+    <br />
   </Layout>
 );
 
