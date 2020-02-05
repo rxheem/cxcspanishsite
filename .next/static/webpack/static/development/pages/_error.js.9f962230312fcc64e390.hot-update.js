@@ -217,26 +217,6 @@ if (true) {
 
 /***/ }),
 
-/***/ "./assets/js/mailchimp.js":
-/*!********************************!*\
-  !*** ./assets/js/mailchimp.js ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-if (true) {
-  window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
-    L.start({
-      baseUrl: "mc.us4.list-manage.com",
-      uuid: "928ae50da9527569235802ccc",
-      lid: "f3a3a132de",
-      uniqueMethods: true
-    });
-  });
-}
-
-/***/ }),
-
 /***/ "./assets/js/mixpanel.js":
 /*!*******************************!*\
   !*** ./assets/js/mixpanel.js ***!
@@ -356,6 +336,22 @@ if (true) {
   _qevents.push({
     qacct: "p-fa2UTk8qCKHzc"
   });
+}
+
+/***/ }),
+
+/***/ "./assets/js/surveymonkey.js":
+/*!***********************************!*\
+  !*** ./assets/js/surveymonkey.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+if (true) {
+  (function (t, e, s, o) {
+    var n, a, c;
+    t.SMCX = t.SMCX || [], e.getElementById(o) || (n = e.getElementsByTagName(s), a = n[n.length - 1], c = e.createElement(s), c.type = "text/javascript", c.async = !0, c.id = o, c.src = ["https:" === location.protocol ? "https://" : "http://", "widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd4uqm43QqM49Fa_2FyKnJSgKs7azUGXdtAhR4UEuYSb0wf.js"].join(""), a.parentNode.insertBefore(c, a));
+  })(window, document, "script", "smcx-sdk");
 }
 
 /***/ }),
@@ -860,8 +856,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_15__);
 /* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/js/facebook.js */ "./assets/js/facebook.js");
 /* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/js/mailchimp.js */ "./assets/js/mailchimp.js");
-/* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _assets_js_surveymonkey_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/js/surveymonkey.js */ "./assets/js/surveymonkey.js");
+/* harmony import */ var _assets_js_surveymonkey_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_js_surveymonkey_js__WEBPACK_IMPORTED_MODULE_17__);
 /* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
 /* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! react-messenger-customer-chat */ "./node_modules/react-messenger-customer-chat/lib/index.js");
 /* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_19__);

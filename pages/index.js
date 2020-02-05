@@ -28,6 +28,7 @@ import Papers from "../home/Papers";
 import Info from "../home/Info";
 import MeetAna from "../home/MeetAna";
 import MailingListSubscribe from "../home/MailingListSubscribe";
+import QuickSurvey from "../home/QuickSurvey";
 
 // Layout
 import Layout from "../components/Layout";
@@ -59,10 +60,13 @@ const Index = props => (
       <br />
       <Marketing />
     </Container>
+
     <MeetAna />
+
+    <br />
+    <br />
     <Container>
       <CardBox />
-
       <Papers />
     </Container>
   </Layout>

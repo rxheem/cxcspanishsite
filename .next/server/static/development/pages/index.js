@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -150,17 +150,6 @@ if (false) {}
 
 /***/ }),
 
-/***/ "./assets/js/mailchimp.js":
-/*!********************************!*\
-  !*** ./assets/js/mailchimp.js ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-if (false) {}
-
-/***/ }),
-
 /***/ "./assets/js/mixpanel.js":
 /*!*******************************!*\
   !*** ./assets/js/mixpanel.js ***!
@@ -180,6 +169,17 @@ if (false) {}
 /***/ (function(module, exports, __webpack_require__) {
 
 if (false) { var _qevents; }
+
+/***/ }),
+
+/***/ "./assets/js/surveymonkey.js":
+/*!***********************************!*\
+  !*** ./assets/js/surveymonkey.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+if (false) {}
 
 /***/ }),
 
@@ -718,8 +718,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_15__);
 /* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/js/facebook.js */ "./assets/js/facebook.js");
 /* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/js/mailchimp.js */ "./assets/js/mailchimp.js");
-/* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _assets_js_surveymonkey_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/js/surveymonkey.js */ "./assets/js/surveymonkey.js");
+/* harmony import */ var _assets_js_surveymonkey_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_js_surveymonkey_js__WEBPACK_IMPORTED_MODULE_17__);
 /* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! react-ga */ "react-ga");
 /* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_18__);
 /* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! react-messenger-customer-chat */ "react-messenger-customer-chat");
@@ -1257,24 +1257,24 @@ const CardBox = props => __jsx("div", null, __jsx("br", null), __jsx(shards_reac
     width: "100%",
     height: "100%"
   }
-}), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Submit a Request"), __jsx("p", null, "We're here to help and provde it where you need it the most. Ask us for anything:", " "), __jsx("ul", null, __jsx("li", null, __jsx("a", {
-  href: "",
+}), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Online Forms and Request"), __jsx("p", null, "We're here to help and provde it where you need it the most. Ask us for anything:"), __jsx("ul", null, __jsx("li", null, __jsx("a", {
+  href: "http://bit.ly/37321lz",
   target: "_blank"
-}, "I need private tutoring")), __jsx("li", {
+}, "Spanish Class Registration Form")), __jsx("li", {
   style: {
     paddingTop: "10px"
   }
 }, __jsx("a", {
-  href: "",
+  href: "#",
   target: "_blank"
-}, "Write about a topic in Spanish that I don't understand")), __jsx("li", {
+}, "Topic Explanation Request")), __jsx("li", {
   style: {
     paddingTop: "10px"
   }
 }, __jsx("a", {
-  href: "",
+  href: "#",
   target: "_blank"
-}, "I need past papers")), __jsx("li", {
+}, "Past Paper Request")), __jsx("li", {
   style: {
     paddingTop: "10px"
   }
@@ -1284,7 +1284,7 @@ const CardBox = props => __jsx("div", null, __jsx("br", null), __jsx(shards_reac
   href: "mailto:holacxcspanish@gmail.com"
 }, "holacxcspanish@gmail.com"))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
   href: "/whatsapp-groups"
-}, "See full list"))))));
+}, "All forms"))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (CardBox);
 
@@ -1575,8 +1575,8 @@ class MeetAna extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
       className: "text-black",
       style: {
-        backgroundColor: "#e6ccff",
-        padding: "40px"
+        backgroundColor: '#e6ccff',
+        padding: '40px'
       }
     }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
       sm: 12,
@@ -1643,11 +1643,11 @@ class MeetAna extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: "/listening-exercises/meet-ana"
     }, __jsx("img", {
       style: {
-        width: "100%"
+        width: '100%'
       },
       src: "https://i.imgur.com/ociFUp7.png",
       title: "source: imgur.com"
-    }))))), __jsx("br", null), __jsx("br", null));
+    }))))));
   }
 
 }
@@ -1773,6 +1773,76 @@ const Papers = props => __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_2___defaul
 }))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Papers);
+
+/***/ }),
+
+/***/ "./home/QuickSurvey.js":
+/*!*****************************!*\
+  !*** ./home/QuickSurvey.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-collapsible */ "react-collapsible");
+/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_collapsible__WEBPACK_IMPORTED_MODULE_2__);
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+class QuickSurvey extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      open: false
+    };
+    this.toggle = this.toggle.bind(this);
+  }
+
+  toggle() {
+    this.setState({
+      open: !this.state.open
+    });
+  }
+
+  render() {
+    const {
+      open
+    } = this.state;
+    return __jsx("div", {
+      className: "bg-light",
+      style: {
+        height: 'auto',
+        padding: '10px 0px'
+      }
+    }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, "Have something in Spanish you want us to clarify?", __jsx(react_collapsible__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      trigger: __jsx("a", {
+        href: ""
+      }, "Let us know here ", __jsx("small", {
+        style: {
+          color: 'red'
+        }
+      }, "(works best on a laptop)"), ' ')
+    }, __jsx("br", null), __jsx("iframe", {
+      src: "https://docs.google.com/forms/d/e/1FAIpQLSc0SyNaXGAYnToalhKErIwH4b9deZQw-mA1zYJ491UU-robIQ/viewform?embedded=true",
+      width: "700",
+      height: "1028",
+      frameborder: "0",
+      marginheight: "0",
+      marginwidth: "0"
+    }, "Loading\u2026"))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (QuickSurvey);
 
 /***/ }),
 
@@ -2015,8 +2085,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_Info__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../home/Info */ "./home/Info.js");
 /* harmony import */ var _home_MeetAna__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../home/MeetAna */ "./home/MeetAna.js");
 /* harmony import */ var _home_MailingListSubscribe__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../home/MailingListSubscribe */ "./home/MailingListSubscribe.js");
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _common_Message__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../common/Message */ "./common/Message.js");
+/* harmony import */ var _home_QuickSurvey__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../home/QuickSurvey */ "./home/QuickSurvey.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _common_Message__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../common/Message */ "./common/Message.js");
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2032,12 +2103,13 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
  // Layout
 
 
 
 
-const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_13__["default"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_3___default.a, {
+const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_14__["default"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_3___default.a, {
   title: "CXC Spanish Online | Guide, Past Papers and Exercises",
   description: "CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces.",
   image: "",
@@ -2051,7 +2123,7 @@ const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_13__["d
   href: "/"
 }, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], null, __jsx("a", {
   href: "/"
-}))), __jsx("br", null), __jsx(_home_Marketing__WEBPACK_IMPORTED_MODULE_8__["default"], null)), __jsx(_home_MeetAna__WEBPACK_IMPORTED_MODULE_11__["default"], null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(_home_CardBox__WEBPACK_IMPORTED_MODULE_6__["default"], null), __jsx(_home_Papers__WEBPACK_IMPORTED_MODULE_9__["default"], null)));
+}))), __jsx("br", null), __jsx(_home_Marketing__WEBPACK_IMPORTED_MODULE_8__["default"], null)), __jsx(_home_MeetAna__WEBPACK_IMPORTED_MODULE_11__["default"], null), __jsx("br", null), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(_home_CardBox__WEBPACK_IMPORTED_MODULE_6__["default"], null), __jsx(_home_Papers__WEBPACK_IMPORTED_MODULE_9__["default"], null)));
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
@@ -2181,7 +2253,7 @@ const ResourcesLayout = props => __jsx("div", null, __jsx(shards_react__WEBPACK_
 
 /***/ }),
 
-/***/ 6:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

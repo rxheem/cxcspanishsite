@@ -11,7 +11,7 @@ if (process.browser) {
         (c.id = o),
         (c.src = [
           "https:" === location.protocol ? "https://" : "http://",
-          "widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd5aKvgwSPazc3STgNiSg4mGxsaX3skWXR5evOqCjRSY2.js"
+          "widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd4uqm43QqM49Fa_2FyKnJSgKs7azUGXdtAhR4UEuYSb0wf.js"
         ].join("")),
         a.parentNode.insertBefore(c, a));
   })(window, document, "script", "smcx-sdk");

@@ -18,7 +18,7 @@ import "../assets/js/fontawesome.js";
 import "../assets/js/mixpanel.js";
 import "../assets/js/quantcast.js";
 import "../assets/js/facebook.js";
-import "../assets/js/mailchimp.js";
+import "../assets/js/surveymonkey.js";
 
 // Other
 import ReactGA from "react-ga";

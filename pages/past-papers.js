@@ -26,6 +26,7 @@ import {
   isMobile
 } from "react-device-detect";
 import SEO from "react-seo-component";
+import QuickSurvey from "../home/QuickSurvey";
 import ResourcesLayout from "../resources-components/ResourcesLayout";
 
 // Layout
@@ -79,8 +80,12 @@ class PastPapers extends React.Component {
             </Breadcrumb>
 
             <ResourcesLayout>
+
+              <QuickSurvey />
+              <br />
               <Card>
                 <CardBody>
+
                   <p>
                     Need one on one help? Join our{" "}
                     <a

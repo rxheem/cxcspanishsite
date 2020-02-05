@@ -109,27 +109,27 @@ const CardBox = props => (
             style={{ width: "100%", height: "100%" }}
           />
           <CardBody>
-            <CardTitle>Submit a Request</CardTitle>
+            <CardTitle>Online Forms and Request</CardTitle>
 
             <p>
               We're here to help and provde it where you need it the most. Ask
-              us for anything:{" "}
+              us for anything:
             </p>
 
             <ul>
               <li>
-                <a href="" target="_blank">
-                  I need private tutoring
+                <a href="http://bit.ly/37321lz" target="_blank">
+                  Spanish Class Registration Form
                 </a>
               </li>
               <li style={{ paddingTop: "10px" }}>
-                <a href="" target="_blank">
-                  Write about a topic in Spanish that I don't understand
+                <a href="#" target="_blank">
+                  Topic Explanation Request
                 </a>
               </li>
               <li style={{ paddingTop: "10px" }}>
-                <a href="" target="_blank">
-                  I need past papers
+                <a href="#" target="_blank">
+                  Past Paper Request
                 </a>
               </li>
               <li style={{ paddingTop: "10px" }}>
@@ -142,7 +142,7 @@ const CardBox = props => (
             </ul>
 
             <br />
-            <Button href="/whatsapp-groups">See full list</Button>
+            <Button href="/whatsapp-groups">All forms</Button>
           </CardBody>
         </Card>
       </Col>
