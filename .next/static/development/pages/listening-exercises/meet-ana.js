@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/guide.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/listening-exercises/meet-ana.js"],{
 
 /***/ "./assets/js/facebook.js":
 /*!*******************************!*\
@@ -1381,10 +1381,10 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ "./guide-components/GuideLayout.js":
-/*!*****************************************!*\
-  !*** ./guide-components/GuideLayout.js ***!
-  \*****************************************/
+/***/ "./listening-components/ListeningLayout.js":
+/*!*************************************************!*\
+  !*** ./listening-components/ListeningLayout.js ***!
+  \*************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1395,17 +1395,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "./node_modules/shards-react/dist/shards-react.es.js");
 /* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-device-detect */ "./node_modules/react-device-detect/main.js");
 /* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-lazyload */ "./node_modules/react-lazyload/lib/index.js");
-/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_fontawesome__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-fontawesome */ "./node_modules/react-fontawesome/lib/index.js");
-/* harmony import */ var react_fontawesome__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_fontawesome__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _common_PDFFile__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../common/PDFFile */ "./common/PDFFile.js");
+/* harmony import */ var _common_PDFFile__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../common/PDFFile */ "./common/PDFFile.js");
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-
-
- // Common
 
  // Style for the onft icons
 
@@ -1421,8 +1414,8 @@ var ulStyles = {
   paddingTop: "15px"
 };
 
-var GuideLayout = function GuideLayout(props) {
-  return __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+var ListeningLayout = function ListeningLayout(props) {
+  return __jsx("div", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
     sm: 12,
     md: 8,
     lg: 8,
@@ -1480,144 +1473,156 @@ var GuideLayout = function GuideLayout(props) {
     xl: 4
   }, __jsx("br", {
     className: "d-sm-none"
-  }), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], {
+  }), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
+    src: "https://cdn.blog.psafe.com/en/blog/wp-content/uploads/2016/10/BLOG_EN_0610_The-Benefits-of-Dropbox-for-Your-Android.jpg",
+    style: {
+      width: "100%"
+    }
+  }), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, "We've sourced all the past papers so you don't have to. Check out our Dropbox folder to get pass paper for any CSEC or CAPE subject."), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+    target: "_blank",
+    href: "https://www.dropbox.com/sh/0iwksvyxx6hnx8u/AADS2oBLhV7Ouofp9d0fc593a?dl=0"
+  }, __jsx("i", {
+    style: {
+      paddingRight: "5px"
+    },
+    className: "fab fa-dropbox"
+  }), "View Folder"))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], {
     className: ""
   }, "Essentials"), __jsx("br", null), __jsx("ul", {
     style: {
       marginLeft: "-25px",
       listStyleType: "none"
     }
-  }, __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Spanish For Dummies",
     href: "https://dl.dropbox.com/s/rjglra0ra4ved1z/Spanish%20Essentials%20For%20Dummies.pdf?dl=0"
   })), __jsx("li", {
     style: {
       paddingTop: "10px"
     }
-  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Modern Spanish Grammar",
     href: "https://dl.dropbox.com/s/fibr4yjdzv4qovn/modern-spanish-grammar.pdf?dl=0"
   })), __jsx("li", {
     style: {
       paddingTop: "10px"
     }
-  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Spanish Basics",
     href: "https://dl.dropbox.com/s/hmime50fn00u7k1/Free%20K.pdf?dl=0"
-  }))))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Read on the Go"), __jsx("p", null, "Download and read our guides offline, at school or when you're studying fro your exams. Here's our top picks."), __jsx("ul", {
+  }))))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
+    src: "https://images.idgesg.net/images/article/2019/04/google-drive-docs-suite-logos-100794638-large.jpg",
+    style: {
+      width: "100%",
+      padding: "20px"
+    }
+  }), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, "You can also see the papers on our Google Drive folder, if you are not able to access Dropbox."), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+    target: "_blank",
+    theme: "success",
+    href: "https://drive.google.com/open?id=1zPeCEOLnKcTIo5QewZL7YJsm7u9gsTI4"
+  }, __jsx("i", {
+    style: {
+      paddingRight: "5px"
+    },
+    "class": "fab fa-google-drive"
+  }), "View Folder"))), __jsx("div", {
+    style: {
+      display: "none"
+    }
+  }, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], {
+    className: "text-info"
+  }, "CSEC Past Papers"), __jsx("br", null), __jsx("ul", {
     style: {
       marginLeft: "-25px",
       listStyleType: "none"
     }
-  }, __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    title: "'Ser' vs. 'Estar'",
-    href: ""
+  }, __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: "Economic",
+    href: "https://dl.dropbox.com/s/jxvrisgi1yzevu3/csec%C2%AE_economics_past_papers.pdf?dl=0"
   })), __jsx("li", {
     style: {
-      paddingTop: "15px"
+      paddingTop: "10px"
     }
-  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    title: "Study Tips",
-    href: ""
+  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: "Principles of Business",
+    href: "https://dl.dropbox.com/s/7nqmtd37s999yj0/csecc2ae-principles-of-business-past-papers-2005-2017.pdf?dl=0"
   })), __jsx("li", {
     style: {
-      paddingTop: "15px"
+      paddingTop: "10px"
     }
-  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    title: "Funny Spanish Jokes",
-    href: ""
+  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: "Principles of Accounts",
+    href: "https://dl.dropbox.com/s/mnaf0jko2lwdm0c/csecc2ae-principles-of-accounts-past-papers-2005-2017.pdf?dl=0"
   })), __jsx("li", {
     style: {
-      paddingTop: "15px"
+      paddingTop: "10px"
     }
-  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    title: "Genders in Spanish",
-    href: ""
-  }))), __jsx("br", null), __jsx("h6", null, "How To Guides"), __jsx("ul", {
-    style: {
-      marginLeft: "-25px",
-      listStyleType: "none"
-    }
-  }, __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    title: "How to Use Online Translators",
-    href: ""
-  })), __jsx("li", {
-    style: {
-      paddingTop: "15px"
-    }
-  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    title: "Asking for Directions in Spanish",
-    href: ""
-  })), __jsx("li", {
-    style: {
-      paddingTop: "15px"
-    }
-  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    title: "Ordering Food in Spanish",
-    href: ""
-  }))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], null, "View Archives \u2192"))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], {
+  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: "Physics",
+    href: "https://dl.dropbox.com/s/90g671h3mmosk0z/CSEC%20Physics%20January%202019%20P2.pdf?dl=0"
+  })))))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], {
     className: "text-info"
   }, "CAPE Past Papers"), __jsx("br", null), __jsx("ul", {
     style: {
       marginLeft: "-25px",
       listStyleType: "none"
     }
-  }, __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Spanish",
     href: ""
   })), __jsx("li", {
     style: {
       paddingTop: "10px"
     }
-  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Agricultural Science",
     href: "https://dl.dropbox.com/s/eqc4v3bjrk1yh9j/CAPE%20Agricultural%20Science%20Past%20Papers.pdf?dl=0"
   })), __jsx("li", {
     style: {
       paddingTop: "10px"
     }
-  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Biology",
     href: "https://dl.dropbox.com/s/lzugxqjfns8l7ee/CAPE%20Biology%20Past%20Papers%20unit%201_2%202005-2016.pdf?dl=0"
   })), __jsx("li", {
     style: {
       paddingTop: "10px"
     }
-  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Law",
     href: "https://dl.dropbox.com/s/0tdxb2o1fx4k3ti/CAPE%C2%AE%20Law%20Past%20Papers%20u%201%20_%202%202005%20-2016.pdf?dl=0"
   })), __jsx("li", {
     style: {
       paddingTop: "10px"
     }
-  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Food and Nutrition",
     href: "https://dl.dropbox.com/s/9zzq4eehfvjnsrt/CAPE%20Food%20and%20Nutrition%20Past%20Papers%20Ui%20_U2%202005%20-%202016.pdf?dl=0"
   })), __jsx("li", {
     style: {
       paddingTop: "10px"
     }
-  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Sociology",
     href: "https://dl.dropbox.com/s/x1h7tmn4lam6ryn/CAPE%20Sociology%20Past%20Papers%20U1%20_U%202005-2016.pdf?dl=0"
   })), __jsx("li", {
     style: {
       paddingTop: "10px"
     }
-  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "French",
     href: "https://dl.dropbox.com/s/5g8gm6h4jcwikex/CAPE%20French%20Past%20Papers%20U1%20_U2%202005-2016.pdf?dl=0"
   })), __jsx("li", {
     style: {
       paddingTop: "10px"
     }
-  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Computer Science",
     href: "https://dl.dropbox.com/s/uifq5ynywxvdga8/CAPE%20Computer%20Science%20Past%20Papers%20u1_U2%202005-2016.pdf?dl=0"
-  })))))));
+  }))))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (GuideLayout);
+/* harmony default export */ __webpack_exports__["default"] = (ListeningLayout);
 
 /***/ }),
 
@@ -2318,50 +2323,6 @@ module.exports = _assertThisInitialized;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/classCallCheck.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/classCallCheck.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _classCallCheck(instance, Constructor) {
-  if (!(instance instanceof Constructor)) {
-    throw new TypeError("Cannot call a class as a function");
-  }
-}
-
-module.exports = _classCallCheck;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/createClass.js":
-/*!************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/createClass.js ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _defineProperties(target, props) {
-  for (var i = 0; i < props.length; i++) {
-    var descriptor = props[i];
-    descriptor.enumerable = descriptor.enumerable || false;
-    descriptor.configurable = true;
-    if ("value" in descriptor) descriptor.writable = true;
-    Object.defineProperty(target, descriptor.key, descriptor);
-  }
-}
-
-function _createClass(Constructor, protoProps, staticProps) {
-  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
-  if (staticProps) _defineProperties(Constructor, staticProps);
-  return Constructor;
-}
-
-module.exports = _createClass;
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime/helpers/defineProperty.js":
 /*!***************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/defineProperty.js ***!
@@ -2512,52 +2473,6 @@ module.exports = _extends;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/getPrototypeOf.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _getPrototypeOf(o) {
-  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
-    return o.__proto__ || Object.getPrototypeOf(o);
-  };
-  return _getPrototypeOf(o);
-}
-
-module.exports = _getPrototypeOf;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/inherits.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/inherits.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js");
-
-function _inherits(subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function");
-  }
-
-  subClass.prototype = Object.create(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      writable: true,
-      configurable: true
-    }
-  });
-  if (superClass) setPrototypeOf(subClass, superClass);
-}
-
-module.exports = _inherits;
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime/helpers/inheritsLoose.js":
 /*!**************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/inheritsLoose.js ***!
@@ -2592,38 +2507,6 @@ module.exports = _interopRequireDefault;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/objectWithoutProperties.js":
-/*!************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/objectWithoutProperties.js ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var objectWithoutPropertiesLoose = __webpack_require__(/*! ./objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js");
-
-function _objectWithoutProperties(source, excluded) {
-  if (source == null) return {};
-  var target = objectWithoutPropertiesLoose(source, excluded);
-  var key, i;
-
-  if (Object.getOwnPropertySymbols) {
-    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
-
-    for (i = 0; i < sourceSymbolKeys.length; i++) {
-      key = sourceSymbolKeys[i];
-      if (excluded.indexOf(key) >= 0) continue;
-      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
-      target[key] = source[key];
-    }
-  }
-
-  return target;
-}
-
-module.exports = _objectWithoutProperties;
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js":
 /*!*****************************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js ***!
@@ -2647,74 +2530,6 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 }
 
 module.exports = _objectWithoutPropertiesLoose;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/@babel/runtime/helpers/typeof.js");
-
-var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
-
-function _possibleConstructorReturn(self, call) {
-  if (call && (_typeof(call) === "object" || typeof call === "function")) {
-    return call;
-  }
-
-  return assertThisInitialized(self);
-}
-
-module.exports = _possibleConstructorReturn;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/setPrototypeOf.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _setPrototypeOf(o, p) {
-  module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
-    o.__proto__ = p;
-    return o;
-  };
-
-  return _setPrototypeOf(o, p);
-}
-
-module.exports = _setPrototypeOf;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/typeof.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/typeof.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _typeof(obj) {
-  if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
-    module.exports = _typeof = function _typeof(obj) {
-      return typeof obj;
-    };
-  } else {
-    module.exports = _typeof = function _typeof(obj) {
-      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-    };
-  }
-
-  return _typeof(obj);
-}
-
-module.exports = _typeof;
 
 /***/ }),
 
@@ -28363,21 +28178,21 @@ module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fguide&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Fguide.js!./":
-/*!*************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fguide&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Fguide.js ***!
-  \*************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flistening-exercises%2Fmeet-ana&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Flistening-exercises%2Fmeet-ana.js!./":
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flistening-exercises%2Fmeet-ana&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Flistening-exercises%2Fmeet-ana.js ***!
+  \***************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/guide", function() {
-      var mod = __webpack_require__(/*! ./pages/guide.js */ "./pages/guide.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/listening-exercises/meet-ana", function() {
+      var mod = __webpack_require__(/*! ./pages/listening-exercises/meet-ana.js */ "./pages/listening-exercises/meet-ana.js")
       if(true) {
-        module.hot.accept(/*! ./pages/guide.js */ "./pages/guide.js", function() {
-          if(!next.router.components["/guide"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/guide.js */ "./pages/guide.js")
-          next.router.update("/guide", updatedPage)
+        module.hot.accept(/*! ./pages/listening-exercises/meet-ana.js */ "./pages/listening-exercises/meet-ana.js", function() {
+          if(!next.router.components["/listening-exercises/meet-ana"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/listening-exercises/meet-ana.js */ "./pages/listening-exercises/meet-ana.js")
+          next.router.update("/listening-exercises/meet-ana", updatedPage)
         })
       }
       return mod
@@ -43638,6 +43453,345 @@ module.exports = exports['default'];
 
 /***/ }),
 
+/***/ "./node_modules/react-collapsible/dist/Collapsible.js":
+/*!************************************************************!*\
+  !*** ./node_modules/react-collapsible/dist/Collapsible.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Collapsible = function (_Component) {
+  _inherits(Collapsible, _Component);
+
+  function Collapsible(props) {
+    _classCallCheck(this, Collapsible);
+
+    var _this = _possibleConstructorReturn(this, (Collapsible.__proto__ || Object.getPrototypeOf(Collapsible)).call(this, props));
+
+    _this.timeout = undefined;
+
+    // Bind class methods
+    _this.handleTriggerClick = _this.handleTriggerClick.bind(_this);
+    _this.handleTransitionEnd = _this.handleTransitionEnd.bind(_this);
+    _this.continueOpenCollapsible = _this.continueOpenCollapsible.bind(_this);
+    _this.setInnerRef = _this.setInnerRef.bind(_this);
+
+    // Defaults the dropdown to be closed
+    if (props.open) {
+      _this.state = {
+        isClosed: false,
+        shouldSwitchAutoOnNextCycle: false,
+        height: 'auto',
+        transition: 'none',
+        hasBeenOpened: true,
+        overflow: props.overflowWhenOpen,
+        inTransition: false
+      };
+    } else {
+      _this.state = {
+        isClosed: true,
+        shouldSwitchAutoOnNextCycle: false,
+        height: 0,
+        transition: 'height ' + props.transitionTime + 'ms ' + props.easing,
+        hasBeenOpened: false,
+        overflow: 'hidden',
+        inTransition: false
+      };
+    }
+    return _this;
+  }
+
+  _createClass(Collapsible, [{
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps, prevState) {
+      var _this2 = this;
+
+      if (this.state.shouldOpenOnNextCycle) {
+        this.continueOpenCollapsible();
+      }
+
+      if (prevState.height === 'auto' && this.state.shouldSwitchAutoOnNextCycle === true) {
+        window.clearTimeout(this.timeout);
+        this.timeout = window.setTimeout(function () {
+          // Set small timeout to ensure a true re-render
+          _this2.setState({
+            height: 0,
+            overflow: 'hidden',
+            isClosed: true,
+            shouldSwitchAutoOnNextCycle: false
+          });
+        }, 50);
+      }
+
+      // If there has been a change in the open prop (controlled by accordion)
+      if (prevProps.open !== this.props.open) {
+        if (this.props.open === true) {
+          this.openCollapsible();
+          this.props.onOpening();
+        } else {
+          this.closeCollapsible();
+          this.props.onClosing();
+        }
+      }
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      window.clearTimeout(this.timeout);
+    }
+  }, {
+    key: 'closeCollapsible',
+    value: function closeCollapsible() {
+      this.setState({
+        shouldSwitchAutoOnNextCycle: true,
+        height: this.innerRef.scrollHeight,
+        transition: 'height ' + (this.props.transitionCloseTime ? this.props.transitionCloseTime : this.props.transitionTime) + 'ms ' + this.props.easing,
+        inTransition: true
+      });
+    }
+  }, {
+    key: 'openCollapsible',
+    value: function openCollapsible() {
+      this.setState({
+        inTransition: true,
+        shouldOpenOnNextCycle: true
+      });
+    }
+  }, {
+    key: 'continueOpenCollapsible',
+    value: function continueOpenCollapsible() {
+      this.setState({
+        height: this.innerRef.scrollHeight,
+        transition: 'height ' + this.props.transitionTime + 'ms ' + this.props.easing,
+        isClosed: false,
+        hasBeenOpened: true,
+        inTransition: true,
+        shouldOpenOnNextCycle: false
+      });
+    }
+  }, {
+    key: 'handleTriggerClick',
+    value: function handleTriggerClick(event) {
+      if (this.props.triggerDisabled) {
+        return;
+      }
+
+      event.preventDefault();
+
+      if (this.props.handleTriggerClick) {
+        this.props.handleTriggerClick(this.props.accordionPosition);
+      } else {
+        if (this.state.isClosed === true) {
+          this.openCollapsible();
+          this.props.onOpening();
+        } else {
+          this.closeCollapsible();
+          this.props.onClosing();
+        }
+      }
+    }
+  }, {
+    key: 'renderNonClickableTriggerElement',
+    value: function renderNonClickableTriggerElement() {
+      if (this.props.triggerSibling && typeof this.props.triggerSibling === 'string') {
+        return _react2.default.createElement(
+          'span',
+          { className: this.props.classParentString + '__trigger-sibling' },
+          this.props.triggerSibling
+        );
+      } else if (this.props.triggerSibling) {
+        return _react2.default.createElement(this.props.triggerSibling, null);
+      }
+
+      return null;
+    }
+  }, {
+    key: 'handleTransitionEnd',
+    value: function handleTransitionEnd(e) {
+      // only handle transitions that origin from the container of this component
+      if (e.target !== this.innerRef) {
+        return;
+      }
+      // Switch to height auto to make the container responsive
+      if (!this.state.isClosed) {
+        this.setState({ height: 'auto', overflow: this.props.overflowWhenOpen, inTransition: false });
+        this.props.onOpen();
+      } else {
+        this.setState({ inTransition: false });
+        this.props.onClose();
+      }
+    }
+  }, {
+    key: 'setInnerRef',
+    value: function setInnerRef(ref) {
+      this.innerRef = ref;
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this3 = this;
+
+      var dropdownStyle = {
+        height: this.state.height,
+        WebkitTransition: this.state.transition,
+        msTransition: this.state.transition,
+        transition: this.state.transition,
+        overflow: this.state.overflow
+      };
+
+      var openClass = this.state.isClosed ? 'is-closed' : 'is-open';
+      var disabledClass = this.props.triggerDisabled ? 'is-disabled' : '';
+
+      //If user wants different text when tray is open
+      var trigger = this.state.isClosed === false && this.props.triggerWhenOpen !== undefined ? this.props.triggerWhenOpen : this.props.trigger;
+
+      var ContentContainerElement = this.props.contentContainerTagName;
+
+      // If user wants a trigger wrapping element different than 'span'
+      var TriggerElement = this.props.triggerTagName;
+
+      // Don't render children until the first opening of the Collapsible if lazy rendering is enabled
+      var children = this.props.lazyRender && !this.state.hasBeenOpened && this.state.isClosed && !this.state.inTransition ? null : this.props.children;
+
+      // Construct CSS classes strings
+      var triggerClassString = this.props.classParentString + '__trigger ' + openClass + ' ' + disabledClass + ' ' + (this.state.isClosed ? this.props.triggerClassName : this.props.triggerOpenedClassName);
+      var parentClassString = this.props.classParentString + ' ' + (this.state.isClosed ? this.props.className : this.props.openedClassName);
+      var outerClassString = this.props.classParentString + '__contentOuter ' + this.props.contentOuterClassName;
+      var innerClassString = this.props.classParentString + '__contentInner ' + this.props.contentInnerClassName;
+
+      return _react2.default.createElement(
+        ContentContainerElement,
+        _extends({ className: parentClassString.trim() }, this.props.containerElementProps),
+        _react2.default.createElement(
+          TriggerElement,
+          {
+            className: triggerClassString.trim(),
+            onClick: this.handleTriggerClick,
+            style: this.props.triggerStyle && this.props.triggerStyle,
+            onKeyPress: function onKeyPress(event) {
+              var key = event.key;
+
+              if (key === ' ' || key === 'Enter') {
+                _this3.handleTriggerClick(event);
+              }
+            },
+            tabIndex: this.props.tabIndex && this.props.tabIndex
+          },
+          trigger
+        ),
+        this.renderNonClickableTriggerElement(),
+        _react2.default.createElement(
+          'div',
+          {
+            className: outerClassString.trim(),
+            style: dropdownStyle,
+            onTransitionEnd: this.handleTransitionEnd,
+            ref: this.setInnerRef
+          },
+          _react2.default.createElement(
+            'div',
+            {
+              className: innerClassString.trim()
+            },
+            children
+          )
+        )
+      );
+    }
+  }]);
+
+  return Collapsible;
+}(_react.Component);
+
+Collapsible.propTypes = {
+  transitionTime: _propTypes2.default.number,
+  transitionCloseTime: _propTypes2.default.number,
+  triggerTagName: _propTypes2.default.string,
+  easing: _propTypes2.default.string,
+  open: _propTypes2.default.bool,
+  containerElementProps: _propTypes2.default.object,
+  classParentString: _propTypes2.default.string,
+  openedClassName: _propTypes2.default.string,
+  triggerStyle: _propTypes2.default.object,
+  triggerClassName: _propTypes2.default.string,
+  triggerOpenedClassName: _propTypes2.default.string,
+  contentOuterClassName: _propTypes2.default.string,
+  contentInnerClassName: _propTypes2.default.string,
+  accordionPosition: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number]),
+  handleTriggerClick: _propTypes2.default.func,
+  onOpen: _propTypes2.default.func,
+  onClose: _propTypes2.default.func,
+  onOpening: _propTypes2.default.func,
+  onClosing: _propTypes2.default.func,
+  trigger: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.element]),
+  triggerWhenOpen: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.element]),
+  triggerDisabled: _propTypes2.default.bool,
+  lazyRender: _propTypes2.default.bool,
+  overflowWhenOpen: _propTypes2.default.oneOf(['hidden', 'visible', 'auto', 'scroll', 'inherit', 'initial', 'unset']),
+  triggerSibling: _propTypes2.default.oneOfType([_propTypes2.default.element, _propTypes2.default.func]),
+  tabIndex: _propTypes2.default.number,
+  contentContainerTagName: _propTypes2.default.string
+};
+
+Collapsible.defaultProps = {
+  transitionTime: 400,
+  transitionCloseTime: null,
+  triggerTagName: 'span',
+  easing: 'linear',
+  open: false,
+  classParentString: 'Collapsible',
+  triggerDisabled: false,
+  lazyRender: false,
+  overflowWhenOpen: 'hidden',
+  openedClassName: '',
+  triggerStyle: null,
+  triggerClassName: '',
+  triggerOpenedClassName: '',
+  contentOuterClassName: '',
+  contentInnerClassName: '',
+  className: '',
+  triggerSibling: null,
+  onOpen: function onOpen() {},
+  onClose: function onClose() {},
+  onOpening: function onOpening() {},
+  onClosing: function onClosing() {},
+  tabIndex: null,
+  contentContainerTagName: 'div'
+};
+
+exports.default = Collapsible;
+
+
+
+/***/ }),
+
 /***/ "./node_modules/react-datepicker/dist/react-datepicker.min.js":
 /*!********************************************************************!*\
   !*** ./node_modules/react-datepicker/dist/react-datepicker.min.js ***!
@@ -54847,19 +55001,6 @@ exports.warn = warn;
 
 /***/ }),
 
-/***/ "./node_modules/react-image/umd/index.js":
-/*!***********************************************!*\
-  !*** ./node_modules/react-image/umd/index.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-(function(a,b){ true?module.exports=b(__webpack_require__(/*! @babel/runtime/helpers/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"),__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js"),__webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js"),__webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"),__webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js"),__webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js"),__webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js"),__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js"),__webpack_require__(/*! react */ "./node_modules/react/index.js"),__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js")):undefined})(this,function(a,b,c,d,e,f,g,h,i,j){'use strict';function k(a,b){var c=Object.keys(a);if(Object.getOwnPropertySymbols){var d=Object.getOwnPropertySymbols(a);b&&(d=d.filter(function(b){return Object.getOwnPropertyDescriptor(a,b).enumerable})),c.push.apply(c,d)}return c}function l(a){for(var b,c=1;c<arguments.length;c++)b=null==arguments[c]?{}:arguments[c],c%2?k(Object(b),!0).forEach(function(c){h(a,c,b[c])}):Object.getOwnPropertyDescriptors?Object.defineProperties(a,Object.getOwnPropertyDescriptors(b)):k(Object(b)).forEach(function(c){Object.defineProperty(a,c,Object.getOwnPropertyDescriptor(b,c))});return a}a=a&&a.hasOwnProperty("default")?a["default"]:a,b=b&&b.hasOwnProperty("default")?b["default"]:b,c=c&&c.hasOwnProperty("default")?c["default"]:c,d=d&&d.hasOwnProperty("default")?d["default"]:d,e=e&&e.hasOwnProperty("default")?e["default"]:e,f=f&&f.hasOwnProperty("default")?f["default"]:f,g=g&&g.hasOwnProperty("default")?g["default"]:g,h=h&&h.hasOwnProperty("default")?h["default"]:h;var m="default"in i?i["default"]:i,n={},o={loader:j.node,unloader:j.node,decode:j.bool,crossorigin:j.string,src:j.oneOfType([j.string,j.array]),container:j.func,loaderContainer:j.func,unloaderContainer:j.func},p=function(i){function j(a){var c;b(this,j),c=d(this,e(j).call(this,a)),h(f(c),"srcToArray",function(a){return(Array.isArray(a)?a:[a]).filter(function(a){return a})}),h(f(c),"onLoad",function(){n[c.sourceList[c.state.currentIndex]]=!0,c.i&&c.setState({isLoaded:!0})}),h(f(c),"onError",function(){if(n[c.sourceList[c.state.currentIndex]]=!1,!c.i)return!1;for(var a,b=c.state.currentIndex+1;b<c.sourceList.length;b++){if(a=c.sourceList[b],!(a in n)){c.setState({currentIndex:b});break}if(!0===n[a])return c.setState({currentIndex:b,isLoading:!1,isLoaded:!0}),!0;!1===n[a]}return b===c.sourceList.length?c.setState({isLoading:!1}):void c.loadImg()}),h(f(c),"loadImg",function(){c.i=new Image,c.i.src=c.sourceList[c.state.currentIndex],c.props.crossorigin&&(c.i.crossOrigin=c.props.crossorigin),c.props.decode&&c.i.decode?c.i.decode().then(c.onLoad)["catch"](c.onError):(c.i.onload=c.onLoad,c.i.onerror=c.onError)}),h(f(c),"unloadImg",function(){c.i.onerror=null,c.i.onload=null,c.i.src="";try{delete c.i.src}catch(a){}delete c.i}),c.loaderContainer=a.loaderContainer||a.container,c.unloaderContainer=a.unloaderContainer||a.container,c.sourceList=c.srcToArray(c.props.src);for(var g=0;g<c.sourceList.length&&!!(c.sourceList[g]in n);g++)if(!0===n[c.sourceList[g]])return c.state={currentIndex:g,isLoading:!1,isLoaded:!0},d(c);return c.state=c.sourceList.length?{currentIndex:0,isLoading:!0,isLoaded:!1}:{isLoading:!1,isLoaded:!1},c}return g(j,i),c(j,[{key:"componentDidMount",value:function(){this.state.isLoading&&this.loadImg()}},{key:"componentWillUnmount",value:function(){this.i&&this.unloadImg()}},{key:"UNSAFE_componentWillReceiveProps",value:function(a){var b=this;this.loaderContainer=a.loaderContainer||a.container,this.unloaderContainer=a.unloaderContainer||a.container;var c=this.srcToArray(a.src),d=c.filter(function(a){return-1===b.sourceList.indexOf(a)}),e=this.sourceList.filter(function(a){return-1===c.indexOf(a)});if(d.length||e.length){if(this.sourceList=c,!c.length)return this.setState({isLoading:!1,isLoaded:!1});this.setState({currentIndex:0,isLoading:!0,isLoaded:!1},this.loadImg)}}},{key:"render",value:function(){var b=this.props,c=b.container,d=b.loader,e=b.unloader,f=b.src,g=b.decode,h=b.loaderContainer,i=b.unloaderContainer,j=b.mockImage,k=a(b,["container","loader","unloader","src","decode","loaderContainer","unloaderContainer","mockImage"]);if(this.state.isLoaded){var n=l({},{src:this.sourceList[this.state.currentIndex]},{},k);return c(m.createElement("img",n))}return!this.state.isLoaded&&this.state.isLoading?d?this.loaderContainer(d):null:this.state.isLoaded||this.state.isLoading?void 0:e?this.unloaderContainer(e):null}}]),j}(i.Component);return h(p,"defaultProps",{loader:!1,unloader:!1,decode:!0,src:[],container:function(a){return a}}),p.propTypes={},p});
-//# sourceMappingURL=index.js.map
-
-
-/***/ }),
-
 /***/ "./node_modules/react-is/cjs/react-is.development.js":
 /*!***********************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.development.js ***!
@@ -55122,605 +55263,6 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
 }
 
-
-/***/ }),
-
-/***/ "./node_modules/react-lazyload/lib/index.js":
-/*!**************************************************!*\
-  !*** ./node_modules/react-lazyload/lib/index.js ***!
-  \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.forceCheck = exports.lazyload = undefined;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactDom = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-
-var _reactDom2 = _interopRequireDefault(_reactDom);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _event = __webpack_require__(/*! ./utils/event */ "./node_modules/react-lazyload/lib/utils/event.js");
-
-var _scrollParent = __webpack_require__(/*! ./utils/scrollParent */ "./node_modules/react-lazyload/lib/utils/scrollParent.js");
-
-var _scrollParent2 = _interopRequireDefault(_scrollParent);
-
-var _debounce = __webpack_require__(/*! ./utils/debounce */ "./node_modules/react-lazyload/lib/utils/debounce.js");
-
-var _debounce2 = _interopRequireDefault(_debounce);
-
-var _throttle = __webpack_require__(/*! ./utils/throttle */ "./node_modules/react-lazyload/lib/utils/throttle.js");
-
-var _throttle2 = _interopRequireDefault(_throttle);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * react-lazyload
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
-
-
-var defaultBoundingClientRect = { top: 0, right: 0, bottom: 0, left: 0, width: 0, height: 0 };
-var LISTEN_FLAG = 'data-lazyload-listened';
-var listeners = [];
-var pending = [];
-
-// try to handle passive events
-var passiveEventSupported = false;
-try {
-  var opts = Object.defineProperty({}, 'passive', {
-    get: function get() {
-      passiveEventSupported = true;
-    }
-  });
-  window.addEventListener('test', null, opts);
-} catch (e) {}
-// if they are supported, setup the optional params
-// IMPORTANT: FALSE doubles as the default CAPTURE value!
-var passiveEvent = passiveEventSupported ? { capture: false, passive: true } : false;
-
-/**
- * Check if `component` is visible in overflow container `parent`
- * @param  {node} component React component
- * @param  {node} parent    component's scroll parent
- * @return {bool}
- */
-var checkOverflowVisible = function checkOverflowVisible(component, parent) {
-  var node = _reactDom2.default.findDOMNode(component);
-
-  var parentTop = void 0;
-  var parentLeft = void 0;
-  var parentHeight = void 0;
-  var parentWidth = void 0;
-
-  try {
-    var _parent$getBoundingCl = parent.getBoundingClientRect();
-
-    parentTop = _parent$getBoundingCl.top;
-    parentLeft = _parent$getBoundingCl.left;
-    parentHeight = _parent$getBoundingCl.height;
-    parentWidth = _parent$getBoundingCl.width;
-  } catch (e) {
-    parentTop = defaultBoundingClientRect.top;
-    parentLeft = defaultBoundingClientRect.left;
-    parentHeight = defaultBoundingClientRect.height;
-    parentWidth = defaultBoundingClientRect.width;
-  }
-
-  var windowInnerHeight = window.innerHeight || document.documentElement.clientHeight;
-  var windowInnerWidth = window.innerWidth || document.documentElement.clientWidth;
-
-  // calculate top and height of the intersection of the element's scrollParent and viewport
-  var intersectionTop = Math.max(parentTop, 0); // intersection's top relative to viewport
-  var intersectionLeft = Math.max(parentLeft, 0); // intersection's left relative to viewport
-  var intersectionHeight = Math.min(windowInnerHeight, parentTop + parentHeight) - intersectionTop; // height
-  var intersectionWidth = Math.min(windowInnerWidth, parentLeft + parentWidth) - intersectionLeft; // width
-
-  // check whether the element is visible in the intersection
-  var top = void 0;
-  var left = void 0;
-  var height = void 0;
-  var width = void 0;
-
-  try {
-    var _node$getBoundingClie = node.getBoundingClientRect();
-
-    top = _node$getBoundingClie.top;
-    left = _node$getBoundingClie.left;
-    height = _node$getBoundingClie.height;
-    width = _node$getBoundingClie.width;
-  } catch (e) {
-    top = defaultBoundingClientRect.top;
-    left = defaultBoundingClientRect.left;
-    height = defaultBoundingClientRect.height;
-    width = defaultBoundingClientRect.width;
-  }
-
-  var offsetTop = top - intersectionTop; // element's top relative to intersection
-  var offsetLeft = left - intersectionLeft; // element's left relative to intersection
-
-  var offsets = Array.isArray(component.props.offset) ? component.props.offset : [component.props.offset, component.props.offset]; // Be compatible with previous API
-
-  return offsetTop - offsets[0] <= intersectionHeight && offsetTop + height + offsets[1] >= 0 && offsetLeft - offsets[0] <= intersectionWidth && offsetLeft + width + offsets[1] >= 0;
-};
-
-/**
- * Check if `component` is visible in document
- * @param  {node} component React component
- * @return {bool}
- */
-var checkNormalVisible = function checkNormalVisible(component) {
-  var node = _reactDom2.default.findDOMNode(component);
-
-  // If this element is hidden by css rules somehow, it's definitely invisible
-  if (!(node.offsetWidth || node.offsetHeight || node.getClientRects().length)) return false;
-
-  var top = void 0;
-  var elementHeight = void 0;
-
-  try {
-    var _node$getBoundingClie2 = node.getBoundingClientRect();
-
-    top = _node$getBoundingClie2.top;
-    elementHeight = _node$getBoundingClie2.height;
-  } catch (e) {
-    top = defaultBoundingClientRect.top;
-    elementHeight = defaultBoundingClientRect.height;
-  }
-
-  var windowInnerHeight = window.innerHeight || document.documentElement.clientHeight;
-
-  var offsets = Array.isArray(component.props.offset) ? component.props.offset : [component.props.offset, component.props.offset]; // Be compatible with previous API
-
-  return top - offsets[0] <= windowInnerHeight && top + elementHeight + offsets[1] >= 0;
-};
-
-/**
- * Detect if element is visible in viewport, if so, set `visible` state to true.
- * If `once` prop is provided true, remove component as listener after checkVisible
- *
- * @param  {React} component   React component that respond to scroll and resize
- */
-var checkVisible = function checkVisible(component) {
-  var node = _reactDom2.default.findDOMNode(component);
-  if (!(node instanceof HTMLElement)) {
-    return;
-  }
-
-  var parent = (0, _scrollParent2.default)(node);
-  var isOverflow = component.props.overflow && parent !== node.ownerDocument && parent !== document && parent !== document.documentElement;
-  var visible = isOverflow ? checkOverflowVisible(component, parent) : checkNormalVisible(component);
-  if (visible) {
-    // Avoid extra render if previously is visible
-    if (!component.visible) {
-      if (component.props.once) {
-        pending.push(component);
-      }
-
-      component.visible = true;
-      component.forceUpdate();
-    }
-  } else if (!(component.props.once && component.visible)) {
-    component.visible = false;
-    if (component.props.unmountIfInvisible) {
-      component.forceUpdate();
-    }
-  }
-};
-
-var purgePending = function purgePending() {
-  pending.forEach(function (component) {
-    var index = listeners.indexOf(component);
-    if (index !== -1) {
-      listeners.splice(index, 1);
-    }
-  });
-
-  pending = [];
-};
-
-var lazyLoadHandler = function lazyLoadHandler() {
-  for (var i = 0; i < listeners.length; ++i) {
-    var listener = listeners[i];
-    checkVisible(listener);
-  }
-  // Remove `once` component in listeners
-  purgePending();
-};
-
-// Depending on component's props
-var delayType = void 0;
-var finalLazyLoadHandler = null;
-
-var isString = function isString(string) {
-  return typeof string === 'string';
-};
-
-var LazyLoad = function (_Component) {
-  _inherits(LazyLoad, _Component);
-
-  function LazyLoad(props) {
-    _classCallCheck(this, LazyLoad);
-
-    var _this = _possibleConstructorReturn(this, (LazyLoad.__proto__ || Object.getPrototypeOf(LazyLoad)).call(this, props));
-
-    _this.visible = false;
-    return _this;
-  }
-
-  _createClass(LazyLoad, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      // It's unlikely to change delay type on the fly, this is mainly
-      // designed for tests
-      var scrollport = window;
-      var scrollContainer = this.props.scrollContainer;
-
-      if (scrollContainer) {
-        if (isString(scrollContainer)) {
-          scrollport = scrollport.document.querySelector(scrollContainer);
-        }
-      }
-      var needResetFinalLazyLoadHandler = this.props.debounce !== undefined && delayType === 'throttle' || delayType === 'debounce' && this.props.debounce === undefined;
-
-      if (needResetFinalLazyLoadHandler) {
-        (0, _event.off)(scrollport, 'scroll', finalLazyLoadHandler, passiveEvent);
-        (0, _event.off)(window, 'resize', finalLazyLoadHandler, passiveEvent);
-        finalLazyLoadHandler = null;
-      }
-
-      if (!finalLazyLoadHandler) {
-        if (this.props.debounce !== undefined) {
-          finalLazyLoadHandler = (0, _debounce2.default)(lazyLoadHandler, typeof this.props.debounce === 'number' ? this.props.debounce : 300);
-          delayType = 'debounce';
-        } else if (this.props.throttle !== undefined) {
-          finalLazyLoadHandler = (0, _throttle2.default)(lazyLoadHandler, typeof this.props.throttle === 'number' ? this.props.throttle : 300);
-          delayType = 'throttle';
-        } else {
-          finalLazyLoadHandler = lazyLoadHandler;
-        }
-      }
-
-      if (this.props.overflow) {
-        var parent = (0, _scrollParent2.default)(_reactDom2.default.findDOMNode(this));
-        if (parent && typeof parent.getAttribute === 'function') {
-          var listenerCount = 1 + +parent.getAttribute(LISTEN_FLAG);
-          if (listenerCount === 1) {
-            parent.addEventListener('scroll', finalLazyLoadHandler, passiveEvent);
-          }
-          parent.setAttribute(LISTEN_FLAG, listenerCount);
-        }
-      } else if (listeners.length === 0 || needResetFinalLazyLoadHandler) {
-        var _props = this.props,
-            scroll = _props.scroll,
-            resize = _props.resize;
-
-
-        if (scroll) {
-          (0, _event.on)(scrollport, 'scroll', finalLazyLoadHandler, passiveEvent);
-        }
-
-        if (resize) {
-          (0, _event.on)(window, 'resize', finalLazyLoadHandler, passiveEvent);
-        }
-      }
-
-      listeners.push(this);
-      checkVisible(this);
-    }
-  }, {
-    key: 'shouldComponentUpdate',
-    value: function shouldComponentUpdate() {
-      return this.visible;
-    }
-  }, {
-    key: 'componentWillUnmount',
-    value: function componentWillUnmount() {
-      if (this.props.overflow) {
-        var parent = (0, _scrollParent2.default)(_reactDom2.default.findDOMNode(this));
-        if (parent && typeof parent.getAttribute === 'function') {
-          var listenerCount = +parent.getAttribute(LISTEN_FLAG) - 1;
-          if (listenerCount === 0) {
-            parent.removeEventListener('scroll', finalLazyLoadHandler, passiveEvent);
-            parent.removeAttribute(LISTEN_FLAG);
-          } else {
-            parent.setAttribute(LISTEN_FLAG, listenerCount);
-          }
-        }
-      }
-
-      var index = listeners.indexOf(this);
-      if (index !== -1) {
-        listeners.splice(index, 1);
-      }
-
-      if (listeners.length === 0 && typeof window !== 'undefined') {
-        (0, _event.off)(window, 'resize', finalLazyLoadHandler, passiveEvent);
-        (0, _event.off)(window, 'scroll', finalLazyLoadHandler, passiveEvent);
-      }
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      return this.visible ? this.props.children : this.props.placeholder ? this.props.placeholder : _react2.default.createElement('div', { style: { height: this.props.height }, className: 'lazyload-placeholder' });
-    }
-  }]);
-
-  return LazyLoad;
-}(_react.Component);
-
-LazyLoad.propTypes = {
-  once: _propTypes2.default.bool,
-  height: _propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.string]),
-  offset: _propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.arrayOf(_propTypes2.default.number)]),
-  overflow: _propTypes2.default.bool,
-  resize: _propTypes2.default.bool,
-  scroll: _propTypes2.default.bool,
-  children: _propTypes2.default.node,
-  throttle: _propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.bool]),
-  debounce: _propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.bool]),
-  placeholder: _propTypes2.default.node,
-  scrollContainer: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.object]),
-  unmountIfInvisible: _propTypes2.default.bool
-};
-
-LazyLoad.defaultProps = {
-  once: false,
-  offset: 0,
-  overflow: false,
-  resize: false,
-  scroll: true,
-  unmountIfInvisible: false
-};
-
-var getDisplayName = function getDisplayName(WrappedComponent) {
-  return WrappedComponent.displayName || WrappedComponent.name || 'Component';
-};
-
-var decorator = function decorator() {
-  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  return function lazyload(WrappedComponent) {
-    return function (_Component2) {
-      _inherits(LazyLoadDecorated, _Component2);
-
-      function LazyLoadDecorated() {
-        _classCallCheck(this, LazyLoadDecorated);
-
-        var _this2 = _possibleConstructorReturn(this, (LazyLoadDecorated.__proto__ || Object.getPrototypeOf(LazyLoadDecorated)).call(this));
-
-        _this2.displayName = 'LazyLoad' + getDisplayName(WrappedComponent);
-        return _this2;
-      }
-
-      _createClass(LazyLoadDecorated, [{
-        key: 'render',
-        value: function render() {
-          return _react2.default.createElement(
-            LazyLoad,
-            options,
-            _react2.default.createElement(WrappedComponent, this.props)
-          );
-        }
-      }]);
-
-      return LazyLoadDecorated;
-    }(_react.Component);
-  };
-};
-
-exports.lazyload = decorator;
-exports.default = LazyLoad;
-exports.forceCheck = lazyLoadHandler;
-
-/***/ }),
-
-/***/ "./node_modules/react-lazyload/lib/utils/debounce.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-lazyload/lib/utils/debounce.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = debounce;
-function debounce(func, wait, immediate) {
-  var timeout = void 0;
-  var args = void 0;
-  var context = void 0;
-  var timestamp = void 0;
-  var result = void 0;
-
-  var later = function later() {
-    var last = +new Date() - timestamp;
-
-    if (last < wait && last >= 0) {
-      timeout = setTimeout(later, wait - last);
-    } else {
-      timeout = null;
-      if (!immediate) {
-        result = func.apply(context, args);
-        if (!timeout) {
-          context = null;
-          args = null;
-        }
-      }
-    }
-  };
-
-  return function debounced() {
-    context = this;
-    args = arguments;
-    timestamp = +new Date();
-
-    var callNow = immediate && !timeout;
-    if (!timeout) {
-      timeout = setTimeout(later, wait);
-    }
-
-    if (callNow) {
-      result = func.apply(context, args);
-      context = null;
-      args = null;
-    }
-
-    return result;
-  };
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-lazyload/lib/utils/event.js":
-/*!********************************************************!*\
-  !*** ./node_modules/react-lazyload/lib/utils/event.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.on = on;
-exports.off = off;
-function on(el, eventName, callback, opts) {
-  opts = opts || false;
-  if (el.addEventListener) {
-    el.addEventListener(eventName, callback, opts);
-  } else if (el.attachEvent) {
-    el.attachEvent("on" + eventName, function (e) {
-      callback.call(el, e || window.event);
-    });
-  }
-}
-
-function off(el, eventName, callback, opts) {
-  opts = opts || false;
-  if (el.removeEventListener) {
-    el.removeEventListener(eventName, callback, opts);
-  } else if (el.detachEvent) {
-    el.detachEvent("on" + eventName, callback);
-  }
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-lazyload/lib/utils/scrollParent.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/react-lazyload/lib/utils/scrollParent.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-/**
- * @fileOverview Find scroll parent
- */
-
-exports.default = function (node) {
-  if (!(node instanceof HTMLElement)) {
-    return document.documentElement;
-  }
-
-  var excludeStaticParent = node.style.position === 'absolute';
-  var overflowRegex = /(scroll|auto)/;
-  var parent = node;
-
-  while (parent) {
-    if (!parent.parentNode) {
-      return node.ownerDocument || document.documentElement;
-    }
-
-    var style = window.getComputedStyle(parent);
-    var position = style.position;
-    var overflow = style.overflow;
-    var overflowX = style['overflow-x'];
-    var overflowY = style['overflow-y'];
-
-    if (position === 'static' && excludeStaticParent) {
-      parent = parent.parentNode;
-      continue;
-    }
-
-    if (overflowRegex.test(overflow) && overflowRegex.test(overflowX) && overflowRegex.test(overflowY)) {
-      return parent;
-    }
-
-    parent = parent.parentNode;
-  }
-
-  return node.ownerDocument || node.documentElement || document.documentElement;
-};
-
-/***/ }),
-
-/***/ "./node_modules/react-lazyload/lib/utils/throttle.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-lazyload/lib/utils/throttle.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = throttle;
-/*eslint-disable */
-function throttle(fn, threshhold, scope) {
-  threshhold || (threshhold = 250);
-  var last, deferTimer;
-  return function () {
-    var context = scope || this;
-
-    var now = +new Date(),
-        args = arguments;
-    if (last && now < last + threshhold) {
-      // hold on to it
-      clearTimeout(deferTimer);
-      deferTimer = setTimeout(function () {
-        last = now;
-        fn.apply(context, args);
-      }, threshhold);
-    } else {
-      last = now;
-      fn.apply(context, args);
-    }
-  };
-}
 
 /***/ }),
 
@@ -78726,6 +78268,265 @@ function canAcceptRef(component) {
 
 /***/ }),
 
+/***/ "./node_modules/uuid/index.js":
+/*!************************************!*\
+  !*** ./node_modules/uuid/index.js ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var v1 = __webpack_require__(/*! ./v1 */ "./node_modules/uuid/v1.js");
+var v4 = __webpack_require__(/*! ./v4 */ "./node_modules/uuid/v4.js");
+
+var uuid = v4;
+uuid.v1 = v1;
+uuid.v4 = v4;
+
+module.exports = uuid;
+
+
+/***/ }),
+
+/***/ "./node_modules/uuid/lib/bytesToUuid.js":
+/*!**********************************************!*\
+  !*** ./node_modules/uuid/lib/bytesToUuid.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * Convert array of 16 byte values to UUID string format of the form:
+ * XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+ */
+var byteToHex = [];
+for (var i = 0; i < 256; ++i) {
+  byteToHex[i] = (i + 0x100).toString(16).substr(1);
+}
+
+function bytesToUuid(buf, offset) {
+  var i = offset || 0;
+  var bth = byteToHex;
+  // join used to fix memory issue caused by concatenation: https://bugs.chromium.org/p/v8/issues/detail?id=3175#c4
+  return ([bth[buf[i++]], bth[buf[i++]], 
+	bth[buf[i++]], bth[buf[i++]], '-',
+	bth[buf[i++]], bth[buf[i++]], '-',
+	bth[buf[i++]], bth[buf[i++]], '-',
+	bth[buf[i++]], bth[buf[i++]], '-',
+	bth[buf[i++]], bth[buf[i++]],
+	bth[buf[i++]], bth[buf[i++]],
+	bth[buf[i++]], bth[buf[i++]]]).join('');
+}
+
+module.exports = bytesToUuid;
+
+
+/***/ }),
+
+/***/ "./node_modules/uuid/lib/rng-browser.js":
+/*!**********************************************!*\
+  !*** ./node_modules/uuid/lib/rng-browser.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Unique ID creation requires a high quality random # generator.  In the
+// browser this is a little complicated due to unknown quality of Math.random()
+// and inconsistent support for the `crypto` API.  We do the best we can via
+// feature-detection
+
+// getRandomValues needs to be invoked in a context where "this" is a Crypto
+// implementation. Also, find the complete implementation of crypto on IE11.
+var getRandomValues = (typeof(crypto) != 'undefined' && crypto.getRandomValues && crypto.getRandomValues.bind(crypto)) ||
+                      (typeof(msCrypto) != 'undefined' && typeof window.msCrypto.getRandomValues == 'function' && msCrypto.getRandomValues.bind(msCrypto));
+
+if (getRandomValues) {
+  // WHATWG crypto RNG - http://wiki.whatwg.org/wiki/Crypto
+  var rnds8 = new Uint8Array(16); // eslint-disable-line no-undef
+
+  module.exports = function whatwgRNG() {
+    getRandomValues(rnds8);
+    return rnds8;
+  };
+} else {
+  // Math.random()-based (RNG)
+  //
+  // If all else fails, use Math.random().  It's fast, but is of unspecified
+  // quality.
+  var rnds = new Array(16);
+
+  module.exports = function mathRNG() {
+    for (var i = 0, r; i < 16; i++) {
+      if ((i & 0x03) === 0) r = Math.random() * 0x100000000;
+      rnds[i] = r >>> ((i & 0x03) << 3) & 0xff;
+    }
+
+    return rnds;
+  };
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/uuid/v1.js":
+/*!*********************************!*\
+  !*** ./node_modules/uuid/v1.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var rng = __webpack_require__(/*! ./lib/rng */ "./node_modules/uuid/lib/rng-browser.js");
+var bytesToUuid = __webpack_require__(/*! ./lib/bytesToUuid */ "./node_modules/uuid/lib/bytesToUuid.js");
+
+// **`v1()` - Generate time-based UUID**
+//
+// Inspired by https://github.com/LiosK/UUID.js
+// and http://docs.python.org/library/uuid.html
+
+var _nodeId;
+var _clockseq;
+
+// Previous uuid creation time
+var _lastMSecs = 0;
+var _lastNSecs = 0;
+
+// See https://github.com/broofa/node-uuid for API details
+function v1(options, buf, offset) {
+  var i = buf && offset || 0;
+  var b = buf || [];
+
+  options = options || {};
+  var node = options.node || _nodeId;
+  var clockseq = options.clockseq !== undefined ? options.clockseq : _clockseq;
+
+  // node and clockseq need to be initialized to random values if they're not
+  // specified.  We do this lazily to minimize issues related to insufficient
+  // system entropy.  See #189
+  if (node == null || clockseq == null) {
+    var seedBytes = rng();
+    if (node == null) {
+      // Per 4.5, create and 48-bit node id, (47 random bits + multicast bit = 1)
+      node = _nodeId = [
+        seedBytes[0] | 0x01,
+        seedBytes[1], seedBytes[2], seedBytes[3], seedBytes[4], seedBytes[5]
+      ];
+    }
+    if (clockseq == null) {
+      // Per 4.2.2, randomize (14 bit) clockseq
+      clockseq = _clockseq = (seedBytes[6] << 8 | seedBytes[7]) & 0x3fff;
+    }
+  }
+
+  // UUID timestamps are 100 nano-second units since the Gregorian epoch,
+  // (1582-10-15 00:00).  JSNumbers aren't precise enough for this, so
+  // time is handled internally as 'msecs' (integer milliseconds) and 'nsecs'
+  // (100-nanoseconds offset from msecs) since unix epoch, 1970-01-01 00:00.
+  var msecs = options.msecs !== undefined ? options.msecs : new Date().getTime();
+
+  // Per 4.2.1.2, use count of uuid's generated during the current clock
+  // cycle to simulate higher resolution clock
+  var nsecs = options.nsecs !== undefined ? options.nsecs : _lastNSecs + 1;
+
+  // Time since last uuid creation (in msecs)
+  var dt = (msecs - _lastMSecs) + (nsecs - _lastNSecs)/10000;
+
+  // Per 4.2.1.2, Bump clockseq on clock regression
+  if (dt < 0 && options.clockseq === undefined) {
+    clockseq = clockseq + 1 & 0x3fff;
+  }
+
+  // Reset nsecs if clock regresses (new clockseq) or we've moved onto a new
+  // time interval
+  if ((dt < 0 || msecs > _lastMSecs) && options.nsecs === undefined) {
+    nsecs = 0;
+  }
+
+  // Per 4.2.1.2 Throw error if too many uuids are requested
+  if (nsecs >= 10000) {
+    throw new Error('uuid.v1(): Can\'t create more than 10M uuids/sec');
+  }
+
+  _lastMSecs = msecs;
+  _lastNSecs = nsecs;
+  _clockseq = clockseq;
+
+  // Per 4.1.4 - Convert from unix epoch to Gregorian epoch
+  msecs += 12219292800000;
+
+  // `time_low`
+  var tl = ((msecs & 0xfffffff) * 10000 + nsecs) % 0x100000000;
+  b[i++] = tl >>> 24 & 0xff;
+  b[i++] = tl >>> 16 & 0xff;
+  b[i++] = tl >>> 8 & 0xff;
+  b[i++] = tl & 0xff;
+
+  // `time_mid`
+  var tmh = (msecs / 0x100000000 * 10000) & 0xfffffff;
+  b[i++] = tmh >>> 8 & 0xff;
+  b[i++] = tmh & 0xff;
+
+  // `time_high_and_version`
+  b[i++] = tmh >>> 24 & 0xf | 0x10; // include version
+  b[i++] = tmh >>> 16 & 0xff;
+
+  // `clock_seq_hi_and_reserved` (Per 4.2.2 - include variant)
+  b[i++] = clockseq >>> 8 | 0x80;
+
+  // `clock_seq_low`
+  b[i++] = clockseq & 0xff;
+
+  // `node`
+  for (var n = 0; n < 6; ++n) {
+    b[i + n] = node[n];
+  }
+
+  return buf ? buf : bytesToUuid(b);
+}
+
+module.exports = v1;
+
+
+/***/ }),
+
+/***/ "./node_modules/uuid/v4.js":
+/*!*********************************!*\
+  !*** ./node_modules/uuid/v4.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var rng = __webpack_require__(/*! ./lib/rng */ "./node_modules/uuid/lib/rng-browser.js");
+var bytesToUuid = __webpack_require__(/*! ./lib/bytesToUuid */ "./node_modules/uuid/lib/bytesToUuid.js");
+
+function v4(options, buf, offset) {
+  var i = buf && offset || 0;
+
+  if (typeof(options) == 'string') {
+    buf = options === 'binary' ? new Array(16) : null;
+    options = null;
+  }
+  options = options || {};
+
+  var rnds = options.random || (options.rng || rng)();
+
+  // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+  rnds[6] = (rnds[6] & 0x0f) | 0x40;
+  rnds[8] = (rnds[8] & 0x3f) | 0x80;
+
+  // Copy bytes to buffer, if provided
+  if (buf) {
+    for (var ii = 0; ii < 16; ++ii) {
+      buf[i + ii] = rnds[ii];
+    }
+  }
+
+  return buf || bytesToUuid(rnds);
+}
+
+module.exports = v4;
+
+
+/***/ }),
+
 /***/ "./node_modules/warning/warning.js":
 /*!*****************************************!*\
   !*** ./node_modules/warning/warning.js ***!
@@ -79762,41 +79563,29 @@ function coerce(val) {
 
 /***/ }),
 
-/***/ "./pages/guide.js":
-/*!************************!*\
-  !*** ./pages/guide.js ***!
-  \************************/
+/***/ "./pages/listening-exercises/meet-ana.js":
+/*!***********************************************!*\
+  !*** ./pages/listening-exercises/meet-ana.js ***!
+  \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! shards-react */ "./node_modules/shards-react/dist/shards-react.es.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-device-detect */ "./node_modules/react-device-detect/main.js");
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-seo-component */ "./node_modules/react-seo-component/index.js");
-/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_seo_component__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-image */ "./node_modules/react-image/umd/index.js");
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _guide_components_GuideLayout__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../guide-components/GuideLayout */ "./guide-components/GuideLayout.js");
-/* harmony import */ var _common_PDFFile__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../common/PDFFile */ "./common/PDFFile.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "./node_modules/shards-react/dist/shards-react.es.js");
+/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-collapsible */ "./node_modules/react-collapsible/dist/Collapsible.js");
+/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_collapsible__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! uuid */ "./node_modules/uuid/index.js");
+/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(uuid__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _listening_components_ListeningLayout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../listening-components/ListeningLayout */ "./listening-components/ListeningLayout.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/Layout */ "./components/Layout.js");
+/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-seo-component */ "./node_modules/react-seo-component/index.js");
+/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_seo_component__WEBPACK_IMPORTED_MODULE_7__);
 
-
-
-
-
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
@@ -79805,249 +79594,158 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 
 
-var ulStyles = {
-  marginLeft: "-30px",
-  listStyleType: "none"
-}; // Common
+var numberOfQuestions = 7;
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, "0");
+var mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
 
+var yyyy = today.getFullYear();
+today = mm + "/" + dd + "/" + yyyy;
+console.log(today);
 
-var liStyle = {
-  paddingBottom: "15px"
+var MeetAna = function MeetAna(props) {
+  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_6__["default"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_7___default.a, {
+    title: "Meet Ana - Listening Exercise | CXC Spanish Online",
+    description: "Practice your Spanish listening skills with Ana. Pass your CXC Spanish exam with our free online study guide.",
+    twitterUsername: "_rxheem",
+    author: "Raheem McDonald",
+    article: true,
+    publishedDate: today,
+    modifiedDate: today
+  }), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Breadcrumb"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], null, __jsx("a", {
+    href: "/"
+  }, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], null, __jsx("a", {
+    href: "/listening"
+  }, "Listening Exercises")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], {
+    active: true
+  }, "Meet Ana")), __jsx(_listening_components_ListeningLayout__WEBPACK_IMPORTED_MODULE_5__["default"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Meet Ana"), __jsx("p", null, "In this listening exercise we'll get to know a little about Ana. Listen to the audio below and answer the ", numberOfQuestions, " ", "questions."), __jsx("br", null), __jsx("div", {
+    className: "audio"
+  }, __jsx("audio", {
+    controls: true
+  }, __jsx("source", {
+    src: "https://dl.dropbox.com/s/7ofviet2398fz0b/Example%201%20-%20Ana.mp3?dl=0"
+  }))), __jsx("br", null), __jsx(react_collapsible__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    trigger: __jsx("a", {
+      href: ""
+    }, "Read transcript")
+  }, __jsx("p", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, "\xA1Buenos d\xEDas! Soy Ana. Tengo 27 a\xF1os. Soy de Chicago pero ahora vivo en una ciudad de Espa\xF1a que se llama Zamora. Soy profesora de ingl\xE9s en un instituto. Al volver a los Estados Unidos voy a seguir con mi estudios. Me gustar\xEDa hacer un doctorado en la literatura espa\xF1ola, pero ahora etoy contenta con vivir en Espa\xF1a y mejorando mi espa\xF1ol, y aprendiendo m\xE1s de este pa\xEDs tan hermoso. En mi tiempo libre me gusta leer, ver la tele y pasar tiempo con mis amigos, mi marido y mi perro. Estudio espa\xF1ol porque la h\xEDstoria del pa\xEDs ma facina. No es solo eso, sino tambi\xE9n la cultura me encanta y la gente es muy amable.")), __jsx("br", null), __jsx("br", null), __jsx("h6", null, "Questions"), __jsx("ul", {
+    style: {
+      marginLeft: "-20px"
+    }
+  }, __jsx("li", null, __jsx(react_collapsible__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    trigger: __jsx("a", {
+      href: ""
+    }, "How old is Ana? ")
+  }, __jsx("p", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, "Ana is 27 years old. "))), __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, __jsx(react_collapsible__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    trigger: __jsx("a", {
+      href: ""
+    }, "Where is Ana from?")
+  }, __jsx("p", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, "Ana is from Chicago."))), __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, __jsx(react_collapsible__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    trigger: __jsx("a", {
+      href: ""
+    }, "In which country does Ana live?")
+  }, __jsx("p", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, "She lives in Spain."))), __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, __jsx(react_collapsible__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    trigger: __jsx("a", {
+      href: ""
+    }, "What is her occupation?")
+  }, __jsx("p", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, "She is an English teacher. ."))), __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, __jsx(react_collapsible__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    trigger: __jsx("a", {
+      href: ""
+    }, "What does Ana plan on doing when she returns to the US?")
+  }, __jsx("p", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, "She plans to continue her studies"))), __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, __jsx(react_collapsible__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    trigger: __jsx("a", {
+      href: ""
+    }, "What does Ana do in her spare time?")
+  }, __jsx("p", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, "In her spare time she likes spending time with her friends, her dog and her husband."))), __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, __jsx(react_collapsible__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    trigger: __jsx("a", {
+      href: ""
+    }, "Identify 2 reasons why Ana studies Spanish?")
+  }, __jsx("ul", {
+    style: {
+      paddingTop: "10px",
+      marginLeft: "-20px"
+    }
+  }, __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, "She is facinated by the history of Spain"), __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, "She loves the culture"), __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, "The people there are very nice"))))), __jsx("br", null), __jsx("p", null, "Now let's meet Ana's husband,", " ", __jsx("a", {
+    href: "/listening-exercises/meet-nick"
+  }, "Nick")))))));
 };
 
-var Guide =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Guide, _React$Component);
-
-  function Guide(props) {
-    var _this;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Guide);
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Guide).call(this, props));
-    _this.state = {
-      collapse: false
-    };
-    return _this;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Guide, [{
-    key: "render",
-    value: function render() {
-      return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_11__["default"], null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_7___default.a, null, __jsx("title", null, "Guides | CXC Spanish Online"), __jsx("meta", {
-        name: "og:title",
-        content: "Guides |  CXC Spanish Guide"
-      }), __jsx("meta", {
-        name: "og:site_name",
-        content: "CXC Spanish Online"
-      }), __jsx("meta", {
-        name: "description",
-        content: "Take your Spanish to the next level with detailed lesson guides, completed with examples and practice questions."
-      })), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Container"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Breadcrumb"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["BreadcrumbItem"], null, __jsx("a", {
-        href: "/"
-      }, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["BreadcrumbItem"], {
-        active: true
-      }, "Guides")), __jsx(_guide_components_GuideLayout__WEBPACK_IMPORTED_MODULE_12__["default"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], null, "Guides"), __jsx("p", null, "Our guides are designed to help you master a wide range of topics in Spanish. We cover basic topis from numbers and the alphabet, to verb tenses and and fun topics"), __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_8__["MobileView"], null, __jsx(react_image__WEBPACK_IMPORTED_MODULE_10___default.a, {
-        style: {
-          height: "200px",
-          width: "100%"
-        },
-        src: ["https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80", "", ""],
-        alt: ""
-      })), __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_8__["BrowserView"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Col"], {
-        sm: 6,
-        md: 6,
-        lg: 6
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_10___default.a, {
-        style: {
-          height: "200px",
-          width: "100%"
-        },
-        src: ["https://images.unsplash.com/photo-1568650136602-ded24b86c5af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80", "", ""],
-        alt: ""
-      })), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Col"], {
-        sm: 6,
-        md: 6,
-        lg: 6
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_10___default.a, {
-        style: {
-          height: "200px",
-          width: "100%"
-        },
-        src: ["https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80", "", ""],
-        alt: ""
-      })))))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], null, "Fun"), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Col"], {
-        sm: 12,
-        md: 6,
-        lg: 6,
-        xl: 6
-      }, __jsx("ul", {
-        className: "ul-st"
-      }, __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "Texting in Spanish")), __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "Funny Spanish Jokes")), __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "Traditional Spanish Food")), __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "Apps that Teach You Spanish")), __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "In the Classroom")), __jsx("li", {
-        style: {
-          listStyleType: "none",
-          marginLeft: "-17px"
-        }
-      }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_13__["default"], {
-        title: "Football Vocabulary",
-        href: "https://www.dl.com/s/t2jedvfs9nrapvf/Spanish%20Football%20Vocabulary.pdf?dl=0"
-      })), __jsx("li", {
-        style: {
-          listStyleType: "none",
-          marginLeft: "-17px"
-        }
-      }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_13__["default"], {
-        title: "Halloween Vocabulary",
-        href: "https://www.dl.com/s/7g0322d30rs15up/Spanish%20Halloween%20Vocabulary.pdf?dl=0"
-      })))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Col"], {
-        sm: 12,
-        md: 6,
-        lg: 6,
-        xl: 6
-      }, __jsx("ul", {
-        className: "ul-st"
-      }, __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "Traditional Spanish Food")), __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "Tongue Twisters in Spanish")), __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "Avoid These Top 5 Mistakes")), __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "Flirting in Spanish")), __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "Phone Call Vocabulary")))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["CardFooter"], null, __jsx("small", {
-        className: "text-danger"
-      }, "Not all articles are completed. We'll let you know when we're done"))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], null, "Essentials"), __jsx("p", null, "These essential guides will help you to master the basics elements of Spanish, and serves as building blocks to help you to build on your fluency.", " "), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Col"], {
-        sm: 6,
-        md: 6,
-        lg: 6,
-        xl: 6
-      }, __jsx("ul", {
-        className: "ul-st"
-      }, __jsx("li", null, __jsx("a", {
-        preload: true,
-        href: "/guides/study-tips"
-      }, "Study Tips")), __jsx("li", null, __jsx("a", {
-        href: "/guides/the-spanish-alphabet"
-      }, "The Spanish Alphabet")), __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "Genders in Spanish")), __jsx("li", null, __jsx("a", {
-        href: "/guides/pronunciation-tips"
-      }, "Pronunciation Tips")), __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "Dates in Spanish")), __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "Adjectives in Spanish")))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Col"], {
-        sm: 6,
-        md: 6,
-        lg: 6,
-        xl: 6
-      }, __jsx("ul", {
-        className: "ul-st"
-      }, __jsx("li", null, __jsx("a", {
-        href: "/guides/por-vs-para"
-      }, "'Por' vs. 'Para'")), __jsx("li", null, __jsx("a", {
-        href: "/guides/at-the-airport"
-      }, "At the Airport")), __jsx("li", null, __jsx("a", {
-        href: "/guides/oral-exercise"
-      }, "Oral Exercises")), __jsx("li", null, __jsx("a", {
-        href: "/guides/articles-in-spanish"
-      }, "Articles in Spanish")), __jsx("li", null, __jsx("a", {
-        href: "/guides/common-spanish-adverbs"
-      }, "Common Spanish Adverbs")))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["CardFooter"], null, __jsx("small", null, "Want us to write about something you dont understand? Let us know", " ", __jsx("a", {
-        target: "_blank",
-        href: "https://forms.gle/J1oPyy5g2k8GtiQr7"
-      }, "here")))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], null, "Verbs and Tenses"), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Col"], {
-        sm: 12,
-        md: 6,
-        lg: 6,
-        xl: 6
-      }, __jsx("ul", {
-        className: "ul-st"
-      }, __jsx("li", null, __jsx("a", {
-        href: "/guides/ser-vs-estar"
-      }, "'Ser' vs. 'Estar'")), __jsx("li", null, __jsx("a", {
-        href: "/guides/preterite-vs-imperfect"
-      }, "Preterite vs. Imperfect")), __jsx("li", null, __jsx("a", {
-        href: "/guides/how-to-use-gustar"
-      }, "How to use 'Gustar'")))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Col"], {
-        sm: 12,
-        md: 6,
-        lg: 6,
-        xl: 6
-      }, __jsx("ul", {
-        className: "ul-st"
-      }, __jsx("li", null, __jsx("a", {
-        href: "/guides/spanish-verb-types"
-      }, "Spanish Verb Types")), __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "'Ser' vs. 'Estar'", " ", __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Badge"], {
-        pill: true,
-        theme: "success"
-      }, "quiz"))), __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "The Imperfect Subjunctive")))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["CardFooter"], null, __jsx("small", {
-        className: "text-danger"
-      }, "Not all articles are completed. We'll let you know when we're done"))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], null, "How To"), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Col"], {
-        sm: 12,
-        md: 6,
-        lg: 6,
-        xl: 6
-      }, __jsx("ul", {
-        className: "ul-st"
-      }, __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "How to Order Food in Spanish")), __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "How to Remember Verb Conjugations")), __jsx("li", null, __jsx("a", {
-        href: "/guides/how-to-ask-for-directions-in-spanish"
-      }, "How to Ask for Directions in Spanish")))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Col"], {
-        sm: 12,
-        md: 6,
-        lg: 6,
-        xl: 6
-      }, __jsx("ul", {
-        className: "ul-st"
-      }, __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "How to Talk About Locations in Spanish")), __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "How to Improve Spanish Listening Skills")), __jsx("li", null, __jsx("a", {
-        href: "/guides/"
-      }, "How to Use Online Translators")))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["CardFooter"], null, __jsx("small", null, "Want us to write about something you dont understand? Let us know", " ", __jsx("a", {
-        target: "_blank",
-        href: "https://forms.gle/J1oPyy5g2k8GtiQr7"
-      }, "here")))))));
-    }
-  }]);
-
-  return Guide;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Guide);
+/* harmony default export */ __webpack_exports__["default"] = (MeetAna);
 
 /***/ }),
 
-/***/ 9:
-/*!*****************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fguide&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Fguide.js ***!
-  \*****************************************************************************************************************************************/
+/***/ 7:
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Flistening-exercises%2Fmeet-ana&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Flistening-exercises%2Fmeet-ana.js ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fguide&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Fguide.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fguide&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Fguide.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flistening-exercises%2Fmeet-ana&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Flistening-exercises%2Fmeet-ana.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flistening-exercises%2Fmeet-ana&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Flistening-exercises%2Fmeet-ana.js!./");
 
 
 /***/ }),
@@ -80063,5 +79761,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=guide.js.map
+},[[7,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=meet-ana.js.map
