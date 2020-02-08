@@ -217,26 +217,6 @@ if (true) {
 
 /***/ }),
 
-/***/ "./assets/js/mailchimp.js":
-/*!********************************!*\
-  !*** ./assets/js/mailchimp.js ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-if (true) {
-  window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
-    L.start({
-      baseUrl: "mc.us4.list-manage.com",
-      uuid: "928ae50da9527569235802ccc",
-      lid: "f3a3a132de",
-      uniqueMethods: true
-    });
-  });
-}
-
-/***/ }),
-
 /***/ "./assets/js/mixpanel.js":
 /*!*******************************!*\
   !*** ./assets/js/mixpanel.js ***!
@@ -356,6 +336,22 @@ if (true) {
   _qevents.push({
     qacct: "p-fa2UTk8qCKHzc"
   });
+}
+
+/***/ }),
+
+/***/ "./assets/js/surveymonkey.js":
+/*!***********************************!*\
+  !*** ./assets/js/surveymonkey.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+if (true) {
+  (function (t, e, s, o) {
+    var n, a, c;
+    t.SMCX = t.SMCX || [], e.getElementById(o) || (n = e.getElementsByTagName(s), a = n[n.length - 1], c = e.createElement(s), c.type = "text/javascript", c.async = !0, c.id = o, c.src = ["https:" === location.protocol ? "https://" : "http://", "widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd4uqm43QqM49Fa_2FyKnJSgKs7azUGXdtAhR4UEuYSb0wf.js"].join(""), a.parentNode.insertBefore(c, a));
+  })(window, document, "script", "smcx-sdk");
 }
 
 /***/ }),
@@ -865,8 +861,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_15__);
 /* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/js/facebook.js */ "./assets/js/facebook.js");
 /* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/js/mailchimp.js */ "./assets/js/mailchimp.js");
-/* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _assets_js_surveymonkey_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/js/surveymonkey.js */ "./assets/js/surveymonkey.js");
+/* harmony import */ var _assets_js_surveymonkey_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_js_surveymonkey_js__WEBPACK_IMPORTED_MODULE_17__);
 /* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
 /* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! react-messenger-customer-chat */ "./node_modules/react-messenger-customer-chat/lib/index.js");
 /* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_19__);
@@ -1382,6 +1378,99 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (SystemInfo);
+
+/***/ }),
+
+/***/ "./home/QuickSurvey.js":
+/*!*****************************!*\
+  !*** ./home/QuickSurvey.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! shards-react */ "./node_modules/shards-react/dist/shards-react.es.js");
+/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-collapsible */ "./node_modules/react-collapsible/dist/Collapsible.js");
+/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_collapsible__WEBPACK_IMPORTED_MODULE_8__);
+
+
+
+
+
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
+
+
+
+
+var QuickSurvey =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(QuickSurvey, _React$Component);
+
+  function QuickSurvey(props) {
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, QuickSurvey);
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(QuickSurvey).call(this, props));
+    _this.state = {
+      open: false
+    };
+    _this.toggle = _this.toggle.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(QuickSurvey, [{
+    key: "toggle",
+    value: function toggle() {
+      this.setState({
+        open: !this.state.open
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var open = this.state.open;
+      return __jsx("div", {
+        className: "bg-light",
+        style: {
+          height: 'auto',
+          padding: '10px 0px'
+        }
+      }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_7__["Container"], null, "Have something in Spanish you want us to clarify?", __jsx(react_collapsible__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        trigger: __jsx("a", {
+          href: ""
+        }, "Let us know here ", __jsx("small", {
+          style: {
+            color: 'red'
+          }
+        }, "(works best on a laptop)"), ' ')
+      }, __jsx("br", null), __jsx("iframe", {
+        src: "https://docs.google.com/forms/d/e/1FAIpQLSc0SyNaXGAYnToalhKErIwH4b9deZQw-mA1zYJ491UU-robIQ/viewform?embedded=true",
+        width: "700",
+        height: "1028",
+        frameborder: "0",
+        marginheight: "0",
+        marginwidth: "0"
+      }, "Loading\u2026"))));
+    }
+  }]);
+
+  return QuickSurvey;
+}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (QuickSurvey);
 
 /***/ }),
 
@@ -79289,13 +79378,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-seo-component */ "./node_modules/react-seo-component/index.js");
 /* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_seo_component__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _resources_components_ResourcesLayout__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../resources-components/ResourcesLayout */ "./resources-components/ResourcesLayout.js");
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-image */ "./node_modules/react-image/umd/index.js");
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-collapsible */ "./node_modules/react-collapsible/dist/Collapsible.js");
-/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_collapsible__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _common_PDFFile__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../common/PDFFile */ "./common/PDFFile.js");
+/* harmony import */ var _home_QuickSurvey__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../home/QuickSurvey */ "./home/QuickSurvey.js");
+/* harmony import */ var _resources_components_ResourcesLayout__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../resources-components/ResourcesLayout */ "./resources-components/ResourcesLayout.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-image */ "./node_modules/react-image/umd/index.js");
+/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-collapsible */ "./node_modules/react-collapsible/dist/Collapsible.js");
+/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_collapsible__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _common_PDFFile__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../common/PDFFile */ "./common/PDFFile.js");
 
 
 
@@ -79303,6 +79393,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+
 
 
 
@@ -79344,7 +79435,7 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(PastPapers, [{
     key: "render",
     value: function render() {
-      return __jsx(react__WEBPACK_IMPORTED_MODULE_5___default.a.Fragment, null, __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_11__["default"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_9___default.a, {
+      return __jsx(react__WEBPACK_IMPORTED_MODULE_5___default.a.Fragment, null, __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_12__["default"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_9___default.a, {
         title: "Get Free CXC Past Papers | CXC Spanish Online",
         pathname: "https://www.cxcspnish/mailing-list",
         description: "Download CXC past papers for free, for both CSEC and CAPE. Pass your Spansih exam with our free online study guide.",
@@ -79358,7 +79449,7 @@ function (_React$Component) {
         href: "/"
       }, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["BreadcrumbItem"], {
         active: true
-      }, "Past Papers")), __jsx(_resources_components_ResourcesLayout__WEBPACK_IMPORTED_MODULE_10__["default"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["CardBody"], null, __jsx("p", null, "Need one on one help? Join our", " ", __jsx("a", {
+      }, "Past Papers")), __jsx(_resources_components_ResourcesLayout__WEBPACK_IMPORTED_MODULE_11__["default"], null, __jsx(_home_QuickSurvey__WEBPACK_IMPORTED_MODULE_10__["default"], null), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_6__["CardBody"], null, __jsx("p", null, "Need one on one help? Join our", " ", __jsx("a", {
         href: "https://chat.whatsapp.com/BurCEr11DKRJyas6VKUc0n",
         targer: "_blank",
         preload: true
@@ -79373,7 +79464,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("a", {
         href: "https://dl.dropbox.com/s/2mfr0aiatvd6ok2/CSEC%20French%20Past%20Papers2005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79387,7 +79478,7 @@ function (_React$Component) {
         className: "d-sm-none"
       }), __jsx("a", {
         href: "https://dl.dropbox.com/s/x8mb5ttahb96cdm/CSEC%20Human%20and%20Social%20Biology%20Past%20Papers%202005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79401,7 +79492,7 @@ function (_React$Component) {
         className: "d-sm-none"
       }), __jsx("a", {
         href: "https://dl.dropbox.com/s/ua9y9p9qzoj0uom/CSEC%20Mathematics%20Past%20Papers%202002-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79415,7 +79506,7 @@ function (_React$Component) {
         className: "d-sm-none"
       }), __jsx("a", {
         href: "https://dl.dropbox.com/s/lah9uv8qmfnt5d5/CSEC%20Information%20Technology%20Past%20Papers%202005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79427,7 +79518,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/1yjzpsrvstln7ef/CSEC%20Additional%20Mathematics%20Past%20Papers%202012-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79439,7 +79530,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/79j1lfqa4cde874/CSEC%20Geography%20Past%20Papers%202005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79451,7 +79542,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/h76ga6bxhdeex94/CSEC%C2%AE%20Spanish%20Past%20Papers-2_nodrm%20%281%29.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79463,7 +79554,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/roab9y8tla4omwn/CSEC%C2%AE%20Electronic%20Document%20Preparation%20and%20Management%20Past%20Papers.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79475,7 +79566,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/8rd7g5gah9afrz5/CSEC%20Chemistry%20Past%20Papers%20ebook%202005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79487,7 +79578,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/pf0q8yt54px0cf5/CSEC%20Physics%20Past%20Papers%202005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79499,7 +79590,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/51iabpc0d65984i/CSEC%20Integrated%20Science%20Past%20Papers%202005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79511,7 +79602,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/8qrtne9kxfc43cl/CSEC%20Music%20Past%20Papers2005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79523,7 +79614,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/56a3rod7v5all4q/CSEC%20Home%20Economics%20Clothing%20and%20Textiles%20Food%20and%20Nutrition%20Ma%202005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79535,7 +79626,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/pjxzrtjro4lpuyg/CSEC%20Principles%20of%20Accounts%20Past%20Papers%202005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79547,7 +79638,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/atlvl91is281wv5/CSEC%20Principles%20of%20Business%20Past%20Papers%202005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79559,7 +79650,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/2fbjrn3ydbcg78g/CSEC%20Theatre%20Arts%20Past%20Papers%202005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79571,7 +79662,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/r5gnwzj7lzuci68/CSEC%20Visual%20Arts%20Past%20Papers%202005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79583,7 +79674,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/aioc9p8enukhoz2/CSEC%20Social%20Studies%20Past%20Papers%202005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79595,7 +79686,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/hcffklht2co7yke/CSEC%C2%AC%20English%20A%20Past%20Papers.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79607,7 +79698,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/a751mtqz7il6fc2/CSEC%20English%20B%20Past%20Papers2005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79619,7 +79710,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/dx3pfbr9450uxw5/CSEC%C2%AC%20Biology%20Past%20Papers.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79631,7 +79722,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/qprverq0x541yhf/CSEC%20Technical%20Drawing%20Past%20Papers%202005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },
@@ -79643,7 +79734,7 @@ function (_React$Component) {
         xl: 3
       }, __jsx("br", null), __jsx("a", {
         href: "https://dl.dropbox.com/s/weokr1z9mn4ckms/CSEC%20Caribbean%20History%20Past%20Papers%202005-2016.pdf?dl=0"
-      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_13___default.a, {
         style: {
           width: "100%"
         },

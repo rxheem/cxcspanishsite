@@ -39,8 +39,6 @@ var yyyy = today.getFullYear();
 
 today = mm + "/" + dd + "/" + yyyy;
 
-console.log(today);
-
 const Ayer = props => (
   <Layout>
     <SEO

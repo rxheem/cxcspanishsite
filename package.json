@@ -98,6 +98,7 @@
     "react-collapsible": "^2.6.2",
     "react-cookie": "^4.0.3",
     "react-cookie-banner": "^4.1.0",
+    "react-countdown": "^2.2.1",
     "react-custom-scrollbars": "^4.2.1",
     "react-device-detect": "^1.11.14",
     "react-dom": "^16.8.6",

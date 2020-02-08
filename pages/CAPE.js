@@ -28,7 +28,7 @@ import SEO from "react-seo-component";
 import Img from "react-image";
 import Layout from "../components/Layout";
 
-const WhatsAppGroups = props => (
+const CAPE = props => (
   <Layout>
     <SEO
       title={"CAPE Spanish | CXC Spanish Online"}
@@ -66,4 +66,4 @@ const WhatsAppGroups = props => (
   </Layout>
 );
 
-export default WhatsAppGroups;
+export default CAPE;

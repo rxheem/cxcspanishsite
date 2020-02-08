@@ -11,8 +11,8 @@ function MiniNav() {
     <MobileView>
       <Nav fill className="bg-white">
         <NavItem>
-          <NavLink active href="/listening">
-            Listening
+          <NavLink active href="/meetings/12152020">
+            Let's Talk
           </NavLink>
         </NavItem>
         <NavItem>

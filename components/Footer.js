@@ -212,7 +212,10 @@ const Footer = props => (
               <Nav.Link className="text-white" href="/past-papers">
                 Past Papers
               </Nav.Link>
-              <Nav.Link className="text-white" href="/">
+              <Nav.Link className="text-white" href="/meetings">
+                Online Meetings
+              </Nav.Link>
+              <Nav.Link className="text-white" href="/orals">
                 Oral Exercise
               </Nav.Link>
               <Nav.Link
@@ -223,9 +226,6 @@ const Footer = props => (
               </Nav.Link>
               <Nav.Link className="text-white" href="/topics/letter-writing">
                 Letter Writing
-              </Nav.Link>
-              <Nav.Link className="text-white" href="/">
-                Contextual Dialogue
               </Nav.Link>
             </Nav>
           </Col>
