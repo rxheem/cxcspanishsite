@@ -1,38 +1,534 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_d6a88dbe3071bd165157.js",
-    "static/development/dll/dll_d6a88dbe3071bd165157.js.map"
-  ],
+  "devFiles": [],
   "pages": {
     "/": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/css/styles.e62eab5f.chunk.css",
+      "static/chunks/styles.435e549fcdab1106e51b.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/CAPE": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/FAQ": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
     ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
     ],
     "/_polyfills": [
-      "static/runtime/polyfills.js",
-      "static/runtime/polyfills.js.map"
+      "static/runtime/polyfills-03f7977b30a9bf68ab93.js"
+    ],
+    "/contact": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/exam-topics": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/guide": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/guides/articles-in-spanish": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/guides/at-the-airport": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/guides/common-spanish-adverbs": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/guides/how-to-ask-for-directions-in-spanish": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/guides/how-to-use-gustar": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/guides/oral-exercise": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/guides/por-vs-para": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/guides/preterite-vs-imperfect": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/guides/pronunciation-tips": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/guides/ser-vs-estar": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/guides/spanish-adjectives": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/guides/spanish-verb-types": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/guides/study-tips": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/guides/the-spanish-alphabet": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
     ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/css/styles.e62eab5f.chunk.css",
+      "static/chunks/styles.435e549fcdab1106e51b.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/listening": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/listening-exercises/ayer": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/listening-exercises/el-clima": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/listening-exercises/la-casa-ideal": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/listening-exercises/la-familia": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/listening-exercises/la-navidad": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
     ],
     "/listening-exercises/meet-ana": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/listening-exercises/meet-nick": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/listening-exercises/spanish-curse-words": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/listening-exercises/una-visita-de-espana": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/mailing-list": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/meetings": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/meetings/12152020": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/conversation/daily-routine": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/conversation/home-and-family": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/conversation/school": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/conversation/shopping": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/conversation/sports": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/conversation/travel": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/situations/2008/sample-1": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/situations/2008/sample-2": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/situations/2008/sample-3": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/situations/2008/sample-4": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/situations/2008/sample-5": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/student-submissions": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/student-submissions/daily-routine": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/student-submissions/home-and-family": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/student-submissions/shopping": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/student-submissions/sports": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/orals/student-submissions/travel": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/past-papers": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/privacy": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/privacy-policy": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/quiz": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/resources": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/resources/cxc-spanish-2015-past-paper": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/resources/cxc-spanish-2016-past-paper": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/resources/cxc-spanish-2017-past-paper": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/resources/cxc-spanish-2018-past-paper": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/resources/cxc-spanish-2019-past-paper": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/resources/cxc-spanish-2020-past-paper": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/short-stories": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/stories/el-amigo-fiel": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/stories/estrellita-de-oro": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/stories/garbancito": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/terms": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/topics": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/topics/content/dir-sit/Examples": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/topics/content/dir-sit/Exercises": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/topics/content/dir-sit/Overview": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/topics/content/dir-sit/WordBank": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/topics/content/ltr-wri/Exercises": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/topics/content/ltr-wri/Guidelines": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/topics/content/ltr-wri/LetterLayout": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/topics/content/ltr-wri/Overview": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/topics/content/ltr-wri/SampleOne": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/topics/content/ltr-wri/SampleTwo": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/topics/content/ltr-wri/UsefulEssentials": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/topics/directed-situations": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/topics/letter-writing": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/tutoring": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/tutoring/jamaica": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
+    ],
+    "/whatsapp-groups": [
+      "static/runtime/webpack-c992d92ff9d1f9b8c575.js",
+      "static/css/commons.92067e28.chunk.css",
+      "static/chunks/commons.229cba6b5cca4003eed2.js",
+      "static/runtime/main-e04d82f515dcc956bbad.js"
     ]
   }
 }

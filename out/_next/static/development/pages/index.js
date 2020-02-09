@@ -670,17 +670,17 @@ var Footer = function Footer(props) {
     href: "/past-papers"
   }, "Past Papers"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     className: "text-white",
-    href: "/"
+    href: "/meetings"
+  }, "Online Meetings"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+    className: "text-white",
+    href: "/orals"
   }, "Oral Exercise"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     className: "text-white",
     href: "/topics/directed-situations"
   }, "Directed Situation"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     className: "text-white",
     href: "/topics/letter-writing"
-  }, "Letter Writing"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
-    className: "text-white",
-    href: "/"
-  }, "Contextual Dialogue")))), __jsx("br", null), " ", __jsx("br", null))), __jsx("br", null), __jsx("div", {
+  }, "Letter Writing")))), __jsx("br", null), " ", __jsx("br", null))), __jsx("br", null), __jsx("div", {
     className: "container-fluid"
   }, __jsx("p", {
     className: "float-right"
@@ -989,8 +989,8 @@ function MiniNav() {
     className: "bg-white"
   }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     active: true,
-    href: "/listening"
-  }, "Listening")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+    href: "/meetings/12152020"
+  }, "Let's Talk")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     href: "/whatsapp-groups"
   }, "Study Groups")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     href: "/past-papers"
@@ -84027,7 +84027,7 @@ var ResourcesLayout = function ResourcesLayout(props) {
 
 /***/ }),
 
-/***/ 7:
+/***/ 10:
 /*!************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Findex.js ***!
   \************************************************************************************************************************************/
@@ -84050,5 +84050,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js","styles"]]]);
+},[[10,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
