@@ -884,21 +884,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_10__);
 /* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/css/nf-carousel.css */ "./assets/css/nf-carousel.css");
 /* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/css/master.css */ "./assets/css/master.css");
-/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_css_master_css__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/js/fontawesome.js */ "./assets/js/fontawesome.js");
-/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/js/mixpanel.js */ "./assets/js/mixpanel.js");
-/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/js/quantcast.js */ "./assets/js/quantcast.js");
-/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/js/facebook.js */ "./assets/js/facebook.js");
-/* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _assets_js_surveymonkey_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/js/surveymonkey.js */ "./assets/js/surveymonkey.js");
-/* harmony import */ var _assets_js_surveymonkey_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_js_surveymonkey_js__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
-/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! react-messenger-customer-chat */ "./node_modules/react-messenger-customer-chat/lib/index.js");
-/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var _assets_css_animate_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/css/animate.css */ "./assets/css/animate.css");
+/* harmony import */ var _assets_css_animate_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_css_animate_css__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/css/master.css */ "./assets/css/master.css");
+/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_css_master_css__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/js/fontawesome.js */ "./assets/js/fontawesome.js");
+/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/js/mixpanel.js */ "./assets/js/mixpanel.js");
+/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/js/quantcast.js */ "./assets/js/quantcast.js");
+/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/js/facebook.js */ "./assets/js/facebook.js");
+/* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _assets_js_surveymonkey_js__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../assets/js/surveymonkey.js */ "./assets/js/surveymonkey.js");
+/* harmony import */ var _assets_js_surveymonkey_js__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_assets_js_surveymonkey_js__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
+/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! react-messenger-customer-chat */ "./node_modules/react-messenger-customer-chat/lib/index.js");
+/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_20__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -908,6 +910,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
  // Assets
+
 
 
 
@@ -924,10 +927,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
  // Google Analytics
 
-react_ga__WEBPACK_IMPORTED_MODULE_18__["default"].initialize("UA-146229442-1"); // Render on client side
+react_ga__WEBPACK_IMPORTED_MODULE_19__["default"].initialize("UA-146229442-1"); // Render on client side
 
 if (true) {
-  react_ga__WEBPACK_IMPORTED_MODULE_18__["default"].initialize("UA-146229442-1", {
+  react_ga__WEBPACK_IMPORTED_MODULE_19__["default"].initialize("UA-146229442-1", {
     debug: true,
     alwaysSendToDefaultTracker: false,
     titleCase: false,
@@ -935,7 +938,7 @@ if (true) {
       userId: 123
     }
   });
-  react_ga__WEBPACK_IMPORTED_MODULE_18__["default"].pageview(window.location.pathname + window.location.search);
+  react_ga__WEBPACK_IMPORTED_MODULE_19__["default"].pageview(window.location.pathname + window.location.search);
 }
 
 var Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
@@ -943,7 +946,7 @@ var Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
 if (true) {}
 
 var Layout = function Layout(props) {
-  return __jsx(Fragment, null, __jsx(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_19___default.a, {
+  return __jsx(Fragment, null, __jsx(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_20___default.a, {
     pageId: "105703077445673",
     appId: "669007593616991",
     htmlRef: "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
@@ -988,6 +991,10 @@ function MiniNav() {
     fill: true,
     className: "bg-white"
   }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+    className: "animated pulse",
+    style: {
+      animationIterationCount: "infinite"
+    },
     active: true,
     href: "/meetings/12152020"
   }, "Let's Talk")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
@@ -84027,7 +84034,7 @@ var ResourcesLayout = function ResourcesLayout(props) {
 
 /***/ }),
 
-/***/ 10:
+/***/ 11:
 /*!************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Findex.js ***!
   \************************************************************************************************************************************/
@@ -84050,5 +84057,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]);
+},[[11,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

@@ -11,7 +11,14 @@ function MiniNav() {
     <MobileView>
       <Nav fill className="bg-white">
         <NavItem>
-          <NavLink active href="/meetings/12152020">
+          <NavLink
+            className="animated pulse"
+            style={{
+              animationIterationCount: "infinite"
+            }}
+            active
+            href="/meetings/12152020"
+          >
             Let's Talk
           </NavLink>
         </NavItem>

@@ -11,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import CSS from "shards-ui/dist/css/shards.css";
 import "../assets/css/carousel.css";
 import "../assets/css/nf-carousel.css";
+import "../assets/css/animate.css";
 import "../assets/css/master.css";
 
 // Javascript
