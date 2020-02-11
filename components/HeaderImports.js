@@ -78,6 +78,8 @@ const HeaderImports = props => (
       http-equiv="Page-Exit"
       content="RevealTrans(Duration=1.0,Transition=1)"
     />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="" />
+
     <script
       type="text/javascript"
       src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"

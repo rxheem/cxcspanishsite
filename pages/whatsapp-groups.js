@@ -95,19 +95,102 @@ const WhatsAppGroups = props => (
                     CXC Spanish Online #2
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="https://chat.whatsapp.com/J79uO72mCF00vlSV0o6QRv"
-                    targer="_blank"
-                    preload
-                  >
-                    CXC Spanish Online Jamaica{" "}
-                    <span className="text-danger ml-1">
-                      (only for Jamaican students)
-                    </span>
-                  </a>
-                </li>
               </ul>
+            </CardBody>
+          </Card>
+
+          <br />
+          <Card>
+            <CardBody>
+              <CardTitle>Join by Country</CardTitle>
+
+              <br />
+
+              <Row>
+                <Col sm={12} md={6} lg={6} xl={6}>
+                  <ul className="ul-st">
+                    <li>
+                      <a href="http://bit.ly/2tPvPVl" target="_blank">
+                        CXC Spanish Anguilla
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://bit.ly/2vpT8Fo" target="_blank">
+                        CXC Spanish Antigua and Barbuda
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://bit.ly/2utdduH" target="_blank">
+                        CXC Spanish Barbados
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://bit.ly/2uCuWzM" target="_blank">
+                        CXC Spanish Belize
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://bit.ly/2SgK9zy" target="_blank">
+                        CXC Spanish British Virgin Islands
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://bit.ly/2OMpOzY" target="_blank">
+                        CXC Spanish Cayman Islands
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://bit.ly/3br7SV7" target="_blank">
+                        CXC Spanish Grenada
+                      </a>
+                    </li>
+                  </ul>
+                </Col>
+                <Col sm={12} md={6} lg={6} xl={6}>
+                  <ul className="ul-st">
+                    <li>
+                      <a href="http://bit.ly/2w3U6HL" target="_blank">
+                        CXC Spanish Guyana
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://bit.ly/2SjenSg" target="_bank">
+                        CXC Spanish Jamaica
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://bit.ly/38lIpun" target="_blank">
+                        CXC Spanish Montserrat
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://bit.ly/38lMyyC" target="_blank">
+                        CXC Spanish St. Kitts and Nevis
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://bit.ly/2Hgi9FW" target="_blank">
+                        CXC Spanish St. Lucia
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://bit.ly/38lMyyC" target="_blank">
+                        CXC Spanish St. Vincent and the Grenadines
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://bit.ly/38jQoZ0" target="_blank">
+                        CXC Spanish Trinidad and Tobago
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://bit.ly/3br9pdP" target="_blank">
+                        CXC Spanish Turks and Caicos Islands
+                      </a>
+                    </li>
+                  </ul>
+                </Col>
+              </Row>
             </CardBody>
           </Card>
         </Col>

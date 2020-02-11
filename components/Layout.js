@@ -19,7 +19,8 @@ import "../assets/js/fontawesome.js";
 import "../assets/js/mixpanel.js";
 import "../assets/js/quantcast.js";
 import "../assets/js/facebook.js";
-import "../assets/js/surveymonkey.js";
+import "../assets/js/mailchimp.js";
+import "../assets/js/onesignal.js";
 
 // Other
 import ReactGA from "react-ga";
@@ -27,6 +28,11 @@ import MessengerCustomerChat from "react-messenger-customer-chat";
 
 // Google Analytics
 ReactGA.initialize("UA-146229442-1");
+
+const Push = require("push.js");
+if (process.browser) {
+  Push.Permission.request();
+}
 
 // Render on client side
 if (process.browser) {
