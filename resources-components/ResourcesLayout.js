@@ -14,6 +14,10 @@ import {
   Button
 } from "shards-react";
 
+// Dropbox view and Google drive view
+import DropboxView from "../common/DropboxView";
+import GoogleDriveView from "../common/GoogleDriveView";
+
 import { BrowserView, MobileView } from "react-device-detect";
 import PDFFile from "../common/PDFFile";
 
@@ -88,46 +92,9 @@ const ResourcesLayout = props => (
       </Col>
       <Col sm={12} md={4} lg={4} xl={4}>
         <br className="d-sm-none" />
-        <Card>
-          <CardImg
-            src="https://cdn.blog.psafe.com/en/blog/wp-content/uploads/2016/10/BLOG_EN_0610_The-Benefits-of-Dropbox-for-Your-Android.jpg"
-            style={{ width: "100%" }}
-          />
-          <CardBody>
-            <p>
-              Don't see your subject? You can check out the entire archives in
-              our Dropbox folder.
-            </p>
-            <Button href="https://www.dropbox.com/sh/0iwksvyxx6hnx8u/AADS2oBLhV7Ouofp9d0fc593a?dl=0">
-              <i style={{ paddingRight: "5px" }} className="fab fa-dropbox"></i>
-              View Folder
-            </Button>
-          </CardBody>
-        </Card>
-
+        <DropboxView />
         <br />
-        <Card>
-          <CardImg
-            src="https://images.idgesg.net/images/article/2019/04/google-drive-docs-suite-logos-100794638-large.jpg"
-            style={{ width: "100%", padding: "20px" }}
-          />
-          <CardBody>
-            <p>
-              You can also see the papers on our Google Drive folder, if you are
-              not able to access Dropbox.
-            </p>
-            <Button
-              theme="success"
-              href="https://drive.google.com/open?id=1zPeCEOLnKcTIo5QewZL7YJsm7u9gsTI4"
-            >
-              <i
-                style={{ paddingRight: "5px" }}
-                class="fab fa-google-drive"
-              ></i>
-              View Folder
-            </Button>
-          </CardBody>
-        </Card>
+        <GoogleDriveView />
       </Col>
     </Row>
   </div>

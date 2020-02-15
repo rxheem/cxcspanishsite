@@ -136,7 +136,7 @@ class NavbarComponent extends React.Component {
               </NavItem>
 
               <NavItem>
-                <NavLink className="text-white" href="/whatsapp-groups">
+                <NavLink className="text-white" href="/study-groups">
                   Study Groups
                 </NavLink>
               </NavItem>
@@ -147,12 +147,6 @@ class NavbarComponent extends React.Component {
                 <NavLink className="text-white" href="/about-us">
                   <FA style={{ padding: "7px" }} name="users" />
                   About Us
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className="text-white" href="/tutoring">
-                  <FA style={{ padding: "7px" }} name="chalkboard-teacher" />
-                  Extra Classes
                 </NavLink>
               </NavItem>
               <NavItem>

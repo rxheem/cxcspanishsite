@@ -29,6 +29,7 @@ import Info from "../home/Info";
 import MeetAna from "../home/MeetAna";
 import MailingListSubscribe from "../home/MailingListSubscribe";
 import QuickSurvey from "../home/QuickSurvey";
+import LearnFromScratch from "../home/LearnFromScratch";
 
 // Layout
 import Layout from "../components/Layout";
@@ -58,6 +59,7 @@ const Index = props => (
       </Breadcrumb>
 
       <br />
+
       <Marketing />
     </Container>
 

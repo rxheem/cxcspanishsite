@@ -122,6 +122,7 @@
     "react-native-dotenv": "^0.2.0",
     "react-native-tts": "^3.1.1",
     "react-obfuscate": "^3.6.6",
+    "react-owl-carousel": "^2.3.1",
     "react-pdf": "^4.1.0",
     "react-quiz-component": "^0.3.2",
     "react-relay": "^5.0.0",

@@ -31,15 +31,12 @@ import Layout from "../components/Layout";
 const WhatsAppGroups = props => (
   <Layout>
     <Head>
-      <title>WhatsApp Group Chats | CXC Spanish Online</title>
-      <meta
-        name="og:title"
-        content="WhatsApp Group Chats | CXC Spanish Guide"
-      />
+      <title>Study Groups Chats | CXC Spanish Online</title>
+      <meta name="og:title" content="Study Group Chats | CXC Spanish Guide" />
       <meta name="og:site_name" content="CXC Spanish Online" />
       <meta
         name="description"
-        content="Join our WhatsApp group chats to have weekly discussions and reach out to us directly."
+        content="Join our WhatsApp study group chats to have weekly discussions and reach out to us directly."
       />
     </Head>
     <Container>
@@ -47,7 +44,7 @@ const WhatsAppGroups = props => (
         <BreadcrumbItem>
           <a href="/">Home</a>
         </BreadcrumbItem>
-        <BreadcrumbItem active>WhatsApp Groups</BreadcrumbItem>
+        <BreadcrumbItem active>WhatsApp Study Groups</BreadcrumbItem>
       </Breadcrumb>
 
       <Row>
@@ -58,7 +55,7 @@ const WhatsAppGroups = props => (
               src="https://static.whatsapp.net/rsrc.php/v3/yO/r/FsWUqRoOsPu.png"
             />
             <CardBody>
-              <CardTitle>WhatsApp Group Chats</CardTitle>
+              <CardTitle>Study Group Chats</CardTitle>
 
               <br />
               <p>

@@ -16,6 +16,8 @@ import {
 
 import { BrowserView, MobileView } from "react-device-detect";
 import PDFFile from "../common/PDFFile";
+import DropboxView from "../common/DropboxView";
+import GoogleDriveView from "../common/GoogleDriveView";
 
 // Style for the onft icons
 const liStyles = {
@@ -89,26 +91,9 @@ const ListeningLayout = props => (
       </Col>
       <Col sm={12} md={4} lg={4} xl={4}>
         <br className="d-sm-none" />
-        <Card>
-          <CardImg
-            src="https://cdn.blog.psafe.com/en/blog/wp-content/uploads/2016/10/BLOG_EN_0610_The-Benefits-of-Dropbox-for-Your-Android.jpg"
-            style={{ width: "100%" }}
-          />
-          <CardBody>
-            <p>
-              We've sourced all the past papers so you don't have to. Check out
-              our Dropbox folder to get pass paper for any CSEC or CAPE subject.
-            </p>
-            <Button
-              target="_blank"
-              href="https://www.dropbox.com/sh/0iwksvyxx6hnx8u/AADS2oBLhV7Ouofp9d0fc593a?dl=0"
-            >
-              <i style={{ paddingRight: "5px" }} className="fab fa-dropbox"></i>
-              View Folder
-            </Button>
-          </CardBody>
-        </Card>
-
+        <DropboxView />
+        <br />
+        <GoogleDriveView />
         <br />
         <Card>
           <CardBody>
@@ -135,31 +120,6 @@ const ListeningLayout = props => (
                 />
               </li>
             </ul>
-          </CardBody>
-        </Card>
-
-        <br />
-        <Card>
-          <CardImg
-            src="https://images.idgesg.net/images/article/2019/04/google-drive-docs-suite-logos-100794638-large.jpg"
-            style={{ width: "100%", padding: "20px" }}
-          />
-          <CardBody>
-            <p>
-              You can also see the papers on our Google Drive folder, if you are
-              not able to access Dropbox.
-            </p>
-            <Button
-              target="_blank"
-              theme="success"
-              href="https://drive.google.com/open?id=1zPeCEOLnKcTIo5QewZL7YJsm7u9gsTI4"
-            >
-              <i
-                style={{ paddingRight: "5px" }}
-                class="fab fa-google-drive"
-              ></i>
-              View Folder
-            </Button>
           </CardBody>
         </Card>
 

@@ -27,6 +27,8 @@ import FA from "react-fontawesome";
 
 // Common
 import PDFFile from "../common/PDFFile";
+// Dropbox view and Google drive view
+import DropboxView from "../common/DropboxView";
 
 // Style for the onft icons
 const liStyles = {
@@ -131,36 +133,18 @@ const GuideLayout = props => (
 
           <ul style={{ marginLeft: "-25px", listStyleType: "none" }}>
             <li>
-              <PDFFile title="'Ser' vs. 'Estar'" href="" />
+              <PDFFile title="" href="" />
             </li>
             <li style={{ paddingTop: "15px" }}>
-              <PDFFile title="Study Tips" href="" />
+              <PDFFile title="" href="" />
             </li>
             <li style={{ paddingTop: "15px" }}>
-              <PDFFile title="Funny Spanish Jokes" href="" />
+              <PDFFile title="" href="" />
             </li>
             <li style={{ paddingTop: "15px" }}>
-              <PDFFile title="Genders in Spanish" href="" />
+              <PDFFile title="" href="" />
             </li>
           </ul>
-
-          <br />
-          <h6>How To Guides</h6>
-
-          <ul style={{ marginLeft: "-25px", listStyleType: "none" }}>
-            <li>
-              <PDFFile title="How to Use Online Translators" href="" />
-            </li>
-            <li style={{ paddingTop: "15px" }}>
-              <PDFFile title="Asking for Directions in Spanish" href="" />
-            </li>
-            <li style={{ paddingTop: "15px" }}>
-              <PDFFile title="Ordering Food in Spanish" href="" />
-            </li>
-          </ul>
-
-          <br />
-          <Button>View Archives &rarr;</Button>
         </CardBody>
       </Card>
 
@@ -219,6 +203,9 @@ const GuideLayout = props => (
           </ul>
         </CardBody>
       </Card>
+
+      <br />
+      <DropboxView />
     </Col>
   </Row>
 );
