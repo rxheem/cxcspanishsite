@@ -312,7 +312,9 @@ class Guide extends React.Component {
                         </a>
                       </li>
                       <li>
-                        <a href="/guides/">The Imperfect Subjunctive</a>
+                        <a href="/guides/the-imperfect-subjunctive">
+                          The Imperfect Subjunctive
+                        </a>
                       </li>
                     </ul>
                   </Col>

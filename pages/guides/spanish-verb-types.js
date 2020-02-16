@@ -33,6 +33,9 @@ const SpanishVerbTypes = props => (
       pathname={"https://www.cxcspanish.com/guides/"}
       siteLanguage={"en"}
       siteLocale={""}
+      article={true}
+      publishedDate={new Date()}
+      modifiedDate={new Date()}
       twitterUsername={"_rxheem"}
     />
     <Layout>
@@ -46,7 +49,21 @@ const SpanishVerbTypes = props => (
           </BreadcrumbItem>
           <BreadcrumbItem active>Spanish Verb Types</BreadcrumbItem>
         </Breadcrumb>
-        <GuideLayout>...</GuideLayout>
+        <GuideLayout>
+          <Card>
+            <CardBody>
+              <CardTitle>Spanish Verb Types</CardTitle>
+
+              <br />
+              <p>
+                There are several different verb types in Spanish, including
+                transitive verbs, intransitive verbs, pronominal verbs,
+                reflexive verbs, and reciprocal verbs. It's helpful to know what
+                they are and how they're different. Let's get started!
+              </p>
+            </CardBody>
+          </Card>
+        </GuideLayout>
       </Container>
     </Layout>
   </React.Fragment>

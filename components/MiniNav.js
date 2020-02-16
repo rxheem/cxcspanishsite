@@ -17,9 +17,9 @@ function MiniNav() {
               animationIterationCount: "infinite"
             }}
             active
-            href="/meetings/12152020"
+            href="/exam-topics"
           >
-            Let's Talk
+            Exam Topics
           </NavLink>
         </NavItem>
         <NavItem>
