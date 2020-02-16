@@ -13,6 +13,15 @@ import {
   CardFooter,
   Button
 } from "shards-react";
+import YouTube from "react-youtube";
+
+const opts = {
+  height: "300px",
+  width: "100%",
+  playerVars: {
+    autoplay: 0
+  }
+};
 
 // Dropbox view and Google drive view
 import DropboxView from "../common/DropboxView";
@@ -95,6 +104,8 @@ const ResourcesLayout = props => (
         <DropboxView />
         <br />
         <GoogleDriveView />
+        <br />
+        <YouTube opts={opts} videoId="G0VKzkl-W-c" />
       </Col>
     </Row>
   </div>

@@ -27,6 +27,15 @@ import {
 import SEO from "react-seo-component";
 import Img from "react-image";
 import Layout from "../components/Layout";
+import YouTube from "react-youtube";
+
+const opts = {
+  height: "300px",
+  width: "100%",
+  playerVars: {
+    autoplay: 0
+  }
+};
 
 const StudyGroups = props => (
   <Layout>
@@ -191,7 +200,10 @@ const StudyGroups = props => (
             </CardBody>
           </Card>
         </Col>
-        <Col sm={12} md={4} lg={4} xl={4}></Col>
+        <Col sm={12} md={4} lg={4} xl={4}>
+          <br className="d-sm-none" />
+          <YouTube opts={opts} videoId="G0VKzkl-W-c" />
+        </Col>
       </Row>
     </Container>
     <br />

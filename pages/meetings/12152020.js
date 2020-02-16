@@ -175,11 +175,9 @@ const TwelveFifteen = props => (
               </b>
             </CardFooter>
           </Card>
-
           <br />
-          <YouTube opts={opts} videoId="vFhAEoCF7jg" />
-          <br />
-          <YouTube opts={opts} videoId="HqncX7RE0wM" />
+          <h4>Watch Here</h4>
+          <YouTube opts={opts} videoId="G0VKzkl-W-c" />
         </Col>
       </Row>
     </Container>

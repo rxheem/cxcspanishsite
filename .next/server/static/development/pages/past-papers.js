@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1790,14 +1790,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _common_DropboxView__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../common/DropboxView */ "./common/DropboxView.js");
-/* harmony import */ var _common_GoogleDriveView__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../common/GoogleDriveView */ "./common/GoogleDriveView.js");
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-device-detect */ "react-device-detect");
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _common_PDFFile__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../common/PDFFile */ "./common/PDFFile.js");
+/* harmony import */ var react_youtube__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-youtube */ "react-youtube");
+/* harmony import */ var react_youtube__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_youtube__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _common_DropboxView__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../common/DropboxView */ "./common/DropboxView.js");
+/* harmony import */ var _common_GoogleDriveView__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../common/GoogleDriveView */ "./common/GoogleDriveView.js");
+/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-device-detect */ "react-device-detect");
+/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _common_PDFFile__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../common/PDFFile */ "./common/PDFFile.js");
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
- // Dropbox view and Google drive view
+
+
+const opts = {
+  height: "300px",
+  width: "100%",
+  playerVars: {
+    autoplay: 0
+  }
+}; // Dropbox view and Google drive view
 
 
 
@@ -1821,7 +1831,7 @@ const ResourcesLayout = props => __jsx("div", null, __jsx(shards_react__WEBPACK_
   md: 8,
   lg: 8,
   xl: 8
-}, props.children, __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_4__["BrowserView"], null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx("span", {
+}, props.children, __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_5__["BrowserView"], null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx("span", {
   className: "border border-light"
 }, __jsx("ul", {
   style: ulStyles
@@ -1874,13 +1884,16 @@ const ResourcesLayout = props => __jsx("div", null, __jsx(shards_react__WEBPACK_
   xl: 4
 }, __jsx("br", {
   className: "d-sm-none"
-}), __jsx(_common_DropboxView__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx("br", null), __jsx(_common_GoogleDriveView__WEBPACK_IMPORTED_MODULE_3__["default"], null))));
+}), __jsx(_common_DropboxView__WEBPACK_IMPORTED_MODULE_3__["default"], null), __jsx("br", null), __jsx(_common_GoogleDriveView__WEBPACK_IMPORTED_MODULE_4__["default"], null), __jsx("br", null), __jsx(react_youtube__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  opts: opts,
+  videoId: "G0VKzkl-W-c"
+}))));
 
 /* harmony default export */ __webpack_exports__["default"] = (ResourcesLayout);
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!************************************!*\
   !*** multi ./pages/past-papers.js ***!
   \************************************/
