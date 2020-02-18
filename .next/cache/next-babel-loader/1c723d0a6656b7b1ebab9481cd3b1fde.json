@@ -1,0 +1,1 @@
+{"ast":null,"code":"if (false) {\n  var OneSignal = window.OneSignal || [];\n  OneSignal.push(function () {\n    OneSignal.init({\n      appId: \"bfebf78b-978a-4caa-950f-92359bde0be0\"\n    });\n  });\n}","map":null,"metadata":{},"sourceType":"script"}

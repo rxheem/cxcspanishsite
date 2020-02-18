@@ -93,6 +93,20 @@ const WhatsAppGroups = props => (
                   </a>
                 </li>
               </ul>
+
+              <h6>Popular Groups</h6>
+              <ul className="ul-st">
+                <li>
+                  <a href="http://bit.ly/2SjenSg" target="_bank">
+                    CXC Spanish Jamaica
+                  </a>
+                </li>
+                <li>
+                  <a href="http://bit.ly/38jQoZ0" target="_blank">
+                    CXC Spanish Trinidad and Tobago
+                  </a>
+                </li>
+              </ul>
             </CardBody>
           </Card>
 
