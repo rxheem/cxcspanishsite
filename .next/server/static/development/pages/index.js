@@ -137,17 +137,6 @@ module.exports =
 
 /***/ }),
 
-/***/ "./assets/js/facebook.js":
-/*!*******************************!*\
-  !*** ./assets/js/facebook.js ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-if (false) {}
-
-/***/ }),
-
 /***/ "./assets/js/fontawesome.js":
 /*!**********************************!*\
   !*** ./assets/js/fontawesome.js ***!
@@ -202,6 +191,17 @@ if (false) { var OneSignal; }
 /***/ (function(module, exports, __webpack_require__) {
 
 if (false) { var _qevents; }
+
+/***/ }),
+
+/***/ "./assets/js/tawkto.js":
+/*!*****************************!*\
+  !*** ./assets/js/tawkto.js ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+if (false) { var Tawk_API, Tawk_LoadStart; }
 
 /***/ }),
 
@@ -817,8 +817,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_15__);
 /* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/js/quantcast.js */ "./assets/js/quantcast.js");
 /* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/js/facebook.js */ "./assets/js/facebook.js");
-/* harmony import */ var _assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_js_facebook_js__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _assets_js_tawkto_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/js/tawkto.js */ "./assets/js/tawkto.js");
+/* harmony import */ var _assets_js_tawkto_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_js_tawkto_js__WEBPACK_IMPORTED_MODULE_17__);
 /* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../assets/js/mailchimp.js */ "./assets/js/mailchimp.js");
 /* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_18__);
 /* harmony import */ var _assets_js_onesignal_js__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../assets/js/onesignal.js */ "./assets/js/onesignal.js");
@@ -827,6 +827,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_20__);
 /* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! react-messenger-customer-chat */ "react-messenger-customer-chat");
 /* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_21__);
+/* harmony import */ var _sentry_browser__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @sentry/browser */ "@sentry/browser");
+/* harmony import */ var _sentry_browser__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(_sentry_browser__WEBPACK_IMPORTED_MODULE_22__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -856,6 +858,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 react_ga__WEBPACK_IMPORTED_MODULE_20___default.a.initialize("UA-146229442-1");
 
+
 const Push = __webpack_require__(/*! push.js */ "push.js");
 
 if (false) {} // Render on client side
@@ -864,14 +867,11 @@ if (false) {} // Render on client side
 if (false) {}
 
 const Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
+_sentry_browser__WEBPACK_IMPORTED_MODULE_22__["init"]({
+  dsn: "https://1ccf463850ed401c9dbbe2a620cb62e4@sentry.io/2633175"
+});
 
-if (false) {}
-
-const Layout = props => __jsx(Fragment, null, __jsx(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_21___default.a, {
-  pageId: "105703077445673",
-  appId: "669007593616991",
-  htmlRef: "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
-}), __jsx("div", {
+const Layout = props => __jsx(Fragment, null, __jsx("div", {
   class: "fb-customerchat",
   attribution: "setup_tool",
   page_id: "105703077445673"
@@ -2221,7 +2221,7 @@ const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_14__["d
   image: "",
   pathname: "https://www.cxcspanish.com",
   siteLanguage: "en",
-  siteLocale: "",
+  siteLocale: "en",
   twitterUsername: "cxcspanish"
 }), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Breadcrumb"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], {
   active: true
@@ -2360,6 +2360,17 @@ const ResourcesLayout = props => __jsx("div", null, __jsx(shards_react__WEBPACK_
 
 module.exports = __webpack_require__(/*! /Users/raheemmcdonald/Desktop/cxcspanish/pages/index.js */"./pages/index.js");
 
+
+/***/ }),
+
+/***/ "@sentry/browser":
+/*!**********************************!*\
+  !*** external "@sentry/browser" ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@sentry/browser");
 
 /***/ }),
 

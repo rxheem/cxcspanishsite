@@ -44,7 +44,7 @@ const Index = props => (
       image={""}
       pathname={"https://www.cxcspanish.com"}
       siteLanguage={"en"}
-      siteLocale={""}
+      siteLocale={"en"}
       twitterUsername={"cxcspanish"}
     />
     <Container>

@@ -18,7 +18,7 @@ import "../assets/css/master.css";
 import "../assets/js/fontawesome.js";
 import "../assets/js/mixpanel.js";
 import "../assets/js/quantcast.js";
-import "../assets/js/facebook.js";
+import "../assets/js/tawkto.js";
 import "../assets/js/mailchimp.js";
 import "../assets/js/onesignal.js";
 
@@ -28,6 +28,7 @@ import MessengerCustomerChat from "react-messenger-customer-chat";
 
 // Google Analytics
 ReactGA.initialize("UA-146229442-1");
+import * as Sentry from "@sentry/browser";
 
 const Push = require("push.js");
 if (process.browser) {
@@ -50,16 +51,12 @@ if (process.browser) {
 
 const Fragment = React.Fragment;
 
-if (process.browser) {
-}
+Sentry.init({
+  dsn: "https://1ccf463850ed401c9dbbe2a620cb62e4@sentry.io/2633175"
+});
 
 const Layout = props => (
   <Fragment>
-    <MessengerCustomerChat
-      pageId="105703077445673"
-      appId="669007593616991"
-      htmlRef="https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
-    />
     <div
       class="fb-customerchat"
       attribution="setup_tool"
@@ -77,6 +74,7 @@ const Layout = props => (
     <MiniNav />
     <Footer />
     <SystemInfo hide={true} />
+
     <HeaderImports />
   </Fragment>
 );
