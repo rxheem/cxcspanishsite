@@ -27,6 +27,7 @@ import ReactGA from "react-ga";
 import MessengerCustomerChat from "react-messenger-customer-chat";
 
 // Google Analytics
+
 ReactGA.initialize("UA-146229442-1");
 import * as Sentry from "@sentry/browser";
 
