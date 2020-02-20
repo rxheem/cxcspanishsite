@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -202,334 +202,6 @@ if (false) { var _qevents; }
 /***/ (function(module, exports, __webpack_require__) {
 
 if (false) { var Tawk_API, Tawk_LoadStart; }
-
-/***/ }),
-
-/***/ "./common/CAPEPastPapers.js":
-/*!**********************************!*\
-  !*** ./common/CAPEPastPapers.js ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _PDFFile__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PDFFile */ "./common/PDFFile.js");
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
- // Common
-
-
-
-const CAPEPastPapers = props => __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], {
-  className: "text-info"
-}, "CAPE Past Papers"), __jsx("br", null), __jsx("ul", {
-  style: {
-    marginLeft: "-25px",
-    listStyleType: "none"
-  }
-}, __jsx("li", null, __jsx(_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "Spanish",
-  href: ""
-})), __jsx("li", {
-  style: {
-    paddingTop: "10px"
-  }
-}, __jsx(_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "Agricultural Science",
-  href: "https://dl.dropbox.com/s/eqc4v3bjrk1yh9j/CAPE%20Agricultural%20Science%20Past%20Papers.pdf?dl=0"
-})), __jsx("li", {
-  style: {
-    paddingTop: "10px"
-  }
-}, __jsx(_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "Biology",
-  href: "https://dl.dropbox.com/s/lzugxqjfns8l7ee/CAPE%20Biology%20Past%20Papers%20unit%201_2%202005-2016.pdf?dl=0"
-})), __jsx("li", {
-  style: {
-    paddingTop: "10px"
-  }
-}, __jsx(_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "Law",
-  href: "https://dl.dropbox.com/s/0tdxb2o1fx4k3ti/CAPE%C2%AE%20Law%20Past%20Papers%20u%201%20_%202%202005%20-2016.pdf?dl=0"
-})), __jsx("li", {
-  style: {
-    paddingTop: "10px"
-  }
-}, __jsx(_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "Food and Nutrition",
-  href: "https://dl.dropbox.com/s/9zzq4eehfvjnsrt/CAPE%20Food%20and%20Nutrition%20Past%20Papers%20Ui%20_U2%202005%20-%202016.pdf?dl=0"
-})), __jsx("li", {
-  style: {
-    paddingTop: "10px"
-  }
-}, __jsx(_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "Sociology",
-  href: "https://dl.dropbox.com/s/x1h7tmn4lam6ryn/CAPE%20Sociology%20Past%20Papers%20U1%20_U%202005-2016.pdf?dl=0"
-})), __jsx("li", {
-  style: {
-    paddingTop: "10px"
-  }
-}, __jsx(_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "French",
-  href: "https://dl.dropbox.com/s/5g8gm6h4jcwikex/CAPE%20French%20Past%20Papers%20U1%20_U2%202005-2016.pdf?dl=0"
-})), __jsx("li", {
-  style: {
-    paddingTop: "10px"
-  }
-}, __jsx(_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "Computer Science",
-  href: "https://dl.dropbox.com/s/uifq5ynywxvdga8/CAPE%20Computer%20Science%20Past%20Papers%20u1_U2%202005-2016.pdf?dl=0"
-})))));
-
-/* harmony default export */ __webpack_exports__["default"] = (CAPEPastPapers);
-
-/***/ }),
-
-/***/ "./common/DropboxView.js":
-/*!*******************************!*\
-  !*** ./common/DropboxView.js ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-const DropboxView = props => __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
-  src: "https://cdn.blog.psafe.com/en/blog/wp-content/uploads/2016/10/BLOG_EN_0610_The-Benefits-of-Dropbox-for-Your-Android.jpg",
-  style: {
-    width: "100%"
-  }
-}), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, "Need past papers? We have the past papers booklets and solutions for all CXC subjects."), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-  target: "_blank",
-  href: "https://www.dropbox.com/sh/0iwksvyxx6hnx8u/AADS2oBLhV7Ouofp9d0fc593a?dl=0"
-}, __jsx("i", {
-  style: {
-    paddingRight: "5px"
-  },
-  className: "fab fa-dropbox"
-}), "Get them now")));
-
-/* harmony default export */ __webpack_exports__["default"] = (DropboxView);
-
-/***/ }),
-
-/***/ "./common/EssentialBooks.js":
-/*!**********************************!*\
-  !*** ./common/EssentialBooks.js ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _PDFFile__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PDFFile */ "./common/PDFFile.js");
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-const EssentialBooks = props => __jsx("div", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], {
-  className: ""
-}, "Essentials"), __jsx("br", null), __jsx("ul", {
-  style: {
-    marginLeft: "-25px",
-    listStyleType: "none"
-  }
-}, __jsx("li", null, __jsx(_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "Spanish For Dummies",
-  href: "https://dl.dropbox.com/s/rjglra0ra4ved1z/Spanish%20Essentials%20For%20Dummies.pdf?dl=0"
-})), __jsx("li", {
-  style: {
-    paddingTop: "10px"
-  }
-}, __jsx(_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "Modern Spanish Grammar",
-  href: "https://dl.dropbox.com/s/fibr4yjdzv4qovn/modern-spanish-grammar.pdf?dl=0"
-})), __jsx("li", {
-  style: {
-    paddingTop: "10px"
-  }
-}, __jsx(_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  title: "Spanish Basics",
-  href: "https://dl.dropbox.com/s/hmime50fn00u7k1/Free%20K.pdf?dl=0"
-}))))));
-
-/* harmony default export */ __webpack_exports__["default"] = (EssentialBooks);
-
-/***/ }),
-
-/***/ "./common/GoogleDriveView.js":
-/*!***********************************!*\
-  !*** ./common/GoogleDriveView.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-const GoogleDriveView = props => __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
-  src: "https://images.idgesg.net/images/article/2019/04/google-drive-docs-suite-logos-100794638-large.jpg",
-  style: {
-    width: "100%",
-    padding: "20px"
-  }
-}), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, "You can also see the papers on our Google Drive folder, if you are not able to access Dropbox."), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-  target: "_blank",
-  theme: "success",
-  href: "https://drive.google.com/open?id=1zPeCEOLnKcTIo5QewZL7YJsm7u9gsTI4"
-}, __jsx("i", {
-  style: {
-    paddingRight: "5px"
-  },
-  class: "fab fa-google-drive"
-}), "View Folder")));
-
-/* harmony default export */ __webpack_exports__["default"] = (GoogleDriveView);
-
-/***/ }),
-
-/***/ "./common/PDFFile.js":
-/*!***************************!*\
-  !*** ./common/PDFFile.js ***!
-  \***************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-fontawesome */ "react-fontawesome");
-/* harmony import */ var react_fontawesome__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_fontawesome__WEBPACK_IMPORTED_MODULE_1__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-const PDFFile = props => __jsx("a", {
-  href: props.href,
-  download: true
-}, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  name: "file-pdf",
-  style: {
-    color: "#f00"
-  }
-}), __jsx("span", {
-  className: "",
-  style: {
-    paddingLeft: "10px"
-  }
-}, props.title));
-
-/* harmony default export */ __webpack_exports__["default"] = (PDFFile);
-
-/***/ }),
-
-/***/ "./common/SocialLinks.js":
-/*!*******************************!*\
-  !*** ./common/SocialLinks.js ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-device-detect */ "react-device-detect");
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_2__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
- // Style for the onft icons
-
-const liStyles = {
-  display: "inline!important",
-  paddingLeft: "50px"
-};
-const oLiStyles = {
-  display: "inline"
-};
-const ulStyles = {
-  listStyleType: "none",
-  paddingTop: "15px"
-};
-
-const SocialLinks = props => __jsx("div", null, __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_2__["BrowserView"], null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx("span", {
-  className: "border border-light"
-}, __jsx("ul", {
-  style: ulStyles
-}, __jsx("li", {
-  style: oLiStyles
-}, __jsx("i", {
-  style: {
-    color: "#8a3ab9"
-  },
-  className: "fab fa-instagram"
-}), __jsx("a", {
-  className: "text-muted",
-  style: {
-    paddingLeft: "10px"
-  },
-  href: "https://www.instagram.com/cxcspanish/",
-  target: "_blank"
-}, "cxcspanish")), __jsx("li", {
-  style: liStyles
-}, __jsx("i", {
-  style: {
-    color: " #3b5998"
-  },
-  className: "fab fa-facebook"
-}), __jsx("a", {
-  className: "text-muted",
-  style: {
-    paddingLeft: "10px"
-  },
-  href: "https://www.facebook.com/cxcspanishguide/?__tn__=%2Cd%2CP-R&eid=ARBp5b8r2d06OFKljjfcKxLq6dNjDPkODENJqB9yAsRgKUQHpmOrhWiLifsxgPnYtt5njC48bXpGjQii",
-  target: "_blank"
-}, "CXC Spanish Gude")), __jsx("li", {
-  style: liStyles
-}, __jsx("i", {
-  style: {
-    color: "red"
-  },
-  className: "fab fa-youtube"
-}), __jsx("a", {
-  className: "text-muted",
-  style: {
-    paddingLeft: "10px"
-  },
-  href: "https://www.youtube.com/channel/UC0eO_ApReknTjj50B7_LQyw",
-  target: "_blank"
-}, "CXC Spanish Online")))))));
-
-/* harmony default export */ __webpack_exports__["default"] = (SocialLinks);
 
 /***/ }),
 
@@ -1442,64 +1114,6 @@ class SystemInfo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
 
 /***/ }),
 
-/***/ "./guide-components/GuideLayout.js":
-/*!*****************************************!*\
-  !*** ./guide-components/GuideLayout.js ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-device-detect */ "react-device-detect");
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-lazyload */ "react-lazyload");
-/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _common_GoogleDriveView__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../common/GoogleDriveView */ "./common/GoogleDriveView.js");
-/* harmony import */ var _common_EssentialBooks__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../common/EssentialBooks */ "./common/EssentialBooks.js");
-/* harmony import */ var _common_SocialLinks__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../common/SocialLinks */ "./common/SocialLinks.js");
-/* harmony import */ var _common_CAPEPastPapers__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../common/CAPEPastPapers */ "./common/CAPEPastPapers.js");
-/* harmony import */ var react_fontawesome__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-fontawesome */ "react-fontawesome");
-/* harmony import */ var react_fontawesome__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_fontawesome__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _common_PDFFile__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../common/PDFFile */ "./common/PDFFile.js");
-/* harmony import */ var _common_DropboxView__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../common/DropboxView */ "./common/DropboxView.js");
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-
-
-
- // Common
-
- // Dropbox view and Google drive view
-
-
-
-const GuideLayout = props => __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-  sm: 12,
-  md: 8,
-  lg: 8,
-  xl: 8
-}, props.children, __jsx(_common_SocialLinks__WEBPACK_IMPORTED_MODULE_6__["default"], null)), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-  sm: 12,
-  md: 4,
-  lg: 4,
-  xl: 4
-}, __jsx("br", {
-  className: "d-sm-none"
-}), __jsx(_common_DropboxView__WEBPACK_IMPORTED_MODULE_10__["default"], null), __jsx("br", null), __jsx(_common_EssentialBooks__WEBPACK_IMPORTED_MODULE_5__["default"], null), __jsx("br", null), __jsx(_common_CAPEPastPapers__WEBPACK_IMPORTED_MODULE_7__["default"], null)));
-
-/* harmony default export */ __webpack_exports__["default"] = (GuideLayout);
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js":
 /*!*********************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js ***!
@@ -1618,10 +1232,10 @@ function _defineProperty(obj, key, value) {
 
 /***/ }),
 
-/***/ "./pages/guide.js":
-/*!************************!*\
-  !*** ./pages/guide.js ***!
-  \************************/
+/***/ "./pages/contact.js":
+/*!**************************!*\
+  !*** ./pages/contact.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1633,255 +1247,194 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-device-detect */ "react-device-detect");
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-collapsible */ "react-collapsible");
+/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_collapsible__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-seo-component */ "react-seo-component");
 /* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_seo_component__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-image */ "react-image");
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _guide_components_GuideLayout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../guide-components/GuideLayout */ "./guide-components/GuideLayout.js");
-/* harmony import */ var _common_PDFFile__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../common/PDFFile */ "./common/PDFFile.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
- // Layout
+ // Style for the onft icons
 
-
-
+const liStyles = {
+  display: "inline!important",
+  paddingLeft: "50px"
+};
+const oLiStyles = {
+  display: "inline"
+};
 const ulStyles = {
-  marginLeft: "-30px",
-  listStyleType: "none"
-}; // Common
-
-
-const liStyle = {
-  paddingBottom: "15px"
+  listStyleType: "none",
+  paddingTop: "15px"
 };
 
-class Guide extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      collapse: false
-    };
+const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  title: "Contact | CXC Spanish Online",
+  description: "Contact Us. Whether you're a beginner or just looking for some refreshers, we want to express gratitue for letting us be a part of your journey.",
+  image: "",
+  pathname: "https://www.cxcspanish.com/contact",
+  siteLanguage: "en",
+  siteLocale: "",
+  twitterUsername: "cxcspanish"
+}), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Breadcrumb"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], null, __jsx("a", {
+  href: "/"
+}, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], {
+  active: true
+}, "Contact")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+  sm: 12,
+  md: 8,
+  lg: 8
+}, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Contact Us"), __jsx("br", null), __jsx("p", null, "Whether you're a beginner or just looking for some refreshers, we want to express gratitude for letting us be a part of your journey."), __jsx("p", null, "Don't forget to read our ", __jsx("a", {
+  href: "/FAQ"
+}, "FAQ"), "."), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+  sm: 12,
+  md: 6,
+  lg: 6,
+  xl: 6
+}), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+  sm: 12,
+  md: 6,
+  lg: 6,
+  xl: 6
+})))), __jsx("span", {
+  className: "border border-light"
+}, __jsx("ul", {
+  style: ulStyles
+}, __jsx("li", {
+  style: oLiStyles
+}, __jsx("i", {
+  style: {
+    color: "#8a3ab9"
+  },
+  className: "fab fa-instagram"
+}), __jsx("a", {
+  className: "text-muted",
+  style: {
+    paddingLeft: "10px"
+  },
+  href: "https://www.instagram.com/cxcspanish/",
+  target: "_blank"
+}, "cxcspanish")), __jsx("li", {
+  style: liStyles
+}, __jsx("i", {
+  style: {
+    color: " #3b5998"
+  },
+  className: "fab fa-facebook"
+}), __jsx("a", {
+  className: "text-muted",
+  style: {
+    paddingLeft: "10px"
+  },
+  href: "https://www.facebook.com/cxcspanishguide/",
+  target: "_blank"
+}, "CXC Spanish Gude")), __jsx("li", {
+  style: liStyles
+}, __jsx("i", {
+  style: {
+    color: "#00acee"
+  },
+  className: "fab fa-twitter"
+}), __jsx("a", {
+  className: "text-muted",
+  style: {
+    paddingLeft: "10px"
+  },
+  href: "",
+  target: "_blank"
+}, "cxcspanish"))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+  sm: 12,
+  md: 4,
+  lg: 4
+}, __jsx("br", {
+  className: "d-sm-none"
+}), __jsx("div", {
+  style: {
+    position: "relative",
+    paddingBottom: "56.25%",
+    height: "0",
+    overflow: "hidden"
   }
+}, __jsx("div", {
+  className: "mapouter"
+}, __jsx("div", {
+  className: "gmap_canvas"
+}, __jsx("iframe", {
+  width: "600",
+  height: "500",
+  id: "gmap_canvas",
+  src: "https://maps.google.com/maps?q=kingston%20jamaica&t=&z=13&ie=UTF8&iwloc=&output=embed",
+  frameBorder: "0",
+  scrolling: "no",
+  marginHeight: "0",
+  marginWidth: "0"
+}), "Kingston, Jamaica"), __jsx("style", null, `.mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 500px;
+                                width: 600px;
+                              }
+                              .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 500px;
+                                width: 600px;
+                              }
 
-  render() {
-    return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_6__["default"], null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, __jsx("title", null, "Guides | CXC Spanish Online"), __jsx("meta", {
-      name: "og:title",
-      content: "Guides |  CXC Spanish Guide"
-    }), __jsx("meta", {
-      name: "og:site_name",
-      content: "CXC Spanish Online"
-    }), __jsx("meta", {
-      name: "description",
-      content: "Take your Spanish to the next level with detailed lesson guides, completed with examples and practice questions."
-    })), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Breadcrumb"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], null, __jsx("a", {
-      href: "/"
-    }, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], {
-      active: true
-    }, "Guides")), __jsx(_guide_components_GuideLayout__WEBPACK_IMPORTED_MODULE_7__["default"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Guides"), __jsx("p", null, "Our guides are designed to help you master a wide range of topics in Spanish. We cover basic topis from numbers and the alphabet, to verb tenses and and fun topics"), __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_3__["MobileView"], null, __jsx(react_image__WEBPACK_IMPORTED_MODULE_5___default.a, {
-      style: {
-        height: "200px",
-        width: "100%"
-      },
-      src: ["https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80", "", ""],
-      alt: ""
-    })), __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_3__["BrowserView"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 6,
-      md: 6,
-      lg: 6
-    }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_5___default.a, {
-      style: {
-        height: "200px",
-        width: "100%"
-      },
-      src: ["https://images.unsplash.com/photo-1568650136602-ded24b86c5af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80", "", ""],
-      alt: ""
-    })), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 6,
-      md: 6,
-      lg: 6
-    }, __jsx(react_image__WEBPACK_IMPORTED_MODULE_5___default.a, {
-      style: {
-        height: "200px",
-        width: "100%"
-      },
-      src: ["https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80", "", ""],
-      alt: ""
-    })))))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Fun"), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 12,
-      md: 6,
-      lg: 6,
-      xl: 6
-    }, __jsx("ul", {
-      className: "ul-st"
-    }, __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "Texting in Spanish")), __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "Funny Spanish Jokes")), __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "Traditional Spanish Food")), __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "Apps that Teach You Spanish")), __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "In the Classroom")), __jsx("li", {
-      style: {
-        listStyleType: "none",
-        marginLeft: "-17px"
-      }
-    }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_8__["default"], {
-      title: "Football Vocabulary",
-      href: "https://www.dl.com/s/t2jedvfs9nrapvf/Spanish%20Football%20Vocabulary.pdf?dl=0"
-    })), __jsx("li", {
-      style: {
-        listStyleType: "none",
-        marginLeft: "-17px"
-      }
-    }, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_8__["default"], {
-      title: "Halloween Vocabulary",
-      href: "https://www.dl.com/s/7g0322d30rs15up/Spanish%20Halloween%20Vocabulary.pdf?dl=0"
-    })))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 12,
-      md: 6,
-      lg: 6,
-      xl: 6
-    }, __jsx("ul", {
-      className: "ul-st"
-    }, __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "Traditional Spanish Food")), __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "Tongue Twisters in Spanish")), __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "Avoid These Top 5 Mistakes")), __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "Flirting in Spanish")), __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "Phone Call Vocabulary")))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardFooter"], null, __jsx("small", {
-      className: "text-danger"
-    }, "Not all articles are completed. We'll let you know when we're done"))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Essentials"), __jsx("p", null, "These essential guides will help you to master the basics elements of Spanish, and serves as building blocks to help you to build on your fluency.", " "), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 6,
-      md: 6,
-      lg: 6,
-      xl: 6
-    }, __jsx("ul", {
-      className: "ul-st"
-    }, __jsx("li", null, __jsx("a", {
-      preload: true,
-      href: "/guides/study-tips"
-    }, "Study Tips")), __jsx("li", null, __jsx("a", {
-      href: "/guides/the-spanish-alphabet"
-    }, "The Spanish Alphabet")), __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "Genders in Spanish")), __jsx("li", null, __jsx("a", {
-      href: "/guides/pronunciation-tips"
-    }, "Pronunciation Tips")), __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "Dates in Spanish")), __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "Adjectives in Spanish")))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 6,
-      md: 6,
-      lg: 6,
-      xl: 6
-    }, __jsx("ul", {
-      className: "ul-st"
-    }, __jsx("li", null, __jsx("a", {
-      href: "/guides/por-vs-para"
-    }, "'Por' vs. 'Para'")), __jsx("li", null, __jsx("a", {
-      href: "/guides/at-the-airport"
-    }, "At the Airport")), __jsx("li", null, __jsx("a", {
-      href: "/guides/oral-exercise"
-    }, "Oral Exercises")), __jsx("li", null, __jsx("a", {
-      href: "/guides/articles-in-spanish"
-    }, "Articles in Spanish")), __jsx("li", null, __jsx("a", {
-      href: "/guides/common-spanish-adverbs"
-    }, "Common Spanish Adverbs")))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardFooter"], null, __jsx("small", null, "Want us to write about something you dont understand? Let us know", " ", __jsx("a", {
-      target: "_blank",
-      href: "https://forms.gle/J1oPyy5g2k8GtiQr7"
-    }, "here")))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Verbs and Tenses"), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 12,
-      md: 6,
-      lg: 6,
-      xl: 6
-    }, __jsx("ul", {
-      className: "ul-st"
-    }, __jsx("li", null, __jsx("a", {
-      href: "/guides/ser-vs-estar"
-    }, "'Ser' vs. 'Estar'")), __jsx("li", null, __jsx("a", {
-      href: "/guides/preterite-vs-imperfect"
-    }, "Preterite vs. Imperfect")), __jsx("li", null, __jsx("a", {
-      href: "/guides/how-to-use-gustar"
-    }, "How to use 'Gustar'")))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 12,
-      md: 6,
-      lg: 6,
-      xl: 6
-    }, __jsx("ul", {
-      className: "ul-st"
-    }, __jsx("li", null, __jsx("a", {
-      href: "/guides/spanish-verb-types"
-    }, "Spanish Verb Types")), __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "'Ser' vs. 'Estar'", " ", __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Badge"], {
-      pill: true,
-      theme: "success"
-    }, "quiz"))), __jsx("li", null, __jsx("a", {
-      href: "/guides/the-imperfect-subjunctive"
-    }, "The Imperfect Subjunctive")))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardFooter"], null, __jsx("small", {
-      className: "text-danger"
-    }, "Not all articles are completed. We'll let you know when we're done"))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "How To"), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 12,
-      md: 6,
-      lg: 6,
-      xl: 6
-    }, __jsx("ul", {
-      className: "ul-st"
-    }, __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "How to Order Food in Spanish")), __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "How to Remember Verb Conjugations")), __jsx("li", null, __jsx("a", {
-      href: "/guides/how-to-ask-for-directions-in-spanish"
-    }, "How to Ask for Directions in Spanish")))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 12,
-      md: 6,
-      lg: 6,
-      xl: 6
-    }, __jsx("ul", {
-      className: "ul-st"
-    }, __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "How to Talk About Locations in Spanish")), __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "How to Improve Spanish Listening Skills")), __jsx("li", null, __jsx("a", {
-      href: "/guides/"
-    }, "How to Use Online Translators")))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardFooter"], null, __jsx("small", null, "Want us to write about something you dont understand? Let us know", " ", __jsx("a", {
-      target: "_blank",
-      href: "https://forms.gle/J1oPyy5g2k8GtiQr7"
-    }, "here")))))));
+                              `))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "FAQ"), __jsx("br", null), __jsx("ul", {
+  style: {
+    marginLeft: "-20px"
   }
+}, __jsx("li", null, __jsx(react_collapsible__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  trigger: __jsx("a", {
+    href: ""
+  }, "Am I required to sign up?")
+}, __jsx("p", {
+  style: {
+    paddingTop: "10px"
+  }
+}, "No, no sign up is required."))), __jsx("li", {
+  style: {
+    paddingTop: "15px"
+  }
+}, __jsx(react_collapsible__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  trigger: __jsx("a", {
+    href: ""
+  }, "Are the courses free?")
+}, __jsx("p", {
+  style: {
+    paddingTop: "10px"
+  }
+}, "Yes, all the online courses and materials are free."))), __jsx("li", {
+  style: {
+    paddingTop: "15px"
+  }
+}, __jsx(react_collapsible__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  trigger: __jsx("a", {
+    href: ""
+  }, "Will it be helping me with my orals?")
+}, __jsx("p", {
+  style: {
+    paddingTop: "10px"
+  }
+}, "Yes, we will a review of the oral exam, practice exercises and pronunciation and study tips for orals."))))))))));
 
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Guide);
+/* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 4:
-/*!******************************!*\
-  !*** multi ./pages/guide.js ***!
-  \******************************/
+/***/ 5:
+/*!********************************!*\
+  !*** multi ./pages/contact.js ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/raheemmcdonald/Desktop/cxcspanish/pages/guide.js */"./pages/guide.js");
+module.exports = __webpack_require__(/*! /Users/raheemmcdonald/Desktop/cxcspanish/pages/contact.js */"./pages/contact.js");
 
 
 /***/ }),
@@ -2029,6 +1582,17 @@ module.exports = require("react-burger-menu");
 
 /***/ }),
 
+/***/ "react-collapsible":
+/*!************************************!*\
+  !*** external "react-collapsible" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-collapsible");
+
+/***/ }),
+
 /***/ "react-device-detect":
 /*!**************************************!*\
   !*** external "react-device-detect" ***!
@@ -2059,28 +1623,6 @@ module.exports = require("react-fontawesome");
 /***/ (function(module, exports) {
 
 module.exports = require("react-ga");
-
-/***/ }),
-
-/***/ "react-image":
-/*!******************************!*\
-  !*** external "react-image" ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-image");
-
-/***/ }),
-
-/***/ "react-lazyload":
-/*!*********************************!*\
-  !*** external "react-lazyload" ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-lazyload");
 
 /***/ }),
 
@@ -2151,4 +1693,4 @@ module.exports = require("shards-react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=guide.js.map
+//# sourceMappingURL=contact.js.map

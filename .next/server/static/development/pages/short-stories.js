@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -202,148 +202,6 @@ if (false) { var _qevents; }
 /***/ (function(module, exports, __webpack_require__) {
 
 if (false) { var Tawk_API, Tawk_LoadStart; }
-
-/***/ }),
-
-/***/ "./common/DropboxView.js":
-/*!*******************************!*\
-  !*** ./common/DropboxView.js ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-const DropboxView = props => __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
-  src: "https://cdn.blog.psafe.com/en/blog/wp-content/uploads/2016/10/BLOG_EN_0610_The-Benefits-of-Dropbox-for-Your-Android.jpg",
-  style: {
-    width: "100%"
-  }
-}), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, "Need past papers? We have the past papers booklets and solutions for all CXC subjects."), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-  target: "_blank",
-  href: "https://www.dropbox.com/sh/0iwksvyxx6hnx8u/AADS2oBLhV7Ouofp9d0fc593a?dl=0"
-}, __jsx("i", {
-  style: {
-    paddingRight: "5px"
-  },
-  className: "fab fa-dropbox"
-}), "Get them now")));
-
-/* harmony default export */ __webpack_exports__["default"] = (DropboxView);
-
-/***/ }),
-
-/***/ "./common/GoogleDriveView.js":
-/*!***********************************!*\
-  !*** ./common/GoogleDriveView.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-const GoogleDriveView = props => __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
-  src: "https://images.idgesg.net/images/article/2019/04/google-drive-docs-suite-logos-100794638-large.jpg",
-  style: {
-    width: "100%",
-    padding: "20px"
-  }
-}), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, "You can also see the papers on our Google Drive folder, if you are not able to access Dropbox."), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-  target: "_blank",
-  theme: "success",
-  href: "https://drive.google.com/open?id=1zPeCEOLnKcTIo5QewZL7YJsm7u9gsTI4"
-}, __jsx("i", {
-  style: {
-    paddingRight: "5px"
-  },
-  class: "fab fa-google-drive"
-}), "View Folder")));
-
-/* harmony default export */ __webpack_exports__["default"] = (GoogleDriveView);
-
-/***/ }),
-
-/***/ "./common/Message.js":
-/*!***************************!*\
-  !*** ./common/Message.js ***!
-  \***************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-const Message = props => __jsx("div", null, __jsx("br", null), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Toast"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Toast"].Header, null, __jsx("img", {
-  src: "https://cdn2.iconfinder.com/data/icons/mix-color-5/100/Mix_color_5__info-512.png",
-  className: "rounded mr-2",
-  alt: "alert icon",
-  style: {
-    height: "20px"
-  }
-}), __jsx("strong", {
-  className: "mr-auto"
-}, props.title), __jsx("small", null, props.time)), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Toast"].Body, null, props.message)), __jsx("br", null));
-
-/* harmony default export */ __webpack_exports__["default"] = (Message);
-
-/***/ }),
-
-/***/ "./common/PDFFile.js":
-/*!***************************!*\
-  !*** ./common/PDFFile.js ***!
-  \***************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-fontawesome */ "react-fontawesome");
-/* harmony import */ var react_fontawesome__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_fontawesome__WEBPACK_IMPORTED_MODULE_1__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-const PDFFile = props => __jsx("a", {
-  href: props.href,
-  download: true
-}, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  name: "file-pdf",
-  style: {
-    color: "#f00"
-  }
-}), __jsx("span", {
-  className: "",
-  style: {
-    paddingLeft: "10px"
-  }
-}, props.title));
-
-/* harmony default export */ __webpack_exports__["default"] = (PDFFile);
 
 /***/ }),
 
@@ -1256,785 +1114,6 @@ class SystemInfo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
 
 /***/ }),
 
-/***/ "./home/CardBox.js":
-/*!*************************!*\
-  !*** ./home/CardBox.js ***!
-  \*************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_instagram_embed__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-instagram-embed */ "react-instagram-embed");
-/* harmony import */ var react_instagram_embed__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_instagram_embed__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _SlideShow__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./SlideShow */ "./home/SlideShow.js");
-/* harmony import */ var _Surveys__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Surveys */ "./home/Surveys.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-device-detect */ "react-device-detect");
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-seo-component */ "react-seo-component");
-/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_seo_component__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _resources_components_ResourcesLayout__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../resources-components/ResourcesLayout */ "./resources-components/ResourcesLayout.js");
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-image */ "react-image");
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-collapsible */ "react-collapsible");
-/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_collapsible__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _common_PDFFile__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../common/PDFFile */ "./common/PDFFile.js");
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-
-
-
- // Layout
-
-
-
- // Common
-
-
-
-const CardBox = props => __jsx("div", null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-  sm: 12,
-  md: 6,
-  lg: 6,
-  xl: 6
-}, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
-  style: {
-    width: "100%"
-  },
-  src: "https://static.whatsapp.net/rsrc.php/v3/yO/r/FsWUqRoOsPu.png"
-}), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Join Us on WhatsApp"), __jsx("p", null, "Speak with us live, make friends, ask questions, participate in our weekly exercises and more."), __jsx("ul", {
-  style: {
-    marginLeft: "-20px"
-  }
-}, __jsx("li", null, __jsx("a", {
-  style: {
-    paddingRight: "10px"
-  },
-  href: "https://chat.whatsapp.com/EWpufXW93Y5G5V9BlOqgRF",
-  target: "_blank"
-}, "CXC Spanish Online"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Badge"], {
-  pill: true,
-  theme: "danger"
-}, "FULL")), __jsx("li", {
-  style: {
-    paddingTop: "10px"
-  }
-}, __jsx("a", {
-  href: "https://chat.whatsapp.com/BurCEr11DKRJyas6VKUc0n",
-  target: "_blank"
-}, "CXC Spanish Online #2")), __jsx("li", {
-  style: {
-    paddingTop: "10px"
-  }
-}, __jsx("a", {
-  href: "https://chat.whatsapp.com/J79uO72mCF00vlSV0o6QRv",
-  target: "_blank"
-}, "CXC Spanish Online Jamaica", " ", __jsx("span", {
-  className: "text-danger ml-1"
-}, "(only for Jamaican students)"))), __jsx("li", {
-  style: {
-    paddingTop: "10px"
-  }
-}, __jsx("a", {
-  href: "/whatsapp-groups"
-}, "CXC Spanish Online T&T"))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-  href: "/whatsapp-groups"
-}, "See full list")))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-  sm: 12,
-  md: 6,
-  lg: 6,
-  xl: 6
-}, __jsx("br", {
-  className: "d-sm-none"
-}), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
-  src: "https://www.themeum.com/wp-content/uploads/2018/03/final-google-form-2-1140x570.jpg",
-  style: {
-    width: "100%",
-    height: "100%"
-  }
-}), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Online Forms and Request"), __jsx("p", null, "We're here to help and provde it where you need it the most. Ask us for anything:"), __jsx("ul", null, __jsx("li", null, __jsx("a", {
-  href: "http://bit.ly/37321lz",
-  target: "_blank"
-}, "Spanish Class Registration Form")), __jsx("li", {
-  style: {
-    paddingTop: "10px"
-  }
-}, __jsx("a", {
-  href: "#",
-  target: "_blank"
-}, "Topic Explanation Request")), __jsx("li", {
-  style: {
-    paddingTop: "10px"
-  }
-}, __jsx("a", {
-  href: "#",
-  target: "_blank"
-}, "Past Paper Request")), __jsx("li", {
-  style: {
-    paddingTop: "10px"
-  }
-}, "General request: send us an email at", " ", __jsx("a", {
-  href: "mailto:hola@cxcspanish.com"
-}, "hola@cxcspanish.com"), " or", " ", __jsx("a", {
-  href: "mailto:holacxcspanish@gmail.com"
-}, "holacxcspanish@gmail.com"))), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-  href: "/whatsapp-groups"
-}, "All forms"))))));
-
-/* harmony default export */ __webpack_exports__["default"] = (CardBox);
-
-/***/ }),
-
-/***/ "./home/HomeCarousel.js":
-/*!******************************!*\
-  !*** ./home/HomeCarousel.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-lazyload */ "react-lazyload");
-/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-image */ "react-image");
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-device-detect */ "react-device-detect");
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_5__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-
-
-const HomeCarousel = props => __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_5__["MobileView"], null, __jsx("br", null), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, null, __jsx(react_image__WEBPACK_IMPORTED_MODULE_4___default.a, {
-  className: "d-block w-100",
-  src: ["https://images.unsplash.com/photo-1532768641073-503a250f9754?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80", "https://images.unsplash.com/photo-1429554513019-6c61c19ffb7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80", "https://images.unsplash.com/photo-1478369402113-1fd53f17e8b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=724&q=80", "https://images.unsplash.com/photo-1500315331616-db4f707c24d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80", "https://images.unsplash.com/photo-1546241126-da278b8ec3ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"],
-  alt: "image of food"
-}), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, null, __jsx("h3", {
-  style: {
-    color: "white"
-  }
-}, __jsx("b", null, "Ordering Food")), __jsx("p", {
-  style: {
-    color: "white"
-  }
-}, "Learn how to order food and take-out at restaurants in Spanish"))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, null, __jsx(react_image__WEBPACK_IMPORTED_MODULE_4___default.a, {
-  className: "d-block w-100",
-  src: ["https://images.unsplash.com/photo-1524293568345-75d62c3664f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=708&q=80", "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80", "https://images.unsplash.com/photo-1495305379050-64540d6ee95d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"],
-  alt: ""
-}), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, null, __jsx("h3", {
-  style: {
-    color: "white"
-  }
-}, "Express Yourself"), __jsx("p", {
-  style: {
-    color: "white"
-  }
-}, "Build confidence and express yourself in Spanish", " "))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, null, __jsx(react_image__WEBPACK_IMPORTED_MODULE_4___default.a, {
-  className: "d-block w-100",
-  src: ["https://images.unsplash.com/photo-1548393488-ae8f117cbc1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=716&q=80", "", ""],
-  alt: ""
-}), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, null, __jsx("h3", {
-  style: {
-    color: "white"
-  }
-}, "Studying late at nights?"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_3__["Button"], {
-  href: "/guides/study-tips",
-  theme: "light"
-}, "Read our Study Guide")))));
-
-/* harmony default export */ __webpack_exports__["default"] = (HomeCarousel);
-
-/***/ }),
-
-/***/ "./home/Info.js":
-/*!**********************!*\
-  !*** ./home/Info.js ***!
-  \**********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-const images = ["https://imgur.com/4nbA7pB.png", "https://imgur.com/ExcTyNG.png", "https://imgur.com/Iz4EtNa.png", "https://imgur.com/c7coNR9.png", "https://imgur.com/U6trHjQ.png", "https://imgur.com/IdRNAUV.png", "https://imgur.com/lxqTzuj.png", "https://imgur.com/L1YAn09.png", "https://imgur.com/OSi1lxa.png", "https://imgur.com/iG0aSpk.png", "https://imgur.com/IaHhHVl.png", "https://imgur.com/0TvFd5n.png", "https://imgur.com/wEmhEWl.png", "https://imgur.com/XDxE0x9.png", "https://imgur.com/9t6cLu2.png", "https://imgur.com/SbvwKfQ.png", "https://imgur.com/8UFUMf6.png"];
-const imgData = [{
-  "": "",
-  "": "",
-  "": "",
-  "": ""
-}, {
-  "": "",
-  "": "",
-  "": "",
-  "": ""
-}, {
-  "": "",
-  "": "",
-  "": "",
-  "": ""
-}, {
-  "": "",
-  "": "",
-  "": "",
-  "": ""
-}, {
-  "": "",
-  "": "",
-  "": "",
-  "": ""
-}];
-
-const Info = props => __jsx("div", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
-  style: {
-    width: "100%"
-  },
-  src: images[5].toString()
-}), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("span", null))), __jsx("br", null), __jsx("br", null));
-
-/* harmony default export */ __webpack_exports__["default"] = (Info);
-
-/***/ }),
-
-/***/ "./home/MailingListSubscribe.js":
-/*!**************************************!*\
-  !*** ./home/MailingListSubscribe.js ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-image */ "react-image");
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_2__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-class MailingListSubscribe extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  render() {
-    return __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
-      style: {
-        maxHeight: "200px"
-      },
-      src: "https://webuildsites.com.au/wp-content/uploads/2019/02/how-to-setup-gmail-forwarding-1080x675.jpg"
-    }), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Joing Our Mailing List"), __jsx("p", null, "Join our mailing list to get free weekly booklets, study notes and exercises right in your email."), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Form"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["FormGroup"], null, __jsx("label", {
-      htmlFor: "name"
-    }, "Full Name"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["FormInput"], {
-      type: "text",
-      id: "name",
-      placeholder: "Enter name"
-    })), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["FormGroup"], null, __jsx("label", {
-      htmlFor: "#password"
-    }, "Email"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["FormInput"], {
-      type: "email",
-      id: "email",
-      placeholder: "Enter email"
-    }))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], null, "Subscribe \u2192")));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (MailingListSubscribe);
-
-/***/ }),
-
-/***/ "./home/Marketing.js":
-/*!***************************!*\
-  !*** ./home/Marketing.js ***!
-  \***************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-image */ "react-image");
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_2__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
- // Fragment
-
-const Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
-
-const Marketing = props => __jsx("div", {
-  className: "marketing"
-}, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-  sm: 12,
-  md: 4,
-  lg: 4,
-  xl: 4
-}, __jsx(react_image__WEBPACK_IMPORTED_MODULE_2___default.a, {
-  src: ["https://upload.wikimedia.org/wikipedia/commons/6/6c/Flat_icon_ear.png", "https://www.flaticon.com/premium-icon/icons/svg/1453/1453597.svg", "https://thumbs.dreamstime.com/z/tunnels-ears-icon-long-shadow-white-background-tunnels-ears-icon-long-shadow-130808476.jpg", "https://lh3.googleusercontent.com/b1a0bNnNUJJM88DxJ_3-_aNZ3xmGQhdCg05BN063x71eOa1szP9__cCBx7jGnTrh-NI=s90", "https://png2.cleanpng.com/sh/83284134f4a955c5a44b2e0333fc81ce/L0KzQYm3VsE4N6ZvepH0aYP2gLBuTgBmdqRuh9C2cnX3ecPsjfVvfF54ed5ucz3lhcTwjvV0e153feZqaXywdbL5Tflkd58yTdQ7NkK6RoW5WfE3QWYzTKsDN0G3QIS4VcI6OmM8SaIDMUezRnB3jvc=/kisspng-pension-retirement-sales-business-retail-ear-icon-5b26276429a695.4987140315292271081706.png", "https://www.colourbox.com/preview/22111544-the-ear-icon-listen-symbol-flat.jpg", "https://comps.gograph.com/ear-icon-in-flat-style-isolated-on-white-background-part-of-body-symbol-stock-vector-illustration_gg88742647.jpg"],
-  alt: "image of listening",
-  style: {
-    height: "180px"
-  },
-  className: "rounded-circle"
-}), __jsx("br", null), __jsx("br", null), __jsx("h2", null, "Listening"), __jsx("p", null, "Improve your Spanish listening skills with audio recordings from native Spanish-speakers, and listen recorded extracts from CXC past papers questions."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-  theme: "warning",
-  href: "/listening",
-  role: "button"
-}, "Start Learning \xBB"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-  sm: 12,
-  md: 4,
-  lg: 4,
-  xl: 4
-}, __jsx(react_image__WEBPACK_IMPORTED_MODULE_2___default.a, {
-  src: ["https://icons-for-free.com/iconfiles/png/512/equipment+pen+pencil+tool+write+writing+icon-1320165901782992167.png", "https://www.pikpng.com/pngl/m/97-978365_writing-icon-hd-png-download.png", "https://st2.depositphotos.com/4060975/9113/v/950/depositphotos_91131614-stock-illustration-writing-colored-vector-icon.jpg"],
-  alt: "image of listening",
-  style: {
-    height: "180px"
-  },
-  className: "rounded-circle"
-}), __jsx("br", null), __jsx("br", null), __jsx("h2", null, "Writing"), __jsx("p", null, "Practice writing for composing your", " ", __jsx("a", {
-  href: "/topics/letter-writing"
-}, "letter"), " and", " ", __jsx("a", {
-  href: "topics/letter-writing"
-}, "compositions"), ". Write on a wide range on past-paper topics including crime, drug abuse and contemporary social issues."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-  theme: "info",
-  href: "#",
-  role: "button"
-}, "Start Learning \xBB"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-  sm: 12,
-  md: 4,
-  lg: 4,
-  xl: 4
-}, __jsx(react_image__WEBPACK_IMPORTED_MODULE_2___default.a, {
-  src: ["https://image.flaticon.com/icons/svg/426/426426.svg", "https://image.flaticon.com/icons/svg/326/326058.svg", "https://www.pinclipart.com/picdir/big/64-644580_motivational-clipart-public-speaking-public-speaking-speech-icon.png", "https://www.svgrepo.com/show/1734/speaking.svg", "https://image.flaticon.com/icons/svg/1653/1653630.svg", "https://image.flaticon.com/icons/svg/426/426426.svg", "https://image.flaticon.com/icons/svg/426/426426.svg", "https://previews.123rf.com/images/pandavector/pandavector1701/pandavector170103700/69812068-speaking-mouth-icon-in-flat-style-isolated-on-white-background-interpreter-and-translator-symbol-sto.jpg", "https://assets.dryicons.com/uploads/icon/svg/8859/cdf7ad61-0549-4442-a349-d17717288163.svg"],
-  alt: "image of speaking",
-  style: {
-    height: "180px"
-  },
-  className: "rounded-circle"
-}), __jsx("br", null), __jsx("br", null), __jsx("h2", null, "Speaking"), __jsx("p", null, "Imporve your ability to speak Spanish fluenty with our accent training exercises, daily paragraph readings and more! Find out how below."), __jsx("p", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-  theme: "dark",
-  href: "/orals",
-  role: "button"
-}, "Start Learning \xBB")))));
-
-/* harmony default export */ __webpack_exports__["default"] = (Marketing);
-
-/***/ }),
-
-/***/ "./home/MeetAna.js":
-/*!*************************!*\
-  !*** ./home/MeetAna.js ***!
-  \*************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-lazyload */ "react-lazyload");
-/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-collapsible */ "react-collapsible");
-/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_collapsible__WEBPACK_IMPORTED_MODULE_3__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-class MeetAna extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  componentDidMount() {}
-
-  render() {
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
-      className: "text-black",
-      style: {
-        backgroundColor: '#e6ccff',
-        padding: '40px'
-      }
-    }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 12,
-      md: 6,
-      lg: 6,
-      xl: 6
-    }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx("br", null), __jsx("br", null), __jsx("h1", {
-      className: "headline text-black"
-    }, "Meet Ana"), __jsx("br", null), __jsx("br", null), __jsx("p", null, "Meet Ana, a young and charismatic woman living in Spain. Let's listen as she introduces herself, talks about what it's like living in there, her experiences and family life."), __jsx("div", {
-      className: "anna-audio"
-    }, __jsx("audio", {
-      controls: true
-    }, __jsx("source", {
-      src: "https://dl.dropbox.com/s/7ofviet2398fz0b/Example%201%20-%20Ana.mp3?dl=0"
-    }))), __jsx("br", null), __jsx(react_collapsible__WEBPACK_IMPORTED_MODULE_3___default.a, {
-      trigger: __jsx("a", {
-        className: "text-black",
-        href: ""
-      }, "Click here to read transcript")
-    }, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", {
-      className: "text-dark"
-    }, "\xA1Buenos d\xEDas! Soy Ana. Tengo 27 a\xF1os. Soy de Chicago pero ahora vivo en una ciudad de Espa\xF1a que se llama Zamora. Soy profesora de ingl\xE9s en un instituto. Al volver a los Estados Unidos voy a seguir con mi estudios. Me gustar\xEDa hacer un doctorado en la literatura espa\xF1ola, pero ahora etoy contenta con vivir en Espa\xF1a y mejorando mi espa\xF1ol, y aprendiendo m\xE1s de este pa\xEDs tan hermoso. En mi tiempo libre me gusta leer, ver la tele y pasar tiempo con mis amigos, mi marido y mi perro. Estudio espa\xF1ol porque la h\xEDstoria del pa\xEDs ma facina. No es solo eso, sino tambi\xE9n la cultura me encanta y la gente es muy amable.")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardFooter"], null, __jsx("h4", null, "Lean more"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 4,
-      md: 4,
-      lg: 4,
-      xl: 4
-    }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Alert"], {
-      className: "rounded",
-      theme: "success"
-    }, __jsx("a", {
-      className: "alert-link",
-      href: "/listening-exercises/meet-nick"
-    }, "Meet Nick"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 4,
-      md: 4,
-      lg: 4,
-      xl: 4
-    }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Alert"], {
-      className: "rounded",
-      theme: "danger"
-    }, __jsx("a", {
-      className: "alert-link",
-      href: "/listening-exercises/ayer"
-    }, "Ayer"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 4,
-      md: 4,
-      lg: 4,
-      xl: 4
-    }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Alert"], {
-      className: "rounded",
-      theme: "primary"
-    }, __jsx("a", {
-      className: "alert-link",
-      href: "/listening-exercises/la-casa-ideal"
-    }, "La casa ideal"))))))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      sm: 12,
-      md: 6,
-      lg: 6,
-      xl: 6
-    }, __jsx("br", {
-      className: "d-sm-none"
-    }), __jsx("a", {
-      className: "anna-image",
-      href: "/listening-exercises/meet-ana"
-    }, __jsx("img", {
-      style: {
-        width: '100%'
-      },
-      src: "https://i.imgur.com/ociFUp7.png",
-      title: "source: imgur.com"
-    }))))));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (MeetAna);
-
-/***/ }),
-
-/***/ "./home/Papers.js":
-/*!************************!*\
-  !*** ./home/Papers.js ***!
-  \************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-lazyload */ "react-lazyload");
-/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-image */ "react-image");
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_3__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-const Papers = props => __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_2___default.a, null, __jsx("div", null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-  sm: 2,
-  md: 2,
-  lg: 2,
-  xl: 2
-}, __jsx("br", {
-  className: "d-sm-none"
-}), __jsx("a", {
-  href: "https://drive.google.com/file/d/19LPNYdP053Ve3WRtHezISV3M3R-susHK/view",
-  taget: "_blank"
-}, __jsx(react_image__WEBPACK_IMPORTED_MODULE_3___default.a, {
-  style: {
-    width: "100%",
-    height: "100%"
-  },
-  src: "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482630_4.jpg"
-}))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-  sm: 2,
-  md: 2,
-  lg: 2,
-  xl: 2
-}, __jsx("br", {
-  className: "d-sm-none"
-}), __jsx("a", {
-  href: "",
-  taget: "_blank"
-}, __jsx(react_image__WEBPACK_IMPORTED_MODULE_3___default.a, {
-  style: {
-    width: "100%"
-  },
-  src: "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482456_25.jpg"
-}))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-  sm: 2,
-  md: 2,
-  lg: 2,
-  xl: 2
-}, __jsx("br", {
-  className: "d-sm-none"
-}), __jsx("a", {
-  href: "",
-  taget: "_blank"
-}, __jsx(react_image__WEBPACK_IMPORTED_MODULE_3___default.a, {
-  style: {
-    width: "100%"
-  },
-  src: "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230481831_23.jpg"
-}))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-  sm: 2,
-  md: 2,
-  lg: 2,
-  xl: 2
-}, __jsx("br", {
-  className: "d-sm-none"
-}), __jsx("a", {
-  href: "",
-  taget: "_blank"
-}, __jsx(react_image__WEBPACK_IMPORTED_MODULE_3___default.a, {
-  style: {
-    width: "100%"
-  },
-  src: "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482876_3.jpg"
-}))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-  sm: 2,
-  md: 2,
-  lg: 2,
-  xl: 2
-}, __jsx("br", {
-  className: "d-sm-none"
-}), __jsx("a", {
-  href: "",
-  taget: "_blank"
-}, __jsx(react_image__WEBPACK_IMPORTED_MODULE_3___default.a, {
-  style: {
-    width: "100%"
-  },
-  src: "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482678_3.jpg"
-}))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-  sm: 2,
-  md: 2,
-  lg: 2,
-  xl: 2
-}, __jsx("br", {
-  className: "d-sm-none"
-}), __jsx("a", {
-  href: "",
-  taget: "_blank"
-}, __jsx(react_image__WEBPACK_IMPORTED_MODULE_3___default.a, {
-  style: {
-    width: "100%"
-  },
-  src: "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482494_3.jpg"
-}))))));
-
-/* harmony default export */ __webpack_exports__["default"] = (Papers);
-
-/***/ }),
-
-/***/ "./home/QuickSurvey.js":
-/*!*****************************!*\
-  !*** ./home/QuickSurvey.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-collapsible */ "react-collapsible");
-/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_collapsible__WEBPACK_IMPORTED_MODULE_2__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-class QuickSurvey extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      open: false
-    };
-    this.toggle = this.toggle.bind(this);
-  }
-
-  toggle() {
-    this.setState({
-      open: !this.state.open
-    });
-  }
-
-  render() {
-    const {
-      open
-    } = this.state;
-    return __jsx("div", {
-      className: "bg-light",
-      style: {
-        height: 'auto',
-        padding: '10px 0px'
-      }
-    }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, "Have something in Spanish you want us to clarify?", __jsx(react_collapsible__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      trigger: __jsx("a", {
-        href: ""
-      }, "Let us know here ", __jsx("small", {
-        style: {
-          color: 'red'
-        }
-      }, "(works best on a laptop)"), ' ')
-    }, __jsx("br", null), __jsx("iframe", {
-      src: "https://docs.google.com/forms/d/e/1FAIpQLSc0SyNaXGAYnToalhKErIwH4b9deZQw-mA1zYJ491UU-robIQ/viewform?embedded=true",
-      width: "700",
-      height: "1028",
-      frameborder: "0",
-      marginheight: "0",
-      marginwidth: "0"
-    }, "Loading\u2026"))));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (QuickSurvey);
-
-/***/ }),
-
-/***/ "./home/SlideShow.js":
-/*!***************************!*\
-  !*** ./home/SlideShow.js ***!
-  \***************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_responsive_carousel_lib_styles_carousel_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-responsive-carousel/lib/styles/carousel.min.css */ "./node_modules/react-responsive-carousel/lib/styles/carousel.min.css");
-/* harmony import */ var react_responsive_carousel_lib_styles_carousel_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_responsive_carousel_lib_styles_carousel_min_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_responsive_carousel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-responsive-carousel */ "react-responsive-carousel");
-/* harmony import */ var react_responsive_carousel__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_responsive_carousel__WEBPACK_IMPORTED_MODULE_2__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-class SlideShow extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  render() {
-    return __jsx("div", {
-      style: {
-        maxWidth: "50%",
-        margin: "auto"
-      }
-    }, __jsx(react_responsive_carousel__WEBPACK_IMPORTED_MODULE_2__["Carousel"], {
-      autoPlay: true,
-      infiniteLoop: true,
-      showThumbs: false
-    }, __jsx("div", null, __jsx("img", {
-      style: {
-        height: "100&",
-        width: "100%"
-      },
-      src: "https://i.imgur.com/a4rZw7I.png"
-    })), __jsx("div", null, __jsx("img", {
-      style: {
-        height: "100&",
-        width: "100%"
-      },
-      src: "https://i.imgur.com/31t0NX0.png"
-    })), __jsx("div", null, __jsx("img", {
-      style: {
-        height: "100&",
-        width: "100%"
-      },
-      src: "https://i.imgur.com/hO9hsUo.png"
-    }))));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (SlideShow);
-
-/***/ }),
-
-/***/ "./home/Surveys.js":
-/*!*************************!*\
-  !*** ./home/Surveys.js ***!
-  \*************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
-/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-const Surveys = props => __jsx("div", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Take a Quick Survey"), __jsx("p", null, "Our surveys help us better understand out students so we know how to approach certain topics better. We also use these surveys to assess a student's level and fluency in Spanish."), __jsx("ul", null, __jsx("li", null, __jsx("a", {
-  href: "https://www.surveymonkey.com/r/9SVBYYN "
-}, "Student Comprehension Survey"))))));
-
-/* harmony default export */ __webpack_exports__["default"] = (Surveys);
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js":
 /*!*********************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js ***!
@@ -2142,17 +1221,6 @@ function _defineProperty(obj, key, value) {
 
 /***/ }),
 
-/***/ "./node_modules/react-responsive-carousel/lib/styles/carousel.min.css":
-/*!****************************************************************************!*\
-  !*** ./node_modules/react-responsive-carousel/lib/styles/carousel.min.css ***!
-  \****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
 /***/ "./node_modules/shards-ui/dist/css/shards.css":
 /*!****************************************************!*\
   !*** ./node_modules/shards-ui/dist/css/shards.css ***!
@@ -2164,10 +1232,10 @@ function _defineProperty(obj, key, value) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/short-stories.js":
+/*!********************************!*\
+  !*** ./pages/short-stories.js ***!
+  \********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2179,66 +1247,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-seo-component */ "react-seo-component");
-/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_seo_component__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var reactjs_popup__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactjs-popup */ "reactjs-popup");
-/* harmony import */ var reactjs_popup__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(reactjs_popup__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _common_PDFFile__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../common/PDFFile */ "./common/PDFFile.js");
-/* harmony import */ var _home_CardBox__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../home/CardBox */ "./home/CardBox.js");
-/* harmony import */ var _home_HomeCarousel__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../home/HomeCarousel */ "./home/HomeCarousel.js");
-/* harmony import */ var _home_Marketing__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../home/Marketing */ "./home/Marketing.js");
-/* harmony import */ var _home_Papers__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../home/Papers */ "./home/Papers.js");
-/* harmony import */ var _home_Info__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../home/Info */ "./home/Info.js");
-/* harmony import */ var _home_MeetAna__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../home/MeetAna */ "./home/MeetAna.js");
-/* harmony import */ var _home_MailingListSubscribe__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../home/MailingListSubscribe */ "./home/MailingListSubscribe.js");
-/* harmony import */ var _home_QuickSurvey__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../home/QuickSurvey */ "./home/QuickSurvey.js");
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _common_Message__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../common/Message */ "./common/Message.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _story_components_StoryLayout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../story-components/StoryLayout */ "./story-components/StoryLayout.js");
+/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-seo-component */ "react-seo-component");
+/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_seo_component__WEBPACK_IMPORTED_MODULE_5__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
- // Common
-
- // Home components
-
-
-
-
-
-
-
 
  // Layout
 
 
 
 
-const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_14__["default"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_3___default.a, {
-  title: "CXC Spanish Online | Guide, Past Papers and Exercises",
-  description: "CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces.",
+
+const ShortStories = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_5___default.a, {
+  title: "Short Stories | CXC Spanish Online",
+  description: "Our short stories are designed to helo you to learn phrases, and help you practice reading in Spanish.",
   image: "",
-  pathname: "https://www.cxcspanish.com",
+  pathname: "https://www.cxcspanish.com/short-stories",
   siteLanguage: "en",
-  siteLocale: "en",
-  twitterUsername: "cxcspanish"
+  siteLocale: "",
+  twitterUsername: "_rxheem"
 }), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Breadcrumb"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], {
   active: true
 }, __jsx("a", {
   href: "/"
-}, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], null, __jsx("a", {
-  href: "/"
-}))), __jsx("br", null), __jsx(_home_Marketing__WEBPACK_IMPORTED_MODULE_8__["default"], null)), __jsx(_home_MeetAna__WEBPACK_IMPORTED_MODULE_11__["default"], null), __jsx("br", null), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(_home_CardBox__WEBPACK_IMPORTED_MODULE_6__["default"], null), __jsx(_home_Papers__WEBPACK_IMPORTED_MODULE_9__["default"], null)));
+}, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], {
+  active: true
+}, "Short Stories")), __jsx(_story_components_StoryLayout__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  isArticle: false
+}, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Short Stories"), __jsx("br", null), __jsx("p", null, "Our short stories are designed to helo you to learn phrases, and help you practice reading in Spanish."), __jsx("ul", {
+  style: {
+    marginLeft: "-20px"
+  }
+}, __jsx("li", null, __jsx("a", {
+  href: "/stories/garbancito"
+}, "Garbancito")), __jsx("li", {
+  style: {
+    paddingTop: "10px"
+  }
+}, __jsx("a", {
+  href: "/stories/el-amigo-fiel"
+}, "El Amigo Fiel")), __jsx("li", {
+  style: {
+    paddingTop: "10px"
+  }
+}, __jsx("a", {
+  href: "/stories/la-llorana"
+}, "La Llorona")), __jsx("li", {
+  style: {
+    paddingTop: "10px"
+  }
+}, __jsx("a", {
+  href: "/stories/estrellita-de-oro"
+}, "Estrellita de Oro")), __jsx("li", {
+  style: {
+    paddingTop: "10px"
+  }
+}, __jsx("a", {
+  href: "/stories/la-muneca-menor"
+}, "La Mu\xF1eca Menor")))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardHeader"], null)))));
 
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ __webpack_exports__["default"] = (ShortStories);
 
 /***/ }),
 
-/***/ "./resources-components/ResourcesLayout.js":
-/*!*************************************************!*\
-  !*** ./resources-components/ResourcesLayout.js ***!
-  \*************************************************/
+/***/ "./story-components/StoryLayout.js":
+/*!*****************************************!*\
+  !*** ./story-components/StoryLayout.js ***!
+  \*****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2248,27 +1325,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_youtube__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-youtube */ "react-youtube");
-/* harmony import */ var react_youtube__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_youtube__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _common_DropboxView__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../common/DropboxView */ "./common/DropboxView.js");
-/* harmony import */ var _common_GoogleDriveView__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../common/GoogleDriveView */ "./common/GoogleDriveView.js");
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-device-detect */ "react-device-detect");
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _common_PDFFile__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../common/PDFFile */ "./common/PDFFile.js");
+/* harmony import */ var _story_components_SubmitStory__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../story-components/SubmitStory */ "./story-components/SubmitStory.js");
+/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-device-detect */ "react-device-detect");
+/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_3__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-const opts = {
-  height: "300px",
-  width: "100%",
-  playerVars: {
-    autoplay: 0
-  }
-}; // Dropbox view and Google drive view
-
-
-
 
  // Style for the onft icons
 
@@ -2284,12 +1345,13 @@ const ulStyles = {
   paddingTop: "15px"
 };
 
-const ResourcesLayout = props => __jsx("div", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+
+const StoryLayout = props => __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
   sm: 12,
   md: 8,
   lg: 8,
   xl: 8
-}, props.children, __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_5__["BrowserView"], null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx("span", {
+}, props.children, __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_3__["BrowserView"], null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx("span", {
   className: "border border-light"
 }, __jsx("ul", {
   style: ulStyles
@@ -2342,23 +1404,120 @@ const ResourcesLayout = props => __jsx("div", null, __jsx(shards_react__WEBPACK_
   xl: 4
 }, __jsx("br", {
   className: "d-sm-none"
-}), __jsx(_common_DropboxView__WEBPACK_IMPORTED_MODULE_3__["default"], null), __jsx("br", null), __jsx(_common_GoogleDriveView__WEBPACK_IMPORTED_MODULE_4__["default"], null), __jsx("br", null), __jsx(react_youtube__WEBPACK_IMPORTED_MODULE_2___default.a, {
-  opts: opts,
-  videoId: "G0VKzkl-W-c"
-}))));
+}), props.isArticle ? __jsx("div", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardHeader"], null, "Learn More"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, __jsx("i", {
+  style: {
+    color: "#0084cf",
+    paddingRight: "7px"
+  },
+  className: "fas fa-user-edit"
+}), __jsx("b", null, "Author:"), __jsx("span", {
+  style: {
+    paddingLeft: "7px"
+  }
+}, props.author)), __jsx("p", null, __jsx("i", {
+  style: {
+    color: "orange",
+    paddingRight: "7px"
+  },
+  className: "fas fa-flag-usa"
+}), __jsx("b", null, "Origin:"), __jsx("span", {
+  style: {
+    paddingLeft: "16px"
+  }
+}, props.origin)), __jsx("p", null, __jsx("i", {
+  style: {
+    color: "green",
+    paddingRight: "7px"
+  },
+  className: "fas fa-check"
+}), __jsx("b", null, "Values:"), __jsx("span", {
+  style: {
+    paddingLeft: "14px"
+  }
+}, props.values))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardFooter"], null, "Read more about this story", " ", __jsx("a", {
+  target: "_blank",
+  style: {
+    color: "#0084cf"
+  },
+  href: props.href
+}, "here"))), __jsx("br", null)) : null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
+  src: "https://cdn.blog.psafe.com/en/blog/wp-content/uploads/2016/10/BLOG_EN_0610_The-Benefits-of-Dropbox-for-Your-Android.jpg",
+  style: {
+    width: "100%"
+  }
+}), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("p", null, "We've sourced all the past papers so you don't have to. Check out our Dropbox folder to get pass paper for any CSEC or CAPE subject."), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+  target: "_blank",
+  href: "https://www.dropbox.com/sh/0iwksvyxx6hnx8u/AADS2oBLhV7Ouofp9d0fc593a?dl=0"
+}, __jsx("i", {
+  style: {
+    paddingRight: "5px"
+  },
+  className: "fab fa-dropbox"
+}), "View Folder")))));
 
-/* harmony default export */ __webpack_exports__["default"] = (ResourcesLayout);
+/* harmony default export */ __webpack_exports__["default"] = (StoryLayout);
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ "./story-components/SubmitStory.js":
+/*!*****************************************!*\
+  !*** ./story-components/SubmitStory.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+class SubmitStory extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props); // Bind change
+
+    this.handleChange = this.handleChange.bind(this);
+    this.state = {};
+  } // Handle change
+
+
+  handleChange(e) {
+    this.setState({
+      value: e.target.value
+    });
+  }
+
+  render() {
+    return __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Submit Your Story"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Form"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["FormGroup"], null, __jsx("label", {
+      htmlFor: "#username"
+    }, "Username"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["FormInput"], {
+      id: "#username",
+      placeholder: "Username"
+    })), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["FormGroup"], null, __jsx("label", {
+      htmlFor: "#password"
+    }, "Paste Your Story"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["FormTextarea"], {
+      onChange: this.handleChange
+    })))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (SubmitStory);
+
+/***/ }),
+
+/***/ 6:
+/*!**************************************!*\
+  !*** multi ./pages/short-stories.js ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/raheemmcdonald/Desktop/cxcspanish/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/raheemmcdonald/Desktop/cxcspanish/pages/short-stories.js */"./pages/short-stories.js");
 
 
 /***/ }),
@@ -2506,17 +1665,6 @@ module.exports = require("react-burger-menu");
 
 /***/ }),
 
-/***/ "react-collapsible":
-/*!************************************!*\
-  !*** external "react-collapsible" ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-collapsible");
-
-/***/ }),
-
 /***/ "react-device-detect":
 /*!**************************************!*\
   !*** external "react-device-detect" ***!
@@ -2547,39 +1695,6 @@ module.exports = require("react-fontawesome");
 /***/ (function(module, exports) {
 
 module.exports = require("react-ga");
-
-/***/ }),
-
-/***/ "react-image":
-/*!******************************!*\
-  !*** external "react-image" ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-image");
-
-/***/ }),
-
-/***/ "react-instagram-embed":
-/*!****************************************!*\
-  !*** external "react-instagram-embed" ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-instagram-embed");
-
-/***/ }),
-
-/***/ "react-lazyload":
-/*!*********************************!*\
-  !*** external "react-lazyload" ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-lazyload");
 
 /***/ }),
 
@@ -2616,17 +1731,6 @@ module.exports = require("react-obfuscate");
 
 /***/ }),
 
-/***/ "react-responsive-carousel":
-/*!********************************************!*\
-  !*** external "react-responsive-carousel" ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-responsive-carousel");
-
-/***/ }),
-
 /***/ "react-seo-component":
 /*!**************************************!*\
   !*** external "react-seo-component" ***!
@@ -2649,17 +1753,6 @@ module.exports = require("react-youtube");
 
 /***/ }),
 
-/***/ "reactjs-popup":
-/*!********************************!*\
-  !*** external "reactjs-popup" ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("reactjs-popup");
-
-/***/ }),
-
 /***/ "shards-react":
 /*!*******************************!*\
   !*** external "shards-react" ***!
@@ -2672,4 +1765,4 @@ module.exports = require("shards-react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=short-stories.js.map
