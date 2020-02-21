@@ -65,6 +65,7 @@ const Layout = props => (
     ></div>
 
     <NavbarComponent />
+
     <MiniNav />
 
     <br />

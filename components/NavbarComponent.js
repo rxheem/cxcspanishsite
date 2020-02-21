@@ -118,6 +118,7 @@ class NavbarComponent extends React.Component {
                   Essentials
                 </DropdownToggle>
                 <DropdownMenu>
+                  <DropdownItem href="/dime">Dime Series</DropdownItem>
                   <DropdownItem href="/listening">
                     Listening Exercises
                   </DropdownItem>
