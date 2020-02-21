@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1359,10 +1359,10 @@ class SystemInfo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
 
 /***/ }),
 
-/***/ "./dime/DimeLayout.js":
-/*!****************************!*\
-  !*** ./dime/DimeLayout.js ***!
-  \****************************/
+/***/ "./listening-components/ListeningLayout.js":
+/*!*************************************************!*\
+  !*** ./listening-components/ListeningLayout.js ***!
+  \*************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1389,7 +1389,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const DimeLayout = props => __jsx("div", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+const ListeningLayout = props => __jsx("div", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
   sm: 12,
   md: 8,
   lg: 8,
@@ -1399,9 +1399,11 @@ const DimeLayout = props => __jsx("div", null, __jsx(shards_react__WEBPACK_IMPOR
   md: 4,
   lg: 4,
   xl: 4
-})));
+}, __jsx("br", {
+  className: "d-sm-none"
+}), __jsx(_common_DropboxView__WEBPACK_IMPORTED_MODULE_4__["default"], null), __jsx("br", null), __jsx(_common_GoogleDriveView__WEBPACK_IMPORTED_MODULE_5__["default"], null), __jsx("br", null), __jsx(_common_EssentialBooks__WEBPACK_IMPORTED_MODULE_6__["default"], null))));
 
-/* harmony default export */ __webpack_exports__["default"] = (DimeLayout);
+/* harmony default export */ __webpack_exports__["default"] = (ListeningLayout);
 
 /***/ }),
 
@@ -1523,10 +1525,10 @@ function _defineProperty(obj, key, value) {
 
 /***/ }),
 
-/***/ "./pages/dime.js":
-/*!***********************!*\
-  !*** ./pages/dime.js ***!
-  \***********************/
+/***/ "./pages/listening.js":
+/*!****************************!*\
+  !*** ./pages/listening.js ***!
+  \****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1536,28 +1538,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-collapsible */ "react-collapsible");
-/* harmony import */ var react_collapsible__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_collapsible__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-device-detect */ "react-device-detect");
-/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! uuid */ "uuid");
-/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(uuid__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _dime_DimeLayout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../dime/DimeLayout */ "./dime/DimeLayout.js");
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-image */ "react-image");
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-seo-component */ "react-seo-component");
-/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_seo_component__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-image */ "react-image");
+/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-seo-component */ "react-seo-component");
+/* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_seo_component__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-device-detect */ "react-device-detect");
+/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _listening_components_ListeningLayout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../listening-components/ListeningLayout */ "./listening-components/ListeningLayout.js");
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
 
 
 
@@ -1566,56 +1556,128 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const Dime = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_9__["default"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_10___default.a, {
-  title: "Dime Series | CXC Spanish Online",
-  description: "Dime mucho mas is the third book in the Dime series for Caribbean schools.",
-  twitterUsername: "_rxhem",
-  author: "Raheem McDonald",
-  article: false,
-  publishedDate: new Date(),
-  modifiedDate: new Date()
-}), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Breadcrumb"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], null, __jsx("a", {
-  href: "/"
-}, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], {
-  active: true
-}, "Dime Series")), __jsx(_dime_DimeLayout__WEBPACK_IMPORTED_MODULE_7__["default"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
-  className: "d-sm-none",
-  style: {
-    width: "100%"
-  },
-  src: "https://macmillancaribbeanebooks.com/media/catalog/product/cache/6/image/400x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230483132_2_1_2_1_6.jpg"
-}), __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_3__["BrowserView"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-  sm: 4,
-  md: 4,
-  lg: 4
-}, __jsx(react_image__WEBPACK_IMPORTED_MODULE_8___default.a, {
-  src: ["", "", ""]
-})), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-  sm: 4,
-  md: 4,
-  lg: 4
-}, __jsx(react_image__WEBPACK_IMPORTED_MODULE_8___default.a, {
-  src: ["", "", ""]
-})), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-  sm: 4,
-  md: 4,
-  lg: 4
-}, __jsx(react_image__WEBPACK_IMPORTED_MODULE_8___default.a, {
-  src: ["", "", ""]
-})))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Dime Series"), __jsx("p", null, "The Dime series has been revised and updated by the author team of highly experienced Spanish educators, specifically for Caribbean secondary schools."))))));
+function Listening({
+  statusCode
+}) {
+  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    title: "Listening Exercises | CXC Spanish Online",
+    description: "Practice listening with recordings of conversations with native Spanish speaker for your CXC Spanish exam.",
+    pathname: "https://www.cxcspanish.com/listening",
+    siteLanguage: "en",
+    siteLocale: "",
+    twitterUsername: "_rxheem"
+  }), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Breadcrumb"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], null, __jsx("a", {
+    href: "/"
+  }, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], {
+    active: true
+  }, "Listening Exercises")), __jsx(_listening_components_ListeningLayout__WEBPACK_IMPORTED_MODULE_6__["default"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardImg"], {
+    style: {
+      width: "100%"
+    },
+    src: "https://english-podcasts.com/wp-content/uploads/2019/09/7-Tips-to-improve-listening-4.png"
+  }), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Listening Exercises"), __jsx("br", null), __jsx("p", null, "Our listening exercises are designed to help you improve your Spanish listening skills."), __jsx("ul", {
+    style: {
+      marginLeft: "-20px"
+    }
+  }, __jsx("li", null, __jsx("a", {
+    href: "/listening-exercises/meet-ana"
+  }, "Meet Ana")), __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, __jsx("a", {
+    href: "/listening-exercises/meet-nick"
+  }, "Meet Nick")))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardFooter"], null)), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardTitle"], null, "Dialogue"), __jsx("p", null, "A key ingredient to improving your listening skills are dialogues/ conversations. Let's see what Kelly and Ronoldo have to talk about.", " "), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    sm: 12,
+    md: 6,
+    lg: 6,
+    xl: 6
+  }, __jsx("ul", {
+    style: {
+      marginLeft: "-20px"
+    }
+  }, __jsx("li", null, __jsx("a", {
+    href: "/listening-exercises/una-visita-de-espana"
+  }, "Una Visita De Espa\xF1a")), __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, __jsx("a", {
+    href: "/listening-exercises/la-casa-ideal"
+  }, "La casa ideal")), __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, __jsx("a", {
+    href: "/listening-exercises/ayer"
+  }, "Ayer")), __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, __jsx("a", {
+    href: "/listening-exercises/la-familia"
+  }, "La familia")), __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, __jsx("a", {
+    href: "/listening-exercises/el-clima"
+  }, "El clima")), __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, __jsx("a", {
+    href: "/listening-exercises/la-navidad"
+  }, "La navidad")))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    sm: 12,
+    md: 6,
+    lg: 6,
+    xl: 6
+  }, __jsx("ul", {
+    style: {
+      marginLeft: "-20px"
+    }
+  }, __jsx("li", null, __jsx("a", {
+    href: "/listening-exercises/los-estudios"
+  }, "Los estudios")), __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, __jsx("a", {
+    href: "/listening-exercises/la-salud"
+  }, "La salud")), __jsx("li", {
+    style: {
+      paddingTop: "10px"
+    }
+  }, __jsx("a", {
+    href: "/listening-exercises/los-viajes"
+  }, "Los viajes")))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardFooter"], null)), __jsx("a", {
+    href: "/listening-exercises/spanish-curse-words"
+  }, "."))));
+}
 
-/* harmony default export */ __webpack_exports__["default"] = (Dime);
+Error.getInitialProps = ({
+  res,
+  err
+}) => {
+  const statusCode = res ? res.statusCode : err ? err.statusCode : 404;
+  return {
+    statusCode
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Listening);
 
 /***/ }),
 
-/***/ 4:
-/*!*****************************!*\
-  !*** multi ./pages/dime.js ***!
-  \*****************************/
+/***/ 3:
+/*!**********************************!*\
+  !*** multi ./pages/listening.js ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/raheemmcdonald/Desktop/cxcspanish/pages/dime.js */"./pages/dime.js");
+module.exports = __webpack_require__(/*! /Users/raheemmcdonald/Desktop/cxcspanish/pages/listening.js */"./pages/listening.js");
 
 
 /***/ }),
@@ -1763,17 +1825,6 @@ module.exports = require("react-burger-menu");
 
 /***/ }),
 
-/***/ "react-collapsible":
-/*!************************************!*\
-  !*** external "react-collapsible" ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-collapsible");
-
-/***/ }),
-
 /***/ "react-device-detect":
 /*!**************************************!*\
   !*** external "react-device-detect" ***!
@@ -1882,18 +1933,7 @@ module.exports = require("react-youtube");
 
 module.exports = require("shards-react");
 
-/***/ }),
-
-/***/ "uuid":
-/*!***********************!*\
-  !*** external "uuid" ***!
-  \***********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("uuid");
-
 /***/ })
 
 /******/ });
-//# sourceMappingURL=dime.js.map
+//# sourceMappingURL=listening.js.map
