@@ -27,15 +27,6 @@ import OralsLayout from "../orals-components/OralsLayout";
 import Img from "react-image";
 import Collapsible from "react-collapsible";
 
-var today = new Date();
-var dd = String(today.getDate()).padStart(2, "0");
-var mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
-var yyyy = today.getFullYear();
-
-today = mm + "/" + dd + "/" + yyyy;
-
-console.log(today);
-
 const Orals = props => (
   <Layout>
     <SEO
@@ -48,8 +39,8 @@ const Orals = props => (
       twitterUsername={"_rxheem"}
       author={"Raheem McDonald"}
       article={true}
-      publishedDate={"01/13/2020"}
-      modifiedDate={today}
+      publishedDate={new Date()}
+      modifiedDate={new Date()}
     />
 
     <Container>

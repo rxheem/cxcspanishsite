@@ -1269,6 +1269,8 @@ function (_React$Component) {
         nav: true,
         caret: true
       }, "Essentials"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownMenu"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
+        href: "/dime"
+      }, "Dime Series"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
         href: "/listening"
       }, "Listening Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
         href: "/reading"
@@ -91600,7 +91602,7 @@ var ResourcesLayout = function ResourcesLayout(props) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 9:
 /*!************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Findex.js ***!
   \************************************************************************************************************************************/
@@ -91623,5 +91625,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[9,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

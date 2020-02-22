@@ -1155,6 +1155,8 @@ function (_React$Component) {
         nav: true,
         caret: true
       }, "Essentials"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownMenu"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
+        href: "/dime"
+      }, "Dime Series"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
         href: "/listening"
       }, "Listening Exercises"), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_14__["DropdownItem"], {
         href: "/reading"
