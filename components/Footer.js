@@ -240,8 +240,8 @@ const Footer = props => (
         <a href="/sitemap.xml">Sitemap</a>
       </p>
       <p>
-        &copy; CXC Spanish Online &middot; <a href="about">About</a> &middot;
-        <a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a>
+        &copy; Raheem McDonald &middot; <a href="/privacy">Privacy</a> &middot;{" "}
+        <a href="/terms">Terms</a>
       </p>
     </div>
   </footer>

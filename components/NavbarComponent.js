@@ -165,6 +165,7 @@ class NavbarComponent extends React.Component {
             </Nav>
           </Collapse>
         </Navbar>
+        <a href="/feed"></a>
       </header>
     );
   }
