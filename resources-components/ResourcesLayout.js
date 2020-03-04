@@ -104,8 +104,6 @@ const ResourcesLayout = props => (
         <DropboxView />
         <br />
         <GoogleDriveView />
-        <br />
-        <YouTube opts={opts} videoId="G0VKzkl-W-c" />
       </Col>
     </Row>
   </div>

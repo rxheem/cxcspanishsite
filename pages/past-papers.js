@@ -58,7 +58,7 @@ class PastPapers extends React.Component {
       <React.Fragment>
         <Layout>
           <SEO
-            title={"Get Free CXC Past Papers | CXC Spanish Online"}
+            title={"CXC CSEC Past Papers | CXC Spanish Online"}
             pathname={"https://www.cxcspnish/mailing-list"}
             description={
               "Download CXC past papers for free, for both CSEC and CAPE. Pass your Spansih exam with our free online study guide."
@@ -76,7 +76,7 @@ class PastPapers extends React.Component {
               <BreadcrumbItem>
                 <a href="/">Home</a>
               </BreadcrumbItem>
-              <BreadcrumbItem active>Past Papers</BreadcrumbItem>
+              <BreadcrumbItem active>CSEC Past Papers</BreadcrumbItem>
             </Breadcrumb>
 
             <ResourcesLayout>

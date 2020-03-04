@@ -15,6 +15,8 @@ import "../assets/css/animate.css";
 import "../assets/css/master.css";
 
 // Javascript
+import "../assets/js/rocketloader.js";
+import "../assets/js/cloudflare.js";
 import "../assets/js/fontawesome.js";
 import "../assets/js/mixpanel.js";
 import "../assets/js/quantcast.js";
@@ -39,7 +41,7 @@ if (process.browser) {
 // Render on client side
 if (process.browser) {
   ReactGA.initialize("UA-146229442-1", {
-    debug: true,
+    debug: false,
     alwaysSendToDefaultTracker: false,
     titleCase: false,
     gaOptions: {

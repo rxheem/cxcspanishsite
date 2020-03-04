@@ -210,7 +210,10 @@ const Footer = props => (
             <Nav className="flex-column">
               <h6 className="text-white">Jump Start</h6>
               <Nav.Link className="text-white" href="/past-papers">
-                Past Papers
+                CSEC Past Papers
+              </Nav.Link>
+              <Nav.Link className="text-white" href="/cape-papers">
+                CAPE Past Papers
               </Nav.Link>
               <Nav.Link className="text-white" href="/meetings">
                 Online Meetings

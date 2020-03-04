@@ -164,7 +164,6 @@ const TwelveFifteen = props => (
               </p>
             </CardBody>
             <CardFooter>
-              {" "}
               <b>
                 <Countdown
                   intervalDelay={0}
@@ -175,9 +174,6 @@ const TwelveFifteen = props => (
               </b>
             </CardFooter>
           </Card>
-          <br />
-          <h4>Watch Here</h4>
-          <YouTube opts={opts} videoId="G0VKzkl-W-c" />
         </Col>
       </Row>
     </Container>

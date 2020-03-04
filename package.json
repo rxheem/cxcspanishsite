@@ -85,6 +85,7 @@
     "next-routes": "^1.4.2",
     "next-seo": "^2.0.0",
     "nextjs-sitemap-generator": "^0.4.1",
+    "notifyjs": "^3.0.0",
     "npm": "^6.13.4",
     "passport": "^0.4.1",
     "pure-react-carousel": "^1.24.1",
