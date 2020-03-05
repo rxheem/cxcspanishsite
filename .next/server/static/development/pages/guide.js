@@ -739,7 +739,9 @@ const Footer = props => __jsx("footer", null, __jsx("div", {
     paddingLeft: "10px",
     color: "black"
   }
-}, "(876) 565-3942"))))), __jsx("br", null), __jsx("br", null))), __jsx("div", {
+}, __jsx(react_obfuscate__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  tel: "876-565-3942"
+})))))), __jsx("br", null), __jsx("br", null))), __jsx("div", {
   className: "bg-dark"
 }, __jsx("br", null), " ", __jsx("br", null), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
   sm: 12,

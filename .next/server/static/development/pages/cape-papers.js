@@ -393,7 +393,15 @@ const PaperContainer = props => __jsx("div", null, __jsx(shards_react__WEBPACK_I
   md: 9,
   lg: 9,
   xl: 9
-}, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("h6", null, props.title), __jsx("p", null, props.description), __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_5__["BrowserView"], null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+}, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["CardBody"], null, __jsx("h6", null, props.title), __jsx("p", null, props.description), __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_5__["MobileView"], null, __jsx("a", {
+  href: props.href
+}, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  name: "file-pdf",
+  style: {
+    color: "#f00",
+    paddingRight: "10px"
+  }
+}), "PDF Download")), __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_5__["BrowserView"], null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
   sm: 6,
   md: 4,
   lg: 4,
@@ -610,7 +618,9 @@ const Footer = props => __jsx("footer", null, __jsx("div", {
     paddingLeft: "10px",
     color: "black"
   }
-}, "(876) 565-3942"))))), __jsx("br", null), __jsx("br", null))), __jsx("div", {
+}, __jsx(react_obfuscate__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  tel: "876-565-3942"
+})))))), __jsx("br", null), __jsx("br", null))), __jsx("div", {
   className: "bg-dark"
 }, __jsx("br", null), " ", __jsx("br", null), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
   sm: 12,

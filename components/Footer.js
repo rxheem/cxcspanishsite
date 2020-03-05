@@ -136,7 +136,7 @@ const Footer = props => (
               <Nav.Link href="/">
                 <i style={{ color: "green" }} className="fas fa-phone"></i>
                 <span style={{ paddingLeft: "10px", color: "black" }}>
-                  (876) 565-3942
+                  <Obfuscate tel="876-565-3942" />
                 </span>
               </Nav.Link>
             </Nav>

@@ -34,6 +34,16 @@ const PaperContainer = props => (
 
             <p>{props.description}</p>
 
+            <MobileView>
+              <a href={props.href}>
+                <FA
+                  name="file-pdf"
+                  style={{ color: "#f00", paddingRight: "10px" }}
+                />
+                PDF Download
+              </a>
+            </MobileView>
+
             <BrowserView>
               <br />
               <Row>
