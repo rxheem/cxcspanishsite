@@ -28,6 +28,7 @@ import {
 import SEO from "react-seo-component";
 import QuickSurvey from "../home/QuickSurvey";
 import ResourcesLayout from "../resources-components/ResourcesLayout";
+import PaperContainer from "../common/PaperContainer";
 
 // Layout
 import Layout from "../components/Layout";
@@ -38,13 +39,6 @@ import Collapsible from "react-collapsible";
 import PDFFile from "../common/PDFFile";
 
 const liStyle = { paddingBottom: "15px" };
-
-var today = new Date();
-var dd = String(today.getDate()).padStart(2, "0");
-var mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
-var yyyy = today.getFullYear();
-
-today = mm + "/" + dd + "/" + yyyy;
 
 class PastPapers extends React.Component {
   constructor(props) {
@@ -67,8 +61,8 @@ class PastPapers extends React.Component {
             twitterUsername={"_rxheem"}
             author={"Raheem McDonald"}
             article={true}
-            publishedDate={today}
-            modifiedDate={today}
+            publishedDate={new Date()}
+            modifiedDate={new Date()}
           />
 
           <Container>
@@ -188,9 +182,7 @@ class PastPapers extends React.Component {
                   </a>
                 </Col>
               </Row>
-
               <br />
-
               <Row>
                 {/* Chemistry */}
                 <Col sm={6} md={3} lg={3} xl={3}>

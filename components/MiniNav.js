@@ -10,16 +10,16 @@ function MiniNav() {
             animationIterationCount: "infinite"
           }}
           active
-          href="/listening"
+          href="/cape-papers"
         >
-          Listening
+          CAPE Papers
         </NavLink>
       </NavItem>
       <NavItem>
         <NavLink href="/whatsapp-groups">Study Groups</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink href="/past-papers">Past Papers</NavLink>
+        <NavLink href="/past-papers">CSEC Papers</NavLink>
       </NavItem>
     </Nav>
   );
