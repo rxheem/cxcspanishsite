@@ -39,7 +39,7 @@ const ulStyles = {
 const PastPaper2019 = props => (
   <Layout>
     <SEO
-      title={"2019 Past Paper | CXC Spanish Online"}
+      title={"CXC Spanish 2019 Past Paper | CXC Spanish Online"}
       description={
         "Get the CXC Spanish 2019 past paper in PDF format for free, along with the offical past paper booklet"
       }
@@ -47,9 +47,9 @@ const PastPaper2019 = props => (
       siteLanguage={"en"}
       twitterUsername={"_rxheem"}
       author={"Raheem McDonald"}
-      article={true}
+      article={false}
       publishedDate={"Jan 13, 2020"}
-      modifiedDate={"Jan 13, 2020"}
+      modifiedDate={new Date()}
     />
 
     <Container>
@@ -91,7 +91,7 @@ const PastPaper2019 = props => (
             <br />
             <br />
 
-            <Button target="_blank" href="http://bit.ly/2vqY3Gs">
+            <Button target="_blank" href="/past-papers">
               All Past Papers &rarr;
             </Button>
           </CardBody>
