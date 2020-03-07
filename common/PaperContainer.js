@@ -23,7 +23,11 @@ const PaperContainer = props => (
     <Row>
       <Col sm={12} md={3} lg={3} xl={3}>
         <a href={props.href}>
-          <Img style={{ width: "100%" }} src={props.imgSrc} />
+          <Img
+            className="card-img"
+            style={{ width: "100%" }}
+            src={props.imgSrc}
+          />
         </a>
         <br className="d-sm-none" />
       </Col>
@@ -66,7 +70,9 @@ const PaperContainer = props => (
                   </a>
                 </Col>
                 <Col sm={6} md={4} lg={4} xl={4}>
-                  <a target="_blank" href={props.syllabus}></a>
+                  <a target="_blank" href={props.syllabus}>
+                    Syllabus
+                  </a>
                 </Col>
               </Row>
             </BrowserView>

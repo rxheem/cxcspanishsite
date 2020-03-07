@@ -58,7 +58,7 @@ const PastPaper2019 = props => (
           <a href="/">Home</a>
         </BreadcrumbItem>
         <BreadcrumbItem>
-          <a href="/resouce">Resources</a>
+          <a href="/">Resources</a>
         </BreadcrumbItem>
         <BreadcrumbItem active>2019 Past Paper</BreadcrumbItem>
       </Breadcrumb>
@@ -91,9 +91,7 @@ const PastPaper2019 = props => (
             <br />
             <br />
 
-            <Button target="_blank" href="/past-papers">
-              All Past Papers &rarr;
-            </Button>
+            <Button href="/past-papers">All Past Papers &rarr;</Button>
           </CardBody>
         </Card>
       </ResourcesLayout>

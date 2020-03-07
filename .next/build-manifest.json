@@ -4,12 +4,6 @@
     "static/development/dll/dll_d6a88dbe3071bd165157.js.map"
   ],
   "pages": {
-    "/": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
-    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -24,25 +18,25 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/index": [
+    "/resources/cape/computer-science": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
-    "/past-papers": [
+    "/resources/cape/french": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
-    "/privacy": [
+    "/resources/cape/sociology": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
-    "/resources/cxc-spanish-2019-past-paper": [
+    "/resources/cape/spanish": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
