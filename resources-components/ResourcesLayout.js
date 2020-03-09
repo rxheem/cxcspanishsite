@@ -29,6 +29,7 @@ import GoogleDriveView from "../common/GoogleDriveView";
 
 import { BrowserView, MobileView } from "react-device-detect";
 import PDFFile from "../common/PDFFile";
+import EssentialBooks from "../common/EssentialBooks";
 
 // Style for the onft icons
 const liStyles = {
@@ -101,9 +102,9 @@ const ResourcesLayout = props => (
       </Col>
       <Col sm={12} md={4} lg={4} xl={4}>
         <br className="d-sm-none" />
-        <DropboxView />
+        <EssentialBooks />
         <br />
-        <GoogleDriveView />
+        <DropboxView />
       </Col>
     </Row>
   </div>

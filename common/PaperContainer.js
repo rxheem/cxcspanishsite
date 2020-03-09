@@ -73,6 +73,7 @@ const PaperContainer = props => (
                   <a target="_blank" href={props.syllabus}>
                     Syllabus
                   </a>
+                  <a href={props.standalone}></a>
                 </Col>
               </Row>
             </BrowserView>

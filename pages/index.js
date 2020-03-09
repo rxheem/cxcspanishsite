@@ -27,6 +27,7 @@ import Marketing from "../home/Marketing";
 import Papers from "../home/Papers";
 import Info from "../home/Info";
 import MeetAna from "../home/MeetAna";
+import Jumbo from "../home/Jumbo";
 import MailingListSubscribe from "../home/MailingListSubscribe";
 import QuickSurvey from "../home/QuickSurvey";
 
@@ -57,7 +58,6 @@ const Index = props => (
         </BreadcrumbItem>
       </Breadcrumb>
 
-      <br />
       <Marketing />
     </Container>
 

@@ -48,7 +48,7 @@ const title = "Sociology";
 const Sociology = props => (
   <Layout>
     <SEO
-      title={"CAPE Sociology Past Papers | CXC Spanish Online"}
+      title={"CAPE® Sociology Past Papers eBook | CXC Spanish Online"}
       description={
         "Get the CAPE Sociology past papers in PDF format for free, along with the offical past paper booklet."
       }

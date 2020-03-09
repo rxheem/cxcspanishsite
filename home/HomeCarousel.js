@@ -12,65 +12,68 @@ import {
 
 const HomeCarousel = props => (
   <MobileView>
-    <br />
     <Carousel>
       <Carousel.Item>
         <Img
           className="d-block w-100"
           src={[
-            "https://images.unsplash.com/photo-1532768641073-503a250f9754?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
-            "https://images.unsplash.com/photo-1429554513019-6c61c19ffb7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
-            "https://images.unsplash.com/photo-1478369402113-1fd53f17e8b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=724&q=80",
-            "https://images.unsplash.com/photo-1500315331616-db4f707c24d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
-            "https://images.unsplash.com/photo-1546241126-da278b8ec3ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
-          ]}
-          alt="image of food"
-        />
-        <Carousel.Caption>
-          <h3 style={{ color: "white" }}>
-            <b>Ordering Food</b>
-          </h3>
-          <p style={{ color: "white" }}>
-            Learn how to order food and take-out at restaurants in Spanish
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <Img
-          className="d-block w-100"
-          src={[
-            "https://images.unsplash.com/photo-1524293568345-75d62c3664f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=708&q=80",
-            "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-            "https://images.unsplash.com/photo-1495305379050-64540d6ee95d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+            "https://cxc-store.com/media/catalog/product/cache/1/image/400x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482371_3.jpg",
+            "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482494_3.jpg",
+            "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482234_5.jpg",
+            "https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482784_5.jpg",
+            ""
           ]}
           alt=""
         />
-
-        <Carousel.Caption>
-          <h3 style={{ color: "white" }}>Express Yourself</h3>
-          <p style={{ color: "white" }}>
-            Build confidence and express yourself in Spanish{" "}
-          </p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <Img
           className="d-block w-100"
           src={[
-            "https://images.unsplash.com/photo-1548393488-ae8f117cbc1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=716&q=80",
+            "https://macmillancaribbeanebooks.com/media/catalog/product/cache/6/image/400x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230454071_1_1_1_1_8.jpg"
+          ]}
+          alt=""
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <Img
+          className="d-block w-100"
+          src={[
+            "https://macmillancaribbeanebooks.com/media/catalog/product/cache/6/image/400x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230454033_1_1_1_1_13.jpg"
+          ]}
+          alt=""
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <Img
+          className="d-block w-100"
+          src={[
+            "https://macmillancaribbeanebooks.com/media/catalog/product/cache/6/image/400x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230487215_2_1_2_1_4.jpg",
             "",
             ""
           ]}
           alt=""
         />
+      </Carousel.Item>
 
-        <Carousel.Caption>
-          <h3 style={{ color: "white" }}>Studying late at nights?</h3>
-
-          <Button href="/guides/study-tips" theme="light">
-            Read our Study Guide
-          </Button>
-        </Carousel.Caption>
+      <Carousel.Item>
+        <Img
+          className="d-block w-100"
+          src={[
+            "https://macmillancaribbeanebooks.com/media/catalog/product/cache/6/image/400x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230448827_1_1_1_1_13.jpg"
+          ]}
+          alt=""
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <Img
+          className="d-block w-100"
+          src={[
+            "https://macmillancaribbeanebooks.com/media/catalog/product/cache/6/image/400x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230448858_1_1_1_1_13.jpg",
+            "https://macmillancaribbeanebooks.com/media/catalog/product/cache/6/image/400x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230448827_1_1_1_1_13.jpg"
+          ]}
+          alt=""
+        />
       </Carousel.Item>
     </Carousel>
   </MobileView>

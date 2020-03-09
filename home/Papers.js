@@ -28,6 +28,7 @@ const Papers = props => (
             taget="_blank"
           >
             <Img
+              className="card-img"
               style={{ width: "100%", height: "100%" }}
               src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482630_4.jpg"
             />
@@ -37,6 +38,7 @@ const Papers = props => (
           <br className="d-sm-none" />
           <a href="" taget="_blank">
             <Img
+              className="card-img"
               style={{ width: "100%" }}
               src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482456_25.jpg"
             />
@@ -46,6 +48,7 @@ const Papers = props => (
           <br className="d-sm-none" />
           <a href="" taget="_blank">
             <Img
+              className="card-img"
               style={{ width: "100%" }}
               src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230481831_23.jpg"
             />
@@ -55,6 +58,7 @@ const Papers = props => (
           <br className="d-sm-none" />
           <a href="" taget="_blank">
             <Img
+              className="card-img"
               style={{ width: "100%" }}
               src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482876_3.jpg"
             />
@@ -64,6 +68,7 @@ const Papers = props => (
           <br className="d-sm-none" />
           <a href="" taget="_blank">
             <Img
+              className="card-img"
               style={{ width: "100%" }}
               src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482678_3.jpg"
             />
@@ -73,6 +78,7 @@ const Papers = props => (
           <br className="d-sm-none" />
           <a href="" taget="_blank">
             <Img
+              className="card-img"
               style={{ width: "100%" }}
               src="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482494_3.jpg"
             />

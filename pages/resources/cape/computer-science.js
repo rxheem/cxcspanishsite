@@ -47,7 +47,7 @@ const dlLink =
 const ComputerScience = props => (
   <Layout>
     <SEO
-      title={"CAPE Computer Science Past Papers | CXC Spanish Online"}
+      title={"CAPE® Computer Science Past Papers eBook | CXC Spanish Online"}
       description={
         "Get the CAPE Computer Science past papers in PDF format for free, along with the offical past paper booklet."
       }

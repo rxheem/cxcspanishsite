@@ -48,7 +48,7 @@ const title = "Spanish";
 const Spanish = props => (
   <Layout>
     <SEO
-      title={"CAPE Spanish Past Papers | CXC Spanish Online"}
+      title={"CAPE® Spanish Past Papers eBook | CXC Spanish Online"}
       description={
         "Get the CAPE Spanish past papers in PDF format for free, along with the offical past paper booklet."
       }
@@ -57,7 +57,7 @@ const Spanish = props => (
       twitterUsername={"_rxheem"}
       author={"Raheem McDonald"}
       article={true}
-      publishedDate={"Jan 13, 2020"}
+      publishedDate={"February 12, 2020"}
       modifiedDate={new Date()}
     />
 

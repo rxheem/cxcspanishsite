@@ -47,7 +47,7 @@ const dlLink =
 const French = props => (
   <Layout>
     <SEO
-      title={"CAPE French Past Papers | CXC Spanish Online"}
+      title={"CAPE® French Past Papers eBook | CXC Spanish Online"}
       description={
         "Get the CAPE French past papers in PDF format for free, along with the offical past paper booklet."
       }

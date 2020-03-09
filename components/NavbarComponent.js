@@ -132,10 +132,14 @@ class NavbarComponent extends React.Component {
 
               <NavItem>
                 <NavLink className="text-white" href="/past-papers">
-                  Past Papers
+                  CSEC Papers
                 </NavLink>
               </NavItem>
-
+              <NavItem>
+                <NavLink className="text-white" href="/cape-papers">
+                  CAPE Papers
+                </NavLink>
+              </NavItem>
               <NavItem>
                 <NavLink className="text-white" href="/study-groups">
                   Study Groups
