@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -522,6 +522,37 @@ const PaperContainer = props => __jsx("div", null, __jsx(shards_react__WEBPACK_I
 })))))))), __jsx("br", null));
 
 /* harmony default export */ __webpack_exports__["default"] = (PaperContainer);
+
+/***/ }),
+
+/***/ "./components/CoronaVirusTip.js":
+/*!**************************************!*\
+  !*** ./components/CoronaVirusTip.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const CoronaVirusTip = props => __jsx("div", {
+  className: "text-center"
+}, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Alert"], {
+  theme: "danger"
+}, "Coronavirus: Safety and Readiness Tips for You.", " ", __jsx("a", {
+  className: "alert-link",
+  target: "_blank",
+  href: "https://www.redcross.org/about-us/news-and-events/news/2020/coronavirus-safety-and-readiness-tips-for-you.html"
+}, "Learn more.")));
+
+/* harmony default export */ __webpack_exports__["default"] = (CoronaVirusTip);
 
 /***/ }),
 
@@ -980,42 +1011,44 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! shards-react */ "shards-react");
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _HeaderImports__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./HeaderImports */ "./components/HeaderImports.js");
-/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ "./node_modules/bootstrap/dist/css/bootstrap.css");
-/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! shards-ui/dist/css/shards.css */ "./node_modules/shards-ui/dist/css/shards.css");
-/* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/css/carousel.css */ "./assets/css/carousel.css");
-/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/css/nf-carousel.css */ "./assets/css/nf-carousel.css");
-/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _assets_css_animate_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/css/animate.css */ "./assets/css/animate.css");
-/* harmony import */ var _assets_css_animate_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_css_animate_css__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/css/master.css */ "./assets/css/master.css");
-/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_css_master_css__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _assets_js_rocketloader_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/js/rocketloader.js */ "./assets/js/rocketloader.js");
-/* harmony import */ var _assets_js_rocketloader_js__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_js_rocketloader_js__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _assets_js_cloudflare_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/js/cloudflare.js */ "./assets/js/cloudflare.js");
-/* harmony import */ var _assets_js_cloudflare_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_js_cloudflare_js__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/js/fontawesome.js */ "./assets/js/fontawesome.js");
-/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/js/mixpanel.js */ "./assets/js/mixpanel.js");
-/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../assets/js/quantcast.js */ "./assets/js/quantcast.js");
-/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _assets_js_tawkto_js__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../assets/js/tawkto.js */ "./assets/js/tawkto.js");
-/* harmony import */ var _assets_js_tawkto_js__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_assets_js_tawkto_js__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../assets/js/mailchimp.js */ "./assets/js/mailchimp.js");
-/* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_20__);
-/* harmony import */ var _assets_js_onesignal_js__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../assets/js/onesignal.js */ "./assets/js/onesignal.js");
-/* harmony import */ var _assets_js_onesignal_js__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_assets_js_onesignal_js__WEBPACK_IMPORTED_MODULE_21__);
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! react-ga */ "react-ga");
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_22__);
-/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! react-messenger-customer-chat */ "react-messenger-customer-chat");
-/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_23__);
-/* harmony import */ var _sentry_browser__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @sentry/browser */ "@sentry/browser");
-/* harmony import */ var _sentry_browser__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(_sentry_browser__WEBPACK_IMPORTED_MODULE_24__);
+/* harmony import */ var _CoronaVirusTip__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./CoronaVirusTip */ "./components/CoronaVirusTip.js");
+/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ "./node_modules/bootstrap/dist/css/bootstrap.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! shards-ui/dist/css/shards.css */ "./node_modules/shards-ui/dist/css/shards.css");
+/* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/css/carousel.css */ "./assets/css/carousel.css");
+/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/css/nf-carousel.css */ "./assets/css/nf-carousel.css");
+/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _assets_css_animate_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/css/animate.css */ "./assets/css/animate.css");
+/* harmony import */ var _assets_css_animate_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_css_animate_css__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/css/master.css */ "./assets/css/master.css");
+/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_css_master_css__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _assets_js_rocketloader_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/js/rocketloader.js */ "./assets/js/rocketloader.js");
+/* harmony import */ var _assets_js_rocketloader_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_js_rocketloader_js__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _assets_js_cloudflare_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/js/cloudflare.js */ "./assets/js/cloudflare.js");
+/* harmony import */ var _assets_js_cloudflare_js__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_js_cloudflare_js__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/js/fontawesome.js */ "./assets/js/fontawesome.js");
+/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../assets/js/mixpanel.js */ "./assets/js/mixpanel.js");
+/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../assets/js/quantcast.js */ "./assets/js/quantcast.js");
+/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var _assets_js_tawkto_js__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../assets/js/tawkto.js */ "./assets/js/tawkto.js");
+/* harmony import */ var _assets_js_tawkto_js__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_assets_js_tawkto_js__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../assets/js/mailchimp.js */ "./assets/js/mailchimp.js");
+/* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_21__);
+/* harmony import */ var _assets_js_onesignal_js__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../assets/js/onesignal.js */ "./assets/js/onesignal.js");
+/* harmony import */ var _assets_js_onesignal_js__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(_assets_js_onesignal_js__WEBPACK_IMPORTED_MODULE_22__);
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! react-ga */ "react-ga");
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_23__);
+/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! react-messenger-customer-chat */ "react-messenger-customer-chat");
+/* harmony import */ var react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(react_messenger_customer_chat__WEBPACK_IMPORTED_MODULE_24__);
+/* harmony import */ var _sentry_browser__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @sentry/browser */ "@sentry/browser");
+/* harmony import */ var _sentry_browser__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(_sentry_browser__WEBPACK_IMPORTED_MODULE_25__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -1043,7 +1076,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
  // Google Analytics
 
-react_ga__WEBPACK_IMPORTED_MODULE_22___default.a.initialize("UA-146229442-1");
+react_ga__WEBPACK_IMPORTED_MODULE_23___default.a.initialize("UA-146229442-1");
 
 
 const Push = __webpack_require__(/*! push.js */ "push.js");
@@ -1054,7 +1087,7 @@ if (false) {} // Render on client side
 if (false) {}
 
 const Fragment = react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment;
-_sentry_browser__WEBPACK_IMPORTED_MODULE_24__["init"]({
+_sentry_browser__WEBPACK_IMPORTED_MODULE_25__["init"]({
   dsn: "https://1ccf463850ed401c9dbbe2a620cb62e4@sentry.io/2633175"
 });
 
@@ -1062,7 +1095,7 @@ const Layout = props => __jsx(Fragment, null, __jsx("div", {
   class: "fb-customerchat",
   attribution: "setup_tool",
   page_id: "105703077445673"
-}), __jsx(_NavbarComponent__WEBPACK_IMPORTED_MODULE_1__["default"], null), __jsx(_MiniNav__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx("br", null), __jsx("main", {
+}), __jsx(_NavbarComponent__WEBPACK_IMPORTED_MODULE_1__["default"], null), __jsx(_CoronaVirusTip__WEBPACK_IMPORTED_MODULE_8__["default"], null), __jsx(_MiniNav__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx("br", null), __jsx("main", {
   role: "main",
   id: "main",
   className: "main"
@@ -1987,7 +2020,7 @@ const ResourcesLayout = props => __jsx("div", null, __jsx(shards_react__WEBPACK_
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!************************************!*\
   !*** multi ./pages/cape-papers.js ***!
   \************************************/

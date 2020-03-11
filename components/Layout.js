@@ -5,6 +5,7 @@ import SystemInfo from "./SystemInfo";
 import Footer from "./Footer";
 import { Card, Container, Alert } from "shards-react";
 import HeaderImports from "./HeaderImports";
+import CoronaVirusTip from "./CoronaVirusTip";
 
 // Assets
 import "bootstrap/dist/css/bootstrap.css";
@@ -67,7 +68,7 @@ const Layout = props => (
     ></div>
 
     <NavbarComponent />
-
+    <CoronaVirusTip />
     <MiniNav />
 
     <br />
@@ -75,7 +76,9 @@ const Layout = props => (
       <Fragment>{props.children}</Fragment>
     </main>
     <br />
+
     <MiniNav />
+
     <Footer />
     <SystemInfo hide={true} />
 

@@ -148,9 +148,9 @@ class PastPapers extends React.Component {
               <PaperContainer
                 title="Spanish"
                 year=""
-                description="This document includes both papers 1, 2 and 3. January resits also included. Papers range from May 2005 - May/ June 2019. Audio not included. Audio available on the offical CXC website."
+                description="This document includes both papers 1, 2 and 3. January resits also included. Papers range from May 2005 - May/ June 2016. Audio not included. Audio available on the offical CXC website."
                 imgSrc="https://cxc-store.com/media/catalog/product/cache/1/small_image/240x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780230482630_4.jpg"
-                href="https://dl.dropbox.com/s/h76ga6bxhdeex94/CSEC%C2%AE%20Spanish%20Past%20Papers-2_nodrm%20%281%29.pdf?dl=0"
+                href="https://dl.dropbox.com/s/w9dc0hvcrjk2qlz/CSEC%C2%AE%20Spanish%20Past%20Papers%202005-2016.pdf?dl=0"
                 purchase=""
                 standalone=""
                 syllabus=""
