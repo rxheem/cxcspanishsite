@@ -79,7 +79,7 @@ const PastPaper2019 = props => (
 
             <PDFFile
               title="CSEC Spanish Past Papers"
-              href="https://dl.dropbox.com/s/h76ga6bxhdeex94/CSEC%C2%AE%20Spanish%20Past%20Papers-2_nodrm%20%281%29.pdf?dl=0"
+              href="https://dl.dropbox.com/s/w9dc0hvcrjk2qlz/CSEC%C2%AE%20Spanish%20Past%20Papers%202005-2016.pdf?dl=0"
             />
             <br />
             <br />

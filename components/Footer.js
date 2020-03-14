@@ -198,7 +198,7 @@ const Footer = props => (
               </Nav.Link>
               <Nav.Link
                 className="text-white"
-                href="passmycxc.com"
+                href="www.passmycxc.com"
                 target="_blank"
               >
                 Pass My CXC
@@ -209,6 +209,9 @@ const Footer = props => (
             <br className="d-sm-none" />
             <Nav className="flex-column">
               <h6 className="text-white">Jump Start</h6>
+              <Nav.Link className="text-white" href="/online-classes">
+                Online Classes
+              </Nav.Link>
               <Nav.Link className="text-white" href="/past-papers">
                 CSEC Past Papers
               </Nav.Link>

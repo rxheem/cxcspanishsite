@@ -79,9 +79,6 @@ const WhatsAppGroups = props => (
                   >
                     CXC Spanish Online
                   </a>
-                  <Badge pill theme="danger">
-                    FULL
-                  </Badge>
                 </li>
                 <li>
                   <a

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -221,17 +221,6 @@ var _Promise = __webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */
 var _Object$create = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js");
 
 if (false) {}
-
-/***/ }),
-
-/***/ "./assets/js/tawkto.js":
-/*!*****************************!*\
-  !*** ./assets/js/tawkto.js ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-if (false) { var Tawk_API, Tawk_LoadStart; }
 
 /***/ }),
 
@@ -717,7 +706,7 @@ const Footer = props => __jsx("footer", null, __jsx("div", {
   target: "_blank"
 }, "CXC Store"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
   className: "text-white",
-  href: "passmycxc.com",
+  href: "www.passmycxc.com",
   target: "_blank"
 }, "Pass My CXC"))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
   sm: 12,
@@ -731,6 +720,9 @@ const Footer = props => __jsx("footer", null, __jsx("div", {
 }, __jsx("h6", {
   className: "text-white"
 }, "Jump Start"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+  className: "text-white",
+  href: "/online-classes"
+}, "Online Classes"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
   className: "text-white",
   href: "/past-papers"
 }, "CSEC Past Papers"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
@@ -944,30 +936,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _HeaderImports__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./HeaderImports */ "./components/HeaderImports.js");
 /* harmony import */ var _CoronaVirusTip__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./CoronaVirusTip */ "./components/CoronaVirusTip.js");
-/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ "./node_modules/bootstrap/dist/css/bootstrap.css");
-/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! shards-ui/dist/css/shards.css */ "./node_modules/shards-ui/dist/css/shards.css");
-/* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/css/carousel.css */ "./assets/css/carousel.css");
-/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/css/nf-carousel.css */ "./assets/css/nf-carousel.css");
-/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _assets_css_animate_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/css/animate.css */ "./assets/css/animate.css");
-/* harmony import */ var _assets_css_animate_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_css_animate_css__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/css/master.css */ "./assets/css/master.css");
-/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_css_master_css__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _assets_js_rocketloader_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/js/rocketloader.js */ "./assets/js/rocketloader.js");
-/* harmony import */ var _assets_js_rocketloader_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_js_rocketloader_js__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var _assets_js_cloudflare_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/js/cloudflare.js */ "./assets/js/cloudflare.js");
-/* harmony import */ var _assets_js_cloudflare_js__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_js_cloudflare_js__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/js/fontawesome.js */ "./assets/js/fontawesome.js");
-/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../assets/js/mixpanel.js */ "./assets/js/mixpanel.js");
-/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../assets/js/quantcast.js */ "./assets/js/quantcast.js");
-/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var _assets_js_tawkto_js__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../assets/js/tawkto.js */ "./assets/js/tawkto.js");
-/* harmony import */ var _assets_js_tawkto_js__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_assets_js_tawkto_js__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var _OverheadAlert__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./OverheadAlert */ "./components/OverheadAlert.js");
+/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ "./node_modules/bootstrap/dist/css/bootstrap.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! shards-ui/dist/css/shards.css */ "./node_modules/shards-ui/dist/css/shards.css");
+/* harmony import */ var shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(shards_ui_dist_css_shards_css__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/css/carousel.css */ "./assets/css/carousel.css");
+/* harmony import */ var _assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_css_carousel_css__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/css/nf-carousel.css */ "./assets/css/nf-carousel.css");
+/* harmony import */ var _assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_css_nf_carousel_css__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _assets_css_animate_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/css/animate.css */ "./assets/css/animate.css");
+/* harmony import */ var _assets_css_animate_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_css_animate_css__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/css/master.css */ "./assets/css/master.css");
+/* harmony import */ var _assets_css_master_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_css_master_css__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _assets_js_rocketloader_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/js/rocketloader.js */ "./assets/js/rocketloader.js");
+/* harmony import */ var _assets_js_rocketloader_js__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_js_rocketloader_js__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _assets_js_cloudflare_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/js/cloudflare.js */ "./assets/js/cloudflare.js");
+/* harmony import */ var _assets_js_cloudflare_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_js_cloudflare_js__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../assets/js/fontawesome.js */ "./assets/js/fontawesome.js");
+/* harmony import */ var _assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_assets_js_fontawesome_js__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../assets/js/mixpanel.js */ "./assets/js/mixpanel.js");
+/* harmony import */ var _assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mixpanel_js__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../assets/js/quantcast.js */ "./assets/js/quantcast.js");
+/* harmony import */ var _assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_assets_js_quantcast_js__WEBPACK_IMPORTED_MODULE_20__);
 /* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../assets/js/mailchimp.js */ "./assets/js/mailchimp.js");
 /* harmony import */ var _assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_assets_js_mailchimp_js__WEBPACK_IMPORTED_MODULE_21__);
 /* harmony import */ var _assets_js_onesignal_js__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../assets/js/onesignal.js */ "./assets/js/onesignal.js");
@@ -980,6 +971,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sentry_browser__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(_sentry_browser__WEBPACK_IMPORTED_MODULE_25__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -1000,7 +992,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
+ // import "../assets/js/tawkto.js";
 
 
  // Other
@@ -1027,7 +1019,7 @@ const Layout = props => __jsx(Fragment, null, __jsx("div", {
   class: "fb-customerchat",
   attribution: "setup_tool",
   page_id: "105703077445673"
-}), __jsx(_NavbarComponent__WEBPACK_IMPORTED_MODULE_1__["default"], null), __jsx(_CoronaVirusTip__WEBPACK_IMPORTED_MODULE_8__["default"], null), __jsx(_MiniNav__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx("br", null), __jsx("main", {
+}), __jsx(_NavbarComponent__WEBPACK_IMPORTED_MODULE_1__["default"], null), __jsx(_OverheadAlert__WEBPACK_IMPORTED_MODULE_9__["default"], null), __jsx(_MiniNav__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx("br", null), __jsx("main", {
   role: "main",
   id: "main",
   className: "main"
@@ -1261,6 +1253,72 @@ class NavbarComponent extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Compo
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (NavbarComponent);
+
+/***/ }),
+
+/***/ "./components/OverheadAlert.js":
+/*!*************************************!*\
+  !*** ./components/OverheadAlert.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const number = Math.floor(Math.random() * 5 + 1);
+
+class OverheadAlert extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    if (number == 1 || number == 4 || number == 5) {
+      return __jsx("div", {
+        className: "text-center"
+      }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Alert"], {
+        style: {
+          margin: "auto"
+        },
+        theme: "info"
+      }, "School closed due to Coronvirus COVID-19? Join our free online classes", " ", __jsx("a", {
+        className: "alert-link",
+        href: "/online-classes"
+      }, "here")));
+    } else if (number == 2) {
+      return __jsx("div", {
+        className: "text-center"
+      }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Alert"], {
+        style: {
+          margin: "auto"
+        },
+        theme: "info"
+      }, "Get the January 2020 paper.", " ", __jsx("a", {
+        className: "alert-link",
+        href: "https://dl.dropbox.com/s/vw2x48f3ctchz4p/Spanish%20Jan%202020%20P2.pdf.pdf?dl=0"
+      }, "Download now")));
+    } else if (number == 3) {
+      return __jsx("div", {
+        className: "text-center"
+      }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Alert"], {
+        style: {
+          margin: "auto"
+        },
+        theme: "danger"
+      }, "Coronavirus COVID-19 safety tips:", " ", __jsx("a", {
+        target: "_blank",
+        className: "alert-link",
+        href: "https://www.redcross.org/about-us/news-and-events/news/2020/coronavirus-safety-and-readiness-tips-for-you.html"
+      }, "Learn more")));
+    }
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (OverheadAlert);
 
 /***/ }),
 
@@ -1549,6 +1607,73 @@ const CardBox = props => __jsx("div", null, __jsx("br", null), __jsx(shards_reac
 }, "All forms"))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (CardBox);
+
+/***/ }),
+
+/***/ "./home/DocuCentre.js":
+/*!****************************!*\
+  !*** ./home/DocuCentre.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _common_PDFFile__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../common/PDFFile */ "./common/PDFFile.js");
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const DocuCentre = props => __jsx("div", null, __jsx("h4", null, "Document Centre"), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+  sm: 12,
+  md: 8,
+  lg: 8,
+  xl: 8
+}, __jsx("div", null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Row"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+  sm: 6,
+  md: 6
+}, __jsx("ul", {
+  className: "ul-st-1"
+}, __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  title: "Spanish Jan 2020 Paper"
+})), __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  title: ""
+})), __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  title: ""
+})), __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  title: ""
+})), __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  title: ""
+})))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+  sm: 6,
+  md: 6
+}, __jsx("ul", {
+  className: "ul-st-1"
+}, __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  title: ""
+})), __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  title: ""
+})), __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  title: ""
+})), __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  title: ""
+})), __jsx("li", null, __jsx(_common_PDFFile__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  title: ""
+}))))))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+  sm: 12,
+  md: 4,
+  lg: 4,
+  xl: 4
+}, __jsx("div", {
+  className: "box"
+}))), __jsx("br", null));
+
+/* harmony default export */ __webpack_exports__["default"] = (DocuCentre);
 
 /***/ }),
 
@@ -2397,8 +2522,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_Jumbo__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../home/Jumbo */ "./home/Jumbo.js");
 /* harmony import */ var _home_MailingListSubscribe__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../home/MailingListSubscribe */ "./home/MailingListSubscribe.js");
 /* harmony import */ var _home_QuickSurvey__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../home/QuickSurvey */ "./home/QuickSurvey.js");
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _common_Message__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../common/Message */ "./common/Message.js");
+/* harmony import */ var _home_DocuCentre__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../home/DocuCentre */ "./home/DocuCentre.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _common_Message__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../common/Message */ "./common/Message.js");
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2416,26 +2542,37 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
  // Layout
 
 
 
 
-const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_15__["default"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_3___default.a, {
+const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_16__["default"], null, __jsx(react_seo_component__WEBPACK_IMPORTED_MODULE_3___default.a, {
   title: "CXC Spanish Online | Guide, Past Papers and Exercises",
   description: "CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces.",
   image: "",
   pathname: "https://www.cxcspanish.com",
   siteLanguage: "en",
   siteLocale: "en",
-  twitterUsername: "cxcspanish"
+  twitterUsername: "_rxheem"
 }), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Breadcrumb"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], {
   active: true
 }, __jsx("a", {
   href: "/"
 }, "Home")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["BreadcrumbItem"], null, __jsx("a", {
   href: "/"
-}))), __jsx(_home_Marketing__WEBPACK_IMPORTED_MODULE_8__["default"], null)), __jsx(_home_MeetAna__WEBPACK_IMPORTED_MODULE_11__["default"], null), __jsx("br", null), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(_home_CardBox__WEBPACK_IMPORTED_MODULE_6__["default"], null), __jsx(_home_Papers__WEBPACK_IMPORTED_MODULE_9__["default"], null)));
+}))), __jsx(_home_Marketing__WEBPACK_IMPORTED_MODULE_8__["default"], null)), __jsx("div", {
+  className: "text-center"
+}, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Alert"], {
+  style: {
+    margin: "auto"
+  },
+  theme: "info"
+}, "Get the January 2020 paper.", " ", __jsx("a", {
+  className: "alert-link",
+  href: "https://dl.dropbox.com/s/vw2x48f3ctchz4p/Spanish%20Jan%202020%20P2.pdf.pdf?dl=0"
+}, "Download now"))), __jsx(_home_MeetAna__WEBPACK_IMPORTED_MODULE_11__["default"], null), __jsx("br", null), __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(_home_CardBox__WEBPACK_IMPORTED_MODULE_6__["default"], null), __jsx(_home_Papers__WEBPACK_IMPORTED_MODULE_9__["default"], null)));
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
@@ -2556,7 +2693,7 @@ const ResourcesLayout = props => __jsx("div", null, __jsx(shards_react__WEBPACK_
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

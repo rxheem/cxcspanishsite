@@ -30,6 +30,7 @@ import MeetAna from "../home/MeetAna";
 import Jumbo from "../home/Jumbo";
 import MailingListSubscribe from "../home/MailingListSubscribe";
 import QuickSurvey from "../home/QuickSurvey";
+import DocuCentre from "../home/DocuCentre";
 
 // Layout
 import Layout from "../components/Layout";
@@ -46,8 +47,9 @@ const Index = props => (
       pathname={"https://www.cxcspanish.com"}
       siteLanguage={"en"}
       siteLocale={"en"}
-      twitterUsername={"cxcspanish"}
+      twitterUsername={"_rxheem"}
     />
+
     <Container>
       <Breadcrumb>
         <BreadcrumbItem active>
@@ -60,7 +62,17 @@ const Index = props => (
 
       <Marketing />
     </Container>
-
+    <div className="text-center">
+      <Alert style={{ margin: "auto" }} theme="info">
+        Get the January 2020 paper.{" "}
+        <a
+          className="alert-link"
+          href="https://dl.dropbox.com/s/vw2x48f3ctchz4p/Spanish%20Jan%202020%20P2.pdf.pdf?dl=0"
+        >
+          Download now
+        </a>
+      </Alert>
+    </div>
     <MeetAna />
 
     <br />

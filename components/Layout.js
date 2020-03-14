@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import { Card, Container, Alert } from "shards-react";
 import HeaderImports from "./HeaderImports";
 import CoronaVirusTip from "./CoronaVirusTip";
+import OverheadAlert from "./OverheadAlert";
 
 // Assets
 import "bootstrap/dist/css/bootstrap.css";
@@ -21,7 +22,7 @@ import "../assets/js/cloudflare.js";
 import "../assets/js/fontawesome.js";
 import "../assets/js/mixpanel.js";
 import "../assets/js/quantcast.js";
-import "../assets/js/tawkto.js";
+// import "../assets/js/tawkto.js";
 import "../assets/js/mailchimp.js";
 import "../assets/js/onesignal.js";
 
@@ -30,7 +31,6 @@ import ReactGA from "react-ga";
 import MessengerCustomerChat from "react-messenger-customer-chat";
 
 // Google Analytics
-
 ReactGA.initialize("UA-146229442-1");
 import * as Sentry from "@sentry/browser";
 
@@ -68,7 +68,7 @@ const Layout = props => (
     ></div>
 
     <NavbarComponent />
-    <CoronaVirusTip />
+    <OverheadAlert />
     <MiniNav />
 
     <br />

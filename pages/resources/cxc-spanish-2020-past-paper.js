@@ -40,9 +40,9 @@ const ulStyles = {
 const PastPaper2020 = props => (
   <Layout>
     <SEO
-      title={"CSEC January 2020 Past Paper | CXC Spanish Online"}
+      title={"CXC January 2020 Exam Paper | CXC Spanish Online"}
       description={
-        "Get the CXC Spanish January 2020 past paper in PDF format for free, along with the offical past paper booklet"
+        "Get the CXC Spanish January 2020 exam paper in PDF format for free, along with the offical past paper booklet"
       }
       pathname={""}
       siteLanguage={"en"}
@@ -50,7 +50,7 @@ const PastPaper2020 = props => (
       author={"Raheem McDonald"}
       article={true}
       publishedDate={"Jan 13, 2020"}
-      modifiedDate={"Jan 13, 2020"}
+      modifiedDate={new Date()}
     />
 
     <Container>
@@ -81,7 +81,7 @@ const PastPaper2020 = props => (
 
               <PDFFile
                 title="CSEC Spanish Past Papers"
-                href="https://dl.dropbox.com/s/h76ga6bxhdeex94/CSEC%C2%AE%20Spanish%20Past%20Papers-2_nodrm%20%281%29.pdf?dl=0"
+                href="https://dl.dropbox.com/s/vw2x48f3ctchz4p/Spanish%20Jan%202020%20P2.pdf.pdf?dl=0"
               />
               <br />
               <br />
