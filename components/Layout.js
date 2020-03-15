@@ -22,7 +22,7 @@ import "../assets/js/cloudflare.js";
 import "../assets/js/fontawesome.js";
 import "../assets/js/mixpanel.js";
 import "../assets/js/quantcast.js";
-// import "../assets/js/tawkto.js";
+import "../assets/js/tawkto.js";
 import "../assets/js/mailchimp.js";
 import "../assets/js/onesignal.js";
 
