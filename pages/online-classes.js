@@ -18,6 +18,8 @@ import Table from "react-bootstrap/Table";
 
 import Layout from "../components/Layout";
 import SEO from "react-seo-component";
+import Clipboard from "react-clipboard.js";
+import SocialLinks from "../common/SocialLinks";
 
 class OnlineClasses extends React.Component {
   render() {
@@ -93,7 +95,7 @@ class OnlineClasses extends React.Component {
                   target="_blank"
                 >
                   here for Android.
-                </a>
+                </a>{" "}
               </p>
 
               <Table striped bordered hover>
@@ -107,7 +109,9 @@ class OnlineClasses extends React.Component {
                 <tbody>
                   <tr>
                     <td>Spanish</td>
-                    <td>52e37y6</td>
+                    <td>
+                      <a href="#">52e37y6</a>
+                    </td>
                     <td>
                       <span style={{ color: "red", fontWeight: "bold" }}>
                         TBA
@@ -116,7 +120,20 @@ class OnlineClasses extends React.Component {
                   </tr>
                   <tr>
                     <td>Information Technology</td>
-                    <td>5n77ikb</td>
+                    <td>
+                      <a href="#">5n77ikb</a>
+                    </td>
+                    <td>
+                      <span style={{ color: "red", fontWeight: "bold" }}>
+                        TBA
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>CAPE Computer Science</td>
+                    <td>
+                      <a href="#">qrjafhq</a>
+                    </td>
                     <td>
                       <span style={{ color: "red", fontWeight: "bold" }}>
                         TBA
@@ -215,6 +232,8 @@ class OnlineClasses extends React.Component {
                 with your available times along with any study notes, videos and
                 resoucres!
               </p>
+
+              <SocialLinks />
             </Col>
             <Col sm={12} md={4}></Col>
           </Row>

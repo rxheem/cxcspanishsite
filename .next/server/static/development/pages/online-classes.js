@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -221,6 +221,90 @@ var _Promise = __webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */
 var _Object$create = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js");
 
 if (false) {}
+
+/***/ }),
+
+/***/ "./common/SocialLinks.js":
+/*!*******************************!*\
+  !*** ./common/SocialLinks.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! shards-react */ "shards-react");
+/* harmony import */ var shards_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(shards_react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-device-detect */ "react-device-detect");
+/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_2__);
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+ // Style for the onft icons
+
+const liStyles = {
+  display: "inline!important",
+  paddingLeft: "50px"
+};
+const oLiStyles = {
+  display: "inline"
+};
+const ulStyles = {
+  listStyleType: "none",
+  paddingTop: "15px"
+};
+
+const SocialLinks = props => __jsx("div", null, __jsx(react_device_detect__WEBPACK_IMPORTED_MODULE_2__["BrowserView"], null, __jsx("br", null), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Card"], null, __jsx("span", {
+  className: "border border-light"
+}, __jsx("ul", {
+  style: ulStyles
+}, __jsx("li", {
+  style: oLiStyles
+}, __jsx("i", {
+  style: {
+    color: "#8a3ab9"
+  },
+  className: "fab fa-instagram"
+}), __jsx("a", {
+  className: "text-muted",
+  style: {
+    paddingLeft: "10px"
+  },
+  href: "https://www.instagram.com/cxcspanish/",
+  target: "_blank"
+}, "cxcspanish")), __jsx("li", {
+  style: liStyles
+}, __jsx("i", {
+  style: {
+    color: " #3b5998"
+  },
+  className: "fab fa-facebook"
+}), __jsx("a", {
+  className: "text-muted",
+  style: {
+    paddingLeft: "10px"
+  },
+  href: "https://www.facebook.com/cxcspanishguide/?__tn__=%2Cd%2CP-R&eid=ARBp5b8r2d06OFKljjfcKxLq6dNjDPkODENJqB9yAsRgKUQHpmOrhWiLifsxgPnYtt5njC48bXpGjQii",
+  target: "_blank"
+}, "CXC Spanish Gude")), __jsx("li", {
+  style: liStyles
+}, __jsx("i", {
+  style: {
+    color: "red"
+  },
+  className: "fab fa-youtube"
+}), __jsx("a", {
+  className: "text-muted",
+  style: {
+    paddingLeft: "10px"
+  },
+  href: "https://www.youtube.com/channel/UC0eO_ApReknTjj50B7_LQyw",
+  target: "_blank"
+}, "CXC Spanish Online")))))));
+
+/* harmony default export */ __webpack_exports__["default"] = (SocialLinks);
 
 /***/ }),
 
@@ -990,16 +1074,24 @@ class NavbarComponent extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Compo
     }, "Speaking Exercises"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
       className: "text-white",
       href: "/past-papers"
-    }, "CSEC Papers")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+    }, "Past Papers")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
       className: "text-white",
       href: "/cape-papers"
-    }, "CAPE Papers")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+    }, "CAPE")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
       className: "text-white",
       href: "/study-groups"
     }, "Study Groups"))), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["Nav"], {
       navbar: true,
       className: "ml-auto"
     }, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+      className: "text-white",
+      href: "/online-classes"
+    }, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_9___default.a, {
+      style: {
+        padding: "7px"
+      },
+      name: "book"
+    }), "Online Classes")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavItem"], null, __jsx(shards_react__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
       className: "text-white",
       href: "/about-us"
     }, __jsx(react_fontawesome__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -1417,8 +1509,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 /* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-seo-component */ "react-seo-component");
 /* harmony import */ var react_seo_component__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_seo_component__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_clipboard_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-clipboard.js */ "react-clipboard.js");
+/* harmony import */ var react_clipboard_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_clipboard_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _common_SocialLinks__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../common/SocialLinks */ "./common/SocialLinks.js");
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
 
 
 
@@ -1461,16 +1558,27 @@ class OnlineClasses extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compone
     }, "here for iOS"), " ", "or", " ", __jsx("a", {
       href: "https://apps.apple.com/us/app/google-classroom/id924620788",
       target: "_blank"
-    }, "here for Android.")), __jsx(react_bootstrap_Table__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    }, "here for Android."), " "), __jsx(react_bootstrap_Table__WEBPACK_IMPORTED_MODULE_2___default.a, {
       striped: true,
       bordered: true,
       hover: true
-    }, __jsx("thead", null, __jsx("tr", null, __jsx("th", null, "Subject"), __jsx("th", null, "Classroom Code"), __jsx("th", null, "Tutorial Time"))), __jsx("tbody", null, __jsx("tr", null, __jsx("td", null, "Spanish"), __jsx("td", null, "52e37y6"), __jsx("td", null, __jsx("span", {
+    }, __jsx("thead", null, __jsx("tr", null, __jsx("th", null, "Subject"), __jsx("th", null, "Classroom Code"), __jsx("th", null, "Tutorial Time"))), __jsx("tbody", null, __jsx("tr", null, __jsx("td", null, "Spanish"), __jsx("td", null, __jsx("a", {
+      href: "#"
+    }, "52e37y6")), __jsx("td", null, __jsx("span", {
       style: {
         color: "red",
         fontWeight: "bold"
       }
-    }, "TBA"))), __jsx("tr", null, __jsx("td", null, "Information Technology"), __jsx("td", null, "5n77ikb"), __jsx("td", null, __jsx("span", {
+    }, "TBA"))), __jsx("tr", null, __jsx("td", null, "Information Technology"), __jsx("td", null, __jsx("a", {
+      href: "#"
+    }, "5n77ikb")), __jsx("td", null, __jsx("span", {
+      style: {
+        color: "red",
+        fontWeight: "bold"
+      }
+    }, "TBA"))), __jsx("tr", null, __jsx("td", null, "CAPE Computer Science"), __jsx("td", null, __jsx("a", {
+      href: "#"
+    }, "qrjafhq")), __jsx("td", null, __jsx("span", {
       style: {
         color: "red",
         fontWeight: "bold"
@@ -1537,7 +1645,7 @@ class OnlineClasses extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compone
       }
     }, "TBA"))))), __jsx("br", null), __jsx("p", null, "Would you like to contribute to our initiative? Are you a teacer or studied any one of the above referenced subjects recently? Send us an email at", " ", __jsx("a", {
       href: "mailto:holacxcspanish@gmail.com"
-    }, "holacxcspanish@gmail.com"), " ", "with your available times along with any study notes, videos and resoucres!")), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    }, "holacxcspanish@gmail.com"), " ", "with your available times along with any study notes, videos and resoucres!"), __jsx(_common_SocialLinks__WEBPACK_IMPORTED_MODULE_6__["default"], null)), __jsx(shards_react__WEBPACK_IMPORTED_MODULE_1__["Col"], {
       sm: 12,
       md: 4
     }))));
@@ -1549,7 +1657,7 @@ class OnlineClasses extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compone
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!***************************************!*\
   !*** multi ./pages/online-classes.js ***!
   \***************************************/
@@ -1745,6 +1853,17 @@ module.exports = require("react-bootstrap/Table");
 /***/ (function(module, exports) {
 
 module.exports = require("react-burger-menu");
+
+/***/ }),
+
+/***/ "react-clipboard.js":
+/*!*************************************!*\
+  !*** external "react-clipboard.js" ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-clipboard.js");
 
 /***/ }),
 

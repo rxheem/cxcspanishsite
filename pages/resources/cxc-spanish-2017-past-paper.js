@@ -26,7 +26,7 @@ import Head from "next/head";
 const PastPaper2017 = props => (
   <Layout>
     <SEO
-      title={"2017 Past Paper | CXC Spanish Online"}
+      title={"CXC Spanish 2017 Exam Paper | CXC Spanish Online"}
       pathname={""}
       description={
         "Get the CXC Spanish 2017 past paper in PDF format for free, along with the offical past paper booklet"

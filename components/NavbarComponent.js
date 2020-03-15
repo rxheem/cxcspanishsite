@@ -132,12 +132,12 @@ class NavbarComponent extends React.Component {
 
               <NavItem>
                 <NavLink className="text-white" href="/past-papers">
-                  CSEC Papers
+                  Past Papers
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink className="text-white" href="/cape-papers">
-                  CAPE Papers
+                  CAPE
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -148,6 +148,12 @@ class NavbarComponent extends React.Component {
             </Nav>
 
             <Nav navbar className="ml-auto">
+              <NavItem>
+                <NavLink className="text-white" href="/online-classes">
+                  <FA style={{ padding: "7px" }} name="book" />
+                  Online Classes
+                </NavLink>
+              </NavItem>
               <NavItem>
                 <NavLink className="text-white" href="/about-us">
                   <FA style={{ padding: "7px" }} name="users" />

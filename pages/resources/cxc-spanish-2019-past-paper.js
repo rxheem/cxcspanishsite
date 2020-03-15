@@ -39,7 +39,7 @@ const ulStyles = {
 const PastPaper2019 = props => (
   <Layout>
     <SEO
-      title={"CXC Spanish 2019 Past Paper | CXC Spanish Online"}
+      title={"CXC Spanish 2019 Exam Paper | CXC Spanish Online"}
       description={
         "Get the CXC Spanish 2019 past paper in PDF format for free, along with the offical past paper booklet"
       }
@@ -60,7 +60,7 @@ const PastPaper2019 = props => (
         <BreadcrumbItem>
           <a href="/">Resources</a>
         </BreadcrumbItem>
-        <BreadcrumbItem active>2019 Past Paper</BreadcrumbItem>
+        <BreadcrumbItem active>2019 Exam Paper</BreadcrumbItem>
       </Breadcrumb>
 
       <ResourcesLayout>
