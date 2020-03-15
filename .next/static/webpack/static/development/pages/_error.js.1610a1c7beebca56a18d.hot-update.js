@@ -954,7 +954,7 @@ false,
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 false,
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fcxcspanish%2Fpages%2F_error.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2F_error.js!./":
 false,
 
 /***/ "./node_modules/nouislider/distribute/nouislider.js":
@@ -1944,8 +1944,8 @@ false,
 /***/ "./pages/_error.js":
 false,
 
-/***/ 9:
+/***/ 0:
 false
 
 })
-//# sourceMappingURL=_error.js.14aed8749aceb881613c.hot-update.js.map
+//# sourceMappingURL=_error.js.1610a1c7beebca56a18d.hot-update.js.map

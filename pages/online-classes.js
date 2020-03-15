@@ -107,6 +107,17 @@ class OnlineClasses extends React.Component {
                   </tr>
                 </thead>
                 <tbody>
+                <tr>
+                  <td>English A </td>
+                  <td>
+                    <a href="#">hmsl6a4</a>
+                  </td>
+                  <td>
+                    <span style={{ color: "red", fontWeight: "bold" }}>
+                      TBA
+                    </span>
+                  </td>
+                </tr>
                   <tr>
                     <td>Spanish</td>
                     <td>
@@ -140,25 +151,12 @@ class OnlineClasses extends React.Component {
                       </span>
                     </td>
                   </tr>
-                  <tr>
-                    <td>English Language</td>
-                    <td>
-                      <span style={{ color: "red", fontWeight: "bold" }}>
-                        TBA
-                      </span>
-                    </td>
-                    <td>
-                      <span style={{ color: "red", fontWeight: "bold" }}>
-                        TBA
-                      </span>
-                    </td>
-                  </tr>
+
                   <tr>
                     <td>Mathematics</td>
                     <td>
-                      <span style={{ color: "red", fontWeight: "bold" }}>
-                        TBA
-                      </span>
+                            <a href="#">yi2dazw</a>
+
                     </td>
                     <td>
                       <span style={{ color: "red", fontWeight: "bold" }}>
@@ -169,9 +167,7 @@ class OnlineClasses extends React.Component {
                   <tr>
                     <td>Geography</td>
                     <td>
-                      <span style={{ color: "red", fontWeight: "bold" }}>
-                        TBA
-                      </span>
+                  <a href="#">gaoy4ms</a>
                     </td>
                     <td>
                       <span style={{ color: "red", fontWeight: "bold" }}>
@@ -182,9 +178,7 @@ class OnlineClasses extends React.Component {
                   <tr>
                     <td>Chemistry</td>
                     <td>
-                      <span style={{ color: "red", fontWeight: "bold" }}>
-                        TBA
-                      </span>
+                <a href="#">5l7akds</a>
                     </td>
                     <td>
                       <span style={{ color: "red", fontWeight: "bold" }}>
@@ -195,9 +189,7 @@ class OnlineClasses extends React.Component {
                   <tr>
                     <td>Physics</td>
                     <td>
-                      <span style={{ color: "red", fontWeight: "bold" }}>
-                        TBA
-                      </span>
+                    <a href="#">sc5m3jg</a>
                     </td>
                     <td>
                       <span style={{ color: "red", fontWeight: "bold" }}>
@@ -208,9 +200,30 @@ class OnlineClasses extends React.Component {
                   <tr>
                     <td>Biology</td>
                     <td>
+                                <a href="#">77s7fou</a>
+                    </td>
+                    <td>
+                            <span style={{ color: "red", fontWeight: "bold" }}>
+                        TBA
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Principles of Accounts</td>
+                    <td>
+                      <a href="#">hkvl6jq</a>
+                    </td>
+                    <td>
                       <span style={{ color: "red", fontWeight: "bold" }}>
                         TBA
                       </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>Principles of Business</td>
+                    <td>
+                      <a href="#">o3bcgp4</a>
                     </td>
                     <td>
                       <span style={{ color: "red", fontWeight: "bold" }}>
