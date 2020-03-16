@@ -4173,7 +4173,7 @@ function wrap(fn, options, before) {
 /*!***************************************************!*\
   !*** ./node_modules/@sentry/browser/esm/index.js ***!
   \***************************************************/
-/*! exports provided: Severity, Status, addGlobalEventProcessor, addBreadcrumb, captureException, captureEvent, captureMessage, configureScope, getHubFromCarrier, getCurrentHub, Hub, Scope, setContext, setExtra, setExtras, setTag, setTags, setUser, withScope, BrowserClient, defaultIntegrations, forceLoad, init, lastEventId, onLoad, showReportDialog, flush, close, wrap, SDK_NAME, SDK_VERSION, Integrations, Transports */
+/*! exports provided: Integrations, Transports, Severity, Status, addGlobalEventProcessor, addBreadcrumb, captureException, captureEvent, captureMessage, configureScope, getHubFromCarrier, getCurrentHub, Hub, Scope, setContext, setExtra, setExtras, setTag, setTags, setUser, withScope, BrowserClient, defaultIntegrations, forceLoad, init, lastEventId, onLoad, showReportDialog, flush, close, wrap, SDK_NAME, SDK_VERSION */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37701,10 +37701,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fonline-classes&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Fonline-classes.js!./":
-/*!*******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fonline-classes&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Fonline-classes.js ***!
-  \*******************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fonline-classes&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDocuments%2FGitHub%2Fcxcspanish%2Fpages%2Fonline-classes.js!./":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fonline-classes&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDocuments%2FGitHub%2Fcxcspanish%2Fpages%2Fonline-classes.js ***!
+  \******************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -89322,14 +89322,14 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 10:
-/*!***********************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fonline-classes&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Fonline-classes.js ***!
-  \***********************************************************************************************************************************************************/
+/***/ 0:
+/*!**********************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fonline-classes&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDocuments%2FGitHub%2Fcxcspanish%2Fpages%2Fonline-classes.js ***!
+  \**********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fonline-classes&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Fonline-classes.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fonline-classes&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDesktop%2Fcxcspanish%2Fpages%2Fonline-classes.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fonline-classes&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDocuments%2FGitHub%2Fcxcspanish%2Fpages%2Fonline-classes.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fonline-classes&absolutePagePath=%2FUsers%2Fraheemmcdonald%2FDocuments%2FGitHub%2Fcxcspanish%2Fpages%2Fonline-classes.js!./");
 
 
 /***/ }),
@@ -89345,5 +89345,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=online-classes.js.map

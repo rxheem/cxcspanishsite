@@ -1,0 +1,380 @@
+{
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!assets/css/master.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!assets/css/animate.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!assets/css/nf-carousel.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!assets/css/carousel.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/shards-ui/dist/css/shards.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/bootstrap/dist/css/bootstrap.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/react-responsive-carousel/lib/styles/carousel.min.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/bootstrap/dist/css/bootstrap.css 0": 0,
+      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/shards-ui/dist/css/shards.css 0": 1,
+      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/shards-ui/dist/css/shards.css 1": 2,
+      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!assets/css/carousel.css 0": 3,
+      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!assets/css/nf-carousel.css 0": 4,
+      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!assets/css/animate.css 0": 5,
+      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!assets/css/master.css 0": 6,
+      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/react-responsive-carousel/lib/styles/carousel.min.css 0": 7,
+      "ignored node_modules/pdfjs-dist/build zlib": 8,
+      "ignored node_modules/pdfjs-dist/build fs": 9,
+      "ignored node_modules/pdfjs-dist/build http": 10,
+      "ignored node_modules/pdfjs-dist/build https": 11
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "pdfjsWorker": 2,
+      "static/HAVzuPg49rxYESLDJd4It/pages/CAPE.js": 3,
+      "static/HAVzuPg49rxYESLDJd4It/pages/_app.js": 4,
+      "static/HAVzuPg49rxYESLDJd4It/pages/_error.js": 5,
+      "static/HAVzuPg49rxYESLDJd4It/pages/cape-papers.js": 6,
+      "static/HAVzuPg49rxYESLDJd4It/pages/contact.js": 7,
+      "static/HAVzuPg49rxYESLDJd4It/pages/dime.js": 8,
+      "static/HAVzuPg49rxYESLDJd4It/pages/dime/dime-mucho-mas-3.js": 9,
+      "static/HAVzuPg49rxYESLDJd4It/pages/exam-topics.js": 10,
+      "static/HAVzuPg49rxYESLDJd4It/pages/faq.js": 11,
+      "static/HAVzuPg49rxYESLDJd4It/pages/feed.js": 12,
+      "static/HAVzuPg49rxYESLDJd4It/pages/guide.js": 13,
+      "static/HAVzuPg49rxYESLDJd4It/pages/guides/articles-in-spanish.js": 14,
+      "static/HAVzuPg49rxYESLDJd4It/pages/guides/at-the-airport.js": 15,
+      "static/HAVzuPg49rxYESLDJd4It/pages/guides/common-spanish-adverbs.js": 16,
+      "static/HAVzuPg49rxYESLDJd4It/pages/guides/how-to-ask-for-directions-in-spanish.js": 17,
+      "static/HAVzuPg49rxYESLDJd4It/pages/guides/how-to-use-gustar.js": 18,
+      "static/HAVzuPg49rxYESLDJd4It/pages/guides/oral-exercise.js": 19,
+      "static/HAVzuPg49rxYESLDJd4It/pages/guides/por-vs-para.js": 20,
+      "static/HAVzuPg49rxYESLDJd4It/pages/guides/preterite-vs-imperfect.js": 21,
+      "static/HAVzuPg49rxYESLDJd4It/pages/guides/pronunciation-tips.js": 22,
+      "static/HAVzuPg49rxYESLDJd4It/pages/guides/ser-vs-estar.js": 23,
+      "static/HAVzuPg49rxYESLDJd4It/pages/guides/spanish-adjectives.js": 24,
+      "static/HAVzuPg49rxYESLDJd4It/pages/guides/spanish-verb-types.js": 25,
+      "static/HAVzuPg49rxYESLDJd4It/pages/guides/study-tips.js": 26,
+      "static/HAVzuPg49rxYESLDJd4It/pages/guides/the-spanish-alphabet.js": 27,
+      "static/HAVzuPg49rxYESLDJd4It/pages/index.js": 28,
+      "static/HAVzuPg49rxYESLDJd4It/pages/listening-exercises/ayer.js": 29,
+      "static/HAVzuPg49rxYESLDJd4It/pages/listening-exercises/el-clima.js": 30,
+      "static/HAVzuPg49rxYESLDJd4It/pages/listening-exercises/la-casa-ideal.js": 31,
+      "static/HAVzuPg49rxYESLDJd4It/pages/listening-exercises/la-familia.js": 32,
+      "static/HAVzuPg49rxYESLDJd4It/pages/listening-exercises/la-navidad.js": 33,
+      "static/HAVzuPg49rxYESLDJd4It/pages/listening-exercises/meet-ana.js": 34,
+      "static/HAVzuPg49rxYESLDJd4It/pages/listening-exercises/meet-nick.js": 35,
+      "static/HAVzuPg49rxYESLDJd4It/pages/listening-exercises/spanish-curse-words.js": 36,
+      "static/HAVzuPg49rxYESLDJd4It/pages/listening-exercises/una-visita-de-espana.js": 37,
+      "static/HAVzuPg49rxYESLDJd4It/pages/listening.js": 38,
+      "static/HAVzuPg49rxYESLDJd4It/pages/mailing-list.js": 39,
+      "static/HAVzuPg49rxYESLDJd4It/pages/meetings.js": 40,
+      "static/HAVzuPg49rxYESLDJd4It/pages/meetings/12152020.js": 41,
+      "static/HAVzuPg49rxYESLDJd4It/pages/online-classes.js": 42,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals.js": 43,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/conversation/daily-routine.js": 44,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/conversation/home-and-family.js": 45,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/conversation/school.js": 46,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/conversation/shopping.js": 47,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/conversation/sports.js": 48,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/conversation/travel.js": 49,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/situations/2008/sample-1.js": 50,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/situations/2008/sample-2.js": 51,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/situations/2008/sample-3.js": 52,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/situations/2008/sample-4.js": 53,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/situations/2008/sample-5.js": 54,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/student-submissions.js": 55,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/student-submissions/daily-routine.js": 56,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/student-submissions/home-and-family.js": 57,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/student-submissions/shopping.js": 58,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/student-submissions/sports.js": 59,
+      "static/HAVzuPg49rxYESLDJd4It/pages/orals/student-submissions/travel.js": 60,
+      "static/HAVzuPg49rxYESLDJd4It/pages/past-papers.js": 61,
+      "static/HAVzuPg49rxYESLDJd4It/pages/privacy-policy.js": 62,
+      "static/HAVzuPg49rxYESLDJd4It/pages/privacy.js": 63,
+      "static/HAVzuPg49rxYESLDJd4It/pages/quiz.js": 64,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources.js": 65,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cape/agricultural-science.js": 66,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cape/art-and-design.js": 67,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cape/biology.js": 68,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cape/computer-science.js": 69,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cape/economics.js": 70,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cape/environmental-science.js": 71,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cape/food-and-nutrition.js": 72,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cape/french.js": 73,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cape/law.js": 74,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cape/mob.js": 75,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cape/sociology.js": 76,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cape/spanish.js": 77,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cxc-spanish-2015-past-paper.js": 78,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cxc-spanish-2016-past-paper.js": 79,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cxc-spanish-2017-past-paper.js": 80,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cxc-spanish-2018-past-paper.js": 81,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cxc-spanish-2019-past-paper.js": 82,
+      "static/HAVzuPg49rxYESLDJd4It/pages/resources/cxc-spanish-2020-past-paper.js": 83,
+      "static/HAVzuPg49rxYESLDJd4It/pages/short-stories.js": 84,
+      "static/HAVzuPg49rxYESLDJd4It/pages/stories/el-amigo-fiel.js": 85,
+      "static/HAVzuPg49rxYESLDJd4It/pages/stories/estrellita-de-oro.js": 86,
+      "static/HAVzuPg49rxYESLDJd4It/pages/stories/garbancito.js": 87,
+      "static/HAVzuPg49rxYESLDJd4It/pages/study-groups.js": 88,
+      "static/HAVzuPg49rxYESLDJd4It/pages/terms.js": 89,
+      "static/HAVzuPg49rxYESLDJd4It/pages/topics.js": 90,
+      "static/HAVzuPg49rxYESLDJd4It/pages/topics/content/dir-sit/Examples.js": 91,
+      "static/HAVzuPg49rxYESLDJd4It/pages/topics/content/dir-sit/Exercises.js": 92,
+      "static/HAVzuPg49rxYESLDJd4It/pages/topics/content/dir-sit/Overview.js": 93,
+      "static/HAVzuPg49rxYESLDJd4It/pages/topics/content/dir-sit/WordBank.js": 94,
+      "static/HAVzuPg49rxYESLDJd4It/pages/topics/content/ltr-wri/Exercises.js": 95,
+      "static/HAVzuPg49rxYESLDJd4It/pages/topics/content/ltr-wri/Guidelines.js": 96,
+      "static/HAVzuPg49rxYESLDJd4It/pages/topics/content/ltr-wri/LetterLayout.js": 97,
+      "static/HAVzuPg49rxYESLDJd4It/pages/topics/content/ltr-wri/Overview.js": 98,
+      "static/HAVzuPg49rxYESLDJd4It/pages/topics/content/ltr-wri/SampleOne.js": 99,
+      "static/HAVzuPg49rxYESLDJd4It/pages/topics/content/ltr-wri/SampleTwo.js": 100,
+      "static/HAVzuPg49rxYESLDJd4It/pages/topics/content/ltr-wri/UsefulEssentials.js": 101,
+      "static/HAVzuPg49rxYESLDJd4It/pages/topics/directed-situations.js": 102,
+      "static/HAVzuPg49rxYESLDJd4It/pages/topics/letter-writing.js": 103,
+      "static/HAVzuPg49rxYESLDJd4It/pages/tutoring.js": 104,
+      "static/HAVzuPg49rxYESLDJd4It/pages/tutoring/jamaica.js": 105,
+      "static/HAVzuPg49rxYESLDJd4It/pages/whatsapp-groups.js": 106,
+      "static/runtime/main.js": 107,
+      "static/runtime/polyfills.js": 108,
+      "styles": 109
+    },
+    "bySource": {
+      "0 node_modules/pdfjs-dist/build/pdf.js {\"line\":9934,\"column\":6}": 2
+    },
+    "usedIds": [
+      0,
+      1,
+      10,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      2,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      3,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      4,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      5,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      6,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      7,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      8,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      9,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+    ]
+  }
+}

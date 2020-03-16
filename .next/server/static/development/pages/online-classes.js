@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1666,14 +1666,14 @@ class OnlineClasses extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compone
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!***************************************!*\
   !*** multi ./pages/online-classes.js ***!
   \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/raheemmcdonald/Desktop/cxcspanish/pages/online-classes.js */"./pages/online-classes.js");
+module.exports = __webpack_require__(/*! /Users/raheemmcdonald/Documents/GitHub/cxcspanish/pages/online-classes.js */"./pages/online-classes.js");
 
 
 /***/ }),
