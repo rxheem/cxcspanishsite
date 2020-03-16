@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "CXC Spanish Online is the perfect free online study guide to pass your CXC Spanish exam with syllabus revision, exercises and downloadable resouces.",
   "main": "index.js",
+  "engines": {
+   "node": "13.11.0"
+ },
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
